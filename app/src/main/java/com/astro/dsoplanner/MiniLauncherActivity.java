@@ -144,16 +144,6 @@ public class MiniLauncherActivity extends ParentListActivity implements OnGestur
 
     //Start selected app
     public void onListItemClick(ListView parent, View v, int position, long id) {
-        //copy object name to the clipboard
-        AstroObject obj = SettingsActivity.getObjectFromSharedPreferencesNew(Constants.GRAPH_OBJECT, this);
-
-        if (obj != null) {
-            String buf = obj.getShortName();
-            ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-            clipboard.setText(buf);
-        }
-
-
         Intent i = null;
         MiniLauncherRecord rec = (MiniLauncherRecord) list.get(position);//ListHolder.getListHolder().get(InfoList.APP_LIST).get(position);
         Log.d(TAG, "rec=" + rec);
