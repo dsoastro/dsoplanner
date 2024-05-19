@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/astro_equipment">
+     <PreferenceScreen
+                android:key="@string/ss_telescope_search"
+                android:layout="@layout/prefs"
+                android:summary="@string/browse_and_edit_your_telescopes_parameters"
+                android:title="@string/telescopes_database" >
+             <!--    <intent android:action="com.astro.dsoplanner.TelescopeList" /> -->
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:key="@string/eps_screen"
+                android:layout="@layout/prefs"
+                android:summary="@string/browse_and_edit_your_eyepieces_parameters"
+                android:title="@string/eyepieces_database" >
+            <!--     <intent android:action="com.astro.dsoplanner.EyepiecesListActivity.View" /> -->
+            </PreferenceScreen>
+            <PreferenceScreen
+                 android:key="@string/ss_bluetooth"
+                android:layout="@layout/prefs"
+                android:summary="@string/bluetooth_serial_dongle_required_to_use"
+                android:title="@string/goto_mount_setup" >
+            <!--     <intent android:action="com.astro.dsoplanner.SettingsBt" /> --> 
+            </PreferenceScreen>
+
+</PreferenceScreen>

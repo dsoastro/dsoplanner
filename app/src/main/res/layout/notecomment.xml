@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/external"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    android:padding="@dimen/padding_small" >
+
+    <RelativeLayout
+        android:id="@+id/toppart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/padding_small" >
+
+        <TextView
+            android:id="@+id/comment_dso_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NGCXXXX"
+            android:textSize="@dimen/text_size_normal" />
+
+        <Button
+            android:id="@+id/comment_time_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="@string/action"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/comment_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/comment_dso_text"
+            android:text="@string/local_time_"
+            android:textSize="@dimen/text_size_normal"/>
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/object_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nreectext"
+        android:layout_below="@+id/toppart"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:padding="10sp"
+        android:textSize="@dimen/text_size_normal" />
+
+    <TextView
+        android:id="@+id/nreectext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nllbuttons"
+        android:paddingTop="8dp"
+        android:text="@string/voice_note_recording_"
+        android:textSize="@dimen/text_size_medium"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/nllbuttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:orientation="horizontal"
+        android:padding="10sp" >
+
+        <Button
+            android:id="@+id/play_btn"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/padding_vlarge"
+            android:paddingTop="@dimen/padding_vlarge"
+            android:text="@string/_play_"
+            android:textSize="@dimen/text_size_medium" />
+
+        <Button
+            android:id="@+id/record_btn"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/padding_vlarge"
+            android:paddingTop="@dimen/padding_vlarge"
+            android:text="@string/start_recording"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/comment_btn"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginTop="@dimen/padding_small"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+    
+	<Button
+        android:id="@+id/comment_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:text="@string/save2"
+        android:textSize="@dimen/text_size_medium" />
+</RelativeLayout>

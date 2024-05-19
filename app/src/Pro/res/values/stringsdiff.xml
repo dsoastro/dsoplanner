@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Important, used in manifest -->
+
+    <string name="app_name">DSO Planner</string>
+    <string name="about_title">DSO Planner</string>
+    <string name="dso_planner">DSO Planner</string>
+</resources>

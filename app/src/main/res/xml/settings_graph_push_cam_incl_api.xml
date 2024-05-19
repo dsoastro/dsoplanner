@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Camera api options. Mark one item only!"
+    >
+    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_camera_api"
+            android:layout="@layout/prefc"
+            android:summary="Use camera API number one. Images are taken from preview window. All other options below are igored"
+            android:title="Camera API" />
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/push_cam_camera2_photo"
+            android:layout="@layout/prefc"
+            android:summary="Use images from photos"
+            android:title="Camera2 Photo" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/push_cam_camera2_preview"
+        android:layout="@layout/prefc"
+        android:summary="Use images from preview"
+        android:title="Camera2 Preview (OLD)" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/push_cam_camera2_preview_new"
+        android:layout="@layout/prefc"
+        android:summary="Use images from preview, another approach"
+        android:title="Camera2 Preview (NEW)" />
+    <PreferenceCategory android:title="Auto photo" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_auto"
+            android:layout="@layout/prefc"
+            android:summary="Take a lot of photos automatically."
+            android:title="Auto photo" />
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="5"
+            android:dialogTitle="Number of shots"
+            android:inputType="phone"
+            android:key="@string/push_cam_auto_number_of_images"
+            android:layout="@layout/pref"
+            android:summary="For Camera2 API - take shots for Camera2 Photo, Camera2 Preview (OLD), Camera2 Preview (NEW) automatically. For Camera API - shots just for Camera AOI. Options for template, size etc are not changed"
+            android:title="Number of shots" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Image template for Camera2 API. Mark one item only!" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="push_cam_mode_preview"
+            android:layout="@layout/prefc"
+            android:summary="Usually the best option"
+            android:title="Preview" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="push_cam_mode_manual"
+            android:layout="@layout/prefc"
+            android:title="Manual" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="push_cam_mode_video"
+            android:layout="@layout/prefc"
+            android:title="Video" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="push_cam_mode_photo"
+            android:layout="@layout/prefc"
+            android:title="Photo" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Image sizes for Camera2 API. Mark one item only!" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_size_max"
+            android:layout="@layout/prefc"
+            android:title="Max" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/push_cam_size_1"
+            android:layout="@layout/prefc"
+            android:title="4000x3000" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_size_2"
+            android:layout="@layout/prefc"
+            android:title="3840x2160" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_size_3"
+            android:layout="@layout/prefc"
+            android:summary="This size is usually the best"
+            android:title="1920x1080" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_size_4"
+            android:layout="@layout/prefc"
+            android:title="1280x720" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Control for Camera2 API. Better leave as it is" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/push_cam_control"
+            android:layout="@layout/prefc"
+            android:title="Control ON" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_control_auto_focus"
+            android:layout="@layout/prefc"
+            android:title="Autofocus ON" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_control_ae_fps"
+            android:layout="@layout/prefc"
+            android:title="FPS ON" />
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="1000"
+            android:dialogTitle="Exposure (ms)"
+            android:inputType="phone"
+            android:key="@string/push_cam_control_exposure"
+            android:layout="@layout/pref"            
+            android:title="Exposure (ms)" />
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="800"
+            android:dialogTitle="ISO"
+            android:inputType="phone"
+            android:key="@string/push_cam_control_iso"
+            android:layout="@layout/pref"
+            android:title="ISO" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Noise reduction for Camera2 API. Better leave as it is" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/push_cam_noise_off"
+            android:layout="@layout/prefc"
+            android:summary="In fact turning off noise reduction usually worsens recognition"
+            android:title="Turn off noise reduction" />
+        
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Tag photos" >
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue=""
+            android:dialogTitle="Set tag name"
+            android:inputType="phone"
+            android:key="@string/push_cam_series_name"
+            android:layout="@layout/pref"
+            android:summary="All images in log are tagged with the tag name. Could be used for some description of the set of images"
+            android:title="Tag name" />
+
+
+    </PreferenceCategory>
+
+    
+</PreferenceScreen>

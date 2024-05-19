@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/daytime_mode_colors"
+     >
+
+    <Preference
+        android:defaultValue="1627324416"
+        android:layout="@layout/pref"
+        android:key="@string/default_colors"
+        android:summary="@string/set_default_colors_for_current_mode"
+        android:title="@string/reset_colors" >
+    </Preference>
+
+    <PreferenceCategory android:title="@string/sky_colors" >
+        <Preference
+            android:defaultValue="1627324416"
+            android:key="@string/color_object"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/dso_objects" >
+        </Preference>
+        <Preference
+            android:defaultValue="1627324416"
+            android:key="@string/color_crossmarker"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/selected_object_crosshair2" >
+        </Preference>
+        <Preference
+            android:defaultValue="1627324416"
+            android:key="@string/color_eyepieces"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/eyepieces_circles" >
+        </Preference>
+        <Preference
+            android:defaultValue="822018048"
+            android:key="@string/color_ep_cross"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/eyepieces_cross" >
+        </Preference>
+        <Preference
+            android:defaultValue="1627324416"
+            android:key="@string/color_telrad"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/telrad_rings2" >
+        </Preference>
+        <Preference
+            android:defaultValue="1627324416"
+            android:key="@string/color_dss_image"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/dss_image_overlay" >
+        </Preference>
+        <Preference
+            android:defaultValue="1610678016"
+            android:key="@string/color_constellations"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/constellation_figure_lines" >
+        </Preference>
+        <Preference
+            android:defaultValue="2147549183"
+            android:key="@string/color_horizon"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/horizon_line" >
+        </Preference>
+        <Preference
+            android:defaultValue="2147549183"
+            android:key="@string/color_user_horizon"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/user_horizon_line" >
+        </Preference>
+        <Preference
+            android:key="@string/color_labels"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/labels2" >
+        </Preference>
+        <Preference
+            android:key="@string/color_grid"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/grid2" >
+        </Preference>
+        <Preference
+            android:key="@string/color_con_boundary"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/constellation_boundary" >
+        </Preference>
+         <Preference
+            android:key="@string/color_milky_way"
+            android:layout="@layout/pref"
+            android:summary="@string/show_a_color_picker_dialog"
+            android:title="@string/milky_way2" >
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

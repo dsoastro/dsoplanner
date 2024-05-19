@@ -1,0 +1,1758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Important, used in manifest -->
+    <string name="app_version_name">3.9.0</string>
+    <string name="app_name">DSO Planner</string>
+    <string name="about_title">DSO Planner</string>
+    <string name="about_text">DSO Planner is astronomy observations planning software, targeting experienced deep sky objects\' visual observers.\n\nDevelopers: Leonid Vasiliev, Alexandre Koukarine\n\nGerman translation, thanks to: Felix Ittner, Jens Imohr\n\nUkrainian translation, thanks to: Leonid Tkachuk</string>
+    <string name="about_contact">With all inquiries please e-mail to <a href="mailto:dsoplanner@gmail.com">dsoplanner@gmail.com</a>, visit the application website <a href="http://www.dsoplanner.com">www.dsoplanner.com</a> or <a href="http://forum.dsoplanner.com/">user support forum </a></string>
+    <string name="about_contact_night">With all inquiries please e-mail to dsoplanner@gmail.com, visit the application website www.dsoplanner.com or user support forum </string>
+
+      <string name="settings_label">Settings...</string>
+    <!--  <string name="settings_title">Sudoku settings</string> -->
+
+
+    <string name="settings_shortcut">s</string>
+    <string name="GC_title">Globular Cluster</string>
+    <string name="Gxy_title">Galaxy</string>
+    <string name="GxyCld_title">Galaxy Cloud</string>
+    <string name="HIIRgn_title">HII region</string>
+    <string name="Neb_title">Nebula</string>
+    <string name="OC_title">Open Cluster</string>
+    <string name="OCNeb_title">Open Cluster and Nebula</string>
+    <string name="PN_title">Planetary Nebula</string>
+    <string name="SNR_title">Super Nova remnant</string>
+
+
+    <string name="dialog_dimension_preference">Select minimum dimension</string>
+
+    <string name="title_latitude_preference">Latitude</string>
+
+    <string name="title_longitude_preference">Longitude</string>
+
+
+    <string name="Messier_title">Messier</string>
+    <string name="Caldwell_title">Caldwell</string>
+    <string name="Herschel_title">Herschel 400</string>
+    <string name="con_prompt">Select constellation</string>
+
+    <string name="search_label">Enter object number</string>
+    <string name="download_ticker">downloading DSS image</string>
+    <string name="download_ticker2">downloading DSO files</string>
+
+
+    <string name="helpmark">\?</string>
+    <string name="detection_limit">Detection limit [0-5 (worst-best),-1 (all)]</string>
+    <string name="expansion_pack_missing">Expansion file is missing. Please go to Settings/Download to download and install it!</string>
+    <string name="expansion_patch_missing">Patch expansion file is missing. Please go to Settings/Download to download and install it!</string>
+    <string name="media_not_mounted_and_expansion_pack_not_expanded">Please mount SD card and restart the application to install databases!</string>
+    <string name="error_expanding_expansion_pack">Error extracting expansion file! Please restart the application to try again or go to Settings/Download to download and reinstall it!</string>
+    <string name="error_not_enough_free_space">Not enough space to extract expansion file! There should be 230 mb free on SD card!</string>
+    <string name="error_not_enough_free_space_patch">Not enough space to extract patch expansion file! There should be 3.3 mb free on SD card!</string>
+    <string name="ep_extracting">Extracting files. This may take several minutes...</string>
+    <string name="cmo_updating">Do you want to download orbital elemets from www.minorplanetcenter.net and update current database?</string>
+    <string name="exp_pack_app_restart">Please restart the application to reinstall default primary data files!</string>
+    <string name="search_nearby_running">Search of the nearby objects is already running!</string>
+    <string-array name="dsosel_colum_label">
+        <item>NAME</item>
+        <item>CON</item>
+        <item>TYPE</item>
+        <item>MAG</item>
+        <item>DIM</item>
+    </string-array>
+
+    <string-array name="con_array">
+        <item>ALL</item>
+        <item>And</item>
+        <item>Ant</item>
+        <item>Aps</item>
+        <item>Aqr</item>
+        <item>Aql</item>
+        <item>Ara</item>
+        <item>Ari</item>
+        <item>Aur</item>
+        <item>Boo</item>
+        <item>Cae</item>
+        <item>Cam</item>
+        <item>Cnc</item>
+        <item>CVn</item>
+        <item>CMa</item>
+        <item>CMi</item>
+        <item>Cap</item>
+        <item>Car</item>
+        <item>Cas</item>
+        <item>Cen</item>
+        <item>Cep</item>
+        <item>Cet</item>
+        <item>Cha</item>
+        <item>Cir</item>
+        <item>Col</item>
+        <item>Com</item>
+        <item>CrA</item>
+        <item>CrB</item>
+        <item>Crv</item>
+        <item>Crt</item>
+        <item>Cru</item>
+        <item>Cyg</item>
+        <item>Del</item>
+        <item>Dor</item>
+        <item>Dra</item>
+        <item>Equ</item>
+        <item>Eri</item>
+        <item>For</item>
+        <item>Gem</item>
+        <item>Gru</item>
+        <item>Her</item>
+        <item>Hor</item>
+        <item>Hya</item>
+        <item>Hyi</item>
+        <item>Ind</item>
+        <item>Lac</item>
+        <item>Leo</item>
+        <item>LMi</item>
+        <item>Lep</item>
+        <item>Lib</item>
+        <item>Lup</item>
+        <item>Lyn</item>
+        <item>Lyr</item>
+        <item>Men</item>
+        <item>Mic</item>
+        <item>Mon</item>
+        <item>Mus</item>
+        <item>Nor</item>
+        <item>Oct</item>
+        <item>Oph</item>
+        <item>Ori</item>
+        <item>Pav</item>
+        <item>Peg</item>
+        <item>Per</item>
+        <item>Phe</item>
+        <item>Pic</item>
+        <item>Psc</item>
+        <item>PsA</item>
+        <item>Pup</item>
+        <item>Pyx</item>
+        <item>Ret</item>
+        <item>Sge</item>
+        <item>Sgr</item>
+        <item>Sco</item>
+        <item>Scl</item>
+        <item>Sct</item>
+        <item>Ser</item>
+        <item>Sex</item>
+        <item>Tau</item>
+        <item>Tel</item>
+        <item>Tri</item>
+        <item>TrA</item>
+        <item>Tuc</item>
+        <item>UMa</item>
+        <item>UMi</item>
+        <item>Vel</item>
+        <item>Vir</item>
+        <item>Vol</item>
+        <item>Vul</item>
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!-- <string name="hello_world">Hello world!</string> -->
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_custom_context_menu">Select Operation</string>
+    <string name="srequest_desc">SQL string (in any register):\nTYPE - object type. TYPE could be equal to GC, GX, GCYCLD, HIIRGN, NEB, OC, OCNEB, PN, SNR, MPLANET, STAR, DS, COMET, CUSTOM, CG, DN, AST, NF, QS.\nA - the first object dimension.\nB - the second object dimension.\nRA, DEC - object coordinates.\nMAG - magnitude.\nPA - position angle.\nCON - constellation.\n\nLocal string:\nALT - altitude.\nVIS - visibility.
+</string>
+    <string formatted="false" name="search_desc">Shortcuts tip:\nc73 - for Caldwell 73\nmars - planet name\nh5056 - Yale Bright Star Catalog\n(1) ceres, (1), ceres - for minor planet (1) Ceres</string>
+    <string name="ngcic.org">The DSO objects\' images used in the DSO Planner are from the Digitized Sky Survey as used by The NGC/IC Project LLC - Please see www.ngcicproject.org for copyright information.\n\nThe Digitized Sky Surveys were produced at the Space Telescope Science Institute under U.S. Government grant NAG W-2166. The images of these surveys are based on photographic data obtained using the Oschin Schmidt Telescope on Palomar Mountain and the UK Schmidt Telescope. The plates were processed into the present compressed digital form with the permission of these institutions.\n\n
+The National Geographic Society - Palomar Observatory Sky Atlas (POSS-I) was made by the California Institute of Technology with grants from the National Geographic Society.\n\n
+The Second Palomar Observatory Sky Survey (POSS-II) was made by the California Institute of Technology with funds from the National Science Foundation, the National Geographic Society, the Sloan Foundation, the Samuel Oschin Foundation, and the Eastman Kodak Corporation.\n\n
+The Oschin Schmidt Telescope is operated by the California Institute of Technology and Palomar Observatory.\n\n
+The UK Schmidt Telescope was operated by the Royal Observatory Edinburgh, with funding from the UK Science and Engineering Research Council (later the UK Particle Physics and Astronomy Research Council), until 1988 June, and thereafter by the Anglo-Australian Observatory. The blue plates of the southern Sky Atlas and its Equatorial Extension (together known as the SERC-J), as well as the Equatorial Red (ER), and the Second Epoch [red] Survey (SES) were all taken with the UK Schmidt.</string>
+    <string name="ngcic.org2">This image is used with permission of\nThe NGC/IC Project LLC (www.ngcicproject.org)</string>
+    <string name="title_activity_telescope_list">Optical Instruments (Telescopes)</string>
+    <string name="title_activity_telescope">Instrument Parameters (Telescope)</string>
+    <string name="title_activity_eyepieces_list">Eyepieces Database</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_note_landscape">Landscape Note Editor</string>
+    <string name="progresstop">Starting</string>
+    <string name="progressbotm">Please wait</string>
+    <string name="title_activity_settings_geo">Geographic location</string>
+    <string name="title_activity_mini_launcher">Astro Tools</string>
+    <string name="title_activity_mini_launcher_chooser">Select Applications to add to Tools</string>
+    <string name="title_activity_flashlight">Flashlight</string>
+    <string name="ucac2_description">48 mn stars up to 16m below +40 degree declination</string>
+    <string name="ucac4_description">113 mn stars up to 16m</string>
+
+    <!-- Dialog messages -->
+    <string name="dsomain_backagain">Tap Back again if you want to exit the app</string>
+    <string name="minilaunchr_wantlaunch">This application may ruin your eyes\' darkness adaptation if you are not using a red film over your device\'s screen. Would you like to start it anyway?</string>
+    <string name="minilaunchr_autoadd">Would you like to mark all of the astronomy related applications, installed on your Android device, automatically (you can review and edit the selection first)?</string>
+    <string name="did_you_export">"Did you export this file from your own DSO Planner?"</string>
+
+    <!-- Help Screens -->
+    <string name="helpCalibrateDlg">Settings circles one star alignment brief instruction:\nPoint your telescope at the object, selected on the chart, and hit Now button. Check your setting circles and enter the Azimuth and Altitude readings into provided fields. Hit One Star Align button to capture the adjustment values. Use Settings menu to toggle display of adjusted Az/Alt values instead of actual ones.</string>
+
+    <!-- Sky limiting mag summary -->
+    <string name="sky_lm_summary">"Maximum magnitude you see on the sky (used for visibility calculations):"</string>
+    <string name="files_copied_">Files copied:</string>
+    <string name="no_files_copied">No files copied</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="dso_search">Search app databases</string>
+    <string name="all">ALL</string>
+    <string name="notes">Notes</string>
+    <string name="search">Search</string>
+    <string name="external_storage_not_available_for_writing_">External storage not available for writing!</string>
+    <string name="external_storage_not_available_for_reading_">External storage not available for reading!</string>
+    <string name="proversion">ProVersion</string>
+    <string name="sorry_but_this_function_is_available_in_pro_version_only_would_you_like_">Sorry, but this function is available in paid versions only.\n\nWould you like to open Google Play to purchase DSO Planner Pro version?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="location_updated_">Location updated!</string>
+    <string name="the_scope_is_busy_try_later">The scope is busy. Try later</string>
+    <string name="there_are_no_images_for_ic_objects">There are no images for IC objects</string>
+    <string name="there_is_no_image_for_this_object">There is no image for this object</string>
+    <string name="images_for_ngc_objects_are_missing_">Images for NGC objects are missing!</string>
+    <string name="no_data_to_paste_">No data to paste!</string>
+    <string name="loading">Loading</string>
+    <string name="sleep_disable">sleep_disable</string>
+    <string name="selobj">selobj</string>
+    <string name="gridon">gridOn</string>
+    <string name="conston">constOn</string>
+    <string name="labelon">labelOn</string>
+    <string name="epson">EPsOn</string>
+    <string name="telradon">telradOn</string>
+    <string name="quinsighton">quinsightOn</string>
+    <string name="neb_contour">neb_contour</string>
+    <string name="_battery_low_">" battery low "</string>
+    <string name="color_dss_image">color_DSS_Image</string>
+    <string name="icolor_object">icolor_Object</string>
+    <string name="min">MIN</string>
+    <string name="max">MAX</string>
+    <string name="do_you_want_to_add_custom_data_fields_">Do you want to add custom data fields?</string>
+    <string name="set_database_name">Set database name</string>
+    <string name="no_additional_fields">No additional fields</string>
+    <string name="main_database_can_t_be_removed_">Internal databases can not be removed.</string>
+    <string name="do_you_want_to_remove_the_database_">Do you want to remove the database?</string>
+    <string name="fields">Fields</string>
+    <string name="remove_database">Remove Database</string>
+    <string name="contextmenu_error_">"ContextMenu error! "</string>
+    <string name="unlock">Unlock</string>
+    <string name="lock">Lock</string>
+    <string name="add">Add</string>
+    <string name="add2">Add</string>
+    <string name="this_will_take_you_to_another_details_screen">This will take you to another Details screen</string>
+    <string name="venus">VENUS</string>
+    <string name="mars">MARS</string>
+    <string name="moon">MOON</string>
+    <string name="jupiter">JUPITER</string>
+    <string name="sun">SUN</string>
+    <string name="saturn">SATURN</string>
+    <string name="expansion_pack">Expansion file</string>
+    <string name="expansion_patch">Patch expansion file</string>
+    <string name="expansion_pack_contains_all_application_databases">"Expansion file contains all application databases. It is usually downloaded automatically when the application is installed. You need to download it only if there is a warning at the start of the application that expansion file is missing! \nPlease long-press to download."</string>
+    <string name="expansion_patch_contains">"Patch expansion file contains modifications to application databases. It is usually downloaded automatically when the application is installed / updated. You need to download it only if there is a warning at the start of the application that patch expansion file is missing! \nPlease long-press to download."</string>
+    <string name="please_restart_the_application_after_downloading_expansion_pack_to_install_it_">Please restart the application after downloading expansion file to install it!</string>
+    <string name="please_restart_the_application_after_downloading_expansion_patch_to_install_it_">Please restart the application after downloading patch expansion file to install it!</string>
+    <string name="the_file_is_already_downloading_">The file is already downloading!</string>
+    <string name="can_not_connect_to_the_server_please_try_again_">Can not connect to the server. Please try again!</string>
+    <string name="android_intent_action_download_complete">android.intent.action.DOWNLOAD_COMPLETE</string>
+    <string name="no_space_available_">No space available!</string>
+    <string name="download_in_progress_please_wait">Download in progress. Please wait</string>
+    <string name="file_exists_overwrite_">File exists. Overwrite?</string>
+    <string name="download_is_about_to_start">Download is about to start</string>
+    <string name="download">Download</string>
+    <string name="authentication">Authentication</string>
+    <string name="can_not_connect_to_the_server_would_you_like_to_try_again">Can not connect to the server.\nWould you like to try again? You may want to make sure you can connect to Google Play first.</string>
+    <string name="sorry_but_your_license_is_rejected">Sorry, but your license is rejected.\nWould you like to open Google Play to purchase DSO Planner?</string>
+    <string name="error">Error</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="you_can_not_change_eyepieces_parameters_now">You can not change eyepieces parameters now. Select the telescope first.</string>
+    <string name="you_can_mark_up_to_">"You can mark up to "</string>
+    <string name="eyepiece_parameters">Eyepiece parameters</string>
+    <string name="save">Save</string>
+    <string name="_eyepieces_in_your_collection">" eyepieces in your collection"</string>
+    <string name="export_error_">Export error!</string>
+    <string name="export_successfull_">Export successful!</string>
+    <string name="export_to_the_file">Export to the file</string>
+    <string name="please_enter_the_file_name_for_exporting_warning_">"Please enter the file name for exporting.\n\nWARNING: the file with the same name will be silently overwritten in the "</string>
+    <string name="_folder_">" folder."</string>
+    <string name="warning">Warning</string>
+    <string name="do_you_want_to_remove_this_eyepiece_">Do you want to remove this eyepiece?</string>
+    <string name="do_you_want_to_remove_all_of_your_eyepieces_">Do you want to remove ALL of your eyepieces?</string>
+
+    <string name="_eyepieces_can_be_selected_uncheck_one_first_">" eyepieces can be selected, uncheck one first."</string>
+
+    <string name="menu_error_">"Menu error! "</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="remove_all">Remove ALL</string>
+    <string name="set_custom_field_name">Set custom field name</string>
+    <string name="select_field_type">Select field type</string>
+    <string name="do_you_want_to_delete_the_field_">Do you want to delete the field?</string>
+    <string name="the_field_name_">"The field name "</string>
+    <string name="_is_reserved_please_choose_a_different_one">" is reserved. Please choose a different one"</string>
+    <string name="some_field_names_coincide_please_choose_different_names">Some field names coincide. Please choose different names</string>
+    <string name="fields_names_are_empty_the_database_will_not_be_created_">Fields\' names are empty. The database will not be created.</string>
+    <string name="default_existing_database_fields_are_">Default (existing) database fields are:</string>
+    <string name="_name1_short_name_name2_long_name_etc">- name1 (short name)\n- name2 (long name)\n- ra (right ascension)\n- dec (declination)\n- mag (magnitude)\n- constellation\n- a (major axis size)\n- b (minor axis size)\n- type (object type)\n- typestr (type name for custom type)\n- pa (position angle)\n- comment\nYou can add more fields for your custom databases here. These fields will be fully searcheable and selectable by the DSO Planner engine through the SQL-like search query.\n</string>
+    <string name="standard_fields">Standard Fields</string>
+    <string name="please_add_your_custom_fields">Please add your custom fields</string>
+    <string name="you_decided_to_cancel_adding_new_database_">You decided to cancel adding new database?</string>
+    <string name="dss_image_downloading">DSS image downloading</string>
+    <string name="set_center_s_ra_dec_2000_">Set center\'s RA,Dec(2000)</string>
+    <string name="info">Info</string>
+    <string name="select_dss_action">Select action for DSS contour</string>
+    <string name="single_image_small_object_">Single image (small object)</string>
+    <string name="nine_images_larger_object_">Nine images (larger object)</string>
+    <string name="show_dss_images">Show DSS Images</string>
+    <string name="hide_dss_images">Hide DSS Images</string>
+    <string name="how_much_to_download_">How much to download?</string>
+    <string name="please_confirm">Please confirm</string>
+    <string name="the_download_is_about_to_start_">The download is about to start.</string>
+    <string name="select_object_first">Select object first</string>
+    <string name="dso_planner" translatable="false">DSO Planner</string>
+    <string name="bluetooth_connection_required_would_you_like_to_setup_it_now_">Bluetooth connection required. Would you like to setup it now?</string>
+    <string name="later">Later</string>
+    <string name="nearby_search">Nearby search</string>
+    <string name="setting_circles_one_star_alignment">Setting circles one star alignment</string>
+    <string name="counterclockwise">CounterClockwise</string>
+    <string name="clockwise">Clockwise</string>
+    <string name="one_star_align">One Star Align</string>
+    <string name="setting_circles_calibration_successfull_">Setting circles calibration successful.</string>
+    <string name="adjustments_daz_">Adjustments: dAz=</string>
+    <string name="_dalt_">" dAlt="</string>
+    <string name="importing_database">Importing database</string>
+    <string name="error_importing_database">Error importing database</string>
+    <string name="clipboard" translatable="false">clipboard</string>
+    <string name="_processed">" processed"</string>
+    <string name="import_complete">Import complete</string>
+    <string name="dso_planner_settings">DSO Planner Settings</string>
+    <string name="do_you_want_to_remove_this_item_">Do you want to remove this item?</string>
+    <string name="do_you_want_to_paste_into_current_locations_list_">Do you want to paste into current locations list?</string>
+    <string name="export_error">Export error</string>
+    <string name="do_you_really_want_to_import_current_locations_list_from_">"Do you really want to import current locations list from "</string>
+    <string name="astro_tools">Astro tools</string>
+    <string name="yes_please">Yes, please</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="nightmode_warning">Nightmode Warning</string>
+    <string name="sorry_can_t_start_this_application">Sorry, can\'t start this application</string>
+    <string name="there_are_no_new_astronomy_related_applications_detected_on_your_deveice">There are no new astronomy related applications detected on your device. Please look through the list and add any applications you like manually</string>
+    <string name="_new_astronomy_ralated_applications_have_been_found_on_your_device">" new astronomy related applications have been found on your device (marked on the list). You can add more or remove some false positives from the list manually."</string>
+    <string name="there_are_only_">"There are only "</string>
+    <string name="searching">Searching</string>
+    <string name="create_new_object">Create new object</string>
+    <string name="data_was_changed_do_you_want_to_exit_">Data was changed. Do you want to exit?</string>
+    <string name="zero_object_will_not_be_added_to_the_database_">Zero object will not be added to the database!</string>
+    <string name="select_type_of_the_object">Select type of the object</string>
+    <string name="define_name_for_custom_object_type">Define name for custom object type</string>
+    <string name="select_equinox">Select equinox</string>
+    <string name="_2000" translatable="false">2000</string>
+    <string name="current">current</string>
+    <string name="edit_observation_note">Edit observation note</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="play">Play</string>
+    <string name="an_old_record_exists_overwrite_it_">An old record exists. Overwrite it?</string>
+    <string name="error_starting_an_audio_recorder">Error starting an audio recorder</string>
+    <string name="stop_recording">Stop recording</string>
+    <string name="stop">Stop</string>
+    <string name="this_note_is_not_saved_yet_exit_anyway_">This note is not saved yet. Exit anyway?</string>
+    <string name="search_note_database_for_the_string_">Search note database for the string:</string>
+    <string name="there_is_no_audio_for_this_note">There is no audio for this note</string>
+    <string name="note_list_confirmation">Note List Confirmation</string>
+    <string name="do_you_want_to_remove_the_note_">Do you want to remove the note?</string>
+    <string name="do_you_want_to_remove_all_of_the_notes_">Do you want to remove ALL of the notes?</string>
+    <string name="this_will_cancel_all_downloads">This will cancel all downloads</string>
+    <string name="observation_list_confirmation">Observation List Confirmation</string>
+    <string name="do_you_want_to_remove_the_object_">Do you want to remove the object?</string>
+    <string name="do_you_want_to_remove_all_objects_">Do you want to remove all objects?</string>
+    <string name="not_applicable">Not applicable</string>
+    <string name="please_enter_the_file_name_for_exporting_warning_the_file_with_the_same_name_will_be_silently_overwritten_in_the_">"Please enter the file name for exporting.\n\nLocal: export to the app local storage\nPicker: export to external storage with Android file picker\n\nWARNING: the file with the same name will be silently overwritten."</string>
+    <string name="do_you_want_to_paste_into_current_observation_list_">Do you want to paste into current observation list?</string>
+    <string name="find">Find</string>
+    <string name="please_enter_the_string_to_find_in_the_list">Please enter the string to find in the list</string>
+
+    <string name="do_you_want_to_import_observation_list_from_">"Do you want to import observation list from "</string>
+    <string name="update">Update</string>
+    <string name="select">Select</string>
+    <string name="select_constellation">Select constellation</string>
+    <string name="do_you_really_want_to_remove_this_item_">Do you really want to remove this item?</string>
+    <string name="import_error">Import error</string>
+    <string name="set_search_rules">Set search rules</string>
+    <string name="bad_syntax_in_the_sql_expression_">"Bad syntax in the SQL expression. "</string>
+    <string name="bad_syntax_in_the_local_expression_">Bad syntax in the Local expression.</string>
+    <string name="errors_in_the_input">Errors in the input</string>
+    <string name="would_you_like_to_save_the_request_anyway_for_later_review_">Would you like to save the request anyway for later review?</string>
+    <string name="enter_request_name">Enter request name</string>
+    <string name="object_not_selected">Object not selected</string>
+    <string name="visibility_filter_objects_with_visibility_below_detection_limit_are_rejected">Visibility filter.\nObjects with visibility below detection limit are rejected</string>
+    <string name="maximum_magnitude_filter_objects_with_magnitude_higher_than_the_maximum_set_are_rejected">Maximum magnitude filter.\nObjects with magnitude higher than the maximum set are rejected</string>
+    <string name="no_filter">No filter</string>
+    <string name="nightmode_warning_click_again">NIGHTMODE WARNING:\nWhile using this command your dark adaptation (night vision) might be affected.\n\nClick the command again if you are OK with that.</string>
+
+    <string name="no_paired_device_found_please_pair_with_your_bt_dongle_first">No paired device found. Please pair with your BT dongle first</string>
+    <string name="connecting_">Connecting...</string>
+    <string name="connected">Connected</string>
+    <string name="not_connected">Not connected</string>
+    <string name="add_location">add_location</string>
+    <string name="location_name">Location Name</string>
+    <string name="please_enter_a_distinct_name_for_the_location">Please enter a distinct name for the location</string>
+    <string name="set_latitude_n_s_deg_min_sec_">Set latitude [N(S)deg min sec]</string>
+    <string name="examples_n45_34_21_n45_34_s23_13_s23">Examples:\nN45 34 21\nN45 34\nS23 13\nS23</string>
+    <string name="set_longitude_e_w_deg_min_sec_">Set longitude [E(W)deg min sec]</string>
+    <string name="examples_e45_34_21_e45_34_w23_13_w23">Examples:\nE45 34 21\nE45 34\nW23 13\nW23</string>
+    <string name="select_location">Select location</string>
+    <string name="d_lattitude">d_lattitude</string>
+    <string name="d_longitude">d_longitude</string>
+    <string name="telrad_screen">telrad_screen</string>
+    <string name="d_tr1">d_tr1</string>
+    <string name="d_tr2">d_tr2</string>
+    <string name="d_tr3">d_tr3</string>
+    <string name="d_tr4">d_tr4</string>
+    <string name="d_tr5">d_tr5</string>
+    <string name="d_tra">d_trA</string>
+    <string name="d_trw">d_trW</string>
+    <string name="settings_bt">settings_bt</string>
+    <string name="goto_mount_connected">Goto mount connected</string>
+    <string name="goto_mount_disconnected">GoTo mount disconnected</string>
+    <string name="advanced_search">advanced_search</string>
+    <string name="basic_search">basic_search</string>
+    <string name="geolocation">geolocation</string>
+    <string name="launch_screen">launch_screen</string>
+    <string name="telescope_search">telescope_search</string>
+    <string name="d_lm">d_LM</string>
+    <string name="ss_downloads">ss_downloads</string>
+    <string name="ss_odatabases">ss_odatabases</string>
+    <string name="ss_bluetooth">ss_bluetooth</string>
+    <string name="eps_screen">eps_screen</string>
+    <string name="ss_telescope_search">ss_telescope_search</string>
+    <string name="ss_about">ss_about</string>
+    <string name="exp_pack_reinstall">exp_pack_reinstall</string>
+    <string name="backup">Backup</string>
+    <string name="databases_will_be_copied_from_memory_to_">Databases will be copied from memory to\n</string>
+    <string name="and_will_overwrite_existing_files_there_silently_">and will overwrite existing files there silently.</string>
+    <string name="restore">Restore</string>
+    <string name="user_databases_will_be_overwriten_from_files_in_">WARNING: \nUser databases will be overwriten from files in selected folder, replacing all of the existing data silently!</string>
+    <string name="_folder_replacing_all_of_the_existing_data_silently_">\nselected folder, replacing all of the existing data silently.</string>
+    <string name="geolocation2">geolocation2</string>
+    <string name="antialiasing">antialiasing</string>
+    <string name="licensing">licensing</string>
+    <string name="email_license">email_license</string>
+    <string name="color_object">color_Object</string>
+    <string name="color_userobject">color_UserObject</string>
+    <string name="color_crossmarker">color_CrossMarker</string>
+    <string name="color_eyepieces">color_Eyepieces</string>
+    <string name="color_ep_cross">color_EpCross</string>
+    <string name="color_telrad">color_Telrad</string>
+    <string name="color_constellations">color_Constellations</string>
+    <string name="color_horizon">color_Horizon</string>
+    <string name="color_user_horizon">color_User_Horizon</string>
+    <string name="color_labels">color_Labels</string>
+    <string name="color_grid">color_Grid</string>
+    <string name="autonightmode">autonightmode</string>
+    <string name="do_you_wish_to_reinstall_default_primary_data_files_">Do you wish to reinstall default primary data files?</string>
+    <string name="dimlight">dimlight</string>
+    <string name="skinfront">skinfront</string>
+    <string name="d_lightsensorlimit">d_lightSensorLimit</string>
+    <string name="nicestars">niceStars</string>
+    <string name="d_batterywarning">d_batterywarning</string>
+    <string name="automatic_nighmode_is_on_">Automatic nighmode is on!</string>
+    <string name="default_colors">default_colors</string>
+    <string name="telescope_parameters">Telescope parameters</string>
+    <string name="do_you_want_to_remove_this_instrument_">Do you want to remove this Instrument?</string>
+    <string name="do_you_want_to_remove_all_of_your_instruments_">Do you want to remove ALL of your instruments?</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="do_you_want_to_remove_all_of_the_database_items_">Do you want to remove ALL of the database items?</string>
+    <string name="operation_not_supported">Operation not supported</string>
+    <string name="operation_not_applicable">Operation not applicable</string>
+    <string name="do_you_really_want_to_import_current_database_data_from_">"Do you really want to import current database data from "</string>
+    <string name="dsson">DSSOn</string>
+    <string name="autosky">autoSky</string>
+    <string name="autorotation">autoRotation</string>
+    <string name="selected_object_information">Selected Object Information</string>
+    <string name="dso_image">DSO Image</string>
+    <string name="twilight_almanach">Twilight Almanach</string>
+    <string name="observation_note">Observation Note</string>
+    <string name="observation_notes">Observation Notes</string>
+    <string name="dso_observation_notes">DSO Observation Notes</string>
+    <string name="dso_selection_list">DSO Selection List</string>
+    <string name="object_filters_rules_and_settings">Object Filters Rules and Settings</string>
+    <string name="current_observation_list">Current Observation List</string>
+    <string name="star_chart_options">Star Chart options</string>
+    <string name="time_range_of_observation">Time Range of Observation</string>
+    <string name="pick_the_star_chart_date_and_time">Pick date and time</string>
+    <string name="pick_the_file_for_importing">Pick the file for importing</string>
+    <string name="general_settings">General Settings</string>
+    <string name="manage_search_requests_for_dso_selection">Manage search requests for object selection</string>
+    <string name="select_search_type">Select Conditions</string>
+    <string name="databases">Databases</string>
+    <string name="view_database">View Database</string>
+    <string name="add_custom_fields">Add custom fields</string>
+    <string name="goto_mount_setup">GoTo Mount Setup</string>
+    <string name="edit_database_object">Edit database object</string>
+    <string name="locations_list">Locations List</string>
+    <string name="databases_to_download">Databases to download</string>
+    <string name="eps_screen_gr">eps_screen_gr</string>
+    <string name="quick_start_guide"><b>Quick Start Guide</b>\nThe application supports two approaches to object selection. The easier way is to turn on the Star Chart object layers (NgcIc, PGC) and set limiting magnitude for each layer and field of view (FOV). All objects whose magnitude is below limiting will then be shown on \"Star Chart\". Besides limiting magnitude you could also filter NgcIc layer by object types.\n\nThe second approach is to look through several databases for objects to be observed using various filters (\"Object Selection\"), prepare observation list and get its objects on \"Star Chart\" automatically.\n\nYou could use each approach separately or combine them. For separate use turn off object layers and fill the current observation list, or vice versa turn on object layers and clear current observation list. For combination both turn on object layers and fill the current observation list.\n\n<b>Star Chart</b>\n\"Star Chart\" shows stars and objects from the selected layers and ALL objects from the current observation list. For each FOV and layer you could adjust limiting magnitude to raise/diminish the number of stars/objects that you see on the screen.\n\nStar Chart is highly customisable, there are many options in \"Star Chart Settings\" that help you adjust it to your needs.\n\nBy default, \"Star Chart\" depicts preinstalled Digitized Sky Survey (DSS) images and their contours. They are not objects in a usual sense, rather consider them belonging to DSS image layer. To download DSS image of any object/sky portion select an object or a star and go to Menu/DSS. Remove DSS image or download image of adjacent area with two long touches on existing image/adjacent area.\n\n<b>Object Selection</b>\nTo search for objects go to \"Object Selection\" screen. Press \"Select\" button. Select object types, catalogs, minimum dimension, visibility filter (object visibility, maximum magnitude) and minimum altitude.\n\nReturn back. Select your geographic location, observation time range and sky conditions. Return back and press \"Update\" button. Here you are with a list of objects.\n\nPress on the object to see its location on \"Star Chart\". Long tap on the list and select \"Add (all) to observation list\" to add object(s) to the current observation list (and they become visible on Star Chart).\n\n<b>Observations Lists</b>\n\nThere are four observation lists. The current one is displayed in \"Observations Lists\" screen, its objects are shown on \"Star Chart\". Change the current observation list in Menu. Menu provides for other observation list operations (sorting, note matching, etc.) as well.\n\n<b>Manual</b>\ndsoplanner.com/files/DSO_Planner_User_Manual.pdf</string>
+
+    <string name="quick_start_guide1">Quick Start Guide</string>
+    <string name="would_you_like_to_see_quick_start_guide_">Would you like to see Quick Start Guide? You could look through it later in Settings section</string>
+    <string name="would_you_like_to_see_whatsnew">Would you like to see what\'s new? You could look through it later in Settings section</string>
+    <string name="qs_dialog">qs_dialog</string>
+    <string name="dsoplanner_gmail_com">dsoplanner@gmail.com</string>
+    <string name="find_results">Find Results</string>
+    <string name="no_match_found_">No match found!</string>
+    <string name="horiz_fill">horiz_fill</string>
+    <string name="userhor">userhor</string>
+    <string name="t_uhor_name">t_uhor__name</string>
+    <string name="pairs_az_h_of_points_in_text_file">Pairs (Az h) of points in text file</string>
+    <string name ="d_uhor__width" >d_uhor__width</string>
+    <string name ="d_uhor_step">d_uhor_step</string>
+    <string name="uhorfill">uhorfill</string>
+    <string name="would_you_like_to_update_horizon_from_existing_file_or_choose_a_new_file_instead_">Would you like to update horizon from existing file or choose a new file instead?</string>
+    <string name="new_file">New file</string>
+    <string name="crossview">crossview</string>
+    <string name="dsosettings">dsosettings</string>
+    <string name="compass_mode_is_turned_on">Compass mode is turned on</string>
+
+    <string name="select_compass_level_mode">Select compass/level mode</string>
+    <string name="would_you_like_to_turn_object_marker_guide_line_on_">Would you like to turn object marker guide line on to help you find objects?</string>
+    <string name="autoskyparam">autoSkyParam</string>
+    <string name="ss_screen">ss_screen</string>
+    <string name="pscolors">pscolors</string>
+    <string name="nagscreenon">nagScreenOn</string>
+    <string name="astroeq">astroeq</string>
+    <string name="ss_wide_settings">ss_wide_settings</string>
+    <string name="default_colors_set">Default colors set</string>
+    <string name="this_setting_may_ruin_your_eyes_darkness_adaptation_if_you_are_not_using_a_red_film_over_your_device_s_screen_would_you_like_to_continue_anyway_">This setting may ruin your eyes\' darkness adaptation if you are not using a red film over your device\'s screen. Would you like to continue anyway?</string>
+    <string name="this_catalog_is_off_would_you_like_to_turn_it_on_">layer is off. Would you like to turn it on?</string>
+    <string name="settings_graph_start_chart">settings_graph_start_chart</string>
+    <string name="settings_graph_eqt">settings_graph_eqt</string>
+    <string name="settings_graph_layers">settings_graph_layers</string>
+    <string name="dss_settings">dss_settings</string>
+    <string name="settings_graph_other">settings_graph_other</string>
+    <string name="invsky">invsky</string>
+    <string name="bright_star_label">bright_star_label</string>
+    <string name="object_label">object_label</string>
+    <string name="graph_gc">graph_gc</string>
+    <string name="graph_gx">graph_gx</string>
+    <string name="graph_gxycld">graph_gxycld</string>
+    <string name="graph_hii">graph_hii</string>
+    <string name="graph_neb">graph_neb</string>
+    <string name="graph_oc">graph_oc</string>
+    <string name="graph_ocneb">graph_ocneb</string>
+    <string name="graph_pn">graph_pn</string>
+    <string name="graph_snr">graph_snr</string>
+    <string name="graph_zero_mag">graph_zero_mag</string>
+    <string name="d_dso__dim">d_dso__dim</string>
+    <string name="star_chart_settings">Star Chart Settings</string>
+    <string name="sorry_but_you_have_reached_the_free_version_limit_would_you_like_to_open_google_play_to_purchase_dso_planner_pro_version_">Sorry, but you have reached the lite version limit.\n\nWould you like to open Google Play to purchase DSO Planner Pro version?</string>
+    <string name="userhorizonon">userHorizonOn</string>
+    <string name="horizon">horizOn</string>
+    <string name="grid_preference">grid_preference</string>
+    <string name="azimuthal">Azimuthal</string>
+    <string name="equatorial">Equatorial</string>
+    <string name="no_grid">No grid</string>
+    <string name="zenith">Zenith</string>
+    <string name="nadir">Nadir</string>
+    <string name="grid_label">grid_label</string>
+    <string name="other_label">other_label</string>
+    <string name="ngcic_types">ngcic_types</string>
+    <string name="whats_new">This update includes:\n\n+ new object layers (NgcIc, UGC) for Star Chart\n+ adjustable star and object magnitude limits for each FOV\n+ 3 compass modes, compass fine settings\n+ star chart settings rearranged\n+ user horizon from text file\n+ equatorial grid and grid labels\n+ labels for dso and bright stars\n+ famous nebula contours now drawn for each FOV\n+ option to fill area below (user) horizon\n+ details screen rearranged\n- bug fixes</string>
+    <string name="whats_new2">This update includes:\n\n+ DSO Selection list could be sorted by pressing at column title\n+ choosing database in DSO Selection is moved under Select button\n+ Basic Search in DSO Selection adjusts search criteria to database chosen\n+ Stop button is added to DSO Selection search\n+ Move option is added to Observation Lists (to change order of objects)\n+ real time mode settings are reorganised\n+ new real time mode option is added (no screen update for high zoom levels)\n+ selected object magnitude in Star Chart is shown at the bottom left corner\n+ eyepieces FOV is shown for all FOV if not too small\n+ Planet is renamed to mPlanet for minor planets\n- bug fixes</string>
+    <string name="whats_new3">This update includes:\n\n+New editions (Basic and Plus) available! Consider them if you like the app\n\n+ DSO Selection list could be sorted by pressing at column title\n+ choosing database in DSO Selection is moved under Select button\n+ Basic Search in DSO Selection adjusts search criteria to database chosen\n+ Stop button is added to DSO Selection search\n+ Move option is added to Observation Lists (to change order of objects)\n+ real time mode settings are reorganised\n+ new real time mode option is added (no screen update for high zoom levels)\n+ selected object magnitude in Star Chart is shown at the bottom left corner\n+ eyepieces FOV is shown for all FOV if not too small\n+ Planet is renamed to mPlanet for minor planets\n- bug fixes</string>
+    <string name="what_s_new">What\'s new</string>
+    <string name="you_have_exceeded_the_dss_image_count_free_version_please_make_sure_that_there_is_not_more_than_">"You have exceeded the DSS image count (lite version). Please make sure that there is not more than "</string>
+    <string name="_images_in_">" images in "</string>
+    <string name="_folder">" folder"</string>
+    <string name="catprefscreen">catprefscreen</string>
+    <string name="settings_obj_types">settings_obj_types</string>
+    <string name="type_planet">type_PLANET</string>
+    <string name="type_planet2">type_PLANET2</string>
+    <string name="type_star">type_STAR</string>
+    <string name="type_star2">type_STAR2</string>
+    <string name="type_ds">type_DS</string>
+    <string name="type_ds2">type_DS2</string>
+    <string name="type_comet">type_COMET</string>
+    <string name="type_comet2">type_COMET2</string>
+    <string name="type_custom">type_CUSTOM</string>
+    <string name="type_custom2">type_CUSTOM2</string>
+    <string name="name">NAME</string>
+    <string name="con">CON</string>
+    <string name="type">TYPE</string>
+    <string name="mag">MAG</string>
+    <string name="dim">DIM</string>
+    <string name="done">Done</string>
+    <string name="real_time_screen_update">real_time_screen_update</string>
+    <string name="d_auto_time_fov">d_autoTimeFOV</string>
+    <string name="update_screen">Update screen for a FOV</string>
+    <string name="do_not_update_screen_for_fov_below_">"Do not update screen for FOV less or equal "</string>
+
+    <string name="update_screen_and_auto_center_selected_object_for_fov_below_">"Update screen and auto center selected object for FOV less or equal "</string>
+    <string name="autotime">autoTime</string>
+    <string name="fov_eps">fov_eps</string>
+    <string name="object_type_could_not_be_changed_for_this_catalog_">Object type could not be changed for this catalog!</string>
+    <string name="select_real_time_mode">Select real time mode</string>
+
+    <string name="select_database_to_search_in">Select database to search in</string>
+    <string name="select_telescope_type">Select telescope type</string>
+    <string name="select_paired_device">Select paired device</string>
+    <string name="tycho">tycho</string>
+    <string name="_600_000_stars_up_to_10_7m">600 000  stars up to 10.7m</string>
+    <string name="ucac4">ucac4</string>
+    <string name="pgclayer">pgclayer</string>
+    <string name="ugclayer">ugclayer</string>
+    <string name="ngciclayer">ngciclayer</string>
+    <string name="_3100_deep_sky_objects">3 100 deep sky objects</string>
+    <string name="vis_filter_param">vis_filter_param</string>
+    <string name="please_press_on_list_item_to_put_this_object_before">Please press on list item to put this object before</string>
+    <string name="_15_5_mn_stars_up_to_14m">15.4 mn stars up to 14m</string>
+    <string name="_147_000_galaxies_to_15_3m_from_principal_galaxies_catalogue">153 000 galaxies up to 16.7m from Principal Galaxies Catalogue</string>
+    <string name="duplicates_search">duplicates_search</string>
+    <string name="select_catalog_user_category">select_catalog_user_category</string>
+    <string name="select_catalog_clear">select_catalog_clear</string>
+
+    <string name="select_catalog_messier">select_catalog_messier</string>
+    <string name="select_catalog_caldwell">select_catalog_caldwell</string>
+    <string name="select_catalog_hershell">select_catalog_hershell</string>
+    <string name="select_catalog_ngcic">select_catalog_ngcic</string>
+    <string name="select_catalog_sac">select_catalog_sac</string>
+    <string name="select_catalog_ugc">select_catalog_ugc</string>
+    <string name="select_catalog_ldn">select_catalog_ldn</string>
+    <string name="select_catalog_barnard">select_catalog_barnard</string>
+    <string name="select_catalog_lbn">select_catalog_lbn</string>
+    <string name="select_catalog_pk">select_catalog_pk</string>
+    <string name="select_catalog_abell">select_catalog_abell</string>
+    <string name="select_catalog_hickson">select_catalog_hickson</string>
+    <string name="select_catalog_wds">select_catalog_wds</string>
+    <string name="select_catalog_planet">select_catalog_planet</string>
+    <string name="select_catalog_comet">select_catalog_comet</string>
+    <string name="select_catalog_pgc">select_catalog_pgc</string>
+    <string name="select_catalog_sh2">select_catalog_sh2</string>
+
+    <string name="select_catalog_messier2">select_catalog_messier2</string>
+    <string name="select_catalog_caldwell2">select_catalog_caldwell2</string>
+    <string name="select_catalog_hershell2">select_catalog_hershell2</string>
+    <string name="select_catalog_ngcic2">select_catalog_ngcic2</string>
+    <string name="select_catalog_sac2">select_catalog_sac2</string>
+    <string name="select_catalog_ugc2">select_catalog_ugc2</string>
+    <string name="select_catalog_ldn2">select_catalog_ldn2</string>
+    <string name="select_catalog_barnard2">select_catalog_barnard2</string>
+    <string name="select_catalog_lbn2">select_catalog_lbn2</string>
+    <string name="select_catalog_pk2">select_catalog_pk2</string>
+    <string name="select_catalog_abell2">select_catalog_abell2</string>
+    <string name="select_catalog_hickson2">select_catalog_hickson2</string>
+    <string name="select_catalog_wds2">select_catalog_wds2</string>
+    <string name="select_catalog_planet2">select_catalog_planet2</string>
+    <string name="select_catalog_comet2">select_catalog_comet2</string>
+    <string name="select_catalog_pgc2">select_catalog_pgc2</string>
+    <string name="select_catalog_sh22">select_catalog_sh22</string>
+
+    <string name="dso_selection_">"Object Selection: "</string>
+    <string name="no_catalog">No catalogs selected</string>
+    <string name="obj_catalog_pref">obj_catalog_pref</string>
+    <string name="obj_types_pref">obj_types_pref</string>
+    <string name="no_object_types_selected">No object types selected</string>
+    <string name="basic_search_constellations">basic_search_constellations</string>
+    <string name="all_constellations">All constellations</string>
+    <string name="gc">GC</string>
+    <string name="gxy">Gxy</string>
+    <string name="gxycld">GxyCld</string>
+    <string name="hiirgn">HIIRgn</string>
+    <string name="neb">Neb</string>
+    <string name="oc">OC</string>
+    <string name="type_gc">type_GC</string>
+    <string name="type_gc2">type_GC2</string>
+    <string name="type_gxy">type_Gxy</string>
+    <string name="type_gxy2">type_Gxy2</string>
+    <string name="type_gxycld">type_GxyCld</string>
+    <string name="type_gxycld2">type_GxyCld2</string>
+    <string name="type_hiirgn">type_HIIRgn</string>
+    <string name="type_hiirgn2">type_HIIRgn2</string>
+    <string name="type_neb">type_Neb</string>
+    <string name="type_neb2">type_Neb2</string>
+    <string name="type_oc">type_OC</string>
+    <string name="type_oc2">type_OC2</string>
+    <string name="type_ocneb">type_OCNeb</string>
+    <string name="type_ocneb2">type_OCNeb2</string>
+    <string name="type_pn">type_PN</string>
+    <string name="type_pn2">type_PN2</string>
+    <string name="type_snr">type_SNR</string>
+    <string name="type_snr2">type_SNR2</string>
+    <string name="absent_data">absent_data</string>
+    <string name="treatment_of_objects_that_have_empty_fields_e_g_magnitude_">Treatment of objects that have empty fields (e.g. magnitude).</string>
+    <string name="type_cg">type_cg</string>
+    <string name="type_cg2">type_cg2</string>
+    <string name="type_dn">type_dn</string>
+    <string name="type_dn2">type_dn2</string>
+    <string name="type_ast">type_ast</string>
+    <string name="type_ast2">type_ast2</string>
+    <string name="obj_types_clear">obj_types_clear</string>
+    <string name="angle_measurement">angle_measurement</string>
+    <string name="object_label_layer">object_label_layer</string>
+    <string name="graph_ast">graph_ast</string>
+    <string name="graph_cg">graph_cg</string>
+    <string name="graph_dn">graph_dn</string>
+    <string name="graph_star">graph_star</string>
+    <string name="graph_obj_types_clear">graph_obj_types_clear</string>
+    <string name="eps_guide_lines_on">eps_guide_lines_on</string>
+    <string name="no_full_darkness">No darkness</string>
+    <string name="dim_layer_objects">dim_layer_objects</string>
+    <string name="obs_colon">obs_colon</string>
+    <string name="basic_search_name_start">basic_search_name_start</string>
+    <string name="select_location_cities">select_location_cities</string>
+    <string name="layer_vis">layer_vis</string>
+    <string name="layer_vis_threshold">layer_vis_threshold</string>
+    <string name="eyepieces_database">Eyepieces database</string>
+    <string name="search_in_progress_">Search in progress…</string>
+    <string name="set_list_name">List name</string>
+    <string name="please_set_list_name">Please set list name</string>
+    <string name="download_dss_images_of_observation_list_objects_">Download DSS images of observation list objects?</string>
+    <string name="select_action">Select action</string>
+    <string name="ep_labels">ep_labels</string>
+    <string name="messier">Messier</string>
+    <string name="caldwell">Caldwell</string>
+    <string name="herschel_400">Herschel 400</string>
+    <string name="_12_515_objects_of_all_types">12 515 objects of all types</string>
+    <string name="ngcic">NgcIc</string>
+    <string name="saguaro_astronomy_club_database_n10_342_objects_of_all_types">Saguaro Astronomy Club database.\n10 342 objects of all types</string>
+    <string name="sac">SAC</string>
+    <string name="uppsala_general_catalogue_of_galaxies_nugc_is_an_essentially_complete_catalogue_of_galaxies_to_a_limiting_diameter_of_1_0_and_or_to_a_limiting_apparent_magnitude_of_14_5">Uppsala General Catalogue of Galaxies</string>
+    <string name="ugc">UGC</string>
+    <string name="_45_000_galaxies_to_16m_not_including_ngcic_and_ugc_galaxies">45 000 galaxies to 16m not including NGCIC and UGC galaxies</string>
+    <string name="lynds_catalogue_of_dark_nebulae_">Lynds\' Catalogue of Dark Nebulae</string>
+    <string name="ldn">LDN</string>
+    <string name="barnard_s_catalogue_of_349_dark_objects_in_the_sky_">Barnard\'s Catalogue of 349 Dark Objects in the Sky</string>
+    <string name="barnard">Barnard</string>
+    <string name="lynds_catalogue_of_bright_nebulae">Lynds\' Catalogue of Bright Nebulae</string>
+    <string name="lbn">LBN</string>
+    <string name="catalogue_of_hii_regions">Catalogue of HII regions</string>
+    <string name="sh2">SH2</string>
+    <string name="catalogue_of_galactic_planetary_nebulae_">Catalogue of Galactic Planetary Nebulae</string>
+    <string name="pk">PK</string>
+    <string name="catalogue_of_abell_clusters_of_galaxies_">Catalogue of Abell Clusters of Galaxies</string>
+    <string name="abell">Abell</string>
+    <string name="hickson_compact_group_">Hickson Compact Group</string>
+    <string name="hcg">HCG</string>
+    <string name="the_washington_visual_double_star_catalog_">The Washington Visual Double Star Catalog</string>
+    <string name="wds">WDS</string>
+    <string name="comets">Comets</string>
+    <string name="minor_planets">Minor Planets</string>
+    <string name="select_catalog_up1">select_catalog_up1</string>
+    <string name="select_catalog_up2">select_catalog_up2</string>
+    <string name="select_catalog_up3">select_catalog_up3</string>
+    <string name="select_catalog_up4">select_catalog_up4</string>
+    <string name="select_catalog_up5">select_catalog_up5</string>
+    <string name="select_catalog_up6">select_catalog_up6</string>
+    <string name="select_catalog_up7">select_catalog_up7</string>
+    <string name="select_catalog_up8">select_catalog_up8</string>
+    <string name="select_catalog_up9">select_catalog_up9</string>
+    <string name="select_catalog_up10">select_catalog_up10</string>
+    <string name="select_catalog_bright_ds">select_catalog_bright_ds</string>
+    <string name="brightest_double_stars">Brightest Double Stars</string>
+    <string name="_2271_brightest_double_stars">2271 brightest double stars</string>
+    <string name="select_catalog_bright_ds2">select_catalog_bright_ds2</string>
+    <string name="show_double_separation">show_double_separation</string>
+    <string name="select_search_type2">select_search_type2</string>
+    <string name="basic_search_min_sep">basic_search_min_sep</string>
+    <string name="basic_search_max_sep">basic_search_max_sep</string>
+    <string name="basic_search_max_mag2">basic_search_max_mag2</string>
+    <string name="sky_limiting_magnitude">Sky limiting magnitude</string>
+    <string name="browse_and_edit_your_telescopes_parameters">Browse and edit your telescopes parameters</string>
+    <string name="telescopes_database">Telescopes database</string>
+    <string name="browse_and_edit_your_eyepieces_parameters">Browse and edit your eyepieces parameters</string>
+    <string name="moon_phase">Moon Phase</string>
+    <string name="select_constellations">Select constellations</string>
+    <string name="ss_whatsnew">ss_whatsnew</string>
+    <string name="graph_zero_mag_fov">graph_zero_mag_fov</string>
+    <string name="database_without_custom_fields_has_been_created_">Database without custom fields has been created!</string>
+    <string name="night_mode_on_off_">Night mode (on/off)</string>
+    <string name="night_mode">night_mode</string>
+    <string name="settings_graph_eqt_telecope_category">settings_graph_eqt_telecope_category</string>
+    <string name="select_catalog_galaxies_category">select_catalog_galaxies_category</string>
+    <string name="select_catalog_galaxies_category2">select_catalog_galaxies_category2</string>
+    <string name="object_labels_obs_list_">Object labels (Obs List)</string>
+    <string name="object_labels_layers_">Object labels (Layers)</string>
+    <string name="labels_for_objects_from_observation_lists">Labels for objects from observation lists</string>
+    <string name="labels_for_objects_from_star_chart_layers">Labels for objects from star chart layers</string>
+    <string name="there_are_new_comet_orbital_elements_available_would_you_like_to_download_them_from_www_minorplanetcenter_net_to_update_comet_database_">There are new comet orbital elements available. Would you like to download them from www.minorplanetcenter.net to update comet database? You could always do that in Settings/Objects Databases/Comets/Menu/Update</string>
+    <string name="comet_auto_update">comet_auto_update</string>
+    <string name="_visibility_filter_on">" visibility filter on"</string>
+    <string name="hour_min_sec">hour min sec</string>
+    <string name="double_star_info_">DOUBLE STAR INFO (</string>
+    <string name="all_objects_in_database">All objects in database</string>
+    <string name="no_expression_selected">No expression selected</string>
+    <string name="rt_off">RT OFF</string>
+    <string name="realtime_mode_on">Realtime mode ON</string>
+    <string name="rt_on">RT ON</string>
+    <string name="realtime_mode_off">Realtime mode OFF</string>
+    <string name="observation_list_">"Observation List "</string>
+    <string name="please_select_data_format_for_the_text_file_being_imported_internal_observation_list">Please select data format for the text file being imported / internal observation list</string>
+    <string name="dso_planner_import_">DSO Planner (import)</string>
+    <string name="sky_safari_import_">Sky Safari (import)</string>
+    <string name="sky_tools_import_">Sky Tools (import)</string>
+    <string name="night_sky_observer_guide_internal_">Night Sky Observer Guide (internal)</string>
+    <string name="please_select_sort_order">Please select sort order</string>
+    <string name="constellation">Constellation</string>
+    <string name="magnitude">Magnitude</string>
+    <string name="size">Size</string>
+    <string name="set_time">Set Time</string>
+    <string name="catalog">Catalog</string>
+    <string name="man">man</string>
+    <string name="length">length</string>
+    <string name="brand">Brand</string>
+    <string name="f_length">F.length</string>
+    <string name="fov">FOV</string>
+    <string name="select_eyepiece">Select eyepiece</string>
+    <string name="export">Export</string>
+    <string name="country">Country</string>
+    <string name="region">Region</string>
+    <string name="set_the_string_that_city_starts_with">Set the string that city starts with</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="mirror_">"Mirror "</string>
+    <string name="rotate">Rotate</string>
+    <string name="no_sql_expression_selected_">"No SQL expression selected for "</string>
+    <string name="dss_images_download">DSS images download</string>
+    <string name="dss_download_complete">DSS download complete</string>
+    <string name="time_range_within_24_hours">Time range within 24 hours</string>
+    <string name="start_time_">"Start time: "</string>
+    <string name="end_time_">"End time:   "</string>
+    <string name="object_selection">Object Selection</string>
+    <string name="observations_lists">Observations Lists</string>
+    <string name="star_chart">Star Chart</string>
+    <string name="star_chart3">Star Chart</string>
+    <string name="tools">Tools</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="next">Next</string>
+    <string name="checkboxes">CheckBoxes</string>
+    <string name="show_image">Show Image</string>
+    <string name="add_to_observation_list">Add to Observation List</string>
+    <string name="add_marked_to_observation_list">Add Marked to Observation List</string>
+    <string name="add_all_to_observation_list">Add ALL to Observation List</string>
+    <string name="details">Details</string>
+    <string name="add_note">Add Note</string>
+    <string name="see_object_notes">See Object Notes</string>
+    <string name="see_all_notes">See ALL Notes</string>
+    <string name="filter">Filter</string>
+    <string name="name2">Name</string>
+    <string name="rename">Rename</string>
+    <string name="dss">DSS</string>
+    <string name="sort">Sort</string>
+    <string name="list_1">List 1</string>
+    <string name="list_2">List 2</string>
+    <string name="list_3">List 3</string>
+    <string name="list_4">List 4</string>
+    <string name="add_object">Add object</string>
+    <string name="paste">Paste</string>
+    <string name="mark">Mark</string>
+    <string name="import2">Import</string>
+    <string name="move">Move</string>
+    <string name="remove_from_list">Remove from list</string>
+    <string name="remove_marked">Remove Marked</string>
+    <string name="do_you_want_to_remove_marked_objects_">Do you want to remove marked objects?</string>
+    <string name="_obj">" obj"</string>
+    <string name="_obj_hidden">" obj hidden"</string>
+    <string name="_with_last_note_age_1_day">...with last note age &lt; 1 Day</string>
+    <string name="_with_last_note_age_1_week">...with last note age &lt; 1 Week</string>
+    <string name="_with_last_note_age_1_month">...with last note age &lt; 1 Month</string>
+    <string name="_with_last_note_age_6_months">...with last note age &lt; 6 Months</string>
+    <string name="_with_last_note_age_12_months">...with last note age &lt; 12 Months</string>
+    <string name="_with_any_notes_recorded">...with any notes recorded</string>
+    <string name="remove_all_marks">Remove all marks</string>
+    <string name="show_hide_objects_with_marks">Show/Hide objects with marks</string>
+    <string name="mark_objects_">Mark objects...</string>
+    <string name="best_vis">Best vis</string>
+    <string name="_mm_eyepiece">" mm eyepiece"</string>
+    <string name="_at_">" at "</string>
+    <string name="_displayed_">" displayed, "</string>
+    <string name="select_object_catalogs">Select object catalogs</string>
+    <string name="primary_search">Primary search</string>
+    <string name="select_search_type_title">"Select search type"</string>
+    <string name="select_object_types">Select object types</string>
+    <string name="primary_search_parameters">Primary search parameters</string>
+    <string name="search_with_sql_like_expression">Search with SQL-like expression</string>
+    <string name="sql_like_expression">SQL-like expression</string>
+    <string name="common_conditions">Common conditions</string>
+    <string name="if_enabled_same_objects_from_different_databases_are_shown_as_one_object">If enabled same objects from different databases are shown as one object</string>
+    <string name="exclude_duplicates">Exclude duplicates</string>
+    <string name="time_of_observation">Time of observation</string>
+    <string name="select_an_instrument_for_visibility_calculations">Select an instrument for visibility calculations</string>
+    <string name="telescope_instrument">Telescope/Instrument</string>
+    <string name="geographic_location">Geographic Location</string>
+    <string name="primary">Primary</string>
+    <string name="provider_">"Provider: "</string>
+    <string name="_last_known_location_">" (last known location)"</string>
+    <string name="_current_update_">" (current update)"</string>
+    <string name="_auto_">"[AUTO] "</string>
+    <string name="select_how_objects_with_empty">Select how object with empty fields should be treated</string>
+    <string name="empty_field_treatment">Empty field treatment</string>
+    <string name="brightest_objects">Brightest objects</string>
+    <string name="galaxies">Galaxies</string>
+    <string name="nebula">Nebula</string>
+    <string name="clusters_of_galaxies">Clusters of galaxies</string>
+    <string name="double_stars">Double Stars</string>
+    <string name="comets_and_minor_planets">Comets and Minor Planets</string>
+    <string name="user_databases">User databases</string>
+    <string name="user_files">User files</string>
+
+    <string name="select_filter_type">Select filter type</string>
+    <string name="filter_type">Filter type</string>
+    <string name="set_the_string_object_name_starts_with">Set the string object name starts with</string>
+    <string name="object_name_starts_with_">Object name starts with...</string>
+    <string name="object_minimal_size">Object minimal size</string>
+    <string name="minimum_altitude">Minimum altitude</string>
+    <string name="lowest_altitude">Lowest altitude</string>
+    <string name="detection_limit_for_blackwell_filter">Detection limit for blackwell filter</string>
+    <string name="detection_limit2">Detection limit</string>
+    <string name="max_magnitude_mag_filter_">Max magnitude [mag.filter]</string>
+    <string name="maximum_magnitude_used_for_magnitude_filter_">Maximum magnitude (used for magnitude filter)</string>
+    <string name="set_maximum_magnitude">Set maximum magnitude</string>
+    <string name="additional_parameters_double_star_catalogs_">Additional parameters (Double Star catalogs)</string>
+    <string name="minimum_separation_seconds">Minimum separation, seconds</string>
+    <string name="minimum_separation">Minimum separation</string>
+    <string name="maximum_separation_seconds">Maximum separation,seconds</string>
+    <string name="maximum_separation">Maximum separation</string>
+    <string name="maximum_component_magnitude_mag2_">Maximum component magnitude (mag2)</string>
+    <string name="component_magnitude">Component magnitude</string>
+    <string name="maximum_mag2">Maximum mag2</string>
+
+    <string name="add_new_search_request">Add new search request</string>
+    <string name="set_sql_request">Set SQL request</string>
+    <string name="set_local_request">Set local request</string>
+
+    <string name="begin_time_and_date">Begin Time and date</string>
+    <string name="now">Now</string>
+    <string name="sunset">Sunset</string>
+    <string name="astro_twilight_ends">Astro Twilight Ends</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="astro_twilight_begins">Astro Twilight Begins</string>
+    <string name="end_time2">End Time</string>
+
+    <string name="set2">Set</string>
+    <string name="time">Time</string>
+
+    <string name="eyepieces_db">Eyepieces DB</string>
+    <string name="assign_eyepieces">Assign eyepieces</string>
+    <string name="aperture_mm_">Aperture (mm)</string>
+    <string name="focal_length_mm_">Focal length (mm)</string>
+    <string name="pass_through_">Pass through (%)</string>
+    <string name="short_text_note">Short text note</string>
+    <string name="_ep">)+ep</string>
+
+    <string name="add_new_instrument_i_e_telescope_">Add new scope</string>
+    <string name="add_new_eyepiece">Add new eyepiece</string>
+    <string name="afov_deg_">AFOV (deg)</string>
+
+    <string name="_1_general">1 General</string>
+    <string name="telescopes_eyepieces_etc_">Telescopes, eyepieces, etc.</string>
+    <string name="astro_equipment">Astro Equipment</string>
+    <string name="operations_with_objects_databases">Operations with objects databases</string>
+    <string name="objects_databases">Objects Databases</string>
+    <string name="star_chart_settings_could_also_be_called_from_star_chart">Star chart settings could also be  called from Star Chart</string>
+    <string name="screen_settings">Screen Settings</string>
+    <string name="_timeouts_keyboard_etc_">(timeouts, keyboard, etc.)</string>
+    <string name="system_wide_settings">System-wide settings</string>
+    <string name="_2_utilities">2 Utilities</string>
+    <string name="download_default_primary_data_files">Download default primary data files</string>
+    <string name="downloads">Downloads</string>
+    <string name="reinstall_default_primary_data_files">Reinstall default primary data files</string>
+    <string name="reinstall">Reinstall</string>
+    <string name="backup_restore">Backup/Restore</string>
+    <string name="backups_your_databases_and_observation_lists_to_sd_card_">"Backups all your app data to external storage "</string>
+    <string name="restores_your_databases_and_observation_lists_from_sd_card_">"Restores all your app data from external storage "</string>
+    <string name="about">About</string>
+    <string name="quick_start_guide2">Quick Start Guide</string>
+
+    <string name="enable_autolocation">Enable AutoLocation</string>
+    <string name="remember_this_location_in_user_location_list">Remember above location in User location list</string>
+    <string name="add_location2">Save Location</string>
+    <string name="select_location_from_your_location_list">Select location from your locations list</string>
+    <string name="user_location_list">User locations list</string>
+    <string name="select_location_from_24_000_major_world_cities">Select location from 24 000 major world cities</string>
+    <string name="major_world_cities">World\'s cities</string>
+    <string name="latitude_">"Latitude "</string>
+    <string name="_longitude_">" Longitude "</string>
+    <string name="bluetooth_serial_dongle_required_to_use">Bluetooth serial dongle required to use</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="view_database_">"View database: "</string>
+
+    <string name="field_name">FIELD NAME</string>
+    <string name="value">VALUE</string>
+    <string name="_ok_">" OK "</string>
+    <string name="set_field_value_">Set field value (</string>
+    <string name="deg_min_sec">deg min sec</string>
+    <string name="add_new_field">Add new field</string>
+    <string name="wrong_field_format">Wrong field format</string>
+
+
+    <string name="object_marker">Object Marker</string>
+    <string name="selected_object_crosshair_with_tool_set">Selected object crosshair with tool set</string>
+
+    <string name="enable_object_marker">Enable Object Marker</string>
+    <string name="_settings_">"    Settings..."</string>
+    <string name="star_chart_elements">Star Chart elements</string>
+    <string name="select_grid_type">Select grid type</string>
+    <string name="grid2">Grid</string>
+    <string name="constellations_lines">Constellation lines</string>
+    <string name="horizon_line">Horizon line</string>
+    <string name="fill_area_below_horizon">Fill area below horizon</string>
+    <string name="antialiasing_lowers_performance">Antialiasing. Lowers performance</string>
+    <string name="smooth_hard_line_edges">Smooth hard line edges</string>
+    <string name="labels">Labels</string>
+    <string name="bright_star_labels">Bright star labels</string>
+    <string name="show_component_and_separation_on_the_star_chart_for_double_stars_from_yale_bright_star_catalog">Show component and separation on the star chart for double stars from Yale Bright Star Catalog</string>
+    <string name="double_star_info">Double star info</string>
+    <string name="grid_labels">Grid labels</string>
+    <string name="zenith_nadir_horizon_labels">Zenith, nadir, horizon labels</string>
+    <string name="other_labels">Other labels</string>
+    <string name="star_chart_colors">Star Chart colors</string>
+    <string name="black_stars_on_white_background_in_day_mode">Black stars on white background in day mode</string>
+    <string name="inverse_sky">Inverse sky</string>
+    <string name="colors_for_the_star_chart_elements_only">Colors for the Star Chart elements only</string>
+    <string name="daytime_mode_colors">Daytime mode colors</string>
+    <string name="user_horizon">User Horizon</string>
+    <string name="the_closed_line_defined_in_the_text_file">The closed line defined in the text file</string>
+    <string name="enable_user_horizon">Enable User Horizon</string>
+
+    <string name="equipment_options">Equipment options</string>
+    <string name="telescope">Telescope</string>
+    <string name="dobsonian_mount_push_to_support_star_chart_shows_adjusted_az_alt_after_one_star_alignment">Dobsonian mount push-to support. Star Chart shows adjusted Az/Alt after one star alignment</string>
+    <string name="show_adjusted_az_alt">Show adjusted Az/Alt</string>
+    <string name="mount_not_connected">Mount not connected</string>
+    <string name="goto_mount_settings_">GoTo Mount Settings...</string>
+    <string name="eyepieces_overlay">Eyepieces overlay</string>
+    <string name="nested_fov_rings">Nested FOV rings</string>
+    <string name="north_south_east_west_labels_around_eyepiece_ring">North, South, East, West labels around eyepiece ring</string>
+    <string name="cardinal_direction_labels">Cardinal directions labels</string>
+    <string name="ra_dec_guide_lines_within_eyepiece_fov">RA/Dec guide lines within the eyepiece ring</string>
+    <string name="guide_lines">Guide lines</string>
+    <string name="telrad_overlay">Telrad/QuInsight overlay</string>
+    <string name="telrad_rings_with_adjustable_a_h_guide_lines">Telrad rings with adjustable A/h guide lines</string>
+    <string name="telrad_rings">Telrad/Quinsight rings</string>
+    <string name="level_and_compass">Level and Compass</string>
+    <string name="disable_down_tracking">Disable down tracking</string>
+    <string name="turn_off_tracking_when_pointing_down">Turn off tracking when pointing down</string>
+    <string name="weight_0_0_1_0_default_0_1">Weight (0.0 - 1.0) default 0.1</string>
+    <string name="_new_point_weight_">New point weight in compass mode. The lower weight results in less jitter but slower response</string>
+    <string name="alpha">Alpha</string>
+
+    <string name="telrad_overlay_options">Telrad/QuInsight overlay options</string>
+    <string name="degrees">Degrees</string>
+    <string name="inner_ring_diameter">Inner ring (1) diameter </string>
+    <string name="middle_ring_diameter">Middle ring (2) diameter</string>
+    <string name="outmost_ring_diameter">Outmost ring (3) diameter</string>
+    <string name="quin1_ring_diameter">QuInsight Ring 1 (4) diameter</string>
+    <string name="quin2_ring_diameter">QuInsight Ring 2 (5) diameter</string>
+    <string name="degrees_from_vertical_to_the_right">Degrees from vertical to the right</string>
+    <string name="marks_angle">Marks angle</string>
+    <string name="pixels">Pixels</string>
+    <string name="width_of_the_rings">Width of the rings</string>
+
+
+    <string name="star_object_and_image_layer_options">Star, object and image layer options</string>
+    <string name="_2_5_million_stars_up_to_12m">2.5 million stars up to 12m</string>
+    <string name="ucac4_layer">UCAC4 layer</string>
+    <string name="object_layers">Object Layers</string>
+    <string name="_1_643_000_galaxies_from_principal_galaxies_catalog">1 643 000 galaxies from Principal Galaxies Catalog</string>
+    <string name="pgc_layer">PGC layer</string>
+    <string name="tycho_2_layer">Tycho-2 layer</string>
+    <string name="star_layers">Star Layers</string>
+    <string name="ngcic_sac_layer">NgcIc/SAC layer</string>
+    <string name="_14_400_deep_sky_objects_from_ngcic_sac_and_hcg_catalogs">14 400 deep sky objects from NgcIc, SAC and HCG catalogs</string>
+    <string name="ngcic_sac_object_types">NgcIc/SAC object types</string>
+    <string name="visibility_filter_for_object_layers">Visibility Filter for Object Layers</string>
+    <string name="show_objects_from_object_layers_that_are_visible_with_selected_equipment_in_the_current_sky_conditions">Show objects from object layers that are visible with selected equipment in the current sky conditions</string>
+    <string name="set_visibility_threshold_0_5_">Set visibility threshold (0-5)</string>
+    <string name="options">Options</string>
+    <string name="dso">DSO</string>
+    <string name="dss_digitized_sky_survey_">DSS (Digitized Sky Survey)</string>
+    <string name="use_visibility_for_layers">Use visibility for layers</string>
+
+    <string name="ngcic_sac_layer_preferences">NgcIc/SAC layer preferences</string>
+    <string name="no_magnitude_objects">No magnitude objects</string>
+    <string name="include">Include</string>
+    <string name="fov_zoom_level_in_degrees">FOV zoom level in degrees</string>
+    <string name="fov_threshold">FOV threshold</string>
+    <string name="include_objects_without_magnitude_into_object_selection_for_fov_below_threshold">Include objects without magnitude into object selection for FOV below threshold</string>
+    <string name="asterism">Asterism</string>
+    <string name="cluster_of_galaxies">Cluster of galaxies</string>
+    <string name="dark_nebula">Dark Nebula</string>
+    <string name="star2">Star</string>
+    <string name="object_types">Object types</string>
+
+    <string name="comet2">Comet</string>
+    <string name="minor_planet2">Minor Planet</string>
+    <string name="double_star2">Double Star</string>
+    <string name="custom_type">Custom Type</string>
+    <string name="select_deselect_all">Select/Deselect All</string>
+
+    <string name="show_elliptical_shape_at_high_zoom_level">Show elliptical shape at high zoom level</string>
+    <string name="show_near_to_real_dso_shape">Show near to real DSO shape</string>
+    <string name="zoom_level_for_real_size_on">Zoom level for real size ON</string>
+    <string name="scale_factor_for_real_dso_shape">Scale factor for real DSO shape</string>
+    <string name="dso_is_shown_in_real_shape_if_its_screen_dimension_is_higher_than_that_of_dso_icon_multiplied_by_scale_factor_set_it_to_zero_to_show_any_even_the_smallest_object_in_real_size">DSO is shown in real shape if its screen dimension is higher than that of DSO icon multiplied by scale factor. Set it to zero to show any (even the smallest) object in real size</string>
+    <string name="use_to_reduce_enlarge_dso_icons">Use to reduce/enlarge DSO icons</string>
+    <string name="scale_factor_for_dso_signs">Scale factor for DSO signs</string>
+    <string name="dso_options">DSO options</string>
+    <string name="dso_is_shown_as_sign_for_fov_above_the_threshold">FOV level when DSO is shown as a sign not as a shape</string>
+
+    <string name="dss_options">DSS options</string>
+    <string name="enable_dss_imagery_support">Enable DSS Imagery support</string>
+    <string name="display_contours_of_already_downloaded_dss_images">Display contours of already downloaded DSS images</string>
+    <string name="display_dss_contours">Display DSS contours</string>
+    <string name="when_to_show_hide_dss_images">When to show/hide DSS images</string>
+    <string name="max_fov_to_show_dss">Max FOV to show DSS</string>
+    <string name="dss_images_dimming_">DSS images dimming %</string>
+    <string name="night_mode_only_range_0_100_0_no_dimming">Night mode only. Range 0-100%, 0 - no dimming</string>
+    <string name="dss_images_dimmer">DSS images dimmer</string>
+
+    <string name="other_options">Other options</string>
+    <string name="real_time2">Real Time</string>
+    <string name="star_chart_updated_automatically">Star Chart updated automatically</string>
+    <string name="realtime_mode2">Realtime mode</string>
+    <string name="auto_update_time_in_seconds">Auto update time in seconds</string>
+    <string name="_30_seconds_is_the_reasonable_default">30 seconds is the reasonable default</string>
+    <string name="auto_update_period">"    Auto update period"</string>
+    <string name="real_time_screen_update2">Real time screen update</string>
+    <string name="distinguishing_observation_list_objects_">Distinguishing observation list objects </string>
+    <string name="a_colon_is_put_after_the_name_of_selected_observation_list_object">A colon (:) is put after the name of selected observation list object</string>
+    <string name="observation_list_object_mark">Observation list object mark</string>
+    <string name="use_this_to_highlight_observation_list_objects_relative_to_objects_from_layers">Use this to highlight observation list objects relative to objects from layers</string>
+    <string name="dim_objects_from_layers">Dim objects from layers</string>
+    <string name="measure_angle_between_two_successive_objects_selected">Measure angle between two successive objects selected</string>
+    <string name="angular_measurement">Angular measurement</string>
+    <string name="object_centered_on_double_touch_and_getting_object_info">Object is centered on getting object info</string>
+    <string name="center_object">Center Object</string>
+    <string name="if_you_mark_object_in_observation_list_it_will_disappear_from_skyview">If you mark an object in the Observations List it will be hidden on the Star Chart</string>
+    <string name="hide_marked_objects">Hide marked objects</string>
+    <string name="use_flick_on_the_left_side_of_the_skyview_to_control_brightness">Use the flick gesture on the left side of the SkyView to control screen brightness</string>
+    <string name="brightness_flick">Brightness Flick</string>
+    <string name="use_per_fov_flippers_of_the_chart">Save chart\'s mirror and rotation independently per FOV level (vs same for all).</string>
+    <string name="per_fov_flippers_on">Mirror and Rotation per FOV</string>
+    <string name="level_treshold_in_percent">Level treshold in percent</string>
+    <string name="battery_level_to_show_a_reminder">Battery level to show a reminder</string>
+    <string name="battery_level_warning">Battery level warning</string>
+
+    <string name="object_marker_options">Object Marker options</string>
+    <string name="the_top_and_right_directions_are_highlighted">The top and right directions are highlighted</string>
+    <string name="show_orientation_marks">Show orientation marks</string>
+    <string name="show_line_from_the_screen_center_to_the_object">Show line from the screen center to the object</string>
+    <string name="direction_line">Direction line</string>
+    <string name="set_length_of_cross_lines">Set length of cross lines</string>
+    <string name="cross_size">Cross size</string>
+    <string name="set_width_of_the_cross_lines">Set width of the cross lines</string>
+    <string name="line_width">Line width</string>
+    <string name="vibration_strength">Vibration strength</string>
+    <string name="strength_of_vibration_on_object_selection">Strength of vibration on object selection (0 - 500)</string>
+    <string name="set_strength_of_vibration">Set strength of vibration</string>
+
+    <string name="set_default_colors_for_current_mode">Set Default colors for current mode</string>
+    <string name="reset_colors">Reset Colors</string>
+    <string name="sky_colors">Sky colors</string>
+    <string name="show_a_color_picker_dialog">Show a color picker dialog</string>
+    <string name="dso_objects">DSO Objects</string>
+
+    <string name="selected_object_crosshair2">Selected object crosshair</string>
+
+    <string name="eyepieces_circles">Eyepieces circles</string>
+
+    <string name="telrad_rings2">Telrad/QuInsight rings</string>
+
+    <string name="dss_image_overlay">DSS image overlay</string>
+
+    <string name="constellation_figure_lines">Constellation figure lines</string>
+    <string name="user_horizon_line">User horizon line</string>
+    <string name="labels2">Labels</string>
+
+
+    <string name="star_chart2">Star Chart</string>
+    <string name="equipment2">Equipment</string>
+    <string name="star_object_and_image_layers">Star, object and image layers</string>
+    <string name="other2">Other</string>
+    <string name="turn_night_mode_on_after_civil_twilight_ends">Turn night mode on after civil twilight ends</string>
+    <string name="automatic_nightmode">Automatic nightmode</string>
+    <string name="dim_the_screen_to_the_hardware_minimum">Dim the screen to the hardware minimum</string>
+    <string name="minimal_brightness_mode">Minimal brightness mode</string>
+    <string name="remove_the_android_notification_bar">Remove the android notification bar</string>
+    <string name="day_time_full_screen_mode">Day Time full screen mode</string>
+    <string name="night_time_full_screen_mode">Night Time full screen mode</string>
+    <string name="show_sombrero_image_on_the_initial_view">Show Sombrero image on the initial view</string>
+    <string name="nag_screen">Main Screen Background</string>
+    <string name="white_on_black_color_interface">White on black color interface</string>
+    <string name="onyx_skin">Onyx skin</string>
+
+    <string name="_override_android_settings_">Override Android settings for the Star Chart module</string>
+    <string name="disable_auto_sleep_in_star_chart">Disable auto sleep</string>
+    <string name="_android_keyboard_is_bad_at_night_">Android keyboard will be used instead. Note: it\'s not good for the night use</string>
+    <string name="disable_night_keyboard">Disable Night Keyboard</string>
+    <string name="in_milliseconds_0_manual_dismiss_">In milliseconds (0 - manual dismiss)</string>
+    <string name="setup_timeout_or_manual_dismiss">Setup timeout or manual dismiss</string>
+    <string name="auto_dismiss_warnings">Auto-dismiss Warnings</string>
+    <string name="the_app_suggests_to_update_comet_database_when_new_orbital_elements_are_available">The app suggests to update its comet database when new orbital elements are available</string>
+    <string name="auto_update_comet_elements">Auto update comet elements</string>
+
+    <string name="user_horizon_options">User Horizon options</string>
+    <string name="user_file_with_a_h_pairs_per_line">User file with A h pairs per line</string>
+    <string name="file_name_with_key_points">File name with key points</string>
+    <string name="width_of_the_line">Width of the line</string>
+    <string name="_in_pixels_">(in pixels)</string>
+    <string name="minimal_subdivisions">Size in degrees</string>
+    <string name="larger_number_makes_line_coarse_small_affects_performance">Larger number makes line coarse, small - affects performance</string>
+    <string name="subdivision_size_in_degrees">Subdivision size in degrees</string>
+
+
+    <string name="description">Description</string>
+    <string name="goto2">GoTo</string>
+    <string name="image">Image</string>
+    <string name="other_designations">OTHER DESIGNATIONS</string>
+    <string name="double_star_info2">DOUBLE STAR INFO</string>
+    <string name="location_time">LOCATION/TIME</string>
+    <string name="location">Location</string>
+    <string name="local_time">Local time</string>
+    <string name="rise_set">RISE/SET</string>
+    <string name="rise">Rise</string>
+    <string name="transit">Transit</string>
+    <string name="set">Set</string>
+    <string name="position">POSITION</string>
+    <string name="ra_dec_2000_">RA/Dec(2000)</string>
+    <string name="ra_dec_current_">RA/Dec(current)</string>
+    <string name="az_alt">Az/Alt</string>
+    <string name="object_parameters">OBJECT PARAMETERS</string>
+    <string name="dimensions">Dimensions</string>
+    <string name="pa">PA</string>
+    <string name="per_ep_visibility">Per EP visibility</string>
+    <string name="other">OTHER</string>
+
+    <string name="_1_hour">-1 hour</string>
+    <string name="center">Center</string>
+    <string name="_1_hour2">+1 hour</string>
+    <string name="mirror">Mirror</string>
+    <string name="rotate_180_">Rotate(180)</string>
+    <string name="telrad">Telrad</string>
+    <string name="eyepieces">Eyepieces</string>
+    <string name="nearby">Nearby</string>
+    <string name="scope_go">Scope go</string>
+    <string name="compass">Compass</string>
+    <string name="align_star">Align star</string>
+    <string name="boldness">Boldness</string>
+    <string name="layers">Layers</string>
+    <string name="ra_dec">RA/DEC</string>
+
+    <string name="hide2">Hide</string>
+    <string name="show2">Show</string>
+    <string name="off">Off</string>
+    <string name="compass_level">Compass+Level</string>
+    <string name="level2">Level</string>
+    <string name="field_view_minutes_600_max_">Field View (minutes, 600 max)</string>
+    <string name="types">Types</string>
+    <string name="object_selected_">"Object selected "</string>
+    <string name="time_point">Time point</string>
+    <string name="real_azimuth">Real azimuth</string>
+    <string name="real_altitude">Real altitude</string>
+    <string name="measured_az">Measured Az</string>
+    <string name="measured_alt">Measured Alt</string>
+    <string name="no_data2">No Data</string>
+    <string name="_more_">" More "</string>
+    <string name="define_faint_stars_cut_off_and_brightest_stars_to_draw_large">Set magnitude for largest and smallest star circles</string>
+    <string name="reset_this">Reset this</string>
+    <string name="_next_">" Next "</string>
+    <string name="_types_">" Types "</string>
+    <string name="reset2">Reset</string>
+    <string name="ra_hour_min_sec_">Ra (hour min sec)</string>
+    <string name="dec_deg_min_sec_">Dec (deg min sec)</string>
+    <string name="sun2">Sun</string>
+    <string name="moon2">Moon</string>
+    <string name="mercury2">Mercury</string>
+    <string name="venus2">Venus</string>
+    <string name="earth2">Earth</string>
+    <string name="mars2">Mars</string>
+    <string name="jupiter2">Jupiter</string>
+    <string name="saturn2">Saturn</string>
+    <string name="quasar">Quasar</string>
+    <string name="not_found">Not Found</string>
+    <string name="planet">Planet</string>
+    <string name="note_time">Note Time</string>
+    <string name="share_all">Share All</string>
+    <string name="search_text">Search text</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="select_catalog_nebula_category">select_catalog_nebula_category</string>
+    <string name="select_catalog_clusters_category">select_catalog_clusters_category</string>
+    <string name="select_catalog_ds_category">select_catalog_ds_category</string>
+    <string name="select_catalog_nearby_brightest_category">select_catalog_nearby_brightest_category</string>
+    <string name="select_catalog_nearby_nebula_category">select_catalog_nearby_nebula_category</string>
+    <string name="select_catalog_nearby_clusters_category">select_catalog_nearby_clusters_category</string>
+    <string name="select_catalog_nearby_ds_category">select_catalog_nearby_ds_category</string>
+    <string name="select_catalog_brightest_objects_category">select_catalog_brightest_objects_category</string>
+    <string name="star_layers_category">star_layers_category</string>
+    <string name="object_layers_category">object_layers_category</string>
+    <string name="ngcic_object_types">NgcIc object types</string>
+    <string name="additional_parameters_double_star_catalogs_category">additional_parameters_double_star_catalogs_category</string>
+    <string name="object_types_category">object_types_category</string>
+    <string name="select_catalog_mp_category">select_catalog_mp_category</string>
+    <string name="select_catalog_nearby_mp_category">select_catalog_nearby_mp_category</string>
+    <string name="_238_objects_of_all_types">238 objects of all types. Pro: </string>
+    <string name="_238_deep_sky_objects_pro_">"238 deep sky objects. Pro: "</string>
+    <string name="darkness">Darkness</string>
+    <string name="ss_utilities_category">ss_utilities_category</string>
+    <string name="_notes">" notes"</string>
+    <string name="import_for_this_database_is_running_">Import for this database is running!</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="_change_time_">" Change Time "</string>
+    <string name="voice_note_recording_">Voice Note Recording:</string>
+    <string name="_play_">" Play "</string>
+    <string name="save2">SAVE</string>
+    <string name="size2">size</string>
+    <string name="dso_twilight">DSO Twilight</string>
+    <string name="dso_flashlight">DSO Flashlight</string>
+    <string name="_missing_">"(missing) "</string>
+    <string name="floating_back_menu_buttons">floating_back_menu_buttons</string>
+    <string name="floating_back_menu_buttons_day">floating_back_menu_buttons_day</string>
+    <string name="floating_back_menu_buttons_in_night_mode">Floating Back/Menu buttons in night mode</string>
+    <string name="floating_back_menu_buttons_in_day_mode">Floating Back/Menu buttons in day mode</string>
+    <string name="show_floating_back_and_menu_buttons_in_night_mode_this_may_be_convenient_if_your_device_allows_you_to_hide_white_navigation_buttons">Show floating \"Back\" and \"Menu\" buttons in the night mode. Use it if your device allows to hide white navigation buttons</string>
+    <string name="show_floating_back_and_menu_buttons_in_day_mode">Show floating \"Back\" and \"Menu\" buttons in the day mode</string>
+
+    <string name="horiz_size_mm_">Horiz. size (mm)</string>
+    <string name="vert_size_mm_">Vert. size (mm)</string>
+    <string name="ccd_parameters">CCD parameters</string>
+    <string name="add_ccd">Add CCD</string>
+    <string name="side_chart">Side Chart</string>
+    <string name="images">Thumbnails</string>
+    <string name="con_boundaries1">con_boundaries1</string>
+    <string name="celestron_16_bit">Celestron 16-bit</string>
+    <string name="celestron_32_bit">Celestron 32-bit</string>
+    <string name="skywatcher_16_bit">SkyWatcher 16-bit</string>
+    <string name="skywatcher_32_bit">SkyWatcher 32-bit</string>
+    <string name="meade">Meade</string>
+    <string name="scope_type">scope_type</string>
+    <string name="constellation_boundaries">Constellation boundaries</string>
+    <string name="milky_way">milky_way</string>
+    <string name="milky_way2">Milky Way</string>
+    <string name="color_con_boundary">color_Con_boundary</string>
+    <string name="constellation_boundary">Constellation boundary</string>
+    <string name="color_milky_way">color_Milky_Way</string>
+    <string name="this_download_requires_wifi_network_connection_">This download requires WiFi network connection!</string>
+    <string name="this_download_requires_network_connection_">This download requires network connection!</string>
+    <string name="rotated">Rotated</string>
+    <string name="rate_the_app_on_google_play">Rate the app on Google Play</string>
+    <string name="rate">Rate</string>
+    <string name="rate_the_app">rate_the_app</string>
+    <string name="ss_backup_restore">ss_backup_restore</string>
+    <string name="add_remove_applications">Add/Remove applications</string>
+    <string name="local_date">Local date</string>
+    <string name="location_twilight">Location</string>
+    <string name="begin">Begin</string>
+    <string name="end">End</string>
+    <string name="rise_twilight">Rise</string>
+    <string name="transit_twilight">Transit</string>
+    <string name="set_twilight">Set</string>
+    <string name="sun_twilight">Sun</string>
+    <string name="moon_twilight">Moon</string>
+    <string name="moon_phase_day_start_">"Moon Phase (day start): "</string>
+    <string name="twilight">Twilight</string>
+    <string name="morning">Morning</string>
+    <string name="evening">Evening</string>
+    <string name="civil">Civil</string>
+    <string name="nautical">Nautical</string>
+    <string name="astronomical">Astronomical</string>
+    <string name="_apos_apos_means_the_event_is_next_day">"'>' - means the event is next day"</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="duration">Duration</string>
+    <string name="_24h">- 24h</string>
+    <string name="_24h_plus">+ 24h</string>
+    <string name="backup_help">backup_help</string>
+    <string name="help">Help</string>
+    <string name="backup_help_text"><b>Backup/restore help</b>\nThe app keeps the</string>
+    <string name="select_language">Select language</string>
+    <string name="system_language">system_language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+
+    <string name="change_language_app_restart">Please restart the application to switch language!</string>
+
+    <string name="default2">Default</string>
+
+    <string name="dso_flashlight_n_nswipe_up_down_to_change_brightness_nleft_right_to_change_color_intensity_nlong_tap_turns_the_flashlight_on_off_n">"DSO FLASHLIGHT\n\nSwipe up/down to change brightness,\nleft/right to change color intensity.\nLong tap turns the flashlight on/off.\n"</string>
+
+    <string name="hide_dss_contours">Hide DSS contours</string>
+
+    <string name="backup_restore_instruction">Backup/Restore instruction</string>
+    <string name="backup_restore_detailed_help">"
+
+DSO Planner supports Google Auto Backup - the app preferences and user data (except for user object databases, dss images, voice notes, exported data) are automatically backed up by your phone and restored when you install / reinstall the app.
+
+Besides DSO Planner supports its own full backup / restore. DSO Planner is keeping the following user data on the internal phone storage:
+* User databases.
+* Observation lists.
+* App preferences.
+* DSS images.
+* Audio notes.
+* Import / export text files.
+
+With the help of Android system file picker:
+* \"Backup\" command copies files from the internal phone storage to external folder named \"backup\".
+* \"Restore\" command copies files from external folder named \"backup\" back to the internal phone storage.
+
+After executing \"Backup\" command the \"backup\" folder will contain the following subfolders:
+* databases
+* dss
+* notes
+* images
+
+To backup all your data off the phone:
+1. Call \"Backup\" command.
+2. Connect it to your computer with USB cable, use OTG device, or open network/cloud folder from the phone.
+3. Manually copy \"backup\" folder from the phone to your remote folder.
+
+To restore your data back to the phone:
+1. Call \"Restore\" command and choose the folder named \"backup\"</string>
+    <string name="help_localise">help_localise</string>
+    <string name="would_you_like_to_help_localizing_the_app_to_your_language_let_the_devs_know_">Would you like to help localizing (translating) the app to your language? Send an email to devs!\nAlready supported: Russian, German, Ukrainian</string>
+    <string name="localize">Localize</string>
+    <string name="plain_text">plain/text</string>
+    <string name="localization">Localization</string>
+    <string name="show_dss_contours">Show DSS contours</string>
+    <string name="sure_">Sure?</string>
+    <string name="please_restart_the_application_">Please restart the application!</string>
+    <string name="ngcic_layer_preferences">NgcIc layer preferences</string>
+    <string name="dsoplanner">DSOPlanner</string>
+    <string name="downloads_interrupted">Downloads interrupted</string>
+    <string name="download_complete">Download complete</string>
+    <string name="downloading_dss_image">downloading DSS image</string>
+    <string name="dss_at_">"DSS at "</string>
+    <string name="download_in_progress">Download in progress</string>
+    <string name="download_interrupted">Download interrupted</string>
+    <string name="pro">Pro</string>
+    <string name="whats_new_summary"></string>
+
+    <string name="short_name_of_the_object">Short name of the object</string>
+    <string name="long_name_of_the_object">Long name of the object</string>
+    <string name="text_comment_on_an_object">Text comment on an object</string>
+    <string name="object_dimensions_in_minutes_longer_axis">Object dimensions in minutes, longer axis</string>
+    <string name="object_dimensions_in_minutes_shorter_axis">Object dimensions in minutes, shorter axis</string>
+    <string name="orbit_elements_epoch_year">Orbit elements\' Epoch year</string>
+    <string name="orbit_elements_epoch_month">Orbit elements\' Epoch month</string>
+    <string name="orbit_elements_epoch_day">Orbit elements\' Epoch day</string>
+    <string name="absolute_star_magnitude">Absolute star magnitude</string>
+    <string name="orbital_excentricity">Orbital Excentricity</string>
+    <string name="inclination_to_the_ecliptic_j2000_0_degrees_">Inclination to the ecliptic, J2000.0 (degrees)</string>
+    <string name="longitude_of_the_ascending_node_j2000_0_degrees_">Longitude of the ascending node, J2000.0 (degrees)</string>
+    <string name="perihelion_distance_au_">Perihelion distance (AU)</string>
+    <string name="star_magnitude_slope_parameter">Star magnitude slope parameter</string>
+    <string name="argument_of_perihelion_j2000_0_degrees_">Argument of perihelion, J2000.0 (degrees)</string>
+    <string name="semimajor_axis_of_the_orbit_au_">Semimajor axis of the orbit (AU)</string>
+    <string name="magnitude_of_an_object">Magnitude of an object</string>
+    <string name="position_angle_in_degrees">Position angle in degrees</string>
+    <string name="right_ascension">Right Ascension</string>
+    <string name="declination">Declination</string>
+    <string name="mean_anomaly_at_the_epoch_degrees_">Mean anomaly at the Epoch (degrees)</string>
+    <string name="internal_objects_could_not_be_removed_">Internal objects could not be removed!</string>
+
+    <string name="edit_">"Edit "</string>
+
+    <string name="local_time_">Local time:</string>
+    <string name="action">Action</string>
+    <string name="_audio_record_">"[audio record \'"</string>
+    <string name="_audio_record_2">"[audio record "</string>
+    <string name="eyepiece">eyepiece</string>
+    <string name="telescope2">telescope</string>
+    <string name="location2">location</string>
+    <string name="set_new_date_time">Set new date/time</string>
+    <string name="insert_observatory_data">Insert observatory data</string>
+    <string name="insert_telescope">Insert telescope</string>
+    <string name="insert_eyepiece">Insert eyepiece</string>
+    <string name="insert_all_of_the_above">Insert all of the above</string>
+
+    <string name="error_">Error\n[</string>
+    <string name="_folder_can_t_be_read_">] folder can\'t be read!</string>
+    <string name="this_action_could_not_be_performed_for_temporary_object_note">Action could not be performed for this object note</string>
+    <string name="would_you_like_to_set_the_time_and_location_as_recorded_with_this_note_">Would you like to set the time as recorded with this note?</string>
+    <string name="current_location">Current location</string>
+    <string name="select_from_world_s_cities">Select from world\'s cities</string>
+    <string name="select_from_user_locations">Select from user locations</string>
+    <string name="current_scope">Current scope</string>
+    <string name="select_from_the_list">Select from the list</string>
+    <string name="select_telesope">Select telesope</string>
+    <string name="only_3_eyepieces_were_inserted">Only 3 eyepieces were inserted</string>
+    <string name="select_file">Select file</string>
+    <string name="time2">TIME</string>
+    <string name="location_">"Location: "</string>
+    <string name="go_back">Go back</string>
+    <string name="directory">Directory</string>
+    <string name="ngcic_layer">NgcIc layer</string>
+    <string name="type2">Type</string>
+    <string name="altitude">Altitude</string>
+
+
+    <string name="ep_labels_info">ep_labels_info</string>
+
+    <string name="select_eyepiece_ccd">Select eyepiece / CCD</string>
+    <string name="eyepiece2">Eyepiece</string>
+    <string name="ccd">CCD</string>
+    <string name="fov_column">fov_column</string>
+    <string name="fov_column_title">FOV column</string>
+
+
+
+
+    <string name ="uranus2">Uranus</string>
+    <string name ="neptune2">Neptune</string>
+
+    <string name= "mercury">MERCURY </string >
+    <string name ="uranus">URANUS</string>
+    <string name ="neptune">NEPTUNE</string>
+
+
+    <string name="import_is_running_">Import is running!</string>
+
+
+    <string name="psncolors">psncolors</string>
+
+
+    <string name="night_time_red_color_intensity">Night time red color intensity</string>
+
+
+    <string name="night_time">Night time</string>
+
+
+    <string name="ncolor_object">d_ncolor_Object</string>
+
+
+    <string name="select_color_intensity_0_255_">Select color intensity (0-255)</string>
+
+
+    <string name="ncolor_crossmarker">d_ncolor_CrossMarker</string>
+
+
+    <string name="ncolor_eyepieces">d_ncolor_Eyepieces</string>
+
+
+    <string name="ncolor_ep_cross">d_ncolor_Ep_cross</string>
+
+
+    <string name="ncolor_telrad">d_ncolor_Telrad</string>
+
+
+    <string name="ncolor_constellations">d_ncolor_Constellations</string>
+
+
+    <string name="ncolor_horizon">d_ncolor_Horizon</string>
+
+
+    <string name="ncolor_user_horizon">d_ncolor_User_Horizon</string>
+
+
+    <string name="ncolor_labels">d_ncolor_Labels</string>
+
+
+    <string name="ncolor_grid">d_ncolor_Grid</string>
+
+
+    <string name="ncolor_con_boundary">d_ncolor_Con_boundary</string>
+
+
+    <string name="ncolor_milky_way">d_ncolor_Milky_Way</string>
+
+
+    <string name="night_mode_def_intensities">night_mode_def_intensities</string>
+
+
+    <string name="set_default_intensities_for_night_mode">Set Default intensities for night mode</string>
+
+
+    <string name="reset_intensities">Reset intensities</string>
+
+
+    <string name="ncolor_star">d_ncolor_star</string>
+
+
+    <string name="stars">Stars</string>
+
+
+    <string name="ncolor_planet">d_ncolor_planet</string>
+
+
+    <string name="planets">Planets</string>
+
+
+    <string name="non_star_object_labels">Non-star/object labels</string>
+
+
+    <string name="planet_labels">Planet labels</string>
+
+
+    <string name="make_dso_signs_larger_or_smaller">Make DSO signs larger or smaller</string>
+
+
+    <string name="privacy_policy">Privacy policy</string>
+
+
+    <string name="privacy_policy_key">privacy_policy</string>
+
+
+    <string name="http_www_dsoplanner_com_privacy_policy">http://www.dsoplanner.com/Privacy_Policy</string>
+    <string name="menu_warning">You could call a menu either by an UP gesture from the bottom, or by selecting floating menu button in Settings / System-wide settings</string>
+    <string name="d_scale_labels">d_scale_labels</string>
+    <string name="labels_scale">Labels scale</string>
+    <string name="scale_factor_of_star_and_object_labels_0_100_">Make star and object labels larger or smaller (1 is the default size, 0.5 - half the default size)</string>
+    <string name="use_to_reduce_enlarge_label_size">Use to reduce / enlarge label size</string>
+    <string name="star_chart_auto_update">star_chart_auto_update</string>
+    <string name="d_autoScopeGoTimePeriod">d_autoScopeGoTimePeriod</string>
+    <string name="url_dss_download">url_dss_download</string>
+    <string name="http_archive_stsci_edu_cgi_bin_dss_search_v_poss2ukstu_red_26r_">https://archive.stsci.edu/cgi-bin/dss_search?v=poss2ukstu_red&amp;r=</string>
+    <string name="dss_download_url">DSS download URL</string>
+    <string name="only_change_if_there_are_relevant_instructions_on_the_app_site">Only change if there are relevant instructions on the app site</string>
+    <string name="set_dss_download_url">Set DSS download URL</string>
+    <string name="comet_update_url">Comets update URL</string>
+    <string name="url_comet_update">url_comet_update</string>
+    <string name="https_minorplanetcenter_net_iau_ephemerides_comets_soft00cmt_txt">https://minorplanetcenter.net/iau/Ephemerides/Comets/Soft00Cmt.txt</string>
+    <string name="set_comet_update_url">Set comet update URL</string>
+    <string name="urls">URLs</string>
+    <string name="urls_for_comet_update_and_dss_download">URLs for comets update and DSS download</string>
+    <string name="set_urls">set_urls</string>
+    <string name="alternative_data_location">alternative_data_location</string>
+    <string name="alternative_data_files_location">Change data files location</string>
+    <string name="place_the_files_above_at_your_alternative_location_and_remove_them_from_main_location_if_you_wish_to_restore_the_main_location_just_enter_empty_path_here_reload_the_app_for_this_setting_to_take_effect">If you wish you can manually move large files from locations shown in above menu to an SD card. To restore the main location just enter empty path here</string>
+    <string name="set_alternative_data_location">Change data folder</string>
+    <string name="main_data_files_location">See main data files</string>
+    <string name="data_files_help">data_files_help</string>
+    <string name="data_files_location">Data files location</string>
+    <string name="experimental_use_alternative_data_files_location">Experimental: Change data files location</string>
+    <string name="minor_planets_update_url">Minor Planets update URL</string>
+    <string name="url_minor_planet_update">url_minor_planet_update</string>
+    <string name="set_minor_planets_update_url">Set Minor Planets update URL</string>
+    <string name="update_urls">Get updated URLs</string>
+    <string name="restore_defaults">restore_defaults</string>
+    <string name="manually_change_this_url">Manually change this URL</string>
+    <string name="take_updated_urls_from_the_app_site">Take updated URLs from the app site</string>
+    <string name="restore_default_urls">Restore default URLs</string>
+    <string name="do_you_want_to_update_current_database_">Do you want to update current database?</string>
+    <string name="minor_planets_database_updated">Minor planets database updated</string>
+    <string name="error_updating_minor_planets_database">Error updating minor planets database</string>
+    <string name="there_are_new_mp_orbital_elements_available">There are new minor planet orbital elements available. Would you like to download them to update minor planet database? You could always do that in Settings/Objects Databases/Minor Planets/Menu/Update</string>
+    <string name="minor_planet_auto_update">minor_planet_auto_update</string>
+    <string name="auto_update_minor_planet_elements">Auto update minor planet elements</string>
+    <string name="the_app_suggests_to_update_its_minor_planet_database_when_new_orbital_elements_are_available">The app suggests to update its minor planet database when new orbital elements are available</string>
+    <string name="track_position_on_the_chart">Track position on the chart</string>
+    <string name="_1_second_is_the_reasonable_default">"     1 second is the reasonable default"</string>
+    <string name="check_data_file_availability">Check data file availability</string>
+    <string name="default_urls_restored">Default URLs restored</string>
+    <string name="main_location"><b>Main location availability:</b></string>
+    <string name="exists">YES</string>
+    <string name="absent">NO</string>
+    <string name="alternative_location"><b>Alternative location availability:</b></string>
+    <string name="urls_updated">URLs updated</string>
+    <string name="error_updating_urls">Error updating URLs</string>
+    <string name="data_file_location">Data file location</string>
+    <string name="check_if_data_files_are_available_at_standard_and_alternative_locations">Check if data files are available at standard and alternative locations</string>
+    <string name="name_telescope">Name</string>
+    <string name="auto_scope_mode_off">Scope tracking off</string>
+    <string name="auto_scope_mode_on">Scope tracking on</string>
+    <string name="cross_angle">Reticle. Angle:</string>
+    <string name="eyepieces_cross">Crosshairs eyepiece</string>
+    <string name="sd_card_permission">SD card permission is required to unpack primary data files, import / export files, work with DSS images, save audio notes. \nWould you like to grant this permission?</string>
+    <string name="location_permission">Location permission is required to determine device longitude and lattitude for precise star ephemerides calculation. \nWould you like to grant this permission?</string>
+    <string name="camera_permission">Camera permission is required to use PushCamera. \nWould you like to grant this permission?</string>
+    
+    <string name="permission_red_mode">\nGranting permissions now will require the Night Mode interruption, which may ruin your darkness adaptation. Proceed anyway?</string>
+    <string name="microphone_permission">Microphone permission is required to record voice notes. \nWould you like to grant the relevant permission?</string>
+    <string name="storage_permission_not_available"> You need to grant the SD Card Storage permission to use this feature!</string>
+    <string name="microphone_permission_not_available">You need to grant the Microphone permission to use this feature!</string>
+    <string name="sd_card_permission_warning">Default primary data files could not be unpacked without SD card permission!</string>
+    <string name="close_double_stars">Close double stars above horizon</string>
+    <string name="edge_on_galaxies">Edge-On galaxies</string>
+    <string name="hide_nav_bar">hide_nav_bar</string>
+    <string name="hide_navigation_bar">Hide navigation bar</string>
+    <string name="full_screen_on">fullscreenOn</string>
+    <string name="full_screen_on_night">fullscreenOnNight</string>
+
+    <string name="ss_migrate">ss_migrate</string>
+    <string name="files_copied">Files copied.</string>
+    <string name="read_external_storage_permission_is_required">Read external storage permission is required to copy old data to new location. \nWould you like to grant this permission?</string>
+    <string name="there_is_no_access_to">"There is no access to "</string>
+    <string name="forlder_does_not_exist">" folder does not exist. Nothing to copy!"</string>
+    <string name="error_copying_file">"Error copying file "</string>
+    <string name="error_copying_preferences">Error copying preferences</string>
+    <string name="database_directory_absent">""databases" directory absent!"</string>
+    <string name="b_use_android_file_picker">Use Android file picker</string>
+    <string name="export_error_no_file_name_selected">Export Error! No file name selected</string>
+    <string name="picker">Picker</string>
+    <string name="local">Local</string>
+    <string name="starting_from_android_11">Starting from Android 11 (API 30) Google requires the app to keep its data in internal forlder only. Would you like to copy your existing data from external storage to the app internal folder now?</string>
+    <string name="starting_from_android_11_main">Starting from Android 11 (API 30) Google requires the app to keep its data in internal forlder only. Would you like to copy your existing data from external storage to the app internal folder now? You could later do that in Settings/Copy data.</string>               		
+    <string name="copy_data">Copy data</string>
+    <string name="copy_your_existing_data">Copy your existing data from external storage to the app internal folder due to Google policy"</string>
+    <string name="restore_data">"Would you like to restore your data from folder "</string>
+    <string name="backup_data">"Would you like to backup your data to folder "</string>
+
+    <string name="bluetooth_permission_is_required_to_connect_to_devices_would_you_like_to_grant_this_permission">Bluetooth permission is required to connect to devices.\nWould you like to grant this permission?</string>
+    <string name="please_grant_bluetooth_permission_first">Please grant bluetooth permission first!</string>
+
+    <string name="settings_graph_push_cam">settings_graph_push_cam</string>
+    <string name="pushcam_mirror">pushcam_mirror</string>
+    <string name="d_number_of_stacked_images">d_number_of_stacked_images</string>
+    <string name="push_cam_any_align">push_cam_any_align</string>
+    <string name="push_cam_new_gyro">push_cam_new_gyro</string>
+    <string name="push_cam_check_alt_for_hashes">push_cam_check_alt_for_hashes</string>
+    <string name="push_cam_save_sd">push_cam_save_sd</string>
+    <string name="push_cam_use_jpeg">push_cam_use_jpeg</string>
+    <string name="push_cam_jpeg_div">push_cam_jpeg_div</string>
+    <string name="push_camera_could_not_work">PushCamera could not work without camera permission!</string>
+    <string name="push_cam_remove_bright_objects">push_cam_remove_bright_objects</string>
+    <string name="d_image_capture_delay">d_image_capture_delay</string>
+    <string name="push_cam_gyro_azimuth">push_cam_gyro_azimuth</string>
+    <string name="push_cam_sensor_speed">push_cam_sensor_speed</string>
+    <string name="push_cam_photo_preview">push_cam_photo_preview</string>
+
+    <string name="settings_graph_push_cam_api">settings_graph_push_cam_api</string>
+    <string name="push_cam_camera_api">push_cam_camera_api</string>
+    <string name="push_cam_mode_preview">push_cam_mode_preview</string>
+    <string name="push_cam_mode_manual">push_cam_mode_manual</string>
+    <string name="push_cam_mode_video">push_cam_mode_video</string>
+    <string name="push_cam_mode_photo">push_cam_mode_photo</string>
+    <string name="push_cam_control">push_cam_control</string>
+    <string name="push_cam_control_exposure">push_cam_control_exposure</string>
+    <string name="push_cam_control_iso">push_cam_control_iso</string>
+    <string name="push_cam_size_1">push_cam_size_1</string>
+    <string name="push_cam_size_2">push_cam_size_2</string>
+    <string name="push_cam_size_3">push_cam_size_3</string>
+    <string name="push_cam_control_auto_focus">push_cam_control_auto_focus</string>
+    <string name="push_cam_control_ae_fps">push_cam_control_ae_fps</string>
+    <string name="push_cam_camera2_preview">push_cam_camera2_preview</string>
+    <string name="push_cam_size_4">push_cam_size_4</string>
+    <string name="push_cam_camera2_photo">push_cam_camera2_photo</string>
+    <string name="push_cam_camera2_preview_new">push_cam_camera2_preview_new</string>
+    <string name="push_cam_noise_off">push_cam_noise_off</string>
+    <string name="push_cam_series_name">push_cam_series_name</string>
+    <string name="push_cam_auto">push_cam_auto</string>
+    <string name="push_cam_auto_number_of_images">push_cam_auto_number_of_images</string>
+    <string name="push_cam_size_max">push_cam_size_max</string>
+    <string name="please_turn_pushcamera_mode_off_first">Please turn PushCamera mode off first!</string>
+
+    <string name="connection_type">connection_type</string>
+    <string name="d_wifi_udp_port">d_wifi_udp_port</string>
+    <string name="d_wifi_ip_address">d_wifi_ip_address</string>
+
+    <string name="port_type">port_type</string>
+    <string name="d_wifi_port">d_wifi_port</string>
+    <string name="d_dsc_az_resolution">d_dsc_az_resolution</string>
+    <string name="d_dsc_alt_resolution">d_dsc_alt_resolution</string>
+    <string name="download_is_complete_please_restart_the_application">Download is complete. Please restart the application!</string>
+
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/progresstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_marginTop="14dp"        
+        android:text="@string/begin_time_and_date" />
+
+
+    <Button
+        android:id="@+id/timeBeg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/button_text_size"
+        android:text="Button"
+         />
+
+    <LinearLayout
+        android:id="@+id/begtbtns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btbNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/now" />
+
+
+       <Button
+            android:id="@+id/btbSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/sunset" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btbTwi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/astro_twilight_ends" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/end_time2" />
+
+
+    <Button
+        android:id="@+id/timeEnd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textSize="@dimen/button_text_size"
+         />
+
+    <LinearLayout
+        android:id="@+id/EndBtngrp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bteRise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/sunrise" />
+
+
+
+
+        <Button
+            android:id="@+id/bteTwi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/astro_twilight_begins" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tbdone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_large"
+        android:textSize="@dimen/button_text_size"
+        android:text="@string/done" />
+
+
+</LinearLayout>

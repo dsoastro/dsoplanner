@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fl_screen"
+    tools:context=".FlashlightActivity" >
+
+    <TextView
+        android:id="@+id/fl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/padding_vlarge"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/dso_flashlight_n_nswipe_up_down_to_change_brightness_nleft_right_to_change_color_intensity_nlong_tap_turns_the_flashlight_on_off_n" />
+
+</RelativeLayout>

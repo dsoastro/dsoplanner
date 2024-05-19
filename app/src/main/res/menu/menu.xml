@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/update_query"
+android:title="Update" />
+
+<item android:id="@+id/settings"
+android:title="@string/settings_label"
+android:alphabeticShortcut="@string/settings_shortcut" />
+
+<item android:id="@+id/search_item"
+android:title="Search" />
+<item android:id="@+id/srequest_query"
+android:title="Search" />
+
+<item android:id="@+id/import_query"
+android:title="Import" />
+<item android:id="@+id/qfind"
+android:title="Find" />
+<item android:id="@+id/qnext"
+android:title="Next" />
+<item android:id="@+id/qch"
+android:title="Check boxes" />
+<item android:id="@+id/qtoggle"
+android:title="Toggle" />
+
+
+
+</menu>

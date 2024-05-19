@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Note built-in ids for 'list' and 'empty' -->
+
+    <LinearLayout
+        android:id="@+id/viewdb_colshead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="10sp" >
+
+        <TextView
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="@string/name"
+            android:layout_width="0dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="@string/con"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="@string/type"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="@string/mag"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_width="0dp"
+            android:text="@string/dim"
+            android:layout_weight="3"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/vxTopline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewdb_colshead"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vxTopline2"
+        android:layout_below="@id/vxTopline" />
+    
+    <ImageView
+        android:id="@+id/vxTopline2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:layout_above="@+id/view_database_text"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+    
+    <TextView
+        android:id="@+id/view_database_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

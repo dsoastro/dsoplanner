@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="PushCam options"
+    >
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/push_cam_any_align"
+        android:layout="@layout/prefc"
+        android:summary="Any star, not only bright star in the FOV, could be used for alignment"
+        android:title="Use any object for alignment" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/push_cam_remove_bright_objects"
+        android:layout="@layout/prefc"
+        android:summary="Automatic removal of bright areas. Not necessary in dark conditions. Slows calculations"
+        android:title="Remove bright areas" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/push_cam_check_alt_for_hashes"
+        android:layout="@layout/prefc"
+        android:summary="Gyro altitude is used to exclude wrong star candidates"
+        android:title="Use gyro altitude for image validation" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/push_cam_sensor_speed"
+        android:layout="@layout/prefc"
+        android:summary="Gyro sensor speed"
+        android:title="Use fast sensor speed" />
+    <com.astro.dsoplanner.InputPreference
+       android:defaultValue="25"
+       android:dialogTitle="Number of stacked images"
+       android:inputType="phone"
+       android:key="@string/d_number_of_stacked_images"
+       android:layout="@layout/pref"
+       android:title="Number of stacked images" />
+    <com.astro.dsoplanner.InputPreference
+       android:defaultValue="2000"
+       android:dialogTitle="Image capture delay (ms)"
+       android:inputType="phone"
+       android:key="@string/d_image_capture_delay"
+       android:layout="@layout/pref"
+       android:title="Image capture delay (ms)" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/push_cam_camera_api"
+        android:layout="@layout/prefc"
+        android:summary="Use Camera API (images are taken from preview window). Otherwise Camera2 API with photo mode is used"
+        android:title="Camera API" />
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/prefs"
+    android:title="@string/user_horizon_options" >
+
+    <Preference
+        android:defaultValue=""
+        android:dialogTitle="@string/user_file_with_a_h_pairs_per_line"
+        android:key="@string/t_uhor_name"
+        android:layout="@layout/pref"
+        android:summary="@string/pairs_az_h_of_points_in_text_file"
+        android:title="@string/file_name_with_key_points" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="5"
+        android:dialogTitle="@string/width_of_the_line"
+        android:inputType="phone"
+        android:key="d_uhor__width"
+        android:layout="@layout/pref"
+        android:summary="@string/_in_pixels_"
+        android:title="@string/line_width" />
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="5.0"
+        android:dialogTitle="@string/minimal_subdivisions"
+        android:inputType="phone"
+        android:key="d_uhor_step"
+        android:layout="@layout/pref"
+        android:summary="@string/larger_number_makes_line_coarse_small_affects_performance"
+        android:title="@string/subdivision_size_in_degrees" />
+    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/uhorfill"
+            android:layout="@layout/prefc"
+            android:title="@string/fill_area_below_horizon" />
+
+</PreferenceScreen>

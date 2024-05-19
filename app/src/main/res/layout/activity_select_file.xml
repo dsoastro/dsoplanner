@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:weightSum="1"
+    android:padding="8dp">
+    <com.astro.dsoplanner.FL2
+        layout="@layout/folderview"
+        android:id="@+id/localfolders"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </com.astro.dsoplanner.FL2>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/b_sysuipicker"
+        android:text="@string/b_use_android_file_picker"
+        android:layout_alignBottom="@id/localfolders"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

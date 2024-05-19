@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+   
+        android:summary=""
+        android:layout="@layout/prefs"
+        android:title="@string/ngcic_sac_layer_preferences" >
+         <PreferenceCategory 
+            android:title="@string/no_magnitude_objects"
+            >
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/graph_zero_mag"
+            android:summary="@string/include_objects_without_magnitude_into_object_selection_for_fov_below_threshold"
+            android:title="@string/include" >
+        </CheckBoxPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/fov_zoom_level_in_degrees"
+            android:inputType="phone"
+            android:key="@string/graph_zero_mag_fov"
+            android:layout="@layout/pref"
+            android:summary=""
+            android:title="@string/fov_threshold" />
+
+        </PreferenceCategory>
+       
+        <PreferenceCategory 
+            android:title="@string/object_types"
+			android:key="@string/object_types_category"
+            >
+          <Preference
+	    android:key="@string/graph_obj_types_clear"
+	    android:layout="@layout/pref"	    
+	    android:title="@string/select_deselect_all" />  
+         <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/graph_ast"
+            android:title="@string/asterism" />   
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/graph_cg"
+            android:title="@string/cluster_of_galaxies" />  
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/graph_dn"
+            android:title="@string/dark_nebula" />         
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/graph_gc"
+            android:title="@string/GC_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/graph_gx"
+            android:title="@string/Gxy_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/graph_gxycld"
+            android:title="@string/GxyCld_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/graph_hii"
+            android:title="@string/HIIRgn_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/graph_neb"
+            android:title="@string/Neb_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/graph_oc"
+            android:title="@string/OC_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/graph_ocneb"
+            android:title="@string/OCNeb_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/graph_pn"
+            android:title="@string/PN_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/graph_snr"
+            android:title="@string/SNR_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/graph_star"
+            android:title="@string/star2" />
+
+        </PreferenceCategory>
+    
+
+</PreferenceScreen>

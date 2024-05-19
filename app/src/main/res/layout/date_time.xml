@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TextView
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="@dimen/text_size_normal"
+    android:text="Set observation date"
+    />
+    <DatePicker android:id="@+id/datePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="@dimen/text_size_normal"
+    android:text="Set observation start time"
+    />
+    <TimePicker android:id="@+id/timePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="@dimen/text_size_normal"
+    android:text="Set observation end time"
+    />
+    <TimePicker 
+        android:id="@+id/timePicker2" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+    </TimePicker>
+    
+    
+    
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/goto_mount_setup"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+                <Preference
+                    android:key="paired_device"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="@string/select_paired_device" />
+                <Preference
+                    android:key="@string/scope_type"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="@string/select_telescope_type" />
+                <Preference
+                    android:key="@string/connection_type"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="Connection type" />
+                <Preference
+                    android:key="@string/port_type"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="Port type" />
+                <com.astro.dsoplanner.InputPreference
+                    android:defaultValue="10.10.100.254"
+                    android:dialogTitle="Set IP address"
+                    android:inputType="phone"
+                    android:key="@string/d_wifi_ip_address"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="WiFi IP address" />
+                <com.astro.dsoplanner.InputPreference
+                    android:defaultValue="8899"
+                    android:dialogTitle="Set port number"
+                    android:inputType="phone"
+                    android:key="@string/d_wifi_port"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="WiFi port number" />
+                <com.astro.dsoplanner.InputPreference
+                    android:defaultValue="4000"
+                    android:dialogTitle="Set azimuth resolution"
+                    android:inputType="phone"
+                    android:key="@string/d_dsc_az_resolution"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="DSC az resolution" />
+                <com.astro.dsoplanner.InputPreference
+                    android:defaultValue="4000"
+                    android:dialogTitle="Set altitude resolution"
+                    android:inputType="phone"
+                    android:key="@string/d_dsc_alt_resolution"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="DSC alt resolution" />
+                <Preference
+                    android:key="bt_connect"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="@string/connect" />
+                <Preference
+                    android:key="bt_disconnect"
+                    android:layout="@layout/pref"
+                    android:summary=""
+                    android:title="@string/disconnect" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/star_chart_auto_update"
+        android:layout="@layout/prefc"
+        android:summary=""
+        android:title="@string/track_position_on_the_chart" >
+    </CheckBoxPreference>
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="1"
+        android:dialogTitle="@string/auto_update_time_in_seconds"
+        android:inputType="phone"
+        android:key="@string/d_autoScopeGoTimePeriod"
+        android:layout="@layout/pref"
+        android:summary="@string/_1_second_is_the_reasonable_default"
+        android:title="@string/auto_update_period" />
+
+
+</PreferenceScreen>

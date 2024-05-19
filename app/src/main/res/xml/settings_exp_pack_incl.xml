@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/data_file_location"
+    >
+  <PreferenceScreen
+            android:layout="@layout/prefs"
+            android:key="@string/data_files_help"
+            android:summary=""
+            android:title="@string/main_data_files_location" />
+
+<com.astro.dsoplanner.InputPreference 
+                android:defaultValue=""
+                android:dialogTitle="@string/set_alternative_data_location"
+                android:key="@string/alternative_data_location"
+                android:layout="@layout/pref"
+                android:summary="@string/place_the_files_above_at_your_alternative_location_and_remove_them_from_main_location_if_you_wish_to_restore_the_main_location_just_enter_empty_path_here_reload_the_app_for_this_setting_to_take_effect"
+                android:title="@string/alternative_data_files_location" />
+
+<PreferenceScreen 
+                
+                android:layout="@layout/prefs"
+                android:key="@string/check_data_file_availability"
+               
+                android:summary="@string/check_if_data_files_are_available_at_standard_and_alternative_locations"
+                android:title="@string/check_data_file_availability" />
+
+
+
+</PreferenceScreen>

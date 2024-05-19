@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Graph" android:id="@+id/notelist_graph"></item>
+    <item android:title="Play" android:id="@+id/notelist_play"></item>
+    <item android:title="Picture" android:id="@+id/picture_notelist_menu"></item>
+     <item android:title="Details" android:id="@+id/detail_notelist_menu"></item>
+      <item android:title="Remove" android:id="@+id/remove_notelist_menu"></item>
+       <item android:title="Remove All" android:id="@+id/removeall_notelist_menu"></item>
+    <item android:title="Share" android:id="@+id/share_notelist_menu"></item>
+    <item android:title="Add ALL to Observation List" android:id="@+id/addall_notelist_menu"></item>
+</menu>

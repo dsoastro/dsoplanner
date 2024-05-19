@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:title="Sort by" android:id="@+id/sortby_obs">
+    	<menu>
+    		<item android:title="Constellation" android:id="@+id/con_obs"></item>
+    		<item android:title="Magnitude" android:id="@+id/mag_obs"></item>
+    		<item android:title="Dimension" android:id="@+id/dim_obs"></item>
+    		<item android:title="NGC number" android:id="@+id/ngc_obs"></item>
+    		<item android:title="Set time" android:id="@+id/set_obs"></item>
+    	</menu>
+    </item>  
+     <item android:title="Export" android:id="@+id/save_obs"></item> 
+     <item android:title="Import" android:id="@+id/load_obs"></item> 
+     <item android:title="Add object" android:id="@+id/add_obs"></item> 
+      <item android:title="Clipboard" android:id="@+id/clip_obs"></item> 
+       <item android:title="Paste" android:id="@+id/paste_obs"></item> 
+       <item android:title="Select Noted" android:id="@+id/noted_obs"></item> 
+       <item android:title="Deselect All" android:id="@+id/deselectall_obs"></item> 
+       <item android:title="Show/Hide Checked" android:id="@+id/showhide_obs"></item> 
+       <item android:title="Find" android:id="@+id/find_obs"></item> 
+       <item android:title="Next" android:id="@+id/next_obs"></item> 
+        <item android:title="Search" android:id="@+id/search_obs"></item>
+         <item android:title="List Name" android:id="@+id/name_obs"></item>
+         <item android:title="DSS" android:id="@+id/dss_obs"></item>
+          <item android:title="Side StarChart" android:id="@+id/otoggle"></item>
+           <item android:title="Images" android:id="@+id/showhide_pics"></item>
+     <item android:title="Select" >
+     <menu>
+    		<item android:title="List 1" android:id="@+id/list1_obs"></item>
+    		<item android:title="List 2" android:id="@+id/list2_obs"></item>
+    		<item android:title="List 3" android:id="@+id/list3_obs"></item>
+    		<item android:title="List 3" android:id="@+id/list4_obs"></item>
+    		
+    	</menu>
+    </item>	
+</menu>

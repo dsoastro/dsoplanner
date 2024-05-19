@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="remove">Entfernen</string>
+<string name="no">Nein</string>
+<string name="did_you_export">"Haben Sie diese Datei von Ihrem eigenen DSO Planner exportiert?"</string>
+<string name="yes">Ja</string>
+<string name="no_files_copied">Keine Dateien kopiert</string>
+<string name="ok">OK</string>
+<string name="sunset">Sonnenuntergang</string>
+<string name="sunrise">Sonnenaufgang</string>
+<string name="warning">Warnung</string>
+<string name="export_to_the_file">In Datei exportieren</string>
+<string name="export_successfull_">Export erfolgreich!</string>
+<string name="save">Speichern</string>
+<!-- Used through the app -->
+
+
+<!-- Main sreen -->
+<string name="object_selection">Objektauswahl</string>
+<string name="observations_lists">Beobachtungslisten</string>
+<string name="star_chart">Sternkarte</string>
+<string name="tools">Werkzeuge</string>
+<string name="settings">Einstellungen</string>
+<string name="would_you_like_to_see_quick_start_guide_">Möchten Sie die Schnellstartanleitung sehen? Sie können sie auch später über die Einstellungen aufrufen</string>
+<string name="would_you_like_to_see_whatsnew">Möchten Sie den Updateverlauf sehen? Sie können ihn auch später über die Einstellungen aufrufen</string>
+<string name="there_are_new_comet_orbital_elements_available_would_you_like_to_download_them_from_www_minorplanetcenter_net_to_update_comet_database_">Es sind neue Bahnelemente für Kometen verfügbar. Möchten Sie sie von www.minorplanetcenter.net herunterladen, um die Kometen-Datenbank zu aktualisieren? Sie können dies jederzeit über Einstellungen/Objekt-Datenbanken/Kometen/Menü/Update machen</string>
+<string name="dsomain_backagain">Drücken Sie nochmals Zurück, um die App zu verlassen</string>
+   <!-- not that important -->
+<string name="media_not_mounted_and_expansion_pack_not_expanded">Bitte SD-Karte einlegen und die App neu starten, um die Datenbanken zu installieren!</string>
+<string name="error_expanding_expansion_pack">Fehler beim Entpacken der Erweiterungsdatei! Bitte die App neu starten, um es erneut zu versuchen oder Einstellungen/Download aufrufen, um sie herunterzuladen und neu zu installieren!</string>
+<string name="error_not_enough_free_space">Nicht genug Speicherplatz, um die Erweiterungsdatei zu entpacken! Es sollten mindestens 230 MB auf der SD-Karte frei sein!</string>
+<string name="error_not_enough_free_space_patch">Nicht genug Speicherplatz, um die Patchdatei der Erweiterungsdatei zu entpacken! Es sollten mindestens 3.3 MB auf der SD-Karte frei sein!</string>
+<string name="ep_extracting">Dateien werden entpackt. Dies kann einige Minuten dauern...</string>
+<string name="exp_pack_app_restart">Bitte die App neu starten, um die ursprünglichen Hauptdateien wieder zu installieren!</string>
+<string name="expansion_pack_missing">Erweiterungsdatei fehlt. Bitte Einstellungen/Download aufrufen, um sie herunterzuladen und zu installieren!</string>
+<string name="expansion_patch_missing">Patchdatei der Erweiterungsdatei fehlt. Bitte Einstellungen/Download aufrufen, um sie herunterzuladen und zu installieren!</string>
+<string name="sorry_but_your_license_is_rejected">Entschuldigung, aber Ihre Lizenz wurde abgelehnt.\nMöchten Sie Google Play öffnen und DSO Planner erwerben?</string>
+<string name="authentication">Authentifizierung</string>
+<string name="can_not_connect_to_the_server_would_you_like_to_try_again">Es konnte keine Verbindung zum Server hergestellt werden.\nMöchten Sie es noch einmal versuchen? Sie sollten sich vorher versichern, dass Sie eine Verbindung zu Google Play herstellen können.</string>
+<string name="general_settings">Allgemeine Einstellungen</string>
+<string name="dso_image">DSO Bild</string>
+<string name="progresstop">Starte</string>
+<string name="progressbotm">Bitte warten</string>
+   <!-- not that important -->
+
+<!-- Main sreen -->
+<!-- Object selection  -->
+<string name="share">Teilen</string>
+<string name="next">Weiter</string>
+<string name="search">Suche</string>
+<string name="export">Export</string>
+<string name="find">Finden</string>
+<string name="add_to_observation_list">Zu Beobachtungsliste hinzufügen</string>
+<string name="add_marked_to_observation_list">Markierte zur Beobachtungsliste hinzufügen</string>
+<string name="add_all_to_observation_list">ALLE zur Beobachtungsliste hinzufügen</string>
+<string name="details">Details</string>
+<string name="add_note">Notiz hinzufügen</string>
+<string name="see_object_notes">Objektnotizen ansehen</string>
+<string name="see_all_notes">ALLE Notizen ansehen</string>
+<string name="checkboxes">Kontrollkästchen</string>
+<string name="show_image">Bild anzeigen</string>
+<string name="update">Update</string>
+<string name="select">Auswahl</string>
+<string name="name">NAME</string>
+<string name="con">SBK</string>
+<string name="type">TYP</string>
+<string name="mag">MAG</string>
+<string name="dim">DIM</string>
+<string name="all">ALLE</string>
+<string name="stop">Stop</string>
+<string name="dso_selection_">"Objektauswahl: "</string>
+<string name="select_constellation">Sternbild auswählen</string>
+<string name="no_catalog">Keine Kataloge ausgewählt</string>
+<string name="side_chart">Nebentabelle</string>
+<string name="no_sql_expression_selected_">"Kein SQL-Ausdruck ausgewählt für "</string>
+<!-- Object selection  -->
+
+
+<!-- Observation List -->
+<string name="rename">Umbenennen</string>
+<string name="sort">Sortieren</string>
+<string name="list_1">Liste 1</string>
+<string name="list_2">Liste 2</string>
+<string name="list_3">Liste 3</string>
+<string name="list_4">Liste 4</string>
+<string name="add_object">Objekt hinzufügen</string>
+<string name="paste">Einfügen</string>
+<string name="mark">Markieren</string>
+<string name="import2">Importieren</string>
+<string name="observation_list_">"Beobachtungsliste "</string>
+<string name="move">Verschieben</string>
+<string name="remove_from_list">Aus Liste entfernen</string>
+<string name="remove_marked">Markierte entfernen</string>
+<string name="set_list_name">Listenname</string>
+<string name="please_set_list_name">Bitte Listenname festlegen</string>
+<string name="remove_all">ALLE entfernen</string>
+<string name="edit">Bearbeiten</string>
+<string name="please_confirm">Bitte bestätigen</string>
+<string name="download_dss_images_of_observation_list_objects_">DSS Bilder der Beobachtungslisten-Objekte herunterladen?</string>
+<string name="please_select_sort_order">Bitte Sortierreihenfolge wählen</string>
+<string name="name2">Name</string>
+<string name="constellation">Sternbild</string>
+<string name="magnitude">Magnitude</string>
+<string name="size">Größe</string>
+<string name="set_time">Eingestellte Zeit</string>
+<string name="no_data_to_paste_">Keine Dateien zum Einfügen!</string>
+<string name="do_you_want_to_paste_into_current_observation_list_">In momentane Beobachtungsliste einfügen?</string>
+<string name="please_select_data_format_for_the_text_file_being_imported_internal_observation_list">Bitte Dateiformat für die zu importierende Textdatei / interne Beobachtungsliste wählen</string>
+<string name="dso_planner_import_">DSO Planner (Import)</string>
+<string name="sky_safari_import_">Sky Safari (Import)</string>
+<string name="sky_tools_import_">Sky Tools (Import)</string>
+<string name="night_sky_observer_guide_internal_">Night Sky Observer Guide (Intern)</string>
+<string name="export_error">Exportfehler</string>
+<string name="do_you_want_to_import_observation_list_from_">"Wollen Sie die Beobachtungsliste exportieren aus "</string>
+<string name="_obj">" Obj"</string>
+<string name="_obj_hidden">" Obj versteckt"</string>
+<string name="_with_last_note_age_1_day">...mit Alter der letzten Notiz &lt; 1 Tag</string>
+<string name="_with_last_note_age_1_week">...mit Alter der letzten Notiz &lt; 1 Woche</string>
+<string name="_with_last_note_age_1_month">...mit Alter der letzten Notiz &lt; 1 Monat</string>
+<string name="_with_last_note_age_6_months">...mit Alter der letzten Notiz &lt; 6 Monate</string>
+<string name="_with_last_note_age_12_months">...mit Alter der letzten Notiz &lt; 12 Monate</string>
+<string name="_with_any_notes_recorded">...mit allen aufgezeichneten Notizen</string>
+<string name="remove_all_marks">Alle Markierungen entfernen</string>
+<string name="show_hide_objects_with_marks">Markierte Objekte zeigen/verbergen</string>
+<string name="mark_objects_">Objekte markieren...</string>
+<string name="best_vis">Beste Sicht</string>
+<string name="_mm_eyepiece">" mm Okular"</string>
+<string name="_at_">" bei "</string>
+<string name="_displayed_">" dargestellt, "</string>
+<string name="no_match_found_">Keine Übereinstimmung gefunden!</string>
+<string name="find_results">Ergebnisse finden</string>
+<string name="observation_list_confirmation">Bestätigung der Beobachtungsliste</string>
+<string name="do_you_want_to_remove_marked_objects_">Wollen Sie markierte Objekte entfernen?</string>
+<string name="please_enter_the_string_to_find_in_the_list">Bitte geben Sie den Ausdruck an, der in der Liste gefunden werden soll</string>
+<string name="please_press_on_list_item_to_put_this_object_before">Bitte drücken Sie auf ein Listenobjekt, um es nach vorne zu setzen</string>
+<string name="there_are_no_images_for_ic_objects">Für IC Objekte sind keine Bilder vorhanden</string>
+<string name="there_is_no_image_for_this_object">Für dieses Objekt ist kein Bild vorhanden</string>
+<string name="images_for_ngc_objects_are_missing_">Bilder für NGC Objekte fehlen!</string>
+<string name="do_you_want_to_remove_the_object_">Wollen Sie das Objekt entfernen?</string>
+<string name="do_you_want_to_remove_all_objects_">Wollen Sie alle Objekte entfernen?</string>
+<string name="_folder_">" Ordner."</string>
+<string name="images">Vorschaubilder</string>
+<string name="type2">Typ</string>
+<string name="altitude">Altitude</string>
+<!-- Observation List -->
+
+<!-- Object Selection. Select Conditions -->
+<string name="select_object_catalogs">Objektkataloge wählen</string>
+<string name="primary_search">Primäre Suche</string>
+<string name="select_search_type_title">"Suchtyp auswählen"</string>
+<string name="select_object_types">Objekttypen wählen</string>
+<string name="primary_search_parameters">Primäre Suchparameter</string>
+<string name="search_with_sql_like_expression">Mit SQL-ähnlichem Ausdruck suchen</string>
+<string name="sql_like_expression">SQL-ähnlicher Ausdruck</string>
+<string name="common_conditions">Gängige Bedingungen</string>
+<string name="if_enabled_same_objects_from_different_databases_are_shown_as_one_object">Wenn aktiviert, werden gleiche Objekte aus verschiedenen Datenbanken als ein Objekt angezeigt</string>
+<string name="exclude_duplicates">Duplikate nicht berücksichtigen</string>
+<string name="time_of_observation">Zeit der Beobachtung</string>
+<string name="select_an_instrument_for_visibility_calculations">Bitte Ausrüstung für Sichtbarkeitsberechnung wählen</string>
+<string name="telescope_instrument">Teleskop/Gerät</string>
+<string name="geographic_location">Geographische Position</string>
+<string name="sky_limiting_magnitude">Magnitudengrenze</string>
+<string name="time_range_within_24_hours">Zeitspanne innerhalb 24 Stunden</string>
+<string name="start_time_">"Startzeit: "</string>
+<string name="end_time_">"Endzeit:   "</string>
+<string name="treatment_of_objects_that_have_empty_fields_e_g_magnitude_">Verfahren, mit dem Objekte mit leeren Feldern behandelt werden (z.B. Magnitude).</string>
+<string name="no_expression_selected">Kein Ausdruck gewählt</string>
+<string name="sky_lm_summary">"Maximale Magnitude, die Sie am Himmel sehen (wird für Sichtbarkeitsberechnung verwendet):"</string>
+<string name="primary">Primär</string>
+<string name="select_how_objects_with_empty">Verfahren wählen, mit dem Objekte mit leeren Feldern behandelt werden sollen</string>
+<string name="empty_field_treatment">Leere Felder-Verfahren</string>
+<string name="provider_">"Provider: "</string>
+<string name="_last_known_location_">" (letzte bekannte Position)"</string>
+<string name="_current_update_">" (momentanes Update)"</string>
+<string name="_auto_">"[AUTO] "</string>
+<string name="select_search_type">Bedingungen wählen</string>
+<string name="no_object_types_selected">Keine Objekttypen gewählt</string>
+<string name="default2">Standard</string>
+<!-- Object Selection. Select Conditions -->
+
+<!-- Object Selection. Select Conditions. Select object catalogs -->
+<string name="brightest_objects">Hellste Objekte</string>
+<string name="galaxies">Galaxien</string>
+<string name="nebula">Nebel</string>
+<string name="clusters_of_galaxies">Galaxienhaufen</string>
+<string name="double_stars">Doppelsterne</string>
+<string name="comets_and_minor_planets">Kometen und Kleinplaneten</string>
+<string name="user_databases">Benutzer-Datenbanken</string>
+<string name="user_files">Benutzer-Dateien</string>
+<string name="deselect_all">Alle abwählen</string>
+<string name="_12_515_objects_of_all_types">12 515 Objekte aller Typen</string>
+<string name="saguaro_astronomy_club_database_n10_342_objects_of_all_types">Saguaro Astronomy Club Datenbank.\n10 342 Objekte aller Typen</string>
+<string name="_45_000_galaxies_to_16m_not_including_ngcic_and_ugc_galaxies">45 000 Galaxien bis 16m, ohne NGCIC- und UGC-Galaxien</string>
+<string name="uppsala_general_catalogue_of_galaxies_nugc_is_an_essentially_complete_catalogue_of_galaxies_to_a_limiting_diameter_of_1_0_and_or_to_a_limiting_apparent_magnitude_of_14_5">Uppsala General Catalogue of Galaxies</string>
+<string name="lynds_catalogue_of_dark_nebulae_">Lynds\' Catalogue of Dark Nebulae</string>
+<string name="barnard_s_catalogue_of_349_dark_objects_in_the_sky_">Barnard\'s Catalogue of 349 Dark Objects in the Sky</string>
+<string name="lynds_catalogue_of_bright_nebulae">Lynds\' Catalogue of Bright Nebulae</string>
+<string name="catalogue_of_hii_regions">Catalogue of HII regions</string>
+<string name="catalogue_of_galactic_planetary_nebulae_">Catalogue of Galactic Planetary Nebulae</string>
+<string name="catalogue_of_abell_clusters_of_galaxies_">Catalogue of Abell Clusters of Galaxies</string>
+<string name="hickson_compact_group_">Hickson Compact Group</string>
+<string name="_2271_brightest_double_stars">2271 der hellsten Doppelsterne</string>
+<string name="brightest_double_stars">Hellste Doppelsterne</string>
+<string name="the_washington_visual_double_star_catalog_">The Washington Visual Double Star Catalog</string>
+<string name="comets">Kometen</string>
+<string name="minor_planets">Kleinplaneten</string>
+<string name="_238_objects_of_all_types">238 Objekte aller Typen. Pro: </string>
+<!-- Object Selection. Select Conditions. Select object catalogs -->
+
+<!-- Object Selection. Select Conditions. Primary search parameters -->
+<string name="dialog_dimension_preference">Minimale Abmessung wählen</string>
+<string name="detection_limit">Erkennungslimit [0-5 (schlechtestes-bestes),-1 (alle)]</string>
+<string name="select_filter_type">Filtertyp wählen</string>
+<string name="filter_type">Filtertyp</string>
+<string name="set_the_string_object_name_starts_with">Ausdruck festlegen, mit dem der Objektname beginnt</string>
+<string name="object_name_starts_with_">Objektname beginnt mit...</string>
+<string name="object_minimal_size">Minimale Größe des Objekts</string>
+<string name="minimum_altitude">Minimale Altitude</string>
+<string name="lowest_altitude">Niedrigste Altitude</string>
+<string name="detection_limit_for_blackwell_filter">Erkennungslimit für Blackwell-Filter</string>
+<string name="detection_limit2">Erkennnungslimit</string>
+<string name="max_magnitude_mag_filter_">Maximale Magnitude [Mag.filter]</string>
+<string name="maximum_magnitude_used_for_magnitude_filter_">Maximale Magnitude (wird für Magnitudenfilter verwendet)</string>
+<string name="set_maximum_magnitude">Maximale Magnitude festlegen</string>
+<string name="additional_parameters_double_star_catalogs_">Zusätzliche Parameter (Dopppelstern-Kataloge)</string>
+<string name="minimum_separation_seconds">Minimaler Abstand, Bogensekunden</string>
+<string name="minimum_separation">Minimaler Abstand</string>
+<string name="maximum_separation_seconds">Maximaler Abstand, Bogensekunden</string>
+<string name="maximum_separation">Maximaler Abstand</string>
+<string name="maximum_component_magnitude_mag2_">Maximale Komponenten-Magnitude (mag2)</string>
+<string name="component_magnitude">Komponenten-Magnitude</string>
+<string name="maximum_mag2">Maximum mag2</string>
+<string name="visibility_filter_objects_with_visibility_below_detection_limit_are_rejected">Sichtbarkeitsfilter.\nObjekte mit Sichtbarkeit unter dem Erkennungslimit werden verworfen</string>
+<string name="maximum_magnitude_filter_objects_with_magnitude_higher_than_the_maximum_set_are_rejected">Maximale Magnitude-Filter.\nObjekte mit einer Magnitude größer als das gesetzte Maximum werden verworfen</string>
+<string name="all_constellations">Alle Sternbilder</string>
+<string name="no_filter">Kein Filter</string>
+<string name="select_constellations">Sternbilder auswählen</string>
+<!-- Object Selection. Select Conditions. Primary search parameters -->
+
+<!-- Object Selection. Select Conditions. Manage search requests for dso selection -->
+<string name="set_search_rules">Suchregeln festlegen</string>
+<string name="would_you_like_to_save_the_request_anyway_for_later_review_">Möchten Sie die Abfrage für eine spätere Überprüfung speichern?</string>
+<string name="enter_request_name">Abfragenname eingeben</string>
+<string name="add_new_search_request">Neue Suchabfrage hinzufügen</string>
+<string name="set_sql_request">SQL-Abfrage einstellen</string>
+<string name="set_local_request">Lokale Abfrage einstellen</string>
+<string name="manage_search_requests_for_dso_selection">Suchabfragen für Objektauswahl verwalten</string>
+<string name="do_you_really_want_to_remove_this_item_">Wollen Sie dieses Objekt wirklich entfernen?</string>
+   
+   <!-- not that important -->
+<string name="srequest_desc">SQL-Ausdruck (in jedem Register):\nTYP - Objekttyp. TYP kann GC, GX, GCYCLD, HIIRGN, NEB, OC, OCNEB, PN, SNR, MPLANET, STAR, DS, COMET, CUSTOM, CG, DN, AST, NF, QS entsprechen.\nA — die erste Objektabmessung.\nB - die zweite Objektabmessung.\nRA, DEC - Objektkoordinaten.\nMAG - Magnitude.\nPA - Positionswinkel.\nSBK - Sternbild.\n\nLokaler Ausdruck:\nALT - Altitude.\nVIS - Sichtbarkeit.
+</string>
+<string name="bad_syntax_in_the_sql_expression_">"Syntaxfehler im SQL-Ausdruck. "</string>
+<string name="bad_syntax_in_the_local_expression_">Syntaxfehler im lokalen Ausdruck.</string>
+<string name="errors_in_the_input">Fehler bei der Eingabe</string>
+   <!-- not that important -->
+
+<!-- Object Selection. Select Conditions. Manage search requests for dso selection -->
+
+
+<!-- Object Selection. Select Conditions. Time Range of Observation -->
+<string name="done">Fertig</string>
+<string name="begin_time_and_date">Startzeit und -datum</string>
+<string name="now">Jetzt</string>
+<string name="astro_twilight_ends">Astronomische Dämmerung endet</string>
+<string name="astro_twilight_begins">Astronomische Dämmerung beginnt</string>
+<string name="end_time2">Endzeit</string>
+<string name="time_range_of_observation">Zeitspanne der Beobachtung</string>
+<!-- Object Selection. Select Conditions. Time Range of Observation -->
+
+
+<!-- Object Selection. Select Conditions. Time Range of Observation. Pick date and time -->
+<string name="cancel">Abbrechen</string>
+<string name="set2">Festlegen</string>
+<string name="pick_the_star_chart_date_and_time">Datum und Zeit wählen</string>
+<string name="rt_off">EZ AUS</string>
+<string name="realtime_mode_on">Echtzeit-Modus AN</string>
+<string name="rt_on">EZ AN</string>
+<string name="realtime_mode_off">Echtzeit-Modus AUS</string>
+<string name="time">Zeit</string>
+<!-- Object Selection. Select Conditions. Time Range of Observation. Pick date and time -->
+
+
+<!-- Settings. Astro Equipment. Telescopes database -->
+<string name="do_you_want_to_remove_all_of_your_instruments_">Möchten Sie ALLE Ihre Geräte entfernen?</string>
+<string name="do_you_want_to_remove_this_instrument_">Möchten Sie dieses Gerät entfernen?</string>
+<string name="telescope_parameters">Teleskop-Parameter</string>
+<string name="title_activity_telescope_list">Optische Geräte (Teleskope)</string>
+<string name="eyepieces_db">Okular-Datenbank</string>
+<string name="assign_eyepieces">Okulare zuordnen</string>
+<string name="aperture_mm_">Öffnung (mm)</string>
+<string name="focal_length_mm_">Brennweite (mm)</string>
+<string name="pass_through_">Lichtdurchlässigkeit (%)</string>
+<string name="short_text_note">Kurze Textnotiz</string>
+<string name="add_new_instrument_i_e_telescope_">Neues Gerät hinzufügen (z.B. Teleskop)</string>
+<string name="_ep">)+ep</string>
+<!-- Settings. Astro Equipment. Telescopes database -->
+
+<!-- Settings. Astro Equipment. Eyepieces -->
+<string name="you_can_not_change_eyepieces_parameters_now">Sie können die Okular-Parameter momentan nicht ändern. Wählen Sie zuerst das Teleskop.</string>
+<string name="eyepiece_parameters">Okular-Parameter</string>
+<string name="catalog">Katalog</string>
+<string name="brand">Marke</string>
+<string name="f_length">Brennweite</string>
+<string name="fov">FOV</string>
+<string name="select_eyepiece">Okular auswählen</string>
+<string name="_eyepieces_in_your_collection">" Okulare in Ihrer Kollektion"</string>
+<string name="title_activity_eyepieces_list">Okular-Datenbank</string>
+<string name="add_new_eyepiece">Neues Okular hinzufügen</string>
+<string name="afov_deg_">AFOV (Grad)</string>
+<string name="do_you_want_to_remove_this_eyepiece_">Möchten Sie dieses Okular entfernen?</string>
+<string name="do_you_want_to_remove_all_of_your_eyepieces_">Möchten Sie ALLE Ihre Okulare entfernen?</string>
+<string name="ccd_parameters">CCD-Parameter</string>
+<string name="horiz_size_mm_">Horiz. Größe (mm)</string>
+<string name="vert_size_mm_">Vert. Größe (mm)</string>
+<string name="add_ccd">CCD hinzufügen</string>
+<!-- Settings. Astro Equipment. Eyepieces -->
+
+
+<!-- Settings -->
+<string name="night_mode_on_off_">Nachtmodus (an/aus)</string>
+<string name="_1_general">1 Allgemein</string>
+<string name="telescopes_eyepieces_etc_">Teleskope, Okulare, etc.</string>
+<string name="astro_equipment">Astro-Equipment</string>
+<string name="operations_with_objects_databases">Vorgänge mit Objekt-Datenbanken</string>
+<string name="objects_databases">Objekt-Datenbanken</string>
+<string name="star_chart_settings_could_also_be_called_from_star_chart">Sternkarteneinstellungen können auch aus der Sternkarte übernommen werden</string>
+<string name="screen_settings">Bildschirmeinstellungen</string>
+<string name="_timeouts_keyboard_etc_">(Zeitgesteuerte Abschaltung, Tastatur, etc.)</string>
+<string name="system_wide_settings">Systemweite Einstellungen</string>
+<string name="_2_utilities">2 Dienstprogramme</string>
+<string name="download_default_primary_data_files">Standard-Primärdaten herunterladen</string>
+<string name="downloads">Downloads</string>
+<string name="reinstall_default_primary_data_files">Standard-Primärdaten neu installieren</string>
+<string name="reinstall">Neu installieren</string>
+<string name="backup_restore">Backup/Wiederherstellen</string>
+<string name="about">Über</string>
+<string name="star_chart_settings">Sternkarteneinstellungen</string>
+<string name="what_s_new">Was ist neu</string>
+<string name="quick_start_guide2">Schnellstartanleitung</string>
+<string name="do_you_wish_to_reinstall_default_primary_data_files_">Möchten Sie die Standard-Primärdaten neu installieren?</string>
+<string name="rate">Bewerten</string>
+<string name="rate_the_app_on_google_play">Bewerten Sie die App bei Google Play</string>
+   
+<!-- Settings -->
+
+<!-- Settings. Geographic location -->
+<string name="location_name">Ortsname</string>
+<string name="please_enter_a_distinct_name_for_the_location">Bitte einen eindeutigen Namen für den Ort eingeben</string>
+<string name="dso_planner_settings">DSO Planner Einstellungen</string>
+<string name="set_latitude_n_s_deg_min_sec_">Breitengrad festlegen [N(S)Grad min sec]</string>
+<string name="examples_n45_34_21_n45_34_s23_13_s23">Beispiele:\nN45 34 21\nN45 34\nS23 13\nS23</string>
+<string name="set_longitude_e_w_deg_min_sec_">Längengrad festlegen [E(W)Grad min sec]</string>
+<string name="examples_e45_34_21_e45_34_w23_13_w23">Beispiele:\nE45 34 21\nE45 34\nW23 13\nW23</string>
+<string name="country">Land</string>
+<string name="region">Region</string>
+<string name="select_location">Ort auswählen</string>
+<string name="set_the_string_that_city_starts_with">Den Ausdruck eingeben, mit dem die Stadt beginnt</string>
+<string name="title_latitude_preference">Breitengrad</string>
+<string name="title_longitude_preference">Längengrad</string>
+<string name="enable_autolocation">Automatische Ortssuche aktivieren</string>
+<string name="remember_this_location_in_user_location_list">Den oben gewählten Ort in der Benutzer-Ortsliste merken</string>
+<string name="add_location2">Ort speichern</string>
+<string name="select_location_from_your_location_list">Ort aus der Benutzer-Ortsliste wählen</string>
+<string name="user_location_list">Benutzer-Ortsliste</string>
+<string name="select_location_from_24_000_major_world_cities">Ort aus über 24 000 weltweiten Großstädten wählen</string>
+<string name="major_world_cities">Weltweite Großstädte</string>
+<string name="title_activity_settings_geo">Geographischer Ort</string>
+<string name="location_updated_">Ort aktualisiert!</string>
+<!-- Settings. Geographic location -->
+
+
+<!-- Settings. Geographic location. Location List -->
+<string name="do_you_want_to_remove_this_item_">Möchten Sie dieses Element entfernen?</string>
+<string name="do_you_want_to_paste_into_current_locations_list_">Möchten Sie das Element in die aktuelle Ortsliste einfügen?</string>
+<string name="locations_list">Ortsliste</string>
+<string name="latitude_">"Breitengrad "</string>
+<string name="_longitude_">" Längengrad "</string>
+<string name="do_you_really_want_to_import_current_locations_list_from_">"Möchten Sie die aktuelle Ortsliste wirklich importieren aus "</string>
+<!-- Settings. Geographic location. Location List -->
+
+
+<!-- Settings. Astro Equipment -->
+<string name="browse_and_edit_your_telescopes_parameters">Teleskopparameter durchsuchen und bearbeiten</string>
+<string name="telescopes_database">Teleskop-Datenbank</string>
+<string name="browse_and_edit_your_eyepieces_parameters">Okularparameter durchsuchen und bearbeiten</string>
+<string name="eyepieces_database">Okular-Datenbank</string>
+<string name="bluetooth_serial_dongle_required_to_use">Serieller Bluetooth Dongle zur Nutzung benötigt</string>
+<string name="goto_mount_setup">GoTo Montierung Setup</string>
+<!-- Settings. Astro Equipment -->
+
+<!-- Settings. Astro Equipment. GoTo Mount Setup -->
+<string name="select_paired_device">Gepaartes Gerät auswählen</string>
+<string name="select_telescope_type">Teleskoptyp wählen</string>
+<string name="connect">Verbinden</string>
+<string name="disconnect">Verbindung trennen</string>
+<string name="no_paired_device_found_please_pair_with_your_bt_dongle_first">Kein gepaartes Gerät gefunden. Bitte zuerst mit dem Bluetooth Dongle paaren</string>
+<string name="connecting_">Verbindet...</string>
+<string name="connected">Verbunden</string>
+<string name="not_connected">Nicht verbunden</string>
+<!-- Settings. Astro Equipment. GoTo Mount Setup -->
+
+
+<!-- Settings. Objects Databases -->
+<string name="set_database_name">Datenbankname festlegen</string>
+<string name="do_you_want_to_add_custom_data_fields_">Möchten Sie benutzerdefinierte Felder hinzufügen?</string>
+<string name="databases">Datenbanken</string>
+<string name="no_additional_fields">Keine zusätzlichen Felder</string>
+<string name="main_database_can_t_be_removed_">Interne Datenbanken können nicht entfernt werden.</string>
+<string name="do_you_want_to_remove_the_database_">Möchten Sie die Datenbank entfernen?</string>
+<string name="fields">Felder</string>
+<string name="remove_database">Datenbank entfernen</string>
+<string name="add">Hinzufügen</string>
+<string name="internal_objects_could_not_be_removed_">Interne Objekte können nicht entfernt werden!</string>
+<string name="cmo_updating">Möchten Sie Orbitalelemente von www.minorplanetcenter.net herunterladen und die aktuelle Datenbank aktualisieren?</string>
+<string name="please_wait">Bitte warten</string>
+<string name="do_you_want_to_remove_all_of_the_database_items_">Möchten Sie ALLE Elemente der Datenbank entfernen?</string>
+<string name="operation_not_supported">Vorgang nicht unterstützt</string>
+<string name="do_you_really_want_to_import_current_database_data_from_">"Möchten Sie wirklich die aktuelle Datenbank importieren aus "</string>
+<string name="view_database">Datenbank ansehen</string>
+<string name="view_database_">"Datenbank ansehen: "</string>
+<string name="wrong_field_format">Falsches Feldformat</string>
+<string name="operation_not_applicable">Vorgang nicht anwendbar</string>
+<string name="importing_database">Datenbank wird importiert</string>
+<!-- Settings. Objects Databases -->
+
+
+<!-- Settings. Objects Databases. Edit/create database object -->
+<string name="create_new_object">Neues Objekt erstellen</string>
+<string name="data_was_changed_do_you_want_to_exit_">Daten wurden geändert. Möchten Sie beenden?</string>
+<string name="zero_object_will_not_be_added_to_the_database_">Nullobjekt wird nicht zur Datenbank hinzugefügt!</string>
+<string name="select_type_of_the_object">Objekttyp wählen</string>
+<string name="define_name_for_custom_object_type">Name für den benutzerdefinierten Objekttyp wählen</string>
+<string name="select_equinox">Äquinoktium wählen</string>
+<string name="current">aktuell</string>
+<string name="object_type_could_not_be_changed_for_this_catalog_">Objekttyp konnte für diesen Katalog nicht geändert werden!</string>
+<string name="hour_min_sec">Stunde Minute Sekunde</string>
+<string name="field_name">FELDNAME</string>
+<string name="value">WERT</string>
+<string name="_ok_">" OK "</string>
+<string name="set_field_value_">Feldwert festlegen (</string>
+<string name="deg_min_sec">Grad min sec</string>
+<string name="edit_database_object">Datenbankobjekt bearbeiten</string>
+<string name="short_name_of_the_object">Kurzname des Objekts</string>
+<string name="long_name_of_the_object">Langer Name des Objekts</string>
+<string name="text_comment_on_an_object">Textkommentar bei einem Objekt</string>
+<string name="object_dimensions_in_minutes_longer_axis">Objektabmessungen in Minuten, lange Achse</string>
+<string name="object_dimensions_in_minutes_shorter_axis">Objektabmessungen in Minuten, kurze Achse</string>
+<string name="orbit_elements_epoch_year">Epoche der Orbitalelemente Jahr</string>
+<string name="orbit_elements_epoch_month">Epoche der Orbitalelemente Monat</string>
+<string name="orbit_elements_epoch_day">Epoche der Orbitalelemente Tag</string>
+<string name="absolute_star_magnitude">Absolute Stern-Magnitude</string>
+<string name="orbital_excentricity">Bahnexzentrizität</string>
+<string name="inclination_to_the_ecliptic_j2000_0_degrees_">Neigung zur Ekliptik, J2000.0 (Grad)</string>
+<string name="longitude_of_the_ascending_node_j2000_0_degrees_">Länge des aufsteigenden Knotens, J2000.0 (Grad)</string>
+<string name="perihelion_distance_au_">Perihele Distanz (AU)</string>
+<string name="star_magnitude_slope_parameter">Stern-Magnituden-Anstieg Parameter</string>
+<string name="argument_of_perihelion_j2000_0_degrees_">Argument der Periapsis, J2000.0 (Grad)</string>
+<string name="semimajor_axis_of_the_orbit_au_">Große Halbachse des Orbits (AU)</string>
+<string name="magnitude_of_an_object">Magnitude eines Objekts</string>
+<string name="position_angle_in_degrees">Positionswinkel in Grad</string>
+<string name="right_ascension">Rektaszension</string>
+<string name="declination">Deklination</string>
+<string name="mean_anomaly_at_the_epoch_degrees_">Mittlere Anomalie bei der Epoche (Grad)</string>
+<!-- Settings. Objects Databases. Edit/create database object -->
+<!-- Settings. Objects Databases. Add new database. Add custom fields -->
+<string name="add_custom_fields">Benutzerdefinierte Felder hinzufügen</string>
+<string name="select_field_type">Feldtyp wählen</string>
+<string name="set_custom_field_name">Name des benutzerdefinierten Feldes festlegen</string>
+<string name="do_you_want_to_delete_the_field_">Möchten Sie dieses Feld löschen?</string>
+<string name="the_field_name_">"Der Feldname "</string>
+<string name="_is_reserved_please_choose_a_different_one">" ist reserviert. Bitte einen anderen wählen"</string>
+<string name="some_field_names_coincide_please_choose_different_names">Manche Feldnamen überschneiden sich. Bitte unterschiedliche Namen wählen</string>
+<string name="database_without_custom_fields_has_been_created_">Datenbank ohne benutzerdefinierte Felder wurde erstellt!</string>
+<string name="default_existing_database_fields_are_">Standard (existierende) Datenbankfelder sind:</string>
+<string name="standard_fields">Standardfelder</string>
+<string name="please_add_your_custom_fields">Bitte Ihre benutzerdefinierten Felder hinzufügen</string>
+<string name="you_decided_to_cancel_adding_new_database_">Wollen Sie das Hinzufügen einer neuen Datenbank abbrechen?</string>
+<string name="add_new_field">Neues Feld hinzufügen</string>
+   
+   <!-- not that important -->
+<string name="_name1_short_name_name2_long_name_etc">- name1 (Kurzname)\n- name2 (Langer Name)\n- ra (Rektaszension)\n- dec (Deklination)\n- mag (Magnitude)\n- Konstellation\n- a (Größe der großen Halbachse)\n- b (Größe der kleinen Halbachse)\n- type (Objekttyp)\n- typestr (Typname für benutzerdefinierten Typ)\n- pw (Positionswinkel)\n- Hinweis\nSie können hier neue Felder zu Ihren benutzerdefinierten Datenbanken hinzufügen. Diese Felder werden mit der DSO Planner Engine durch die SQL-ähnliche Suchanfrage vollständig such- und auswählbar sein.\n</string>
+   <!-- not that important -->
+
+<!-- Settings. Objects Databases. Add new database. Add custom fields -->
+
+
+<!-- Star Chart. Settings. Star Chart -->
+<string name="labels_for_objects_from_observation_lists">Bezeichnungen für Objekte der Beobachtungslisten</string>
+<string name="object_labels_obs_list_">Objektbezeichnungen (Beobachtungsliste)</string>
+<string name="labels_for_objects_from_star_chart_layers">Bezeichnungen für Objekte der Sternkarten-Layer</string>
+<string name="object_labels_layers_">Objektbezeichnungen (Layer)</string>
+<string name="object_marker">Objektmarkierung</string>
+<string name="selected_object_crosshair_with_tool_set">Ausgewähltes Objekt-Fadenkreuz mit Werkzeug</string>
+<string name="enable_object_marker">Objektmarkierung aktivieren</string>
+<string name="_settings_">"    Einstellungen..."</string>
+<string name="star_chart_elements">Sternkarten-Elemente</string>
+<string name="select_grid_type">Rastertyp auswählen</string>
+<string name="grid2">Raster</string>
+<string name="constellations_lines">Sternbildlinien</string>
+<string name="horizon_line">Horizontlinie</string>
+<string name="fill_area_below_horizon">Bereich unter Horizont ausfüllen</string>
+<string name="antialiasing_lowers_performance">Antialiasing. Verringert die Performance</string>
+<string name="smooth_hard_line_edges">Harte Kanten glätten</string>
+<string name="labels">Bezeichnungen</string>
+<string name="bright_star_labels">Bezeichnungen für helle Sterne</string>
+<string name="show_component_and_separation_on_the_star_chart_for_double_stars_from_yale_bright_star_catalog">Auf der Sternkarte Komponenten und Trennung für Doppelsterne nach Yale Bright Star Catalog zeigen</string>
+<string name="double_star_info">Doppelsterninfo</string>
+<string name="grid_labels">Rasterbezeichnungen</string>
+<string name="zenith_nadir_horizon_labels">Zenith-, Nadir-, Horizont-Bezeichnungen</string>
+<string name="other_labels">Andere Bezeichnungen</string>
+<string name="star_chart_colors">Sternkartenfarben</string>
+<string name="black_stars_on_white_background_in_day_mode">Schwarze Sterne auf weißem Hintergrund im Tagmodus</string>
+<string name="inverse_sky">Himmel invertieren</string>
+<string name="colors_for_the_star_chart_elements_only">Farben nur für Elemente der Sternkarte</string>
+<string name="daytime_mode_colors">Tagmodusfarben</string>
+<string name="user_horizon">Benutzer-Horizont</string>
+<string name="the_closed_line_defined_in_the_text_file">Die geschlossene Linie, die in der Textdatei definiert ist</string>
+<string name="enable_user_horizon">Benutzer-Horizont aktivieren</string>
+<string name="azimuthal">Azimuthal</string>
+<string name="equatorial">Equatorial</string>
+<string name="no_grid">Kein Raster</string>
+<string name="star_chart_options">Sternkartenoptionen</string>
+<string name="constellation_boundaries">Sternbildgrenzen</string>
+<string name="constellation_boundary">Sternbildgrenze</string>
+<string name="milky_way2">Milchstraße</string>
+<string name="new_file">Neue Datei</string>
+<string name="default_colors_set">Standard-Farbset</string>
+<string name="would_you_like_to_update_horizon_from_existing_file_or_choose_a_new_file_instead_">Möchten Sie den Horizont über eine existierende Datei aktualisieren oder stattdessen eine neue Datei wählen?</string>
+<!-- Star Chart. Settings. Star Chart -->
+
+<!-- Star Chart. Settings. Equipment -->
+<string name="equipment_options">Equipment-Optionen</string>
+<string name="telescope">Teleskop</string>
+<string name="dobsonian_mount_push_to_support_star_chart_shows_adjusted_az_alt_after_one_star_alignment">Unterstützung für „Schubsen“ einer Dobson-Montierung. Sternenkarte zeigt angepasste Az/Alt nach Einstern-Ausrichtung</string>
+<string name="show_adjusted_az_alt">Angepasste Az/Alt zeigen</string>
+<string name="mount_not_connected">Montierung nicht verbunden</string>
+<string name="goto_mount_settings_">GoTo Montierung Einstellungen...</string>
+<string name="eyepieces_overlay">Okular-Einblendung</string>
+<string name="nested_fov_rings">Verschachtelte FOV-Ringe</string>
+<string name="north_south_east_west_labels_around_eyepiece_ring">Nord-, Süd-, Ost- und Westbezeichnungen um den Okularring</string>
+<string name="cardinal_direction_labels">Bezeichnungen für Himmelsrichtungen</string>
+<string name="ra_dec_guide_lines_within_eyepiece_fov">RA/Dec-Hilfslinien innerhalb des Okularrings</string>
+<string name="guide_lines">Hilfslinien</string>
+<string name="telrad_overlay">Telrad/QuInsight-Einblendung</string>
+<string name="telrad_rings_with_adjustable_a_h_guide_lines">Telrad-Ringe mit einstellbaren A/h Hilfslinien</string>
+<string name="telrad_rings">Telrad/QuInsight-Ringe</string>
+<string name="level_and_compass">Wasserwaage und Kompass</string>
+<string name="disable_down_tracking">Nach unten gerichtetes Nachführen deaktivieren</string>
+<string name="turn_off_tracking_when_pointing_down">Nachführen abschalten, wenn das Teleskop nach unten gerichtet wird</string>
+<string name="weight_0_0_1_0_default_0_1">Gewicht (0.0 - 1.0) Standard 0.1</string>
+<string name="_new_point_weight_">Neues Punktgewicht im Kompassmodus. Das niedrigere Gewicht resultiert in weniger Wackeln, aber reagiert langsamer</string>
+<string name="alpha">Alpha</string>
+<string name="goto_mount_connected">GoTo Montierung verbunden</string>
+<string name="goto_mount_disconnected">GoTo Montierung nicht verbunden</string>
+<!-- Star Chart. Settings. Equipment -->
+
+
+<!-- Star Chart. Settings. Equipment. Telrad. Settings... -->
+<string name="degrees">Grad</string>
+<string name="inner_ring_diameter">Innerer Ring Durchmesser</string>
+<string name="middle_ring_diameter">Mittlerer Ring Durchmesser</string>
+<string name="outmost_ring_diameter">Äußerster Ring Durchmesser</string>
+<string name="quin1_ring_diameter">QuInsight Ring 1 (4) Durchmesser</string>
+<string name="quin2_ring_diameter">QuInsight Ring 2 (5) Durchmesser</string>
+<string name="degrees_from_vertical_to_the_right">Grad von der Vertikalen nach rechts</string>
+<string name="marks_angle">Winkel der Markierungen</string>
+<string name="pixels">Pixel</string>
+<string name="width_of_the_rings">Breite der Ringe</string>
+<string name="telrad_overlay_options">Telrad/QuInsight-Einblendung Optionen</string>
+<!-- Star Chart. Settings. Equipment. Telrad. Settings... -->
+
+
+<!-- Star Chart. Settings. Star,object and image layer options -->
+<string name="star_object_and_image_layer_options">Stern-, Objekt- und Bild-Layer-Optionen</string>
+<string name="_2_5_million_stars_up_to_12m">2.5 Millionen Sterne bis 12m</string>
+<string name="ucac4_layer">UCAC4-Layer</string>
+<string name="object_layers">Bild-Layer</string>
+<string name="_1_643_000_galaxies_from_principal_galaxies_catalog">1.643.000 Galaxien des Principal Galaxies Catalog</string>
+<string name="pgc_layer">PGC-Layer</string>
+<string name="tycho_2_layer">Tycho-2 Layer</string>
+<string name="star_layers">Stern-Layer</string>
+<string name="ngcic_sac_layer">NgcIc/SAC Layer</string>
+<string name="_14_400_deep_sky_objects_from_ngcic_sac_and_hcg_catalogs">14.400 Deep Sky Objekte aus den NgcIc, SAC and HCG Katalogen</string>
+<string name="ngcic_sac_object_types">NgcIc/SAC Objekt-Typen</string>
+<string name="visibility_filter_for_object_layers">Sichtbarkeitsfilter für Bild-Layer</string>
+<string name="show_objects_from_object_layers_that_are_visible_with_selected_equipment_in_the_current_sky_conditions">Objekte aller Bild-Layer zeigen, die mit dem ausgewählten Equipment bei den derzeitigen Sichtungsbedingungen gesehen werden können</string>
+<string name="set_visibility_threshold_0_5_">Setze Sichtbarkeitsschwelle (0-5)</string>
+<string name="options">Optionen</string>
+<string name="dss_digitized_sky_survey_">DSS (Digitized Sky Survey)</string>
+<string name="use_visibility_for_layers">Benutze „Sichtbarkeit“ für die Bild-Layer</string>
+<string name="ucac4_description">113 Mio Sterne bis 16m</string>
+<string name="_238_deep_sky_objects_pro_">"238 Deep Sky Objekte. Pro: "</string>
+<string name="_147_000_galaxies_to_15_3m_from_principal_galaxies_catalogue">153. 000 Galaxien bis 16.7m aus dem Principal Galaxies Catalogue</string>
+<string name="_600_000_stars_up_to_10_7m">600.000  Sterne bis 10.7m</string>
+<string name="ngcic_object_types">NgcIc Objekttypen</string>
+<string name="_15_5_mn_stars_up_to_14m">15.4 Mio Sterne bis 14m</string>
+<string name="_3100_deep_sky_objects">3.100 Deep Sky Objekte</string>
+<string name="ngcic_layer">NgcIc-Layer</string>
+<!-- Star Chart. Settings. Star,object and image layer options -->
+
+<!-- Star Chart. Settings. Star,object and image layer options. NgcIc/SAC object types -->
+<string name="GC_title">Kugelsternhaufen</string>
+<string name="Gxy_title">Galaxie</string>
+<string name="GxyCld_title">Galaktische Wolke</string>
+<string name="HIIRgn_title">HII Region</string>
+<string name="Neb_title">Nebel</string>
+<string name="OC_title">Offener Sternhaufen</string>
+<string name="OCNeb_title">Offene Sternhaufen und Nebel</string>
+<string name="PN_title">Planetarischer Nebel</string>
+<string name="SNR_title">Supernova-Überrest</string>
+<string name="ngcic_sac_layer_preferences">NgcIc/SAC-Layer Voreinstellungen</string>
+<string name="no_magnitude_objects">Objekte ohne Magnitude</string>
+<string name="include">einbeziehen</string>
+<string name="fov_zoom_level_in_degrees">FOV für Zoombereich in Grad</string>
+<string name="fov_threshold">FOV-Schwelle</string>
+<string name="include_objects_without_magnitude_into_object_selection_for_fov_below_threshold">Objekte ohne Magnitude bei der Objektauswahl für den FOV unterhalb der eingestellten Schwelle mit einbeziehen</string>
+<string name="asterism">Sternhaufen</string>
+<string name="cluster_of_galaxies">Galaxienhaufen</string>
+<string name="dark_nebula">Dunkelnebel</string>
+<string name="star2">Stern</string>
+<string name="object_types">Objekt-Typen</string>
+<string name="comet2">Komet</string>
+<string name="minor_planet2">Kleinplaneten</string>
+<string name="double_star2">Doppelstern</string>
+<string name="custom_type">Nutzer-Typus</string>
+<string name="quasar">Quasar</string>
+<string name="not_found">Nicht gefunden</string>
+<string name="planet">Planet</string>
+<string name="ngcic_layer_preferences">NgcIc-Layer Einstellungen</string>
+<string name="select_deselect_all">ALLE aus/abwählen</string>
+<!-- Star Chart. Settings. Star,object and image layer options. NgcIc/SAC object types -->
+
+<!-- Star Chart. Settings. Star,object and image layer options.DSO -->
+<string name="show_elliptical_shape_at_high_zoom_level">Zeige elliptische Umrisse bei starker Vergrößerung</string>
+<string name="show_near_to_real_dso_shape">Zeige realen DSO-Umriss</string>
+<string name="zoom_level_for_real_size_on">Zoombereich für reale Größe AN</string>
+<string name="scale_factor_for_real_dso_shape">Skalierungsfaktor für reale DSO-Umrisse</string>
+<string name="dso_is_shown_in_real_shape_if_its_screen_dimension_is_higher_than_that_of_dso_icon_multiplied_by_scale_factor_set_it_to_zero_to_show_any_even_the_smallest_object_in_real_size">DSO wird als realer Umriss angezeigt, wenn seine Bildschirmgröße größer als das DSO-Symbol multipliziert mit dem Skalierungsfaktor ist. Wenn dieser Wert auf Null gesetzt wird, werden alle (selbst die kleinsten) Objekte in realer Größe angezeigt</string>
+<string name="use_to_reduce_enlarge_dso_icons">DSO-Symbol vergrößern/verkleinern</string>
+<string name="scale_factor_for_dso_signs">Skalierungsfaktor für DSO-Zeichen</string>
+<string name="dso_options">DSO-Optionen</string>
+<string name="dso_is_shown_as_sign_for_fov_above_the_threshold">FOV-Bereich wenn das DSO als Zeichen und nicht als Umriss gezeigt wird</string>
+<!-- Star Chart. Settings. Star,object and image layer options.DSO -->
+
+   
+<!-- Star Chart. Settings. Star,object and image layer options.DSS options -->
+<string name="dss_options">DSS-Optionen</string>
+<string name="enable_dss_imagery_support">DSS-Bildunterstützung einschalten</string>
+<string name="display_contours_of_already_downloaded_dss_images">Die Konturen bereits heruntergeladener DSS-Bilder zeigen</string>
+<string name="display_dss_contours">DSS-Konturen zeigen</string>
+<string name="when_to_show_hide_dss_images">Wann sollen DSS-Bilder gezeigt/nicht gezeigt werden</string>
+<string name="max_fov_to_show_dss">Max FOV für DSS-Darstellung</string>
+<string name="dss_images_dimming_">DSS-Bilder dimmen %</string>
+<string name="night_mode_only_range_0_100_0_no_dimming">Nur für Nachtmodus. Bereich 0-100%, 0 – keine Dimmung</string>
+<string name="dss_images_dimmer">DSS-Bilder Dimmer</string>
+<!-- Star Chart. Settings. Star,object and image layer options.DSS options -->
+
+<!-- Star Chart. Settings. Other -->
+<string name="other_options">Andere Optionen</string>
+<string name="real_time2">Echtzeit</string>
+<string name="star_chart_updated_automatically">Sternkarte wird automatisch aktualisiert</string>
+<string name="realtime_mode2">Echtzeit-Modus</string>
+<string name="auto_update_time_in_seconds">Automatisches Aktualisierungsintervall in Sekunden</string>
+<string name="_30_seconds_is_the_reasonable_default">30 Sekunden ist eine vernünftige Vorgabe</string>
+<string name="auto_update_period">Aktualisierungsintervall</string>
+<string name="real_time_screen_update2">Echtzeit-Bildschirm-Aktualisierung</string>
+<string name="distinguishing_observation_list_objects_">Hervorgehobene Beobachtungslisten-Objekte </string>
+<string name="a_colon_is_put_after_the_name_of_selected_observation_list_object">Ein Doppelpunkt(:) wird nach dem Namen des ausgewählten Beobachtungslisten-Objekts eingefügt</string>
+<string name="observation_list_object_mark">Markierung für Beobachtungslisten-Objekt</string>
+<string name="use_this_to_highlight_observation_list_objects_relative_to_objects_from_layers">Hiermit kann man Beobachtungslisten-Objekte relativ zu den Objekten der verschiedenen Layer hervorheben</string>
+<string name="dim_objects_from_layers">Objekte der verschiedenen Layer dimmen</string>
+<string name="measure_angle_between_two_successive_objects_selected">Den Winkel zwischen zwei nacheinander ausgewählten Objekten messen</string>
+<string name="angular_measurement">Winkel-Messung</string>
+<string name="object_centered_on_double_touch_and_getting_object_info">Objekt wird zentriert und Objektinformation wird angezeigt</string>
+<string name="center_object">Zentriere Objekt</string>
+<string name="if_you_mark_object_in_observation_list_it_will_disappear_from_skyview">Wenn ein Objekt in der Beobachtungsliste markiert ist, wird es in der Sternkarte verborgen</string>
+<string name="hide_marked_objects">Markierte Objekte verbergen</string>
+<string name="use_flick_on_the_left_side_of_the_skyview_to_control_brightness">Die Wischgeste auf der linken Seite der Himmelsansicht nutzen, um die Bildschirmhelligkeit einzustellen</string>
+<string name="brightness_flick">Wischgeste Helligkeit</string>
+    <string name="use_per_fov_flippers_of_the_chart">Speichern Sie den Spiegel und die Drehung des Diagramms unabhängig von der Sichtfeld (im Vergleich zu allen gleich)</string>
+    <string name="per_fov_flippers_on">Spiegel und Drehung pro Sichtfeld</string>
+    <string name="level_treshold_in_percent">Pegelschwelle in Prozent</string>
+<string name="battery_level_to_show_a_reminder">Batteriestand einstellen, bei dem eine Erinnerung angezeigt werden soll</string>
+<string name="battery_level_warning">Batteriestand-Warnung</string>
+<string name="update_screen">Bildschirm aktualisieren für FOV</string>
+<string name="do_not_update_screen_for_fov_below_">"Bildschirm nicht aktualisieren für FOV größer oder gleich "</string>
+<string name="update_screen_and_auto_center_selected_object_for_fov_below_">"Bildschirm aktualisieren und Zentrierung für ausgewähltes Objekt für FOV kleiner oder gleich"</string>
+<string name="select_real_time_mode">Echtzeitmodus wählen</string>
+<!-- Star Chart. Settings. Other -->
+
+<!-- Star Chart. Settings. Star Chart. Object Marker. Settings... -->
+<string name="object_marker_options">Objekt-Markierungs-Optionen</string>
+<string name="the_top_and_right_directions_are_highlighted">Nach OBEN und nach RECHTS sind hervorgehoben</string>
+<string name="show_orientation_marks">Zeige Orientierungs-Markierungen</string>
+<string name="show_line_from_the_screen_center_to_the_object">Zeige Linie von Bildschirmmitte zum Objekt</string>
+<string name="direction_line">Richtungslinie</string>
+<string name="set_length_of_cross_lines">Länge der Fadenkreuzlinien einstellen</string>
+<string name="cross_size">Fadenkreuzgröße</string>
+<string name="set_width_of_the_cross_lines">Breite der Fadenkreuzlinien einstellen</string>
+<string name="line_width">Linienbreite</string>
+<!-- Star Chart. Settings. Star Chart. Object Marker. Settings... -->
+
+<!-- Star Chart. Settings. Star Chart. Daytime mode colors -->
+<string name="set_default_colors_for_current_mode">Farbvorgabewerte im aktuellen Modus einstellen</string>
+<string name="reset_colors">Farben zurücksetzen</string>
+<string name="sky_colors">Farbe des Himmels</string>
+<string name="show_a_color_picker_dialog">Zeige den Farbauswahl-Dialog</string>
+<string name="dso_objects">DSO-Objekte</string>
+<string name="selected_object_crosshair2">Ausgewähltes Objekt im Fadenkreuz</string>
+<string name="eyepieces_circles">Okular-Kreise</string>
+<string name="telrad_rings2">Telrad/QuInsight-Kreise</string>
+<string name="dss_image_overlay">DSS-Bildüberlagerung</string>
+<string name="constellation_figure_lines">Sternbildlinien</string>
+<string name="user_horizon_line">Nutzer-Horizontlinie</string>
+<string name="labels2">Beschriftung</string>
+<!-- Star Chart. Settings. Star Chart. Daytime mode colors -->    
+
+<!-- Star Chart. Settings -->
+<string name="star_chart2">Sternkarte</string>
+<string name="equipment2">Ausrüstung</string>
+<string name="star_object_and_image_layers">Stern-, Objekt- und Bild-Layer</string>
+<string name="other2">Andere</string>
+<!-- Star Chart. Settings -->
+
+<!-- Settings. Screen Settings -->
+<string name="turn_night_mode_on_after_civil_twilight_ends">Nachtmodus nach der Bürgerlichen Dämmerung einschalten</string>
+<string name="automatic_nightmode">Automatischer Nachtmodus</string>
+<string name="dim_the_screen_to_the_hardware_minimum">Den Bildschirm auf Geräte-Minimum dimmen</string>
+<string name="minimal_brightness_mode">Minimaler Helligkeits-Modus</string>
+<string name="remove_the_android_notification_bar">Entferne den Android-Infobalken</string>
+<string name="day_time_full_screen_mode">Vollbild im Tagmodus</string>
+<string name="night_time_full_screen_mode">Vollbild im Nachtmodus</string>
+<string name="show_sombrero_image_on_the_initial_view">Zeige das Sombrero-Bild im Startmenü</string>
+<string name="nag_screen">Hauptschirm-Hintergrund</string>
+<string name="white_on_black_color_interface">Weiß auf Schwarz Farb-Interface</string>
+<string name="onyx_skin">Onyx skin</string>
+<string name="automatic_nighmode_is_on_">Automatischer Nachtmodus ist EIN !</string>
+
+<!-- Settings. System-wide settings -->
+<string name="_override_android_settings_">Android-Einstellungen für das Sternkarten-Modul nicht berücksichtigen</string>
+<string name="disable_auto_sleep_in_star_chart">Auto-Sleep deaktivieren</string>
+<string name="_android_keyboard_is_bad_at_night_">Android-Tastatur stattdessen nutzen. Anmerkung: im Nachtmodus nicht zu empfehlen</string>
+<string name="disable_night_keyboard">Nachttastatur deaktivieren</string>
+<string name="in_milliseconds_0_manual_dismiss_">In Millisekunden (0 - manuell)</string>
+<string name="setup_timeout_or_manual_dismiss">Automatische, zeitgesteuerte Abschaltung verwerfen</string>
+<string name="auto_dismiss_warnings">Warnmeldungen automatisch verwerfen</string>
+<string name="the_app_suggests_to_update_comet_database_when_new_orbital_elements_are_available">Die App fordert zur Aktualisierung der Kometen-Datenbank auf, falls neue Orbitalelemente verfügbar sind</string>
+<string name="auto_update_comet_elements">Automatische Aktualisierung der Kometendaten</string>
+<string name="change_language_app_restart">Bitte starten Sie die Anwendung erneut, um die Spracheinstellung zu ändern!</string>
+<string name="show_floating_back_and_menu_buttons_in_night_mode_this_may_be_convenient_if_your_device_allows_you_to_hide_white_navigation_buttons">Zeige gleitende \„Zurück\“- und \„Menü\“-Schaltflächen im Nachtmodus. Sinnvoll wenn Ihr Gerät zulässt, dass sich die weißen Navigations-Schaltflächen verbergen lassen</string>
+<string name="floating_back_menu_buttons_in_night_mode">Gleitende Zurück-/Menü-Schaltflächen im Nachtmodus</string>
+<!-- Settings. System-wide settings -->
+
+<!-- Star Chart. Settings. Star Chart. User Horizon. Settings -->
+<string name="pairs_az_h_of_points_in_text_file">Paare (Az h) von Punkten in der Text-Datei</string>
+<string name="user_horizon_options">Nutzer-Horizont-Optionen</string>
+<string name="user_file_with_a_h_pairs_per_line">Nutzer-Datei mit A h - Paaren per Linie</string>
+<string name="file_name_with_key_points">Dateiname der Stützpunkte</string>
+<string name="width_of_the_line">Linienstärke</string>
+<string name="_in_pixels_">(in Bildpunkten)</string>
+<string name="minimal_subdivisions">Größe in Grad</string>
+<string name="larger_number_makes_line_coarse_small_affects_performance">Größere Zahlen machen die Linie breiter, - kleine Zahlen beeinflussen die Performance</string>
+<string name="subdivision_size_in_degrees">Unterteilungsgröße in Grad</string>
+<!-- Star Chart. Settings. Star Chart. User Horizon. Settings -->
+
+<!-- Object Selection. Context Menu. Details -->
+<string name="description">Beschreibung</string>
+<string name="goto2">GoTo</string>
+<string name="image">Bild</string>
+<string name="other_designations">ANDERE BEZEICHNUNGEN</string>
+<string name="double_star_info2">DOPPELSTERN INFO</string>
+<string name="location_time">ORT/ZEIT</string>
+<string name="location">Ort</string>
+<string name="local_time">Ortszeit</string>
+<string name="rise_set">AUFGANG/UNTERGANG</string>
+<string name="rise">Aufgang</string>
+<string name="transit">Transit</string>
+<string name="set">Wählen</string>
+<string name="position">POSITION</string>
+<string name="ra_dec_2000_">RA/Dec(2000)</string>
+<string name="ra_dec_current_">RA/Dec(derzeit)</string>
+<string name="az_alt">Az/Alt</string>
+<string name="object_parameters">OBJEKT PARAMETER</string>
+<string name="dimensions">Dimensionen</string>
+<string name="pa">PA</string>
+<string name="per_ep_visibility">Per Okular „Sichtbarkeit“</string>
+<string name="other">ANDERE</string>
+<string name="moon_phase">Mondphase</string>
+<string name="double_star_info_">DOPPELSTERN INFO (</string>
+<string name="this_will_take_you_to_another_details_screen">Dies führt zu einer weiteren Detailansicht</string>
+<string name="unlock">Entriegeln</string>
+<string name="lock">Verriegeln</string>
+<string name="add2">Hinzufügen</string>
+<string name="notes">Notizen</string>
+<string name="star_chart3">Sternkarte</string>
+<string name="selected_object_information">Ausgewählte Objektinformationen</string>
+<string name="_more_">" Mehr "</string>
+<!-- Object Selection. Context Menu. Details -->
+
+<!-- Star Chart -->
+<string name="dss_image_downloading">DSS-Bild wird heruntergeladen</string>
+<string name="nearby_search">Suche in der Nähe</string>
+<string name="_images_in_">" Bilder in "</string>
+<string name="set_center_s_ra_dec_2000_">Mitte für RA/Dec(2000) einstellen</string>
+<string name="info">Info</string>
+<string name="download_ticker"> DSS-Bild wird heruntergeladene</string>
+<string name="select_dss_action">Aktion für DSS-Umriss auswählen</string>
+<string name="single_image_small_object_">Einzelbild (kleines Objekt)</string>
+<string name="nine_images_larger_object_">Neun Bilder (größeres Objekt)</string>
+<string name="hide_dss_images">verberge DSS-Bilder</string>
+<string name="how_much_to_download_">Wie viel zum Herunterladen?</string>
+<string name="the_download_is_about_to_start_">Download beginnt.</string>
+<string name="search_nearby_running">Suche für umgebende Objekte wird durchgeführt!</string>
+<string name="select_object_first">Erst das Objekt auswählen</string>
+<string name="select_action">Aktion auswählen</string>
+<string name="bluetooth_connection_required_would_you_like_to_setup_it_now_">Bluetooth-Verbindung erforderlich. Soll die Verbindung jetzt eingerichtet werden?</string>
+<string name="the_scope_is_busy_try_later">Das Teleskop ist ausgelastet. Später versuchen</string>
+<string name="later">später</string>
+<string name="would_you_like_to_turn_object_marker_guide_line_on_">Sollen die Objekt-Orientierungshilfen eingeschaltet werden, damit das Objekt leichter aufgefunden werden kann?</string>
+<string name="compass_mode_is_turned_on">Kompass-Modus ist eingeschaltet</string>
+<string name="select_compass_level_mode">Kompass-/Niveau-Modus auswählen</string>
+<string name="setting_circles_one_star_alignment">Einstellkreise für Einstern-Ausrichtung</string>
+<string name="helpCalibrateDlg">Kurzanleitung für Einstellkreise bei der Einstern-Ausrichtung: \nTeleskop auf das auf der Karte ausgewählte Objekt richten, dann die  „Jetzt“-Schaltfläche drücken. Auf den Einstellkreisen angezeigte Azimuth- und Altitude-Werte in die vorgesehenen Eingabefelder eingeben. Schaltfläche „Einstern-Ausrichtung“ drücken, um die Einstellwerte zu übernehmen. Das Menü „Einstellungen“ nutzen, um den Bildschirm zwischen den eingestellten und den aktuellen Az/Alt-Werten umzuschalten.</string>
+<string name="counterclockwise">Gegen den Uhrzeigersinn</string>
+<string name="clockwise">Im Uhrzeigersinn</string>
+<string name="one_star_align">Einstern-Ausrichtung</string>
+<string name="setting_circles_calibration_successfull_">Kalibrierung der Einstellkreise erfolgreich.</string>
+<string name="adjustments_daz_">Einstellungen: dAz=</string>
+<string name="_dalt_">" dAlt="</string>
+<string name="hide2">Verberge</string>
+<string name="show2">Zeige</string>
+<string name="off">Aus</string>
+<string name="compass_level">Kompass + Niveau</string>
+<string name="level2">Niveau</string>
+<string name="field_view_minutes_600_max_">Beobachtungszeit (Minuten, 600 max)</string>
+<string name="types">Typ</string>
+<string name="object_selected_">"ausgewähltes Objekt "</string>
+<string name="time_point">Zeitpunkt</string>
+<string name="real_azimuth">echter Azimuth</string>
+<string name="real_altitude">echte Altitude</string>
+<string name="measured_az">gemessener Az</string>
+<string name="measured_alt">gemessene Alt</string>
+<string name="no_data2">keine Daten</string>
+<string name="_1_hour">-1 Std</string>
+<string name="center">Zentriere</string>
+<string name="_1_hour2">+1 Std</string>
+<string name="mirror">Spiegelung</string>
+<string name="rotate_180_">Drehung(180)</string>
+<string name="telrad">Telrad</string>
+<string name="eyepieces">Okulare</string>
+<string name="nearby">in der Nähe</string>
+<string name="scope_go">Teleskop go</string>
+<string name="compass">Kompass</string>
+<string name="align_star">Ausrichtungsstern</string>
+<string name="boldness">Intensität</string>
+<string name="layers">Layer</string>
+<string name="ra_dec">RA/DEC</string>
+<string name="mirror_">" Spiegelung "</string>
+<string name="rotate">Drehung</string>
+<string name="loading">Lädt</string>
+<string name="_battery_low_">" Batteriestand niedrig "</string>
+<string name="define_faint_stars_cut_off_and_brightest_stars_to_draw_large">Magnitude für größte und kleinste Sterndarstellung einstellen</string>
+<string name="reset_this">Zurücksetzen</string>
+<string name="_next_">" Weiter "</string>
+<string name="_types_">" Typen "</string>
+<string name="reset2">Zurücksetzen</string>
+<string name="ra_hour_min_sec_">Ra (Std min sek)</string>
+<string name="dec_deg_min_sec_">Dec (Grad min sek)</string>
+<string name="download">Download</string>
+<string name="this_catalog_is_off_would_you_like_to_turn_it_on_">Layer ist ausgeschaltet. Soll dieser Layer eingeschaltet werden?</string>
+<string name="rotated">gedreht</string>
+<string name="hide_dss_contours">DSS-Konturen ausblenden</string>
+<string name="_visibility_filter_on">" Sichtbarkeits-Filter EIN "</string>
+<string name="dss_download_complete">DSS-Download fertig</string>
+<string name="dss_images_download">DSS-Bilder Download</string>
+<string name="zenith">Zenith</string>
+<string name="nadir">Nadir</string>
+<string name="show_dss_images">DSS-Bilder anzeigen</string>
+<string name="show_dss_contours">DSS-Konturen anzeigen</string>
+
+<!-- not that important -->
+<string name="you_have_exceeded_the_dss_image_count_free_version_please_make_sure_that_there_is_not_more_than_">"Sie haben die Anzahl an DSS Bildern überschritten (Free Version). Bitte stellen Sie sicher, dass es nicht mehr sind als "</string>
+<string name="sorry_but_you_have_reached_the_free_version_limit_would_you_like_to_open_google_play_to_purchase_dso_planner_pro_version_">Entschuldigung, aber Sie haben das Limit der Free Version erreicht.\n\nMöchten Sie Google Play öffnen und DSO Planner Pro erwerben?</string>
+   <!-- not that important -->
+
+<!-- Star Chart -->
+
+
+<!-- Planet name in usual register -->
+<string name="sun2">Sonne</string>
+<string name="moon2">Mond</string>
+<string name="mercury2">Merkur</string>
+<string name="venus2">Venus</string>
+<string name="earth2">Erde</string>
+<string name="mars2">Mars</string>
+<string name="jupiter2">Jupiter</string>
+<string name="saturn2">Saturn</string>
+<string name="uranus2">Uranus</string>
+<string name="neptune2">Neptun</string>
+<!-- Planet name in usual register -->
+
+
+<!-- Planet name in upper register -->
+<string name="venus">VENUS</string>
+<string name="mars">MARS</string>
+<string name="moon">MOND</string>
+<string name="jupiter">JUPITER</string>
+<string name="sun">SONNE</string>
+<string name="saturn">SATURN</string>
+<string name="mercury">MERKUR </string>
+<string name="uranus">URANUS</string>
+<string name="neptune">NEPTUN</string>
+<!-- Planet name in upper register -->
+
+
+<!-- Object Selection. Context Menu. See all notes -->
+<string name="export_error_">Exportfehler!</string>
+<string name="search_note_database_for_the_string_">Notiz-Datenbank nach diesen Ausdruck durchsuchen:</string>
+<string name="there_is_no_audio_for_this_note">Es gibt für diese Notiz kein Audio</string>
+<string name="note_list_confirmation">Notizlisten-Bestätigung</string>
+<string name="do_you_want_to_remove_the_note_">Wollen Sie die Notiz entfernen?</string>
+<string name="do_you_want_to_remove_all_of_the_notes_">Wollen Sie ALLE Notizen entfernen?</string>
+<string name="play">Abspielen</string>
+<string name="note_time">Notizzeitpunkt</string>
+<string name="share_all">Alles teilen</string>
+<string name="search_text">Suchtext</string>
+<string name="_notes">" Notizen"</string>
+<string name="import_for_this_database_is_running_">Import für diese Datenbank läuft!</string>
+<string name="observation_note">Beobachtungsnotiz</string>
+<string name="observation_notes">Beobachtungsnotizen</string>
+<string name="dso_observation_notes">DSO Beobachtungsnotizen</string>
+<string name="add_new_note">Neue Notiz hinzufügen</string>
+<string name="this_action_could_not_be_performed_for_temporary_object_note">Aktion kann für diese Notiz nicht durchgeführt werden</string>
+<string name="would_you_like_to_set_the_time_and_location_as_recorded_with_this_note_">Soll die Zeit/Orts-Einstellung auf den Wert der Notiz-Aufzeichnung eingestellt werden?</string>
+<!-- Object Selection. Context Menu. See all notes -->
+
+<!-- Object Selection. Context Menu. Add note -->
+<string name="_change_time_">" Zeit ändern "</string>
+<string name="voice_note_recording_">Sprachaufzeichnung:</string>
+<string name="_play_">" Abspielen "</string>
+<string name="save2">SPEICHERN</string>
+<string name="start_recording">Aufzeichnung starten</string>
+<string name="edit_observation_note">Beobachtungsnotiz bearbeiten</string>
+<string name="an_old_record_exists_overwrite_it_">Es gibt eine ältere Aufzeichnung. Überschreiben?</string>
+<string name="error_starting_an_audio_recorder">Fehler beim Starten der Aufzeichnung</string>
+<string name="stop_recording">Aufnahme stoppen</string>
+<string name="overwrite">Überschreiben</string>
+<string name="this_note_is_not_saved_yet_exit_anyway_">Diese Notiz ist noch nicht gespeichert worden! Programm trotzdem verlassen?</string>
+<string name="local_time_">Lokale Zeit:</string>
+<string name="action">Aktion</string>
+<string name="_audio_record_">"[Audioaufnahme \'"</string>
+<string name="_audio_record_2">"[Audioaufnahme "</string>
+<string name="eyepiece">Okular</string>
+<string name="telescope2">Teleskop</string>
+<string name="location2">Ort</string>
+<string name="set_new_date_time">Datum/Zeit neu einstellen</string>
+<string name="insert_observatory_data">Daten für Observatorium einfügen</string>
+<string name="insert_telescope">Teleskop einfügen</string>
+<string name="insert_eyepiece">Okular einfügen</string>
+<string name="insert_all_of_the_above">Alles einfügen</string>
+<string name="error_">Fehler\n[</string>
+<string name="select_from_world_s_cities">aus weltweiten Städten auswählen</string>
+<string name="select_from_user_locations">aus Nutzer-Orten auswählen</string>
+<string name="current_scope">benutztes Teleskop</string>
+<string name="select_from_the_list">aus der Liste auswählen</string>
+<string name="select_telesope">Teleskop auswählen</string>
+<string name="only_3_eyepieces_were_inserted">es wurden nur drei Okulare eingesetzt</string>
+<string name="current_location">derzeitiger Ort</string>
+<!-- Object Selection. Context Menu. Add note -->
+
+<!-- Settings. Downloads -->
+   
+   <!-- not that important -->
+<string name="no_space_available_">Kein Speicherplatz verfügbar!</string>
+<string name="download_in_progress_please_wait">Bitte warten</string>
+<string name="file_exists_overwrite_">Datei existiert bereits. Überschreiben?</string>
+<string name="download_is_about_to_start">Download beginnt</string>
+<string name="expansion_pack">Erweiterungsdatei</string>
+<string name="expansion_patch">Patchdatei für die Erweiterungsdatei</string>
+<string name="expansion_pack_contains_all_application_databases">"Die Erweiterungsdatei enthält alle Anwendungs-Datenbanken. Normalerweise wird sie automatisch heruntergeladen, wenn das Programm installiert wird. Nur wenn beim Start des Programms die Warnung erscheint, dass die Erweiterungsdatei fehlt, muss sie manuell heruntergeladen werden! "</string>
+<string name="expansion_patch_contains">"Die Patchdatei für die Erweiterungsdatei enthält die Veränderungen für die Anwendungsdatenbanken. Normalerweise wird sie automatisch heruntergeladen wenn das Programm installiert wird. Nur wenn beim Start des Programms die Warnung erscheint, dass die Patchdatei der Erweiterungsdatei fehlt, muss sie manuell heruntergeladen werden! "</string>
+<string name="please_restart_the_application_after_downloading_expansion_pack_to_install_it_">Zur Installation der Dateien bitte das Programm nach dem Herunterladen neu starten!</string>
+<string name="please_restart_the_application_after_downloading_expansion_patch_to_install_it_">Zur Installation der Dateien bitte das Programm nach dem Herunterladen neu starten!</string>
+<string name="the_file_is_already_downloading_">Die Datei wird gerade heruntergeladen!</string>
+<string name="can_not_connect_to_the_server_please_try_again_">Server nicht erreichbar. Bitte erneut versuchen!</string>
+<string name="size2">Größe</string>
+<string name="databases_to_download">Datenbanken zum Herunterladen</string>
+<string name="this_download_requires_network_connection_">Dieser Download erfordert eine Netzwerk-Verbindung!</string>
+<string name="this_download_requires_wifi_network_connection_">Dieser Download erfordert eine WLAN Netzwerk-Verbindung!</string>
+   <!-- not that important -->
+
+<!-- Settings. Downloads -->
+
+
+<!-- Tools -->
+<string name="astro_tools">Astro-Werkzeuge</string>
+<string name="yes_please">Ja bitte</string>
+<string name="no_thanks">Nein danke</string>
+<string name="nightmode_warning">Nachtmodus-Warnung</string>
+<string name="minilaunchr_wantlaunch">Dieses Programm kann die Dunkeladaption Ihrer Augen ruinieren, falls keine rote Folie für den Gerätebildschirm verwendet wird. Wollen Sie es trotzdem starten?</string>
+<string name="sorry_can_t_start_this_application">Die Anwendung kann leider nicht gestartet werden</string>
+<string name="minilaunchr_autoadd">Möchten Sie alle auf dem Android-Gerät installierten Astronomie-Anwendungen automatisch markieren (die Liste der Anwendungen lässt sich dann betrachten und verändern)?</string>
+<string name="dso_twilight">DSO-Dämmerung</string>
+<string name="dso_flashlight">DSO-Taschenlampe</string>
+<string name="_missing_">"(fehlt) "</string>
+<string name="there_are_no_new_astronomy_related_applications_detected_on_your_deveice">Es wurden keine neuen Astronomie-Anwendungen auf dem Gerät gefunden. Wählen Sie die gewünschten Anwendungen manuell aus der Liste</string>
+<string name="add_remove_applications">Hinzufügen/Entfernen von Anwendungen</string>
+<string name="title_activity_mini_launcher">Astro-Werkzeuge</string>
+<string name="title_activity_mini_launcher_chooser">Anwendungen zum Hinzufügen zu Astro-Werkzeuge</string>
+<string name="there_are_only_">"Es gibt nur "</string>
+<string name="_new_astronomy_ralated_applications_have_been_found_on_your_device">" Neue astronomierelevante Anwendungen wurden auf dem Gerät gefunden (siehe Liste). Diese Anwendungen können manuell entfernt oder auch hinzugefügt werden."</string>
+<!-- Tools -->
+
+<!-- Tools. DSO Twilight -->
+<string name="twilight_almanach">Dämmerungs-Kalender</string>
+<string name="location_twilight">Ort</string>
+<string name="local_date">Datum</string>
+<string name="begin">Beginn</string>
+<string name="end">Ende</string>
+<string name="rise_twilight">Aufgang</string>
+<string name="transit_twilight">Transit</string>
+<string name="set_twilight">Untergang</string>
+<string name="sun_twilight">Sonne</string>
+<string name="moon_twilight">Mond</string>
+<string name="moon_phase_day_start_">"Mondphase (beginnt am): "</string>
+<string name="twilight">Dämmerung</string>
+<string name="morning">Morgen</string>
+<string name="evening">Abend</string>
+<string name="civil">Bürgerliche</string>
+<string name="nautical">Nautische</string>
+<string name="astronomical">Astronomische</string>
+<string name="_apos_apos_means_the_event_is_next_day">"'>' – bedeutet, dass das Ereignis am nächsten Tag stattfindet"</string>
+<string name="date_picker">Datumswahl</string>
+<string name="duration">Dauer</string>
+<string name="darkness">Dunkelheit</string>
+<string name="_24h">- 24h</string>
+<string name="_24h_plus">+ 24h</string>
+<!-- Tools. DSO Twilight -->
+
+<!-- Settings. Backup/Restore -->
+<string name="backups_your_databases_and_observation_lists_to_sd_card_">"Erstelle eine Sicherheitskopie der Datenbanken und Beobachtungslisten auf der SD-Karte "</string>
+<string name="restores_your_databases_and_observation_lists_from_sd_card_">"Wiederherstellung der Datenbanken und Beobachtungslisten von der SD-Karte "</string>
+<string name="backup">Sicherheitskopie</string>
+<string name="restore">Wiederherstellung</string>
+<string name="backup_restore_instruction">Sicherheitskopie-/Wiederherstellung-Anleitung</string>
+<string name="databases_will_be_copied_from_memory_to_">Datenbanken werden aus dem Speicher kopiert nach\n </string>
+<string name="and_will_overwrite_existing_files_there_silently_">und überschreibt bestehende Sicherungsdateien ohne Warnung.</string>
+<string name="_folder_replacing_all_of_the_existing_data_silently_">\nOrdner, in dem alle vorhandenen Dateien überschrieben werden.</string>
+
+<!-- Tools. DSO Flashlight -->
+<string name="title_activity_flashlight">Taschenlampe</string>
+<string name="dso_flashlight_n_nswipe_up_down_to_change_brightness_nleft_right_to_change_color_intensity_nlong_tap_turns_the_flashlight_on_off_n">"DSO-TASCHENLAMPE \n\nWischgeste oben/unten um die Helligkeit zu verändern,\nlinks/rechts um die Farbsättigung zu verändern.\nLanger Tastendruck zum Ein-/Ausschalten.\n"</string>
+<!-- Tools. DSO Flashlight -->
+
+
+<!-- Settings. About -->
+<string name="about_text">DSO-Planner ist eine Planungssoftware für die Beobachtung von astronomischen Deepsky-Objekten\n. Zielgruppe sind erfahrene visuelle Deepsky-Beobachter.\n\nEntwickler: Leonid Vasiliev, Alexandre Koukarine\n\nDeutsche Übersetzung, danke an: Felix Ittner, Jens Imohr</string>
+<!-- Settings. About -->
+
+
+<!-- Observation List. Menu. Import -->
+<string name="select_file">Datei wählen</string>
+<string name="time2">ZEIT</string>
+<string name="location_">"Ort: "</string>
+<string name="go_back">Zurück</string>
+<string name="directory">Verzeichnis</string>
+<!-- Observation List. Menu. Import -->
+
+
+<!-- Miscelanious -->
+<string name="pick_the_file_for_importing">Datei für den Import wählen</string>
+<string name="miscellaneous">Sonstiges</string>
+<string name="help">Hilfe</string>
+<string name="external_storage_not_available_for_reading_">Externer Speicherplatz zum Auslesen nicht verfügbar!</string>
+<string name="external_storage_not_available_for_writing_">Externer Speicherplatz zum Beschreiben nicht verfügbar!</string>
+<string name="this_setting_may_ruin_your_eyes_darkness_adaptation_if_you_are_not_using_a_red_film_over_your_device_s_screen_would_you_like_to_continue_anyway_">Diese Einstellung kann Ihre Dunkeladaption ruinieren, falls Sie keine rote Folie über Ihrem Display verwenden. Möchten Sie dennoch fortfahren?</string>
+<string name="files_copied_">Daten kopiert:</string>
+<string name="search_in_progress_">Suche läuft...</string>
+<string name="import_error">Importfehler</string>
+<string name="dso_search">APP-Datenbanken durchsuchen</string>
+<string name="object_not_selected">Objekt nicht ausgewählt</string>
+<string name="copy_to_clipboard">In Zwischenablage kopieren</string>
+<string name="error_importing_database">Fehler beim Importieren der Datenbank</string>
+<string name="_processed">" verarbeitet"</string>
+<string name="sorry_but_this_function_is_available_in_pro_version_only_would_you_like_">Entschuldigung, aber diese Funktion ist nur in bezahlten Versionen verfügbar.\n\nMöchten Sie Google Play öffnen und DSO Planner Pro erwerben?</string>
+<string name="nightmode_warning_click_again">NACHTMODUS WARNUNG:\nWenn Sie die Teilen-Funktion benutzen, kann Ihre Dunkeladaption eventuell beeinträchtigt werden.\n\nWählen Sie den Befehl nochmals, falls Sie damit kein Problem haben.</string>
+<string name="import_complete">Import abgeschlossen</string>
+<string name="downloads_interrupted">Downloads unterbrochen</string>
+<string name="download_complete">Download abgeschlossen</string>
+<string name="downloading_dss_image">DSS-Bilder werden heruntergeladen</string>
+<string name="dss_at_">"DSS bei "</string>
+<string name="download_in_progress">Download wird ausgeführt</string>
+<string name="download_interrupted">Download unterbrochen</string>
+<string name="not_applicable">Nicht anwendbar</string>
+<string name="edit_">"Bearbeite "</string>
+<string name="_folder_can_t_be_read_">] Ordner kann nicht gelesen werden!</string>
+<string name="import_is_running_">Import läuf!</string>
+<string name="select_eyepiece_ccd">Wähle Okular / CCD</string>
+<string name="eyepiece2">Okular</string>
+<string name="fov_column_title">FOV in den Ecken</string>
+<string name="night_time_red_color_intensity">Rotintensität für Nachtmodus</string>
+<string name="night_time">Nacht</string>
+<string name="select_color_intensity_0_255_">Farbintensität (0-255) wählen</string>
+<string name="set_default_intensities_for_night_mode">Standardeinstellungen für die Intensitäten im Nachtmodus wählen</string>
+<string name="reset_intensities">Intensitäten zurücksetzen</string>
+<string name="stars">Sterne</string>
+<string name="planets">Planeten</string>
+<string name="non_star_object_labels">Beschriftungen für „Nicht-Sterne“</string>
+<string name="planet_labels">Planetenbeschriftungen</string>
+<!-- Miscelanious -->
+
+<string name="about_contact">Senden Sie für Anfragen jeglicher Art bitte eine E-Mail an <a href="mailto:dsoplanner@gmail.com">dsoplanner@gmail.com</a>, besuchen Sie die Website der App <a href="http://www.dsoplanner.com">www.dsoplanner.com</a> oder das <a href="http://forum.dsoplanner.com/">User Support Forum </a></string>
+<string name="about_contact_night">Senden Sie für Anfragen jeglicher Art bitte eine E-Mail an dsoplanner@gmail.com, besuchen Sie die Website der App www.dsoplanner.com oder das User Support Forum </string>
+
+
+<string name="quick_start_guide"><b>Schnellstartanleitung</b>\nDie App unterstützt zwei Herangehensweisen zur Objektauswahl. Der einfachere Weg ist es, die Objektlayer der Sternkarte anzuschalten (NgcIc, PGC) und eine limitierende Magnitude für jeden Layer und das Field of View (FOV) zu setzen. Alle Objekte, deren Magnitude unter dem Limit liegt, werden dann auf der \"Sternkarte\" angezeigt. Neben dem Limitieren der Magnitude, kann der NgcIc-Layer auch nach Objekttypen gefiltert werden.\n\nDie zweite Herangehensweise ist es, etliche Datenbanken nach Objekten zu durchsuchen, die mit Hilfe von verschiedenen Filtern beobachtet werden sollen (\"Objektauswahl\"), eine Beobachtungsliste vorzubereiten und deren Objekte automatisch auf die \"Sternkarte\" zu bringen.\n\nSie können jede Herangehensweise separat nutzen oder beide kombinieren. Um sie separat zu nutzen, schalten Sie Objektlayer aus und füllen Sie die aktuelle Beobachtungsliste oder anderherum schalten Sie Objektlayer ein und leeren Sie die aktuelle Beobachtungsliste. Um sie zu kombinieren, schalten Sie Objektlayer ein und füllen Sie die aktuelle Beobachtungsliste.\n\n<b>Sternkarte</b>\n\"Sternkarte\" zeigt Sterne und Objekte der gewählten Layer und ALLE Objekte der aktuellen Beobachtungsliste. Sie können für jedes FOV und jeden Layer die limitierende Magnitude anpassen, um die Anzahl der Sterne/Objekte zu erhöhen/reduzieren, die Sie auf dem Bildschirm sehen.\n\nDie Sternkarte kann nach höchstem Maße angepasst werden, denn es gibt viele Optionen in \"Sternkarteneinstellungen\", die Ihnen helfen, sie an Ihre Bedürfnissen anzupassen.\n\nStandardmäßig zeigt die \"Sternkarte\" vorinstallierte "Digitized Sky Survey"-Bilder (DSS) und deren Konturen an. Sie sind keine Objekte im eigentlichen Sinne, sondern sie gehören vielmehr zum  DSS-Bilder-Layer. Um ein DSS-Bild eines Objekts/Himmelsabschnitts herunterzuladen, wählen Sie ein Objekt oder einen Stern und gehen Sie zu Menü/DSS. Sie können das DSS-Bild entfernen oder ein Bild des benachbarten Gebiets herunterladen, indem Sie zweimal lange auf das existierend Bild bzw. das benachbarte Gebiet tippen.\n\n<b>Objektauswahl</b>\nUm nach Objekten zu suchen, gehen Sie auf den \"Objektauswahl\"-Bildschirm. Drücken Sie dann den \"Auswählen\"-Knopf. Wählen Sie anschließend Objekttypen, Kataloge, minimale Abmessungen, Sichtbarkleitsfilter (Objektsichtbarkeit, maximale Magnitude) und die minimale Altitude.\n\nKehren Sie dann zurück. Wählen Sie nun Ihre geographische Position, die Zeit der Beobachtung und die Gegebenheiten des Himmels aus. Kehren Sie wieder zurück und drücken Sie den \"Update\"-Knopf. Nun haben Sie eine Liste von Objekten.\n\nTippen Sie auf ein Objekt, um dessen Position in der \"Sternkarte\" zu sehen. Tippen Sie lange auf die Liste und wählen Sie \"(Alle) Zu Beobachtungsliste hinzufügen\", um Objekte zur aktuellen Beobachtungsliste hinzuzufügen (und sie werden auf der Sternkarte sichtbar).\n\n<b>Beobachtunslisten</b>\n\nEs gibt vier Beobachtungslisten. Die aktuelle wird im \"Beobachtungslisten\"-Bildschirm angezeigt, ihre Objekte werden auf der \"Sternkarte\" angezeigt. Sie können die aktuelle Beobachtungsliste im Menü ändern. Das Menü beinhaltet auch andere Befehle für die Beobachtungsliste (Sortierung, Notizabgleich, etc.) .\n\n<b>Handbuch</b>\ndsoplanner.com/files/DSO_Planner_User_Manual.pdf</string>     
+
+
+<string name="quick_start_guide1">Schnellstartanleitung</string>
+<string name="name_telescope">Name</string>
+
+</resources>

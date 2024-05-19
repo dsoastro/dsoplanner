@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/select_object_catalogs"
+    >
+    
+    <Preference
+	    android:key="@string/select_catalog_clear"
+	    android:layout="@layout/pref"
+	    android:summary=""
+	    android:title="@string/deselect_all" />
+    <PreferenceCategory 
+        android:key="@string/select_catalog_nearby_brightest_category"
+        android:title="@string/brightest_objects"       
+        >
+          <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/select_catalog_messier2"
+            android:layout="@layout/prefc"
+            android:title="@string/messier" />
+         <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/select_catalog_caldwell2"
+            android:layout="@layout/prefc"
+            android:title="@string/caldwell" />
+         <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/select_catalog_hershell2"
+            android:layout="@layout/prefc"
+            android:title="@string/herschel_400" />
+         <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/select_catalog_ngcic2"
+            android:layout="@layout/prefc"
+            android:summary="@string/_12_515_objects_of_all_types"
+            android:title="@string/ngcic" />
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_sac2"
+            android:layout="@layout/prefc"
+            android:summary="@string/saguaro_astronomy_club_database_n10_342_objects_of_all_types"
+            android:title="@string/sac" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/galaxies"
+        android:key="@string/select_catalog_galaxies_category2"
+        >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_ugc2"
+            android:layout="@layout/prefc"
+            android:summary="@string/uppsala_general_catalogue_of_galaxies_nugc_is_an_essentially_complete_catalogue_of_galaxies_to_a_limiting_diameter_of_1_0_and_or_to_a_limiting_apparent_magnitude_of_14_5"
+            android:title="@string/ugc" />
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_pgc2"
+            android:layout="@layout/prefc"
+            android:summary="@string/_45_000_galaxies_to_16m_not_including_ngcic_and_ugc_galaxies"
+            android:title="PGC" />
+        
+    </PreferenceCategory>
+	<PreferenceCategory 
+	    android:key="@string/select_catalog_nearby_nebula_category"
+	    android:title="@string/nebula">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_ldn2"
+            android:layout="@layout/prefc"    
+            android:summary="@string/lynds_catalogue_of_dark_nebulae_"       
+            android:title="@string/ldn" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_barnard2"
+            android:layout="@layout/prefc"      
+            android:summary="@string/barnard_s_catalogue_of_349_dark_objects_in_the_sky_"               
+            android:title="@string/barnard" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_lbn2"
+            android:layout="@layout/prefc"   
+            android:summary="@string/lynds_catalogue_of_bright_nebulae"        
+            android:title="@string/lbn" />   
+            
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_sh22"
+            android:layout="@layout/prefc"   
+            android:summary="@string/catalogue_of_hii_regions"        
+            android:title="@string/sh2" /> 
+            
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_pk2"
+            android:layout="@layout/prefc"   
+            android:summary="@string/catalogue_of_galactic_planetary_nebulae_"        
+            android:title="@string/pk" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:key="@string/select_catalog_nearby_clusters_category"
+        android:title="@string/clusters_of_galaxies">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_abell2"
+            android:layout="@layout/prefc"
+            android:summary="@string/catalogue_of_abell_clusters_of_galaxies_"
+            android:title="@string/abell" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_hickson2"
+            android:layout="@layout/prefc"
+            android:summary="@string/hickson_compact_group_"
+            android:title="@string/hcg" />
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:key="@string/select_catalog_nearby_ds_category"
+        android:title="@string/double_stars">
+       <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_bright_ds2"
+            android:layout="@layout/prefc"
+            android:summary="@string/_2271_brightest_double_stars"
+            android:title="@string/brightest_double_stars" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_wds2"
+            android:layout="@layout/prefc"
+            android:summary="@string/the_washington_visual_double_star_catalog_"
+            android:title="@string/wds" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:key="@string/select_catalog_nearby_mp_category"
+        android:title="@string/comets_and_minor_planets">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_comet2"
+            android:layout="@layout/prefc"
+            
+            android:title="@string/comets" />
+        
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_planet2"
+            android:layout="@layout/prefc"
+            
+            android:title="@string/minor_planets" />
+        
+    </PreferenceCategory>
+    
+       
+        
+    
+    <PreferenceCategory 
+        android:key="@string/select_catalog_user_category"
+        android:title="@string/user_databases">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up1"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up2"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up3"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up4"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up5"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up6"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up7"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up8"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up9"
+            android:layout="@layout/prefc"
+            android:title="" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/select_catalog_up10"
+            android:layout="@layout/prefc"
+            android:title="" />
+    </PreferenceCategory>
+</PreferenceScreen>

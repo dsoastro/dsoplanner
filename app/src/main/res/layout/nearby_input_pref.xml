@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srequest_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:padding="@dimen/padding_medium"
+        android:text="Set nearby-to object" />
+
+    <EditText
+        android:id="@+id/nearby_input_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_medium"
+        android:focusableInTouchMode="true"
+        android:gravity="top"
+        android:padding="@dimen/padding_medium"
+        android:scrollHorizontally="false"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/nearby_input_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"              
+        android:padding="@dimen/padding_medium" />
+
+    
+
+</LinearLayout>

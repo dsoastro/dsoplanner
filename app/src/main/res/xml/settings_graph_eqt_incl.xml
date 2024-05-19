@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/equipment_options"
+    >
+    
+    
+    <PreferenceCategory android:title="@string/telescope" 
+        android:key="@string/settings_graph_eqt_telecope_category"
+        >
+           
+        <PreferenceScreen
+                android:key="@string/ss_telescope_search"
+                android:layout="@layout/prefs"
+                android:summary="@string/browse_and_edit_your_telescopes_parameters"
+                android:title="@string/telescopes_database" >
+		</PreferenceScreen>
+        <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="CalAzAlt"
+                android:layout="@layout/prefc"
+                android:summary="@string/dobsonian_mount_push_to_support_star_chart_shows_adjusted_az_alt_after_one_star_alignment"
+                android:title="@string/show_adjusted_az_alt" >
+            </CheckBoxPreference>
+
+            <PreferenceScreen
+                android:key="@string/settings_bt"
+                android:layout="@layout/prefs"
+                android:summary="@string/mount_not_connected"
+                android:title="@string/goto_mount_settings_" >
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/eyepieces_overlay" >
+            <PreferenceScreen
+                android:key="@string/eps_screen_gr"
+                android:layout="@layout/prefs"
+                android:summary="@string/browse_and_edit_your_eyepieces_parameters"
+                android:title="@string/eyepieces_database" >
+            </PreferenceScreen>
+            
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/epson"
+                android:layout="@layout/prefc"                
+                android:title="@string/nested_fov_rings" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/ep_labels"
+                android:layout="@layout/prefc"
+                android:summary="@string/north_south_east_west_labels_around_eyepiece_ring"
+                android:title="@string/cardinal_direction_labels" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/eps_guide_lines_on"
+                android:layout="@layout/prefc"
+                android:summary="@string/ra_dec_guide_lines_within_eyepiece_fov"
+                android:title="@string/guide_lines" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/ep_labels_info"
+                android:layout="@layout/prefc"
+                
+                android:title="@string/labels" />
+	<!-- 		<com.astro.dsoplanner.InputPreference
+                android:defaultValue="20"
+                android:key="@string/fov_eps"
+                android:layout="@layout/prefc"
+                android:summary="When to show/hide eyepieces"
+                android:title="Max FOV to show eyepieces" />   -->
+     <!--       <PreferenceScreen
+                android:key="@string/eps_screen_gr"
+                android:layout="@layout/prefs"
+                android:title="    Settings..." >   
+            </PreferenceScreen>  --> 
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/telrad_overlay" >
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/telradon"
+                android:layout="@layout/prefc"      
+                android:title="@string/telrad_rings" />
+
+            <PreferenceScreen
+                android:key="@string/telrad_screen"
+                android:layout="@layout/prefs"
+                android:title="@string/_settings_" >
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/level_and_compass" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="as_nonadir"
+                android:layout="@layout/prefc"
+                android:summary="@string/turn_off_tracking_when_pointing_down"
+                android:title="@string/disable_down_tracking" >
+            </CheckBoxPreference>            
+            
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="0.1"
+                android:dialogTitle="@string/weight_0_0_1_0_default_0_1"
+                android:inputType="phone"
+                android:key="d_as_alpha"
+                android:layout="@layout/pref"
+                android:summary="@string/_new_point_weight_"
+                android:title="@string/alpha" />
+
+        </PreferenceCategory>
+
+</PreferenceScreen>

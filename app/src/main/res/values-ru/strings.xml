@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main screen -->
+    <string name="object_selection">Выбор Объектов</string>
+    <string name="observations_lists">Списки Наблюдений</string>
+    <string name="star_chart">Звездная Карта</string>
+    <string name="tools">Утилиты</string>
+    <string name="settings">Настройки</string>
+    <string name="would_you_like_to_see_quick_start_guide_">Просмотреть Краткое Руководство? С ним всегда можно ознакомиться в разделе Настройки</string>
+	<string name="would_you_like_to_see_whatsnew">Просмотреть новые возможности? С ними всегда можно всегда ознакомиться в разделе Настройки</string>
+	<string name="there_are_new_comet_orbital_elements_available_would_you_like_to_download_them_from_www_minorplanetcenter_net_to_update_comet_database_">Доступны новые орбитальные элементы комет. Загрузить их с www.minorplanetcenter.net для обновления базы комет? Это всегда можно сделать вручную в Настройки/Базы Объектов/Кометы/Меню/Обновить</string>
+	<string name="dsomain_backagain">Нажмите кнопку Назад снова для выхода из программы</string>
+	<string name="media_not_mounted_and_expansion_pack_not_expanded">Подключите SD карту и перезапустите приложение для установки баз данных!</string>
+	<string name="error_expanding_expansion_pack">Ошибка распаковки файла данных! Перезапустите приложение для новой попытки или загрузите файл заново в разделе Настройки/Загрузки!</string>
+    <string name="error_not_enough_free_space">Не хватает места для извлечения файла данных!</string>
+    <string name="error_not_enough_free_space_patch">Не хватает места для извлечения корректировочного файла данных!</string>
+    <string name="ep_extracting">Распаковка файлов. Может потребоваться несколько минут...</string>
+    <string name="exp_pack_app_restart">Перезапустите приложение для переустановки файлов данных программы!</string>
+    <string name="expansion_pack_missing">Файл данных отсутствует. Перейдите в Настройки/Загрузки для его загрузки и установки!</string>
+    <string name="expansion_patch_missing">Корректировочный файл данных отсутствует. Перейдите в Настройки/Загрузки для его загрузки и установки!</string>
+	<string name="authentication">Authentication</string>
+	<string name="can_not_connect_to_the_server_would_you_like_to_try_again">Can not connect to the server.\nWould you like to try again? You may want to make sure you can connect to Google Play first.</string>
+	<string name="general_settings">Общие настройки</string>
+	<string name="dso_image">Снимок объекта</string>
+	<string name="progresstop">Запуск</string>
+    <string name="progressbotm">Подождите</string>
+    
+     <!-- Object selection -->
+    <string name="share">Поделиться</string>
+    <string name="next">След.</string>    
+    <string name="search">Поиск</string>
+    <string name="export">Экспорт</string>
+    <string name="find">Найти</string>   
+    <string name="add_to_observation_list">Добавить в Наб. Список</string>
+    <string name="add_marked_to_observation_list">Добавить Отмеченные в Наб. Список</string>
+    <string name="add_all_to_observation_list">Добавить Все в Наб. Список</string>
+    <string name="details">Информация</string>
+    <string name="add_note">Добавить Заметку</string>
+    <string name="see_object_notes">Заметки по Объекту</string>
+    <string name="see_all_notes">Все Заметки</string>
+    <string name="checkboxes">Отметить</string>
+    <string name="show_image">Снимок</string>
+    <string name="update">Обновить</string>
+    <string name="select">Выбор</string>
+    <string name="name">Имя</string>
+    <string name="con">СОЗ</string>
+    <string name="type">ТИП</string>
+    <string name="mag">МАГ</string>
+    <string name="dim">РАЗ</string>
+    <string name="all">ВСЕ</string>
+    <string name="stop">Стоп</string>
+    <string name="dso_selection_">"Выбор Объектов: "</string>
+    <string name="select_constellation">Выберите созвездие</string>
+    <string name="no_catalog">Каталоги не выбраны</string>
+    <string name="side_chart">Обзор. карта</string>
+    <string name="no_sql_expression_selected_">"SQL выражение не выбрано для "</string>
+    
+    
+     <!-- Observation List -->
+    <string name="rename">Имя</string>    
+    <string name="sort">Сорт.</string>
+    <string name="list_1">Список 1</string>
+    <string name="list_2">Список 2</string>
+    <string name="list_3">Список 3</string>
+    <string name="list_4">Список 4</string>
+    <string name="add_object">Доб. объект</string>
+    <string name="paste">Вставка</string>
+    <string name="mark">Отметить</string>
+    <string name="import2">Импорт</string>
+    <string name="observation_list_">"Список наблюдений "</string>
+    <string name="move">Передвинуть</string>
+    <string name="remove_from_list">Удалить</string>
+    <string name="remove_marked">Удалить Отмеченные</string>
+    <string name="set_list_name">Имя списка</string>
+	<string name="please_set_list_name">Установите имя списка</string>
+	 <string name="remove_all">Удалить Все</string>
+	 <string name="edit">Редактировать</string>
+	<string name="please_confirm">Важно!</string>
+	<string name="download_dss_images_of_observation_list_objects_">Загрузить снимки DSS для объектов наблюдательного списка?</string>
+	<string name="please_select_sort_order">Выберите вид сортировки</string>
+	<string name="name2">Имя</string>
+	<string name="constellation">Созвездие</string>	
+	<string name="magnitude">Звездная величина</string>
+	<string name="size">Размер</string>
+	<string name="set_time">Время захода</string>
+	<string name="no_data_to_paste_">Нет данных для вставки!</string>
+	<string name="do_you_want_to_paste_into_current_observation_list_">Вставить данные в текущий список наблюдений?</string>
+	<string name="please_select_data_format_for_the_text_file_being_imported_internal_observation_list">Выберите формат данных для импортируемого текста либо встроенный список наблюдений</string>
+	<string name="dso_planner_import_">DSO Planner (импорт)</string>
+    <string name="sky_safari_import_">Sky Safari (импорт)</string>
+    <string name="sky_tools_import_">Sky Tools (импорт)</string>
+    <string name="night_sky_observer_guide_internal_">Night Sky Observer Guide (встроенный)</string>
+	<string name="export_error">Ошибка экспорта</string>
+    <string name="please_enter_the_file_name_for_exporting_warning_the_file_with_the_same_name_will_be_silently_overwritten_in_the_">Введите имя файла для экспорта.\n\nЛокальный: экспорт в локальное хранилище приложения\nМенеджер: экспорт во внешнее хранилище с помощью системного файл менеджера\n\nВНИМАНИЕ: файл с этим именем будет автоматически перезаписан. </string>
+    <string name="do_you_want_to_import_observation_list_from_">"Импортировать лист наблюдений из "</string>
+    <string name="_obj">" объект."</string>
+    <string name="_obj_hidden">" объект. скрыто"</string>
+    <string name="_with_last_note_age_1_day">...с давностью посл. заметки менее дня</string>
+    <string name="_with_last_note_age_1_week">...с давностью посл. заметки менее недели</string>
+    <string name="_with_last_note_age_1_month">...с давностью посл. заметки менее месяца</string>
+    <string name="_with_last_note_age_6_months">...с давностью посл. заметки менее 6 месяцев</string>
+    <string name="_with_last_note_age_12_months">...с давностью посл. заметки менее 12 месяцев</string>
+    <string name="_with_any_notes_recorded">...с любой заметкой</string>
+    <string name="remove_all_marks">Снять все отметки</string>
+    <string name="show_hide_objects_with_marks">Показать / Скрыть отмеченные объекты</string>
+    <string name="mark_objects_">Отметить объекты...</string>
+    <string name="best_vis">Лучшая видим</string>
+    <string name="_mm_eyepiece">" мм окуляр"</string>
+    <string name="_at_">" в "</string>   <!-- at mm eyepiece -->
+    <string name="_displayed_">" видны, "</string>
+    
+    <string name="did_you_export">"Это Ваш собственный файл?"</string>
+    <string name="yes">Да</string>
+    <string name="no_files_copied">Файлы не скопированы</string>
+          
+    <string name="ok">OK</string>
+    <string name="no_match_found_">Нет совпадений!</string>
+    <string name="find_results">Результаты поиска</string>
+    <string name="observation_list_confirmation">Важно!</string>
+    <string name="do_you_want_to_remove_marked_objects_">Удалить отмеченные объекты?</string>
+   <string name="please_enter_the_string_to_find_in_the_list">Введите строку для поиска в списке</string> 
+   <string name="please_press_on_list_item_to_put_this_object_before">Нажмите на элемент списка перед которым встанет перемещаемый объект</string>
+	<string name="there_are_no_images_for_ic_objects">Для объектов каталога IC нет снимков</string>
+    <string name="there_is_no_image_for_this_object">Нет снимков данного объекта</string>
+    <string name="images_for_ngc_objects_are_missing_">Снимки объектов NGC каталога отсутствуют!</string>
+   <string name="do_you_want_to_remove_the_object_">Удалить объект?</string>
+   <string name="do_you_want_to_remove_all_objects_">Удалить все объекты?</string>
+   <string name="_folder_"></string>
+   <string name="images">Снимки</string>
+   <string name="type2">Тип</string>
+	<string name="altitude">Высота</string>
+   
+    <!-- Select conditions -->
+    <string name="select_object_catalogs">Выбор каталогов</string>
+    <string name="primary_search">Основной поиск</string>
+    <string name="select_search_type_title">"Выбор типа поиска"</string>
+    <string name="select_object_types">Выбор типов объектов</string>
+    <string name="primary_search_parameters">Параметры основного поиска</string>
+    <string name="search_with_sql_like_expression">Поиск по запросам типа SQL</string>
+    <string name="sql_like_expression">Запросы типа SQL</string>
+    <string name="common_conditions">Общие условия</string>
+    <string name="if_enabled_same_objects_from_different_databases_are_shown_as_one_object">Одинаковые объекты из разных баз отображаются как один объект</string>
+    <string name="exclude_duplicates">Исключить дубл. объекты</string>
+    <string name="time_of_observation">Время наблюдения</string>
+    <string name="select_an_instrument_for_visibility_calculations">Выбор телескоп для расчета видимости</string>
+    <string name="telescope_instrument">Телескоп</string>
+    <string name="geographic_location">Местоположение</string>
+    <string name="sky_limiting_magnitude">Пред. звездная величина</string>
+    <string name="time_range_within_24_hours">Диапазон не более 24 часов</string>
+    <string name="start_time_">"Начало: "</string>
+    <string name="end_time_">"Конец:   "</string>
+    <string name="treatment_of_objects_that_have_empty_fields_e_g_magnitude_">Учет объектов с пустыми полями (например, звездная величина).</string>
+    <string name="no_expression_selected">Запрос не выбран</string>
+    <string name="sky_lm_summary">Максимальная видимая звездная величина в зените (используется для расчета видимости):"</string>
+    <string name="primary">Основной</string>
+   	<string name="select_how_objects_with_empty">Учет объектов с пустыми полями</string>
+	<string name="empty_field_treatment">Учет пустых полей</string>
+	<string name="provider_">"Источник: "</string>
+    <string name="_last_known_location_">" (последнее известное местоположение)"</string>
+    <string name="_current_update_">" (последнее обновление)"</string>
+    <string name="_auto_">"[АВТО] "</string>
+    <string name="select_search_type">Выбор условий поиска</string>
+    <string name="no_object_types_selected">Типы объектов не выбраны</string>
+    <string name="default2">По умолчанию</string>
+    
+    <!-- Select object catalogs -->
+    <string name="brightest_objects">Самые яркие объекты</string>
+    <string name="galaxies">Галактики</string>
+    <string name="nebula">Туманности</string>
+    <string name="clusters_of_galaxies">Скопления галактик</string>
+    <string name="double_stars">Двойные Звезды</string>
+    <string name="comets_and_minor_planets">Кометы и Астероиды</string>
+    <string name="user_databases">Пользовательские базы</string>
+    <string name="user_files">Файлы Пользователя</string>
+    <string name="deselect_all">Снять отметки</string>
+    <string name="_12_515_objects_of_all_types">12 515 объектов всех типов</string>
+    <string name="saguaro_astronomy_club_database_n10_342_objects_of_all_types">База Saguaro Astronomy Club.\n10 342 объектов всех типов</string>
+    <string name="_45_000_galaxies_to_16m_not_including_ngcic_and_ugc_galaxies">45 000 галактик до 16m не включая галактики NGCIC and UGC</string>
+    <string name="uppsala_general_catalogue_of_galaxies_nugc_is_an_essentially_complete_catalogue_of_galaxies_to_a_limiting_diameter_of_1_0_and_or_to_a_limiting_apparent_magnitude_of_14_5">Каталог галактик Uppsala</string>
+    <string name="lynds_catalogue_of_dark_nebulae_">Каталог темных туманностей Линдса</string>
+    <string name="barnard_s_catalogue_of_349_dark_objects_in_the_sky_">Каталог 349 темных объектов Барнарда</string>
+    <string name="lynds_catalogue_of_bright_nebulae">Каталог светлых туманностей Линдса</string>
+    <string name="catalogue_of_hii_regions">Каталог областей HII</string>
+    <string name="catalogue_of_galactic_planetary_nebulae_">Каталог планетарных туманностей</string>
+    <string name="catalogue_of_abell_clusters_of_galaxies_">Каталог скоплений галактик Абеля</string>
+    <string name="hickson_compact_group_">Каталог компактных скоплений Хиксона</string>
+    <string name="_2271_brightest_double_stars">2271 ярких двойных</string>
+    <string name="brightest_double_stars">Яркие двойные</string>
+    <string name="the_washington_visual_double_star_catalog_">Вашингтонский Каталог визуальных двойных звезд</string>
+    <string name="comets">Кометы</string>
+	<string name="minor_planets">Астероиды</string>
+	<string name="_238_objects_of_all_types">238 объектов всех типов. Pro: </string>
+	
+	 <!-- Primary search parameters -->
+	 <string name="dialog_dimension_preference">Выбор минимального размера</string>
+    <string name="detection_limit">Минимальная видимость [0-5 (худшая-лучшая),-1 (все)]</string>
+    <string name="select_filter_type">Выбор типа фильтра</string>
+    <string name="filter_type">Тип фильтра</string>
+    <string name="set_the_string_object_name_starts_with">Установка начальной строки названия объекта</string>
+    <string name="object_name_starts_with_">Начало имени объекта</string>
+    <string name="object_minimal_size">Минимальный размер объекта</string>
+    <string name="minimum_altitude">Минимальная высота</string>
+    <string name="lowest_altitude">Минимальная высота</string>
+    <string name="detection_limit_for_blackwell_filter">Минимальная видимость фильтра Блаквелла </string>
+    <string name="detection_limit2">Минимальная видимость</string>
+    <string name="max_magnitude_mag_filter_">Максимальная зв. величина</string>
+    <string name="maximum_magnitude_used_for_magnitude_filter_">Maximum magnitude (used for magnitude filter)</string>
+    <string name="set_maximum_magnitude">Максимальная зв. величина</string>
+    <string name="additional_parameters_double_star_catalogs_">Доп. параметры (Каталоги двойных звезд)</string>
+    <string name="minimum_separation_seconds">Мин. угловое расстояние, секунд</string>
+    <string name="minimum_separation">Мин. угловое расстояние</string>
+    <string name="maximum_separation_seconds">Макс. угловое расстояние, секунд</string>
+    <string name="maximum_separation">Макс. угловое расстояние</string>
+    <string name="maximum_component_magnitude_mag2_">Макс. зв. величина компоненты (mag2)</string>
+    <string name="component_magnitude">Component magnitude</string>
+    <string name="maximum_mag2">Макс. mag2</string>
+    <string name="visibility_filter_objects_with_visibility_below_detection_limit_are_rejected">Фильтр по видимости.\nОтклоняются объекты с видимостью меньше минимальной</string>
+    <string name="maximum_magnitude_filter_objects_with_magnitude_higher_than_the_maximum_set_are_rejected">Фильтр по макс. зв. величине.\nОтклоняются объекты со зв. величиной выше максимальной</string>
+    <string name="all_constellations">Все созвездия</string>
+    <string name="no_filter">Нет фильтра</string>
+    <string name="select_constellations">Выбор созвездий</string>
+    
+     <!-- Manage search requests for dso selection -->
+    <string name="set_search_rules">Установка правил поиска</string>
+    <string name="srequest_desc">Строка SQL (в любом регистре):\nTYPE - тип объекта. TYPE может принимать значения GC, GX, GCYCLD, HIIRGN, NEB, OC, OCNEB, PN, SNR, MPLANET, STAR, DS, COMET, CUSTOM, CG, DN, AST, NF, QS.\nA - длина объекта.\nB - ширина объекта.\nRA, DEC - координаты объекта.\nMAG - зв. величина.\nPA - позиционный угол.\nCON - созвездие.\n\nЛокальная строка:\nALT - высота.\nVIS - видимость.</string>
+	<string name="bad_syntax_in_the_sql_expression_">Неправильный синтаксис в SQL выражении.</string>
+	<string name="bad_syntax_in_the_local_expression_">Неправильный синтаксис в Local выражении.</string>
+	<string name="errors_in_the_input">Ошибка ввода</string>
+    <string name="would_you_like_to_save_the_request_anyway_for_later_review_"> Сохранить запрос для дальнейшего редактирования?</string>
+    <string name="enter_request_name">Введите имя поискового запроса</string>
+	<string name="add_new_search_request">Добавить новый поисковый запрос</string>
+	<string name="set_sql_request">SQL запрос</string>
+	<string name="set_local_request">Локальный запрос</string>
+	<string name="manage_search_requests_for_dso_selection">Управление поисковыми запросами</string>
+	<string name="remove">Удалить</string>
+	<string name="no">Нет</string>
+	<string name="do_you_really_want_to_remove_this_item_">Удалить пункт?</string>
+	
+	<!-- Time Range of Observation -->
+    <string name="done">Готово</string>
+    <string name="begin_time_and_date">Дата и Время начала</string>
+    <string name="now">Сейчас</string>
+    <string name="sunset">Заход</string>
+    <string name="astro_twilight_ends">Зав. астро сумерек</string>
+    <string name="sunrise">Восход</string>
+    <string name="astro_twilight_begins">Начало астро сумерек</string>
+    <string name="end_time2">Время конца</string>
+	<string name="time_range_of_observation">Время Наблюдения</string>
+	
+	<!-- Pick date and time -->
+	<string name="cancel">Отмена</string>
+	<string name="set2">Готово</string>
+	<string name="pick_the_star_chart_date_and_time">Выбор даты и времени</string>
+	<string name="rt_off">ТВ ВЫКЛ</string>
+	<string name="realtime_mode_on">Текущее время ВКЛ</string>
+	<string name="rt_on">ТВ ВКЛ</string>
+	<string name="realtime_mode_off">Текущее время ВЫКЛ</string>
+	<string name="time">Время</string>
+	
+	
+	<!-- Telescopes -->
+    <string name="warning">Важно!</string>
+    <string name="do_you_want_to_remove_all_of_your_instruments_">Удалить ВСЕ инструменты?</string>
+    <string name="do_you_want_to_remove_this_instrument_">Удалить инструмент?</string>
+    <string name="export_to_the_file">Экспорт в файл</string>
+    <string name="export_successfull_">Экспорт успешен!</string>
+    <string name="telescope_parameters">Параметры телескопа</string>
+    <string name="save">Сохр.</string>
+    <string name="title_activity_telescope_list">Оптические Инструменты (Телескопы)</string>
+    <string name="eyepieces_db">База окуляров</string>
+    <string name="assign_eyepieces">Привязать окуляры</string>
+    <string name="aperture_mm_">Апертура (мм)</string>
+    <string name="focal_length_mm_">Ф. расст. (мм)</string>
+    <string name="pass_through_">Коэфф. пропускания (%)</string>
+    <string name="short_text_note">Короткая заметка</string>
+    <string name="add_new_instrument_i_e_telescope_">Добавить новый инструмент (телескоп)</string>
+    <string name="_ep">)+окуляры</string>
+    
+    <!-- Eyepieces -->
+    <string name="you_can_not_change_eyepieces_parameters_now">Сейчас нельзя изменить параметры окуляров. Вначале выберите телескоп.</string>
+    <string name="eyepiece_parameters">Параметры окуляра</string>
+    <string name="catalog">Каталог</string>
+    <string name="brand">Марка</string>
+    <string name="f_length">Ф.расст.</string>
+    <string name="fov">Поле зр.</string>
+    <string name="select_eyepiece">Выбор окуляра</string>
+    <string name="_eyepieces_in_your_collection">" окуляров в вашей коллекции"</string>
+   <string name="title_activity_eyepieces_list">База данных окуляров</string>
+   <string name="add_new_eyepiece">Добавить новый окуляр</string>
+	<string name="afov_deg_">Поле зрения (гр.)</string>
+	<string name="do_you_want_to_remove_this_eyepiece_">Удалить окуляр?</string>
+    <string name="do_you_want_to_remove_all_of_your_eyepieces_">Удалить ВСЕ окуляры?</string>
+	<string name="ccd_parameters">Параметры CCD</string>
+	<string name="horiz_size_mm_">Гор. размер (мм)</string>
+	<string name="vert_size_mm_">Верт. размер (мм)</string>
+	<string name="add_ccd">Доб. CCD</string>
+	
+	<!-- General settings -->
+	<string name="night_mode_on_off_">Ночной режим (вкл/выкл)</string>
+	<string name="_1_general">1 Общие</string>
+    <string name="telescopes_eyepieces_etc_">Телескопы, Окуляры и пр.</string>
+    <string name="astro_equipment">Астро Оборудование</string>
+    <string name="operations_with_objects_databases">Операции с базами объектов</string>
+    <string name="objects_databases">Базы объектов</string>
+    <string name="star_chart_settings_could_also_be_called_from_star_chart">Настройки звездной карты также можно вызвать из Звездной Карты</string>
+    <string name="screen_settings">Настройки Экрана</string>
+    <string name="_timeouts_keyboard_etc_">(задержки, клавиатура, пр.)</string>
+    <string name="system_wide_settings">Системные настройки</string>
+    <string name="_2_utilities">2 Утилиты</string>
+    <string name="download_default_primary_data_files">Загрузить файлы данных приложения</string>
+    <string name="downloads">Загрузки</string>
+    <string name="reinstall_default_primary_data_files">Переустановить файлы данных приложения</string>
+    <string name="reinstall">Переустановка</string>
+    <string name="backup_restore">Бэкап/Восстановление</string>
+    <string name="backups_your_databases_and_observation_lists_to_sd_card_">"Сохранение пользовательских баз данных и списков наблюдений во внешнее хранилище"</string>
+    <string name="restores_your_databases_and_observation_lists_from_sd_card_">"Восстановление пользовательских баз данных и списков наблюдений из внешнего хранилища"</string>
+    <string name="about">О программе</string>
+    <string name="star_chart_settings">Настройки Звездной Карты</string>
+    <string name="what_s_new">Новое</string>
+    <string name="quick_start_guide2">Краткое руководство</string>
+    <string name="databases_will_be_copied_from_memory_to_">Базы данных будут скопированы из памяти в папку\n</string>
+    <string name="and_will_overwrite_existing_files_there_silently_">и перепишут существующие там файлы.</string>
+    
+	<string name="floating_back_menu_buttons_in_night_mode">Плавающие кнопки</string>
+	<string name="do_you_wish_to_reinstall_default_primary_data_files_">Переустановить файлы данных приложения?</string>
+	<string name="rate">Оценка</string>
+	<string name="rate_the_app_on_google_play">Оценить приложение на Google Play</string>
+	<string name="nightmode_warning_click_again">Предупреждение:\nЭта команда может нарушить темновую адаптацию ваших глаз, если вы не используете красную пленку поверх экрана. Вызовите команду второй раз для ее выполнения</string>
+	<string name="show_floating_back_and_menu_buttons_in_night_mode_this_may_be_convenient_if_your_device_allows_you_to_hide_white_navigation_buttons">Показать плавающие кнопки Назад/Меню в ночном режиме. Их удобно использовать, если Ваше устройство позволяет спрятать белые кнопки управления</string>
+	<string name="quick_start_guide1">Краткое руководство</string>
+	<string name="quick_start_guide"><b>Краткое руководство </b>\nПриложение поддерживает два подхода к выбору объектов. Самый простой - включить слои объектов (NgcIc, PGC) и установить верхний предел звездной величины для каждого слоя и поля зрения (field of view, FOV). Все объекты со звездной величиной меньше верхнего предела будут отображены на \"Звездной карте\". Объекты из NgcIc слоя можно также фильтровать по типу объектов.\n\nВторой подход - выбрать объекты для наблюдения из многочисленных баз объектов (\"Выбор Объектов\"), подготовить наблюдательный список и вывести его объекты автоматически на \"Звездную карту\". \n\nМожно использовать как оба подхода одновременно, так и каждый по отдельности. Для раздельного использования отключите слои объектов и сформируйте текущий наблюдательный список, или наоборот включите слои объектов и очистите текущий наблюдательный список. При одновременном использовании нужно включить слои объектов и сформировать текущий наблюдательный список.\n\n<b> Звездная Карта</b>\n\"Звездная карта\" показывает звезды и объекты из выбранных слоев и ВСЕ объекты из текущего наблюдательного списка. Для каждого FOV и слоя можно установить верхний предел звездной величины для того, чтобы увеличить / уменьшить количество звезд / объектов которые отображаются на экране.\n\nМножество настроек в \"Настройках Звездной Карты\" помогут настроить ее в соответствии с Вашими требованиями.\n\nПо умолчанию, \"Звездная Карта\" отображает предустановленные снимки DSS (Digitized Sky Survey) и их контуры. Они не являются объектами в обычном понимании, скорее это просто слой снимков DSS. Для загрузки снимка объекта / участка неба выберите объект или звезду и нажмите пункт меню DSS. Удалять снимки DSS или загружать снимки прилегающего (к уже существующим снимкам DSS) участка неба можно двумя долгими нажатиями на существующий снимок / прилегающий участок неба.\n\n<b>Выбор Объектов</b> \nПоиск объектов осуществляется в модуле \"Выбор Объектов\". Нажмите на кнопку \"Выбор\". Выберите типы объектов, каталоги, минимальный размер, фильтр поиска (по видимости объектов, по максимальной звездной величине и пр.) и минимальную высоту объектов над горизонтом за время наблюдения.\n\nВернитесь назад. Выберите местоположение, время наблюдения и предельную звездную величину. Снова вернитесь назад и нажмите кнопку \"Обновить\". На экране - список объектов, удовлетворяющий критериям поиска.\n\nНажмите на объект, чтобы увидеть его местоположение на \"Звездной Карте\". Долгое нажатие на список вызывает контекстное меню. Выберите \"Добавить Все в Наб. Список\" чтобы добавить объект(ы) к текущему списку наблюдений (и они появятся на Звездной Карте).\n\n<b>Списки Наблюдений</b>\nЕсть четыре наблюдательных списка. Текущий список отображается на экране при заходе в модуль \"Списки Наблюдений\", его объекты отображаются на \"Звездном Небе\". Текущий наблюдательный список можно выбрать в меню. В меню также есть другие операции над наблюдательным списком (сортировка, пометка объектов с заметками, и т.д.).\n\n<b> Полное описание</b> \ndsoplanner.com/files/DSO_Planner_User_Manual.pdf</string>
+
+    <!-- Geographic location -->
+    <string name="location_name">Имя местоположения</string>
+    <string name="please_enter_a_distinct_name_for_the_location">Введите имя местоположения</string>
+    <string name="dso_planner_settings">Настройки DSO Planner</string>
+    <string name="set_latitude_n_s_deg_min_sec_">Установка широты [N(S)гр мин сек]</string>
+    <string name="examples_n45_34_21_n45_34_s23_13_s23">Примеры:\nN45 34 21\nN45 34\nS23 13\nS23</string>
+    <string name="set_longitude_e_w_deg_min_sec_">Установка долготы [E(W)гр мин sec]</string>
+    <string name="examples_e45_34_21_e45_34_w23_13_w23">Примеры:\nE45 34 21\nE45 34\nW23 13\nW23</string>
+    <string name="country">Страна</string>
+    <string name="region">Регион</string>
+    <string name="select_location">Выбор местоположения</string>
+    <string name="set_the_string_that_city_starts_with">Установите начало названия города</string>
+    <string name="title_latitude_preference">Широта</string>
+    <string name="title_longitude_preference">Долгота</string>
+    <string name="enable_autolocation">Разр. АвтоОпределение</string>
+    <string name="remember_this_location_in_user_location_list">Запомнить местоположение в Пользовательском списке</string>
+    <string name="add_location2">Сохранить Местоположение</string>
+    <string name="select_location_from_your_location_list">Выбор местоположения из Пользовательского списка</string>
+    <string name="user_location_list">Пользовательский список</string>
+    <string name="select_location_from_24_000_major_world_cities">Выбор местоположения из 24 000 основных мировых городов</string>
+    <string name="major_world_cities">Основные мировые города</string>
+    <string name="title_activity_settings_geo">Местоположение</string>
+    <string name="location_updated_">Обновлено местоположение!</string>
+        
+     <!-- Location List -->
+    <string name="do_you_want_to_remove_this_item_">Удалить этот пункт?</string>
+    <string name="do_you_want_to_paste_into_current_locations_list_">Вставить данные в список местоположений?</string>
+    <string name="locations_list">Список местоположений</string>
+    <string name="latitude_">"Широта "</string>
+	<string name="_longitude_">" Долгота "</string>
+	<string name="do_you_really_want_to_import_current_locations_list_from_">"Импортировать текущий список местоположений из "</string>
+	
+    <!-- Astro Equipment -->
+    <string name="browse_and_edit_your_telescopes_parameters">Просмотр и редактирование параметров телескопов</string>
+    <string name="telescopes_database">База телескопов</string>
+    <string name="browse_and_edit_your_eyepieces_parameters">Просмотр и редактирование параметров окуляров</string>
+    <string name="eyepieces_database">База окуляров</string>
+    <string name="bluetooth_serial_dongle_required_to_use">Требуется блютус адаптер</string>
+    <string name="goto_mount_setup">Настройки ГоТу</string>
+    
+    <!-- GoTo Mount Setup -->
+    <string name="select_paired_device">Выбор подкл. устройства</string>
+	<string name="select_telescope_type">Выбор типа телескопа</string>
+    <string name="connect">Соединить</string>
+	<string name="disconnect">Разъединить</string>
+	<string name="no_paired_device_found_please_pair_with_your_bt_dongle_first">Нет подключенных устройств. Подключите вначале блютус устройство</string>
+	<string name="connecting_">Соединяю...</string> 
+	<string name="connected">Соединение установлено</string>
+    <string name="not_connected">Не соединено</string>  
+    
+    <!-- Databases -->
+    <string name="set_database_name">Введите имя базы данных</string>
+     <string name="do_you_want_to_add_custom_data_fields_">Добавить пользовательские поля в базу данных?</string>
+    <string name="databases">Базы данных</string>
+    <string name="no_additional_fields">Дополнительные поля отсутствуют</string>
+    <string name="main_database_can_t_be_removed_">Встроенные базы данных нельзя удалить</string>
+    <string name="do_you_want_to_remove_the_database_">Удалить базу данных?</string>
+    <string name="fields">Поля</string>
+    <string name="remove_database">Удалить базу данных</string>
+    <string name="add">Добавить</string>
+    <string name="internal_objects_could_not_be_removed_">Внутренние объекты нельзя удалить!</string>
+    
+    
+    <string name="cmo_updating">Загрузить орбитальные элементы с www.minorplanetcenter.net и обновить базу данных?</string>
+    <string name="please_wait">Подождите</string>
+    <string name="do_you_want_to_remove_all_of_the_database_items_">Удалить ВСЕ объекты?</string>
+    <string name="operation_not_supported">Операция не поддерживается</string>
+    <string name="do_you_really_want_to_import_current_database_data_from_">"Импортировать данные в текущую базу данных из "</string>
+	<string name="view_database">Просмотр базы данных</string>
+	<string name="view_database_">"Просмотр базы данных: "</string>
+	<string name="wrong_field_format">Неправильный формат</string>
+	<string name="operation_not_applicable">Операция не применима</string>
+	<string name="importing_database">Импорт базы данных</string>
+	
+	<!-- Edit/create database object -->
+	
+	<string name="create_new_object">Создание нового объекта</string>
+	<string name="data_was_changed_do_you_want_to_exit_">Были внесены изменения. Все равно выйти?</string>
+    <string name="zero_object_will_not_be_added_to_the_database_">Нулевой объект не добавится в базу!</string>
+    <string name="select_type_of_the_object">Выбор типа объекта</string>
+    <string name="define_name_for_custom_object_type">Выберите имя для польз. типа объекта</string>
+    <string name="select_equinox">Выбор эпохи</string>
+	<string name="current">текущая</string>
+	<string name="object_type_could_not_be_changed_for_this_catalog_">Тип объекта нельзя изменить для этого каталога!</string>
+	<string name="hour_min_sec">час мин сек</string>
+	<string name="field_name">ПОЛЕ</string>
+	<string name="value">ЗНАЧЕНИЕ</string>
+	<string name="_ok_">" Готово "</string>
+	<string name="set_field_value_">Установка значения поля (</string>
+	<string name="deg_min_sec">гр мин сек</string>
+	<string name="edit_database_object">Редактирование объекта</string>
+	<string name="short_name_of_the_object">Короткое имя объекта</string>
+    <string name="long_name_of_the_object">Длинное имя объекта</string>
+    <string name="text_comment_on_an_object">Комментарий по объекту</string>
+    <string name="object_dimensions_in_minutes_longer_axis">Длина объекта, минуты</string>
+    <string name="object_dimensions_in_minutes_shorter_axis">Ширина объекта, минуты</string>
+    <string name="orbit_elements_epoch_year">Эпоха орбитальных элементов, год</string>
+    <string name="orbit_elements_epoch_month">Эпоха орбитальных элементов, месяц</string>
+    <string name="orbit_elements_epoch_day">Эпоха орбитальных элементов, день</string>
+    <string name="absolute_star_magnitude">Абсолют. звездная величина</string>
+    <string name="orbital_excentricity">Эксцентриситет </string>
+    <string name="inclination_to_the_ecliptic_j2000_0_degrees_">Наклонение, J2000.0 (градусы)</string>
+    <string name="longitude_of_the_ascending_node_j2000_0_degrees_">Долгота восходящего узла, J2000.0 (градусы)</string>
+    <string name="perihelion_distance_au_">Радиус перигелия (а.е.)</string>
+    <string name="star_magnitude_slope_parameter">Наклон кривой звездной величины</string>
+    <string name="argument_of_perihelion_j2000_0_degrees_">Аргумент перицентра, J2000.0 (градусы)</string>
+    <string name="semimajor_axis_of_the_orbit_au_">Большая полуось (а.е.)</string>
+    <string name="magnitude_of_an_object">Звездная величина объекта</string>
+    <string name="position_angle_in_degrees">Дирекционный угол, градусы</string>
+    <string name="right_ascension">Прямое восхождение</string>
+    <string name="declination">Склонение</string>
+    <string name="mean_anomaly_at_the_epoch_degrees_">Средняя аномалия, градусы</string>
+	
+	
+	<!-- Add custom fields -->
+	<string name="add_custom_fields">Добавление польз. полей</string>
+	<string name="select_field_type">Выбор типа поля</string>
+	<string name="set_custom_field_name">Введите имя польз. поля</string>
+	<string name="do_you_want_to_delete_the_field_">Удалить поле?</string>
+	<string name="the_field_name_">"Имя поля "</string>
+	<string name="_is_reserved_please_choose_a_different_one">" зарезервировано. Выберите другое"</string>
+	<string name="some_field_names_coincide_please_choose_different_names">Совпадающие имена полей. Выберите другие имена</string>
+	<string name="database_without_custom_fields_has_been_created_">Создана база данных без польз. полей!</string>
+	<string name="default_existing_database_fields_are_">Поля базы данных по умолчанию:</string>
+	<string name="_name1_short_name_name2_long_name_etc">- name1 (короткое имя)\n- name2 (длинное имя)\n- ra (прямое восхождение)\n- dec (склонение)\n- mag (зв. величина)\n- constellation (созвездие)\n- a (длина)\n- b (ширина)\n- type (тип объекта)\n- typestr (имя польз. типа)\n- pa (позиц. угол)\n- comment (комментарий)\nЗдесь можно добавить поля для вашей базы данных. Их можно использовать в запросах типа SQL.\n</string>
+	<string name="standard_fields">Стандартные поля</string>
+	<string name="please_add_your_custom_fields">Добавьте пользовательские поля</string>
+	<string name="you_decided_to_cancel_adding_new_database_">Отменить создание новой базы данных?</string>
+	<string name="add_new_field">Добавить новое поле</string>	
+	
+    <!-- Star Chart Settings -->
+    <string name="labels_for_objects_from_observation_lists">Подписи объектов из наблюдательных списков</string>
+    <string name="object_labels_obs_list_">Подписи объектов (НС)</string>
+    <string name="labels_for_objects_from_star_chart_layers">Подписи объектов из слоев звездной карты</string>
+    <string name="object_labels_layers_">Подписи объектов (Слои)</string>
+    <string name="object_marker">Маркер Объекта</string>
+    <string name="selected_object_crosshair_with_tool_set">Перекрестье для выбора объекта</string>
+    <string name="enable_object_marker">Разр. Маркер Объекта</string>
+    <string name="_settings_">"    Настройки..."</string>
+    <string name="star_chart_elements">Элементы Звездной Карты</string>
+    <string name="select_grid_type">Выбор типа координатной сетки</string>
+    <string name="grid2">Координатная сетка</string>
+    <string name="constellations_lines">Линии созвездий</string>
+    <string name="horizon_line">Линия горизонта</string>
+    <string name="fill_area_below_horizon">Закр. область под гориз.</string>
+    <string name="antialiasing_lowers_performance">Ухудшает производительность</string>
+    <string name="smooth_hard_line_edges">Сглаживание линий</string>
+    <string name="labels">Подписи</string>
+    <string name="bright_star_labels">Подписи ярких звезд</string>
+    <string name="show_component_and_separation_on_the_star_chart_for_double_stars_from_yale_bright_star_catalog">Показ компоненты и углового расстояния двойных звезд из каталога Yale Bright Star Catalog на звездной карте</string>
+    <string name="double_star_info">Информация по двойным</string>
+    <string name="grid_labels">Подписи коорд. сетки</string>
+    <string name="zenith_nadir_horizon_labels">Подписи зенита, надира, горизонта</string>
+    <string name="other_labels">Другие подписи</string>
+    <string name="star_chart_colors">Цвета звездной карты</string>
+    <string name="black_stars_on_white_background_in_day_mode">Черные звезды на белом фоне в дневном режиме</string>
+    <string name="inverse_sky">Инвертированное небо</string>
+    <string name="colors_for_the_star_chart_elements_only">Цвета элементов звездной карты</string>
+    <string name="daytime_mode_colors">Цвета дневного режима</string>
+    <string name="user_horizon">Пользовательский Горизонт</string>
+    <string name="the_closed_line_defined_in_the_text_file">Замкнутая линия в текст. файле</string>
+    <string name="enable_user_horizon">Разр. Польз. Горизонт</string>
+    <string name="azimuthal">Азимутальная</string>
+    <string name="equatorial">Экваториальная</string>
+	<string name="no_grid">Отсутствует</string>
+	<string name="star_chart_options">Настройки Звездной Карты</string>
+	<string name="constellation_boundaries">Границы созвездий</string>
+	<string name="constellation_boundary">Границы созвездий</string>
+	<string name="milky_way2">Млечный путь</string>
+	<string name="new_file">Нов. файл</string>  
+	<string name="default_colors_set">Цвета по умолчанию заданы</string>
+	<string name="would_you_like_to_update_horizon_from_existing_file_or_choose_a_new_file_instead_">Обновить горизонт из существующего файла или выбрать новый файл?</string>
+	
+	
+    <!-- Equipment options -->
+    <string name="equipment_options">Настройки оборудования</string>
+    <string name="telescope">Телескоп</string>
+    <string name="dobsonian_mount_push_to_support_star_chart_shows_adjusted_az_alt_after_one_star_alignment">Push-to поддержка для монтировки добсона. Звездная карта отображает исправ. Аз./Высоту объекта после настройки телескопа по одной звезде</string>
+    <string name="show_adjusted_az_alt">Показ испр. Аз./Выс.</string>
+    <string name="mount_not_connected">Монтировка не подсоединена</string>
+    <string name="goto_mount_settings_">Настройки ГоТу...</string>
+    <string name="eyepieces_overlay">Окуляры</string>
+    <string name="nested_fov_rings">Влож. круги поля зрения</string>
+    <string name="north_south_east_west_labels_around_eyepiece_ring">Подписи Севера, Юга, Востока, Запада над кругом поля зрения окуляра</string>
+    <string name="cardinal_direction_labels">Подписи направлений</string>
+    <string name="ra_dec_guide_lines_within_eyepiece_fov">Линии RA/Dec внутри поля зрения окуляра</string>
+    <string name="guide_lines">Линии RA/Dec</string>
+    <string name="telrad_overlay">Телрад/QuInsight</string>
+    <string name="telrad_rings_with_adjustable_a_h_guide_lines"></string>
+    <string name="telrad_rings">Круги Телрада/QuInsight</string>
+    <string name="level_and_compass">Уровень и компас</string>
+    <string name="disable_down_tracking">Отключ. отслеж. под гориз.</string>
+    <string name="turn_off_tracking_when_pointing_down">Отслеживание не работает когда устройство направлено вниз</string>
+    <string name="weight_0_0_1_0_default_0_1">Вес (0.0 - 1.0) 0.1 по умолчанию</string>
+    <string name="_new_point_weight_">(вес новой точки)</string>
+    <string name="alpha">Альфа</string>
+    <string name="goto_mount_connected">ГоТу монтировка подсоединена</string>
+    <string name="goto_mount_disconnected">ГоТу монтировка не подсоединена</string>
+    
+    <!-- Telrad overlay options -->
+
+    <string name="degrees">Градусы</string>
+    <string name="inner_ring_diameter">Диаметр внутреннего кольца (1)</string>
+    <string name="middle_ring_diameter">Диаметр среднего кольца (2)</string>
+    <string name="outmost_ring_diameter">Диаметр внешнего кольца(3)</string>
+    <string name="quin1_ring_diameter">QuInsight кольцо 1 (4)</string>
+    <string name="quin2_ring_diameter">QuInsight кольцо 2 (5)</string>
+    <string name="degrees_from_vertical_to_the_right">Градусы от вертикали направо</string>
+    <string name="marks_angle">Угол отметки</string>
+    <string name="pixels">Пиксели</string>
+    <string name="width_of_the_rings">Ширина кругов</string>
+    <string name="telrad_overlay_options">Настройки телрада/QuInsight</string>
+    
+    <!-- Star,object and image layer options -->
+
+    <string name="star_object_and_image_layer_options">Настройки слоев звезд, объектов и снимков</string>
+    <string name="_2_5_million_stars_up_to_12m">2.5 млн. звезд до 12m</string>
+    <string name="ucac4_layer">Слой UCAC4</string>
+    <string name="object_layers">Слои Объектов</string>
+    <string name="_1_643_000_galaxies_from_principal_galaxies_catalog">1 643 000 галактик из Principal Galaxies Catalog</string>
+    <string name="pgc_layer">Слой PGC</string>
+    <string name="tycho_2_layer">Слой Tycho-2</string>
+    <string name="star_layers">Слои Звезд</string>
+    <string name="ngcic_sac_layer">Слой NgcIc/SAC</string>
+    <string name="_14_400_deep_sky_objects_from_ngcic_sac_and_hcg_catalogs">14 400 объектов из каталогов NgcIc, SAC и HCG</string>
+    <string name="ngcic_sac_object_types">Типы объектов слоя NgcIc/SAC</string>
+    <string name="visibility_filter_for_object_layers">Фильтр видимости слоев объектов</string>
+    <string name="show_objects_from_object_layers_that_are_visible_with_selected_equipment_in_the_current_sky_conditions">Показ объектов из слоев объектов, которые видны с выбранным оборудованием</string>
+    <string name="set_visibility_threshold_0_5_">Введите минимальную видимость (0-5)</string>
+    <string name="options">Настройки</string>   
+    <string name="dss_digitized_sky_survey_">DSS (Digitized Sky Survey)</string>
+    <string name="use_visibility_for_layers">Исп. видимость для слоев</string>
+    <string name="ucac4_description">113 млн. звезд до 16m</string>
+    <string name="_238_deep_sky_objects_pro_">"238 дип скай объектов. Pro: "</string>
+    <string name="_147_000_galaxies_to_15_3m_from_principal_galaxies_catalogue">153 000 галактики до 16.7m из Principal Galaxies Catalogue</string>
+    <string name="_600_000_stars_up_to_10_7m">600 000  звезд до 10.7m</string>
+    <string name="ngcic_object_types">Типы объектов NgcIc</string>
+    <string name="_15_5_mn_stars_up_to_14m">15.4 млн. звезд до 14m</string>
+    <string name="_3100_deep_sky_objects">3 100 дип скай объектов</string>
+    <string name="ngcic_layer">NgcIc слой</string>
+    
+    <!-- NGCIC/SAC layer preferences -->
+    <string name="GC_title">Шаровое Скопление</string>
+    <string name="Gxy_title">Галактика</string>
+    <string name="GxyCld_title">Облако в Галактике</string>
+    <string name="HIIRgn_title">Область HII</string>
+    <string name="Neb_title">Туманность</string>
+    <string name="OC_title">Рассеянное Скопление</string>
+    <string name="OCNeb_title">Расс. Скопление и Туманность</string>
+    <string name="PN_title">Планетарная Туманность</string>
+    <string name="SNR_title">Остаток Сверхновой</string>
+    <string name="ngcic_sac_layer_preferences">Настройки NgcIc/SAC слоя</string>
+    <string name="no_magnitude_objects">Объекты без зв. величины</string>
+    <string name="include">Добавить</string>
+    <string name="fov_zoom_level_in_degrees">Порог поля зрения, градусов</string>
+    <string name="fov_threshold">Порог поля зрения</string>
+    <string name="include_objects_without_magnitude_into_object_selection_for_fov_below_threshold">Добавить объекты без магнитуды для поля зрения меньше порогового</string>
+    <string name="asterism">Астеризм</string>
+    <string name="cluster_of_galaxies">Скопление галактик</string>
+    <string name="dark_nebula">Темная туманность</string>
+    <string name="star2">Звезда</string>
+    <string name="object_types">Типы объектов</string>
+    <string name="comet2">Комета</string>
+    <string name="minor_planet2">Астероид</string>
+    <string name="double_star2">Двойная</string>
+    <string name="custom_type">Польз. тип</string>
+    <string name="quasar">Квазар</string>
+    <string name="not_found">Не найдено</string>
+    <string name="planet">Планета</string>
+    <string name="ngcic_layer_preferences">Настройки NgcIc слоя</string>
+
+    <string name="select_deselect_all">Отметить ВСЕ / Снять отметки</string>
+    
+    <!-- DSO options -->
+   
+    <string name="show_elliptical_shape_at_high_zoom_level">Показ эллипса, имеющего размеры и позиционный угол DSO, на больших увеличениях</string>
+    <string name="show_near_to_real_dso_shape">Показ DSO в реал. размере</string>
+    <string name="zoom_level_for_real_size_on">Пороговое поле зрения</string>
+    <string name="scale_factor_for_real_dso_shape">Масштаб для реал. размера DSO</string>
+    <string name="dso_is_shown_in_real_shape_if_its_screen_dimension_is_higher_than_that_of_dso_icon_multiplied_by_scale_factor_set_it_to_zero_to_show_any_even_the_smallest_object_in_real_size">DSO отобр. в реал. размере, если его размер на экране больше чем размер значка DSO, умнож. на масштаб. При масштабе 0 даже самый маленький объект отображается в реал. размере</string>
+    <string name="use_to_reduce_enlarge_dso_icons">Используйте для уменьшения/увеличения значка DSO</string>
+    <string name="scale_factor_for_dso_signs">Масштаб значка DSO</string>
+    <string name="dso_options">Настройки DSO</string>
+    <string name="dso_is_shown_as_sign_for_fov_above_the_threshold">DSO отображается в виде значка для поля зрения больше порогового</string>
+    
+    <!-- DSS options -->
+    <string name="dss_options">Настройки DSS</string>
+    <string name="enable_dss_imagery_support">Разрешить снимки DSS</string>
+    <string name="display_contours_of_already_downloaded_dss_images">Показ контуров уже загруженных снимков DSS</string>
+    <string name="display_dss_contours">Показ контуров DSS</string>
+    <string name="when_to_show_hide_dss_images">Когда показывать/скрывать снимки DSS</string>
+    <string name="max_fov_to_show_dss">Макс. поле зрения для показа DSS</string>
+    <string name="dss_images_dimming_">Затемнение DSS снимков %</string>
+    <string name="night_mode_only_range_0_100_0_no_dimming">Только в ночном режиме. Диапазон 0-100%, 0 - затемнение отсутствует</string>
+    <string name="dss_images_dimmer">Затемнение снимков DSS</string>
+    
+    <!-- Other options -->
+    <string name="other_options">Другие настройки</string>
+    <string name="real_time2">Текущее время (ТВ)</string>
+    <string name="star_chart_updated_automatically">Звездая карта обновляется автоматически</string>
+    <string name="realtime_mode2">Режим текущего времени</string>
+    <string name="auto_update_time_in_seconds">Время авто обновления в секундах</string>
+    <string name="_30_seconds_is_the_reasonable_default">"      30 секунд параметр по умолчанию"</string>
+    <string name="auto_update_period">"    Время авто обновления"</string>
+    <string name="real_time_screen_update2">Обн. экрана в режиме ТВ</string>
+    <string name="distinguishing_observation_list_objects_">Выделение объектов наблюдательного списка</string>
+    <string name="a_colon_is_put_after_the_name_of_selected_observation_list_object">Двоеточие (:) добавляется после имени выделенного объекта из наблюдательного списка</string>
+    <string name="observation_list_object_mark">Значок об. наб.списка</string>
+    <string name="use_this_to_highlight_observation_list_objects_relative_to_objects_from_layers">Используйте для выделения объектов из наблюдательных списков относительно объектов из слоев</string>
+    <string name="dim_objects_from_layers">Затемнение об. слоев</string>
+    <string name="measure_angle_between_two_successive_objects_selected">Измерение угла между двумя последовательно выбранными объектами</string>
+    <string name="angular_measurement">Измерение углов</string>
+    <string name="object_centered_on_double_touch_and_getting_object_info">Объект центрируется по получению информации</string>
+    <string name="center_object">Центрирование объекта</string>
+    <string name="if_you_mark_object_in_observation_list_it_will_disappear_from_skyview">Отмеченный объект наблюдательного списка исчезает со Звездной Карты</string>
+    <string name="hide_marked_objects">Скрыть отм. объекты</string>
+    <string name="use_flick_on_the_left_side_of_the_skyview_to_control_brightness">Использовать жест вверх по левой стороне экрана, чтобы контролировать яркость экрана</string>
+    <string name="brightness_flick">Жест яркости</string>
+    <string name="use_per_fov_flippers_of_the_chart">Сохранять поворот и отзеркаливание карты для каждого уровня FOV (вместо одинаково для всех)</string>
+    <string name="per_fov_flippers_on">Индивидуальные Поворот и Зеркало</string>
+    <string name="level_treshold_in_percent">Порог уровня в процентах</string>
+    <string name="battery_level_to_show_a_reminder">Уровень зарядки батареи, ниже которого демонстрируется напоминание</string>
+    <string name="battery_level_warning">Предупр. о заряде батареи</string>
+    <string name="update_screen">Обновлять экран для любого поля зрения</string>
+	<string name="do_not_update_screen_for_fov_below_">"Не обновлять экран при поле зрения меньше или равно "</string>
+    <string name="update_screen_and_auto_center_selected_object_for_fov_below_">"Обновлять экран и авто центрировать выбранный объект при поле зрения меньше или равно "</string>
+	<string name="select_real_time_mode">Выбор режима текущего времени</string>
+	
+	<!-- Object Marker options -->
+    <string name="object_marker_options">Настройки маркера объектов</string>
+    <string name="the_top_and_right_directions_are_highlighted">Направление вверх и направо выделены</string>
+    <string name="show_orientation_marks">Показ меток направления</string>
+    <string name="show_line_from_the_screen_center_to_the_object">Показ линии из центра экрана к объекту</string>
+    <string name="direction_line">Линия направления</string>
+    <string name="set_length_of_cross_lines">Установка длины перекрестья</string>
+    <string name="cross_size">Размер перекрестья</string>
+    <string name="set_width_of_the_cross_lines">Установка толщины линий перекрестья</string>
+    <string name="line_width">Толщина линии</string>
+    
+    <!-- Daytime mode colors -->
+    
+    <string name="set_default_colors_for_current_mode">Установка цветов по умолчанию для текущего режима</string>
+    <string name="reset_colors">Сброс цветов</string>
+    <string name="sky_colors">Цвета Звездной Карты</string>
+    <string name="show_a_color_picker_dialog">Показ диалога выбора цвета</string>
+    <string name="dso_objects">DSO объекты</string>
+    <string name="selected_object_crosshair2">Перекрестье маркера</string>
+    <string name="eyepieces_circles">Круги окуляров</string>
+    <string name="telrad_rings2">Круги телрада/QuInsight</string>
+    <string name="dss_image_overlay">DSS снимок</string>
+    <string name="constellation_figure_lines">Линии созвездий</string>
+    <string name="user_horizon_line">Пользовательский горизонт</string>
+    <string name="labels2">Подписи</string>
+    
+    <!-- Star Chart Settings Major -->
+    <string name="star_chart2">Звездная Карта</string>
+    <string name="equipment2">Оборудование</string>
+    <string name="star_object_and_image_layers">Слои звезд, объектов и снимков</string>
+    <string name="other2">Другое</string>   
+   
+    
+    
+     <!-- "Screen Settings" -->
+    <string name="turn_night_mode_on_after_civil_twilight_ends">Ночной режим включается автоматически после окончания гражданских сумерек</string>
+    <string name="automatic_nightmode">Авто ночной режим</string>
+    <string name="dim_the_screen_to_the_hardware_minimum">Затемнить экран до возможного минимума</string>
+    <string name="minimal_brightness_mode">Режим мин. яркости</string>
+    <string name="remove_the_android_notification_bar">Убрать панель уведомлений андройда</string>
+    <string name="day_time_full_screen_mode">Полноэкр. дневной режим</string>
+    <string name="night_time_full_screen_mode">Полноэкр. ночной режим</string>
+    <string name="show_sombrero_image_on_the_initial_view">Показ галактики Сомбреро на начальном экране</string>
+    <string name="nag_screen">Фон начального экрана</string>
+    <string name="white_on_black_color_interface">Цветовой режим белого на черном</string>
+    <string name="onyx_skin">Цветовая мода Оникс</string>
+    <string name="automatic_nighmode_is_on_">Включен автоматический ночной режим!</string>
+    
+    <!-- System-wide settings -->
+    <string name="_override_android_settings_">(изменение настроек андройда)</string>
+    <string name="disable_auto_sleep_in_star_chart">Запрет сна в Зв. Карте</string>
+    <string name="_android_keyboard_is_bad_at_night_">(клавиатура андройда неудобна ночью)</string>
+    <string name="disable_night_keyboard">Запрет ночной клавиатуры</string>
+    <string name="in_milliseconds_0_manual_dismiss_">В миллисекундах (0 - убираем вручную)</string>
+    <string name="setup_timeout_or_manual_dismiss">Установка времени или ручной режим</string>
+    <string name="auto_dismiss_warnings">Авто-скрытие предупреждений</string>
+    <string name="the_app_suggests_to_update_comet_database_when_new_orbital_elements_are_available">Приложение предлагает обновить базу данных комет, когда новые элементы появились на сайте</string>
+    <string name="auto_update_comet_elements">Авто-обнов. элем. комет</string>
+    <string name="change_language_app_restart">Перезагрузите приложение для смены языка!</string>
+    <string name="select_language">Выбор языка</string>	
+	<string name="english">Английский</string>
+	<string name="russian">Русский</string>
+    
+    <!-- User Horizon options -->
+    <string name="pairs_az_h_of_points_in_text_file">Пары точек (Aзимут Высота) в текстовом файле. Одна пара на строку</string>
+    <string name="user_horizon_options">Настройки пользовательского горизонта</string>
+    <string name="user_file_with_a_h_pairs_per_line">Файл с парой A h в каждой строке</string>
+    <string name="file_name_with_key_points">Файл горизонта</string>
+    <string name="width_of_the_line">Толщина линии</string>
+    <string name="_in_pixels_">(в пикселях)</string>
+    <string name="minimal_subdivisions">Размер шага в градусах</string>
+    <string name="larger_number_makes_line_coarse_small_affects_performance">Чем больше размер, тем грубее линия, но быстрее прорисовка</string>
+    <string name="subdivision_size_in_degrees">Размер шага</string>
+    
+    <!-- Details -->
+    <string name="description">Описание</string>
+    <string name="goto2">ГоТу</string>
+    <string name="image">Снимок</string>
+    <string name="other_designations">ДРУГИЕ НАИМЕНОВАНИЯ</string>
+    <string name="double_star_info2">ИНФО ПО ДВОЙНОЙ ЗВЕЗДЕ</string>
+    <string name="location_time">МЕСТОПОЛОЖЕНИЕ/ВРЕМЯ</string>
+    <string name="location">Местополож.</string>
+    <string name="local_time">Местное время</string>
+    <string name="rise_set">ВОСХОД/ЗАХОД</string>
+    <string name="rise">Восход</string>
+    <string name="transit">Кульм.</string>
+    <string name="set">Заход</string>
+    <string name="position">ПОЛОЖЕНИЕ</string>
+    <string name="ra_dec_2000_">RA/Dec(2000)</string>
+    <string name="ra_dec_current_">RA/Dec(текущ)</string>
+    <string name="az_alt">Азимут/Высота</string>
+    <string name="object_parameters">ПАРАМЕТРЫ ОБЪЕКТА</string>
+    <string name="dimensions">Размеры</string>
+    <string name="pa">Поз. угол</string>
+    <string name="per_ep_visibility">Видимость в окуляр</string>
+    <string name="other">ДРУГОЕ</string>
+    <string name="moon_phase">Фаза Луны</string>    
+    <string name="double_star_info_">ИНФО ПО ДВОЙНОЙ ЗВЕЗДЕ (</string>
+    <string name="this_will_take_you_to_another_details_screen">Вы переходите на другой экран Информации</string>
+    <string name="unlock">Разбл.</string>
+    <string name="lock">Блок.</string>
+    
+    <string name="add2">В лист</string>
+    <string name="notes">Замет</string>
+    <string name="star_chart3">Зв.карта</string>
+    <string name="selected_object_information">Информация по выделенному объекту</string>
+    <string name="_more_">" Еще "</string>
+    
+    <!-- Start Chart -->
+    <string name="dss_image_downloading">загрузка снимка DSS</string>
+    <string name="nearby_search">Поиск рядом</string>
+    <string name="you_have_exceeded_the_dss_image_count_free_version_please_make_sure_that_there_is_not_more_than_">"У вас больше допустимого кол-ва DSS снимков (для фри версии). Убедитесь, что у вас не больше "</string>
+    <string name="_images_in_">" снимков в "</string>    
+    <string name="set_center_s_ra_dec_2000_">Установка RA,Dec(2000) центра</string>
+    <string name="info">Инфо</string>
+    <string name="download_ticker">загрузка снимка DSS</string>
+    <string name="select_dss_action">Выбор действия для контура DSS</string>
+    <string name="sorry_but_you_have_reached_the_free_version_limit_would_you_like_to_open_google_play_to_purchase_dso_planner_pro_version_">Вы достигли лимита фри версии.\n\nПерейти в Google Play для покупки про версии DSO Planner?</string>
+    <string name="single_image_small_object_">Один снимок (маленький объект)</string>
+    <string name="nine_images_larger_object_">Девять снимков (больший объект)</string>
+    <string name="hide_dss_images">Скрыть снимки DSS</string>
+    <string name="how_much_to_download_">Сколько загрузить?</string>
+    
+    <string name="the_download_is_about_to_start_">Загрузка начинается</string>
+    <string name="search_nearby_running">Поиск объекта рядом уже идет!</string>
+    <string name="select_object_first">Вначале выберите объект</string>
+   
+    <string name="select_action">Выбор действия</string>
+    <string name="bluetooth_connection_required_would_you_like_to_setup_it_now_">Требуется соединение блютус. Настроить?</string>
+    <string name="the_scope_is_busy_try_later">Телескоп занят. Попробуйте позже</string>
+    
+    <string name="later">Позже</string>
+    <string name="would_you_like_to_turn_object_marker_guide_line_on_">Включить линию направления чтобы упростить поиск объектов?</string>
+    <string name="compass_mode_is_turned_on">Режим компаса включен</string>
+    <string name="select_compass_level_mode">Выбор режима компаса/уровня</string>
+   
+    <string name="setting_circles_one_star_alignment">Привязка по одной звезде</string>
+    <string name="helpCalibrateDlg">Краткая инструкция по привязке по одной звезде:\nНаведите телескоп на объект/звезду, выбранную на карте, и нажмите кнопку Сейчас. Снимите показания с ваших кругов высоты/азимута и введите их в соответствующие поля. Нажмите на кнопку Привязка для расчета поправок. В Настройках включите показ исправленных Азимута/Высоты.</string>
+    <string name="counterclockwise">Против часовой стрелки</string>
+    <string name="clockwise">По часовой стрелке</string>
+    <string name="one_star_align">Привязка</string>
+    <string name="setting_circles_calibration_successfull_">Расчет поправок произведен</string>
+    <string name="adjustments_daz_">Поправки: dАз=</string>
+    <string name="_dalt_">" dВыс="</string>
+    <string name="hide2">Скрыть</string>
+    <string name="show2">Показать</string>
+    <string name="off">Выключить</string>
+    <string name="compass_level">Компас+Уровень</string>
+    <string name="level2">Уровень</string>
+    <string name="field_view_minutes_600_max_">Поле зрения (минуты, 600 максимум)</string>
+    <string name="types">Типы</string>
+    <string name="object_selected_">"Выбранный объект "</string>
+    <string name="time_point">Момент времени</string>
+    <string name="real_azimuth">Реальный азимут</string>
+    <string name="real_altitude">Реальная высота</string>
+    <string name="measured_az">Измеренный Аз</string>
+    <string name="measured_alt">Измеренная Выс</string>
+    <string name="no_data2">Нет данных</string>
+    <string name="_1_hour">-1 час</string>
+    <string name="center">Центр</string>
+    <string name="_1_hour2">+1 час</string>
+    <string name="mirror">Зеркало</string>
+    <string name="rotate_180_">Вращать180</string>
+    <string name="telrad">Телрад</string>
+    <string name="eyepieces">Окуляры</string>
+    <string name="nearby">Рядом</string>
+    <string name="scope_go">Телескоп</string>
+    <string name="compass">Компас</string>
+    <string name="align_star">Привязка</string>
+    <string name="boldness">Размер</string>
+    <string name="layers">Слои</string>
+    <string name="ra_dec">RA/DEC</string>
+    <string name="mirror_">"Зеркало "</string>
+    <string name="rotate">Вращение</string>
+    <string name="loading">Загрузка</string>
+    <string name="_battery_low_">" низкая зарядка "</string>
+    <string name="define_faint_stars_cut_off_and_brightest_stars_to_draw_large">Задать зв.величину наибольшего и наименьшего кружков звезд</string>
+	<string name="reset_this">Сброс</string>
+	<string name="_next_">" След "</string>
+	<string name="_types_">" Типы "</string>
+	<string name="reset2">Сброс</string>
+	<string name="ra_hour_min_sec_">Ra (час мин сек)</string>
+	<string name="dec_deg_min_sec_">Dec (град мин сек)</string>
+	<string name="download">Загрузить</string>
+	<string name="this_catalog_is_off_would_you_like_to_turn_it_on_">слой отключен. Включить?</string>
+	<string name="rotated">Вращение</string>
+	<string name="hide_dss_contours">Скрыть контуры DSS</string>
+	<string name="_visibility_filter_on">" фильтр видим. включен"</string>
+	<string name="dss_download_complete">Загрузка DSS завершена</string>
+	<string name="dss_images_download">Загрузка снимков DSS</string>
+	<string name="zenith">Зенит</string>
+	<string name="nadir">Надир</string>
+	<string name="show_dss_images">Показать снимки DSS</string>
+	<string name="show_dss_contours">Показать контуры DSS</string>
+	
+	<!-- Planet name for info. Used in getShortName etc -->
+	<string name="sun2">Солнце</string>
+    <string name="moon2">Луна</string>
+    <string name="mercury2">Меркурий</string>
+    <string name="venus2">Венера</string>
+    <string name="earth2">Земля</string>
+    <string name="mars2">Марс</string>
+    <string name="jupiter2">Юпитер</string>
+    <string name="saturn2">Сатурн</string>
+    
+
+    
+    <string name ="uranus2">Уран</string>
+    <string name ="neptune2">Нептун</string>
+    
+
+    
+    <!-- Planet name for search. In upper register -->
+    <string name="venus">ВЕНЕРА</string>
+    <string name="mars">МАРС</string>
+    <string name="moon">ЛУНА</string>
+    <string name="jupiter">ЮПИТЕР</string>
+    <string name="sun">СОЛНЦЕ</string>
+    <string name="saturn">САТУРН</string>
+    
+
+    <string name= "mercury">МЕРКУРИЙ </string >
+    <string name ="uranus">УРАН</string>
+    <string name ="neptune">НЕПТУН</string>
+    
+
+    
+    <!-- Note List -->
+    <string name="export_error_">Ошибка экспорта!</string>
+    <string name="search_note_database_for_the_string_">Поиск в базе заметок строки:</string>
+    <string name="there_is_no_audio_for_this_note">В этой заметке нет аудио записи</string>
+    <string name="note_list_confirmation">Важно!</string>
+    <string name="do_you_want_to_remove_the_note_">Удалить заметку?</string>
+    <string name="do_you_want_to_remove_all_of_the_notes_">Удалить ВСЕ заметки?</string>
+    <string name="play">Воспроизвести</string>
+    <string name="note_time">Время заметки</string>
+    <string name="share_all">Поделиться</string>
+    <string name="search_text">Поиск текста</string>
+    <string name="_notes">" заметок"</string>
+    <string name="import_for_this_database_is_running_">Производится импорт в базу данных!</string>
+    <string name="observation_note">Заметка</string>
+    <string name="observation_notes">Заметки</string>
+    <string name="dso_observation_notes">DSO Заметки</string>
+    <string name="add_new_note">Добавить заметку</string>
+    <string name="this_action_could_not_be_performed_for_temporary_object_note">Нельзя выполнить действие для данной заметки</string>
+    <string name="would_you_like_to_set_the_time_and_location_as_recorded_with_this_note_">Установить время заметки на звездной карте?</string>
+    
+    
+    
+    <!-- Note -->
+    <string name="_change_time_">" Изменить Время "</string>
+    <string name="voice_note_recording_">Аудио Запись:</string>
+    <string name="_play_">"Воспроизвести"</string>
+    <string name="save2">СОХРАНИТЬ</string>
+    <string name="start_recording">Начать запись</string>
+    <string name="edit_observation_note">Редактировать заметку</string>
+    <string name="an_old_record_exists_overwrite_it_">Аудио запись существует. Переписать?</string>
+    <string name="error_starting_an_audio_recorder">Ошибка аудио записи</string>
+	<string name="stop_recording">Останов. запись</string>
+	<string name="overwrite">Переписать</string>
+	<string name="this_note_is_not_saved_yet_exit_anyway_">Заметка не сохранена. Выйти?</string>
+	<string name="local_time_">Время:</string>
+	<string name="action">Дейст.</string>
+	<string name="_audio_record_">"[аудио запись \'"</string>
+    <string name="_audio_record_2">"[аудио запись "</string>
+    <string name="eyepiece">окуляр</string>
+    <string name="telescope2">телескоп</string>
+    <string name="location2">местоположение</string>
+    <string name="set_new_date_time">Установить новую дату/время</string>
+    <string name="insert_observatory_data">Внести местоположение</string>
+    <string name="insert_telescope">Внести телескоп</string>
+    <string name="insert_eyepiece">Внести окуляр</string>
+    <string name="insert_all_of_the_above">Внести все вышеперечисленное</string>
+    <string name="error_">Ошибка\n[</string>
+    <string name="select_from_world_s_cities">Выберите город</string>
+    <string name="select_from_user_locations">Выберите положение из польз. списка</string>
+    <string name="current_scope">Текущий телескоп</string>
+    <string name="select_from_the_list">Выбор из списка</string>
+    <string name="select_telesope">Выбор телескопа</string>
+    <string name="only_3_eyepieces_were_inserted">В текст заметки внесено только 3 окуляра</string>
+    <string name="current_location">Текущее положение</string>
+	<!-- DownloadList -->
+	<string name="no_space_available_">Нет места!</string>
+	<string name="download_in_progress_please_wait">Загрузка файла. Подождите</string>
+	<string name="file_exists_overwrite_">Файл существует. Переписать?</string>
+	<string name="download_is_about_to_start">Начинается загрузка</string>
+	<string name="expansion_pack">Файл данных</string>
+    <string name="expansion_patch">Корректировочный файл данных</string>
+    <string name="expansion_pack_contains_all_application_databases">"Файл данных содержит базы данных приложения. Обычно он загружается автоматически при установке приложения. Его нужно загружать вручную только если при старте приложения есть предупреждение о том, что файл данных отсутствует! "</string>
+    <string name="expansion_patch_contains">"Корректировочный файл данных содержит изменения баз данных. Обычно он загружается автоматически при установке / обновлении приложения. Его нужно загружать вручную только если при старте приложения есть предупреждение о том, что корректировочный файл данных отсутствует! "</string>
+    <string name="please_restart_the_application_after_downloading_expansion_pack_to_install_it_">Перезапустите приложение после загрузки файла данных для того, чтобы установить его!</string>
+    <string name="please_restart_the_application_after_downloading_expansion_patch_to_install_it_">Перезапустите приложение после загрузки корректировочного файла данных для того, чтобы установить его!!</string>
+    <string name="the_file_is_already_downloading_">Файл уже загружается!</string>
+    <string name="can_not_connect_to_the_server_please_try_again_">Не могу подключиться к серверу. Попробуйте снова!</string>
+	<string name="size2">размер</string>
+	
+	<!-- Main Screen -->
+	
+	
+	<!-- Tools -->
+	<string name="astro_tools">Астро утилиты</string>
+	<string name="yes_please">Да</string>
+	<string name="no_thanks">Нет</string>
+	<string name="nightmode_warning">Предупреждение ночного режима</string>
+	<string name="minilaunchr_wantlaunch">Это приложение может нарушить темновую адаптацию ваших глаз, если вы не используете красную пленку поверх экрана. Запустить его?</string>
+	<string name="sorry_can_t_start_this_application">Не могу запустить это приложение!</string>
+	<string name="minilaunchr_autoadd">Отметить все астрономические приложения автоматически (получившийся список можно будет отредактировать)?</string>
+	<string name="dso_twilight">DSO Сумерки</string>
+	<string name="dso_flashlight">DSO Фонарик</string>
+	<string name="_missing_">"(отсутствует) "</string>
+	<string name="there_are_no_new_astronomy_related_applications_detected_on_your_deveice">Нет новых астрономических приложений. Отметьте необходимые приложения вручную</string>
+	<string name="add_remove_applications">Добавить/Удалить приложения</string>
+	<string name="title_activity_mini_launcher">Астро утилиты</string>
+	<string name="title_activity_mini_launcher_chooser">Выберите приложения для добавления в утилиты</string>
+	<string name="there_are_only_">"Есть только "</string>	
+	<string name="_new_astronomy_ralated_applications_have_been_found_on_your_device">" новых астро приложений на этом девайсе (отмечены в списке). Вы можете добавить другие приложения или удалить уже найденные приложения из списка вручную."</string>
+	
+	<!-- Twilight -->
+    <string name="twilight_almanach">Расчет сумерек</string>
+    <string name="location_twilight">Местоположение</string>
+    <string name="local_date">Местная дата</string>    
+    <string name="begin">Начало</string>
+    <string name="end">Конец</string>
+    <string name="rise_twilight">Восход</string>
+    <string name="transit_twilight">Кульм.</string>
+    <string name="set_twilight">Заход</string>
+    <string name="sun_twilight">Солнце</string>
+    <string name="moon_twilight">Луна</string>
+    <string name="moon_phase_day_start_">"Фаза Луны (начало суток): "</string>
+    <string name="twilight">Сумерки</string>
+    <string name="morning">Утро</string>
+    <string name="evening">Вечер</string>
+    <string name="civil">Гражданские</string>
+    <string name="nautical">Навигационные</string>
+    <string name="astronomical">Астрономические</string>
+    <string name="_apos_apos_means_the_event_is_next_day">"'>' - событие на следующий день"</string>
+    <string name="date_picker">Дата</string>
+    <string name="duration">Длит.</string>
+    <string name="darkness">Темнота</string>
+    <string name="_24h">- 24 часа</string>
+	<string name="_24h_plus">+ 24 часа</string>
+	
+	<!-- Backup/Restore -->
+	<string name="backup">Бекап</string>
+	<string name="restore">Восстановление</string>
+	<string name="backup_restore_instruction">Инструкция по Бекапу/Восстановлению</string>
+	<string name="backup_restore_detailed_help">
+    "DSO Planner поддерживает автоматическое резервное копирование данных со стороны Google (Auto Backup) - настройки приложения и пользовательские данные (кроме пользовательских баз данных объектов, снимков DSS, голосовых заметок) автоматически сохраняются в облако Google и восстанавливаются при переустановке приложения.
+
+Кроме этого, DSO Planner поддерживает собственное полное резервное копирование / восстановление. DSO Planner хранит следующие пользовательские данные во внутреннем хранилище приложения:
+* Пользовательские базы данных.
+* Списки наблюдений.
+* Настройки приложения.
+* Снимки DSS.
+* Аудио заметки.
+* Текстовые файлы от экспорта данных.
+
+С помощью системного файл менеджера:
+* Команда \"Бекап\" копирует файлы из внутреннего хранилища приложения во внешнюю папку с именем \"backup\".
+* Команда \"Восстановление\" копирует файлы из внешней папки с именем \"backup\" во внутреннее хранилище приложения.
+
+После выполнения команды \"Бекап\" в папке с именем \"backup\" будут находиться следующие подпапки:
+* databases
+* dss
+* notes
+* images
+
+Для бекапа всех Ваших данных c устройства:
+1. Исполните команду \"Бекап\".
+2. Подсоедините Ваше устройство к компьютеру с помощью USB.
+3. Скопируйте папку \"backup\" на компьютер.
+
+Для восстановления Ваших данных на устройстве:
+1. Исполните команду \"Восстановить\" и выберите папку \"backup\"." 
+
+</string>
+	
+	<string name="user_databases_will_be_overwriten_from_files_in_">Предупреждение: \nСуществующие базы данных будут перезаписаны файлами из выбранной папки!</string>
+	<string name="_folder_replacing_all_of_the_existing_data_silently_">\nзамещая существующие файлы.</string>
+	
+	<!-- Flashlight -->
+	<string name="title_activity_flashlight">Фонарик</string>
+	<string name="dso_flashlight_n_nswipe_up_down_to_change_brightness_nleft_right_to_change_color_intensity_nlong_tap_turns_the_flashlight_on_off_n">"DSO Фонарик\n\nСмахивание вверх/вниз изменяет яркость,\nвлево/вправо - насыщенность цвета.\nДолгое нажатие включает/выключает фонарик.\n"</string>
+	
+	<!-- Databases to download -->
+	<string name="databases_to_download">Файлы данных к загрузке</string>
+	<string name="this_download_requires_network_connection_">Эта загрузка требует сетевого соединения!</string>
+	<string name="this_download_requires_wifi_network_connection_">Загрузка требует WiFi соединения!</string>
+	
+	<!-- About -->
+	<string name="about_contact">По всем вопросам обращайтесь к <a href="mailto:dsoplanner@gmail.com">dsoplanner@gmail.com</a>, посетите веб-сайт <a href="http://www.dsoplanner.com">www.dsoplanner.com</a> или <a href="http://forum.dsoplanner.com/">пользовательский форум</a></string>
+    <string name="about_contact_night">По всем вопросам обращайтесь к dsoplanner@gmail.com, посетите веб-сайт www.dsoplanner.com или пользовательский форум</string>
+	<string name="about_text">DSO Planner - программа планировщик наблюдений с функциями планетария, ориентированная на опытных наблюдателей дип-скай объектов.\n\nРазработчики: Леонид Васильев, Александр Кукарин</string>
+    
+	<!-- Import Dialog -->
+	<string name="select_file">Выбор файла</string>
+   
+    <string name="time2">Время</string>
+    <string name="location_">"Путь: "</string>
+    <string name="go_back">Назад</string>
+    <string name="directory">Директория</string>
+    
+	<!-- Misc -->
+	<string name="pick_the_file_for_importing">Выберите файл</string>
+	
+	
+	<string name="miscellaneous">Разное</string>
+	<string name="help">Справка</string>
+	<string name="external_storage_not_available_for_reading_">Внешнее хранилище  недоступно для чтения!</string>
+	<string name="external_storage_not_available_for_writing_">Внешнее хранилище  недоступно для записи!</string>
+	<string name="this_setting_may_ruin_your_eyes_darkness_adaptation_if_you_are_not_using_a_red_film_over_your_device_s_screen_would_you_like_to_continue_anyway_">Предупреждение:\nЭта команда может нарушить темновую адаптацию ваших глаз, если вы не используете красную пленку поверх экрана. Исполнить ее?</string>      
+	
+	
+	
+	
+	
+	
+		
+	<string name="files_copied_">Cкопированные файлы:</string>
+		
+	
+	<string name="search_in_progress_">Поиск...</string>
+	<string name="import_error">Ошибка импорта</string>
+	
+	
+	<string name="dso_search">Поиск в базах данных</string>
+	
+	
+		
+	<string name="object_not_selected">Объект не выбран</string>
+	<string name="copy_to_clipboard">Копировать в буфер</string>
+	<string name="error_importing_database">Ошибка импорта базы данных</string>
+	<string name="_processed">" обработано"</string>
+		
+	
+		<string name="sorry_but_this_function_is_available_in_pro_version_only_would_you_like_">"Эта функция доступна только в платных версиях.\n\nОткрыть Google Play для покупки Pro версии DSO Planner?</string>
+	<string name="import_complete">Импорт завершен</string>
+	
+	<string name="downloads_interrupted">Загрузки прерваны</string>
+	<string name="download_complete">Загрузка завершена</string>
+	<string name="downloading_dss_image">загрузка снимков DSS</string>
+	<string name="dss_at_">"DSS "</string>
+	<string name="download_in_progress">Идет загрузка</string>
+	<string name="download_interrupted">Загрузка прервана</string>
+	<string name="not_applicable">Не применимо</string>
+	
+	<string name="whats_new_summary"></string>
+
+	<string name="edit_">"Редактирование "</string>
+
+
+	
+    <string name="_folder_can_t_be_read_">] folder can\'t be read!</string>
+    <string name="import_is_running_">Import is running!</string>    	
+	
+    <string name="select_eyepiece_ccd">Выбор окуляра / CCD</string>
+  	<string name="eyepiece2">Окуляр</string>
+	
+	
+	<string name="fov_column_title">Столбик FOV</string>
+	
+	
+	
+	<string name="night_time_red_color_intensity">Яркость линий в ночном режиме</string>    
+
+
+	<string name="night_time">Ночной режим</string>    
+
+	<string name="select_color_intensity_0_255_">Яркость линий (0-255)</string> 
+	<string name="set_default_intensities_for_night_mode">Установка яркостей по умолчанию</string>    
+
+
+	<string name="reset_intensities">Сброс яркостей</string> 
+
+	<string name="stars">Звезды</string>    
+	<string name="planets">Планеты</string>  
+	<string name="non_star_object_labels">Подписи объектов</string> 
+	<string name="planet_labels">Подписи планет</string>
+	<string name="menu_warning">Меню можно вызвать жестом снизу вверх или нажатием на плавающие кнопки (их видимость задается в Настройках / Системные настройки) </string>
+<string name="labels_scale">Масштаб подписей</string>
+<string name="scale_factor_of_star_and_object_labels_0_100_">Увеличить / уменьшить размер подписей звезд и объектов (1 - обычный размер, 0.5 - половинный)</string>
+<string name="use_to_reduce_enlarge_label_size">Увеличить / уменьшить размер подписей</string>
+<string name="vibration_strength">Сила вибрации</string>
+<string name="strength_of_vibration_on_object_selection">Сила вибрации при выборе объекта (0 - 500)</string>
+<string name="set_strength_of_vibration">Установите силу вибрации</string>
+
+<string name="floating_back_menu_buttons_in_day_mode">Плавающие кнопки</string>
+<string name="show_floating_back_and_menu_buttons_in_day_mode">Показать плавающие кнопки \"Назад\" и \"Меню\" в дневном режиме</string>
+    <string name="dss_download_url">Ссылка загрузки DSS</string>
+    <string name="set_dss_download_url">Установка ссылки загрузки DSS</string>
+    <string name="comet_update_url">Ссылка обновления комет</string>
+    <string name="set_comet_update_url">Установка ссылки обновления комет</string>
+    <string name="urls">Ссылки</string>
+    <string name="urls_for_comet_update_and_dss_download">Ссылки обновления комет и загрузки DSS</string>
+    <string name="alternative_data_files_location">Изменение пути к файлам данных</string>
+    <string name="place_the_files_above_at_your_alternative_location_and_remove_them_from_main_location_if_you_wish_to_restore_the_main_location_just_enter_empty_path_here_reload_the_app_for_this_setting_to_take_effect">
+Файлы данных (см. выше) можно переместить на SD карту. Для восстановления их обычного расположения введите пустой путь</string>
+    <string name="set_alternative_data_location">Изменение папки данных</string>
+    <string name="main_data_files_location">Основные файлы данных</string>
+    <string name="data_files_location">Расположение файлов данных</string>
+    <string name="experimental_use_alternative_data_files_location">Экспериментально: Изменение расположения файлов данных</string>
+    <string name="minor_planets_update_url">Ссылка обновления базы астероидов</string>
+    <string name="set_minor_planets_update_url">Установка ссылки обновления базы астероидов</string>
+    <string name="update_urls">Обновление ссылок</string>
+    <string name="manually_change_this_url">Ручное изменение ссылки</string>
+    <string name="take_updated_urls_from_the_app_site">Обновление ссылок с сайта программы</string>
+    <string name="restore_default_urls">Установка ссылок по умолчанию</string>
+    <string name="do_you_want_to_update_current_database_">Обновить эту базу данных?</string>
+    <string name="minor_planets_database_updated">База данных астероидов обновлена</string>
+    <string name="error_updating_minor_planets_database">Ошибка при обновлении базы данных астероидов </string>
+    <string name="there_are_new_mp_orbital_elements_available">Доступны новые орбитальные элементы астероидов. Загрузить их для обновления базы астероидов? Это всегда можно сделать вручную в Настройки/Базы Объектов/Астероиды/Меню/Обновить</string>
+    <string name="auto_update_minor_planet_elements">Авто-обнов. элем. астероидов</string>
+    <string name="the_app_suggests_to_update_its_minor_planet_database_when_new_orbital_elements_are_available">Приложение предлагает обновить базу данных астероидов, когда новые элементы появились на сайте</string>
+    <string name="track_position_on_the_chart">Синхр. со звездной картой</string>
+    <string name="_1_second_is_the_reasonable_default">"      1 секунда параметр по умолчанию"</string>
+    <string name="default_urls_restored">Ссылки по умолчанию установлены</string>
+    <string name="main_location"><b>Файлы на обычном месте:</b></string>
+    <string name="exists">ДА</string>
+    <string name="absent">НЕТ</string>
+    <string name="alternative_location"><b>Файлы на новом месте:</b></string>
+    <string name="urls_updated">Ссылки обновлены</string>
+    <string name="error_updating_urls">Ошибка при обновлении ссылок</string>
+    <string name="data_file_location">Расположение файлов данных</string>
+    <string name="check_data_file_availability">Проверка доступности файлов</string>
+    <string name="check_if_data_files_are_available_at_standard_and_alternative_locations">Проверка доступности файлов на обычном и новом месте</string>
+    <string name="name_telescope">Имя</string>
+    <string name="auto_scope_mode_off">Синхр. телескопа с картой ВЫКЛЮЧЕНА</string>
+    <string name="auto_scope_mode_on">Синхр. телескопа с картой ВКЛЮЧЕНА</string>
+
+    <string name="storage_permission_not_available"> Необходимо разрешение доступа к памяти для использования этой возможности!</string>
+    <string name="location_permission">Требуется разрешение доступа к местоположению для определения долготы и широты устройства для точного вычисления эфемерид звезд. \nПредоставить данное разрешение?</string>
+    <string name="close_double_stars">Близкие двойные звезды над горизонтом</string>
+    <string name="edge_on_galaxies">Галактики на боку</string>
+    <string name="sd_card_permission">Необходимо разрешение доступа к памяти для распаковки файла данных, импорта / экспорта файлов, работы со снимками DSS, записи аудио заметок. \nПредоставить данное разрешение?</string>
+    <string name="permission_red_mode">\nПредоставление разрешений потребует прерывания ночного режима, что может помешать ночной адаптации. Продолжить?</string>
+    <string name="all_objects_in_database">Все объекты в базе данных</string>
+    <string name="make_dso_signs_larger_or_smaller">Изменить размер значка DSO</string>
+    <string name="this_will_cancel_all_downloads">Это действие приостановит все загрузки</string>
+    <string name="microphone_permission_not_available">Необходимо разрешение доступа к микрофону для использования этой возможности!</string>
+    <string name="privacy_policy">Политика приватности</string>
+    <string name="microphone_permission">Разрешение доступа к микрофону требуется для записи аудио заметок. \nПредоставить данное разрешение?</string>
+    <string name="sd_card_permission_warning">Основные файлы данных не могут быть распакованы без разрешения доступа к памяти!</string>
+    <string name="please_restart_the_application_">Перезапустите приложение!</string>
+    <string name="hide_navigation_bar">Скрыть кнопки навигации</string>
+    <string name="files_copied">Файлы скопированы.</string>
+    <string name="read_external_storage_permission_is_required">Разрешение доступа к памяти требуется для копирования старых данных. \nПредоставить данное разрешение?</string>
+    <string name="there_is_no_access_to">"Нет доступа к папке "</string>
+    <string name="forlder_does_not_exist">" папка не существует. Нечего копировать!"</string>
+    <string name="error_copying_file">"Ошибка при копировании файла "</string>
+    <string name="error_copying_preferences">Ошибка при копировании настроек</string>
+    <string name="database_directory_absent">"Директория "databases" отсутствует!"</string>
+    <string name="b_use_android_file_picker">Системный файл менеджер</string>
+    <string name="export_error_no_file_name_selected">Ошибка экспорта! Не выбрано имя файла</string>
+    <string name="picker">Менед</string>
+    <string name="local">Локал</string>
+    <string name="starting_from_android_11">Начиная с 11 версии Андроид (АПИ 30) Google требует размещать данные приложения только во внутреннем хранилище. Переписать существующие данные приложения из внешней памяти во внутреннее хранилище?</string>
+    <string name="starting_from_android_11_main">Начиная с 11 версии Андроид (АПИ 30) Google требует размещать данные приложения только во внутреннем хранилище. Переписать существующие данные приложения из внешней памяти во внутреннее хранилище? Это также можно сделать в разделе Настройки/Копирование данных.</string>               		
+    <string name="copy_data">Копирование данных</string>
+    <string name="copy_your_existing_data">Копирование существующих данных приложения из внешней памяти во внутреннее хранилище в соответствии с политикой Google</string>
+    <string name="restore_data">"Восстановить данные из папки "</string>
+    <string name="backup_data">"Скопировать данные в папку "</string>
+    <string name="bluetooth_permission_is_required_to_connect_to_devices_would_you_like_to_grant_this_permission">Требуется разрешение доступа к bluetooth устройствам.\nПредоставить данное разрешение?</string>
+    <string name="please_grant_bluetooth_permission_first">Вначале необходимо предоставить разрешение доступа к bluetooth устройствам!</string>
+
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+     <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:layout_below="@+id/sxTopline0" />
+
+    <LinearLayout
+        android:id="@+id/selector_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="10sp" >
+
+        <Button
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/selector_btn1"
+            android:text=""
+            android:layout_width="0dp"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/selector_btn2"
+            android:text=""
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/selector_btn3"
+            android:text=""
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_main_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/selector_btn4"
+            android:text=""
+            />
+       
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sxTopline0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selector_ll"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+    
+ 
+
+   
+
+    
+
+</RelativeLayout>

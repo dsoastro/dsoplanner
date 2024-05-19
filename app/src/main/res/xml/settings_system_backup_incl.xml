@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/backup_restore"
+    >
+     <Preference
+                android:key="@string/backup"
+                android:layout="@layout/prefs"
+                android:summary="@string/backups_your_databases_and_observation_lists_to_sd_card_"
+                android:title="@string/backup" >
+            </Preference>
+            <Preference
+                android:key="@string/restore"
+                android:layout="@layout/prefs"
+                android:summary="@string/restores_your_databases_and_observation_lists_from_sd_card_"
+                android:title="@string/restore" >
+            </Preference>
+            <Preference 
+                android:key="@string/backup_help"
+                android:layout="@layout/prefs"          
+                android:summary="@string/backup_restore_instruction"      
+                android:title="@string/help" >                
+             </Preference>
+ 
+
+</PreferenceScreen>

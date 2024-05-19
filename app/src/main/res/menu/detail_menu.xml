@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/detail_graph" android:title="Graph" />
+<item android:id="@+id/detail_add" android:title="Add" />
+<item android:id="@+id/detail_new_note" android:title="Add note" />
+<item android:id="@+id/detail_see_notes" android:title="See notes" />
+<item android:id="@+id/detail_picture" android:title="Picture" />
+<item android:id="@+id/detail_btsend" android:title="Bt GoTo" />
+</menu>

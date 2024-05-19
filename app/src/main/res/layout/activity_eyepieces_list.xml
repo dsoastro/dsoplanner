@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xTopline0"
+        android:layout_above="@+id/xTopline" />
+
+    <Button
+        android:id="@+id/ep_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:text="@string/add_new_eyepiece"
+        android:textSize="@dimen/button_text_size" />
+
+    <ImageView
+        android:id="@+id/xTopline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/ep_new"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+
+    <TextView
+        android:id="@+id/elHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_marginTop="@dimen/padding_small"
+        android:text="" />
+    <ImageView
+        android:id="@+id/xTopline0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/elHead"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+
+</RelativeLayout>

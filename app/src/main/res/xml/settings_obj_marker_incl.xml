@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/object_marker_options"
+    >
+     <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="cross_orient"
+                android:layout="@layout/prefc"
+                android:summary="@string/the_top_and_right_directions_are_highlighted"
+                android:title="@string/show_orientation_marks" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="cross_guide"
+                android:layout="@layout/prefc"
+                android:summary="@string/show_line_from_the_screen_center_to_the_object"
+                android:title="@string/direction_line" />
+
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="40"
+                android:dialogTitle="@string/set_length_of_cross_lines"
+                android:inputType="phone"
+                android:key="d_cross_size"
+                android:layout="@layout/pref"
+                android:title="@string/cross_size" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="3"
+                android:dialogTitle="@string/set_width_of_the_cross_lines"
+                android:inputType="phone"
+                android:key="d_cross_line"
+                android:layout="@layout/pref"
+                android:title="@string/line_width" />
+    		<com.astro.dsoplanner.InputPreference
+                android:defaultValue="25"
+                android:dialogTitle="@string/vibration_strength"
+                android:summary="@string/strength_of_vibration_on_object_selection"
+                android:inputType="phone"
+                android:key="d_vib_strength"
+                android:layout="@layout/pref"
+                android:title="@string/set_strength_of_vibration" />
+
+</PreferenceScreen>

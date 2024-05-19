@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_input_dialog_ch_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.astro.dsoplanner.ChB
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:defaultValue="false"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/tv_input_dialog_ch_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="text"
+            android:textSize="@dimen/table_main_text_size" />
+    </LinearLayout>

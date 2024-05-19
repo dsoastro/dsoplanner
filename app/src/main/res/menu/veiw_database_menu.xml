@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/paste_view_db_menu" android:title="Paste" />
+     <item android:id="@+id/add_view_db_menu" android:title="Add" />
+     <item android:id="@+id/find_view_db_menu" android:title="Find" />
+     <item android:id="@+id/next_view_db_menu" android:title="Next" />
+     <item android:id="@+id/export_view_db_menu" android:title="Export" />
+     <item android:id="@+id/update_view_db_menu" android:title="Update" />
+</menu>

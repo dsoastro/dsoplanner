@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="background">#3500ffff</color> 
+  <color name="transparent">#00000000</color>
+  <color name="semitransparent">#7f000000</color>
+  <color name="redback">#ff5f0000</color>
+  <color name="redfront">#ffdf0000</color>
+  <color name="redselector">#ff3f0000</color>
+  <color name="black">#ff000000</color>
+  <color name="white">#ffefefef</color>
+  <color name="red_disabled_color">#ff4f0000</color>
+  <color name="red_normal_color">#ffaf0000</color>
+  <color name="red_pressed_color">#ff5f0000</color>
+  <color name="red_highlight_color">#ff3f0000</color>
+  <color name="redsettingsselector">#f04f0000</color>
+  <color name="onyx_disabled_color">#ff6f6f6f</color>
+  <color name="onyx_normal_color">#ffefefef</color>
+  <color name="onyx_pressed_color">#ffaf0000</color>
+  <color name="onyx_highlight_color">#ffef5f00</color>
+    <color name="dialog_shadow">#d0000000</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="Level and Compass options" >
+    
+    
+              
+
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="3"
+                android:dialogTitle="Attempts (default is 3)"
+                android:inputType="phone"
+                android:key="d_as_nattempts"
+                android:layout="@layout/pref"
+                android:summary="Number of averaging attempts"
+                android:title="Binning attempts" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="0.2"
+                android:dialogTitle="Treshold (0.0 - 1.0) default 0.2"
+                android:inputType="phone"
+                android:key="d_as_maxdst"
+                android:layout="@layout/pref"
+                android:summary="(threshold for skipping stray points)"
+                android:title="Threshold" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="0.1"
+                android:dialogTitle="Weight (0.0 - 1.0) default 0.1"
+                android:inputType="phone"
+                android:key="d_as_alpha"
+                android:layout="@layout/pref"
+                android:summary="(new point weight)"
+                android:title="Alpha" />
+
+</PreferenceScreen>

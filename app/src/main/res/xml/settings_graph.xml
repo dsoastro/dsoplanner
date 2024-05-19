@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="autoTime"
+        android:layout="@layout/prefc"
+        android:summary="Sky view updated automatically"
+        android:title="Realtime mode" >
+    </CheckBoxPreference>
+    
+    
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="30"
+        android:dialogTitle="Auto update time in seconds"
+        android:inputType="phone"
+        android:key="d_autoTimePeriod"
+        android:layout="@layout/pref"
+        android:summary="30 seconds is the reasonable default"
+        android:title="Auto update period" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="center_object_realtime_mode"
+        android:layout="@layout/prefc"
+        android:summary="Selected object is auto centered in realtime mode when the field of view is below 2 degrees"
+        android:title="Auto center object" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="center_object"
+        android:layout="@layout/prefc"
+        android:summary="Object centered on double touch and getting object info"
+        android:title="Center Object" >
+    </CheckBoxPreference>
+
+    <PreferenceCategory android:title="1 Telescope" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CalAzAlt"
+            android:layout="@layout/prefc"
+            android:summary="Dobsonian mount push-to support. Star Chart shows adjusted Az/Alt after one star alignment"
+            android:title="Show adjusted Az/Alt" >
+        </CheckBoxPreference>
+
+        <PreferenceScreen
+            android:key="@string/settings_bt"
+            android:layout="@layout/prefs"
+            android:summary="Mount not connected"
+            android:title="GoTo Mount Settings..." >
+   
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="2 Eyepieces overlay" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/epson"
+            android:layout="@layout/prefc"
+            android:summary="Nested FOV rings with RA/Dec guide lines"
+            android:title="Enable" />
+
+        <PreferenceScreen
+            android:key="@string/eps_screen_gr"
+            android:layout="@layout/prefs"
+            android:title="    Settings..." >
+           
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="3 Telrad overlay" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/telradon"
+            android:layout="@layout/prefc"
+            android:summary="Telrad rings with adjustable A/h guide lines"
+            android:title="Enable" />
+
+        <PreferenceScreen
+            android:key="@string/telrad_screen"
+            android:layout="@layout/prefs"
+            android:title="    Settings..." >
+    <!--         <com.astro.dsoplanner.InputPreference
+                android:defaultValue="0.5"
+                android:dialogTitle="Degrees"
+                android:inputType="phone"
+                android:key="@string/d_tr1"
+                android:layout="@layout/pref"
+                android:title="Inner ring diameter" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="2.0"
+                android:dialogTitle="Degrees"
+                android:inputType="phone"
+                android:key="@string/d_tr2"
+                android:layout="@layout/pref"
+                android:title="Middle ring diameter" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="4.0"
+                android:dialogTitle="Degrees"
+                android:inputType="phone"
+                android:key="@string/d_tr3"
+                android:layout="@layout/pref"
+                android:title="Outmost ring diameter" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="-10.0"
+                android:dialogTitle="Degrees from vertical to the right"
+                android:inputType="phone"
+                android:key="@string/d_tra"
+                android:layout="@layout/pref"
+                android:title="Marks angle" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="4"
+                android:dialogTitle="Pixels"
+                android:inputType="phone"
+                android:key="@string/d_trw"
+                android:layout="@layout/pref"
+                android:title="Width of the rings" />  -->
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="4 Object Marker" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="cross_show"
+            android:layout="@layout/prefc"
+            android:summary="Selected object crosshair with tool set"
+            android:title="Enable" />
+
+        <PreferenceScreen
+            android:key="@string/crossview"
+            android:layout="@layout/prefs"
+            android:title="    Settings..." >
+      <!--       <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="cross_orient"
+                android:layout="@layout/prefc"
+                android:summary="The top and right directions are highlighted"
+                android:title="Show orientation marks" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="cross_guide"
+                android:layout="@layout/prefc"
+                android:summary="Show line from the screen center to the object"
+                android:title="Direction line" />
+
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="40"
+                android:dialogTitle="Set length of cross lines"
+                android:inputType="phone"
+                android:key="d_cross_size"
+                android:layout="@layout/pref"
+                android:title="Cross size" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="3"
+                android:dialogTitle="Set width of the cross lines"
+                android:inputType="phone"
+                android:key="d_cross_line"
+                android:layout="@layout/pref"
+                android:title="Line width" /> --> 
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="5 Star chart elements" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/selobj"
+            android:layout="@layout/prefc"
+            android:summary="If you mark object in observation list it will disappear from SkyView"
+            android:title="Hide marked objects" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/gridon"
+            android:layout="@layout/prefc"
+            android:title="Show Alt/Az Grid" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/conston"
+            android:layout="@layout/prefc"
+            android:title="Draw Constellations lines" />
+<!--
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="lablOn"
+            android:layout="@layout/prefc"
+            android:title="Display Labels" />
+-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="horizOn"
+            android:layout="@layout/prefc"
+            android:title="Horizon line" />
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/horiz_fill"
+            android:layout="@layout/prefc"
+            android:title="Fill area below horizon" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="6 User Horizon" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="userHorizonOn"
+            android:layout="@layout/prefc"
+            android:summary="The closed line defined in the text file"
+            android:title="Enable" />
+
+        <PreferenceScreen
+            android:key="@string/userhor"
+            android:layout="@layout/prefs"
+            android:title="    Settings..." >
+     <!--       <com.astro.dsoplanner.InputPreference
+                android:defaultValue="horizon.txt"
+                android:dialogTitle="User file with A h pairs per line the DSO folder"
+                android:key="t_uhor__name"
+                android:layout="@layout/pref"
+                android:summary="Pairs (Az h) of points in the DSO folder"
+                android:title="File name with key points" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="5"
+                android:dialogTitle="Width of the line"
+                android:inputType="phone"
+                android:key="d_uhor__width"
+                android:layout="@layout/pref"
+                android:summary="(in pixels)"
+                android:title="Line width" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="5.0"
+                android:dialogTitle="Minimal subdivisions"
+                android:inputType="phone"
+                android:key="d_uhor_step"
+                android:layout="@layout/pref"
+                android:summary="Larger number makes line coarse, small - affects performance"
+                android:title="Subdivision size in degrees, 0 - none" />  --> 
+        </PreferenceScreen>
+    </PreferenceCategory> 
+    <PreferenceCategory android:title="7 DSS Digital Sky Survey" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="DSSon"
+            android:layout="@layout/prefc"
+            android:title="Enable DSS Imagery support" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="DSS_contour_on"
+            android:layout="@layout/prefc"
+            android:summary="Display contours of already downloaded DSS images"
+            android:title="Display DSS contours" />
+
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="5.0"
+            android:dialogTitle="The minimal zoom in degrees"
+            android:inputType="phone"
+            android:key="d_dsszoom"
+            android:layout="@layout/pref"
+            android:summary="When to show/hide DSS images"
+            android:title="Max zoom to show DSS" />
+
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="0"
+            android:dialogTitle="DSS images dimming %"
+            android:inputType="phone"
+            android:key="d_dssbrightness"
+            android:layout="@layout/pref"
+            android:summary="Night mode only. Range 0-100%, 0 - no dimming"
+            android:title="DSS images dimmer" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="8 Star Catalog Layer" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="tycho"
+            android:layout="@layout/prefc"
+            android:summary="2.5 million stars up to 12m"
+            android:title="Tycho catalog" />
+
+ <!--         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="ucac2"
+            android:layout="@layout/prefc"
+            android:summary="@string/ucac2_description"
+            android:title="UCAC2 catalog" />
+  -->          
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ucac4"
+            android:layout="@layout/prefc"
+            android:summary="@string/ucac4_description"
+            android:title="UCAC4 catalog" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pgc"
+            android:layout="@layout/prefc"
+            android:summary="753 000 galaxies from Principal Galaxies Catalogue"
+            android:title="PGC galaxies catalog" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="9 Nebula Contour Layer" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/neb_contour"
+            android:layout="@layout/prefc"   
+            android:summary="Display contours of famous nebulas"         
+            android:title="Nebula Contour" />
+    </PreferenceCategory>    
+    <PreferenceCategory android:title="10 DSO Layer" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="dso__shape"
+            android:layout="@layout/prefc"
+            android:summary="Show elliptical shape at high zoom level"
+            android:title="Show near to real DSO shape" />
+
+        <PreferenceScreen
+            android:key="@string/dsosettings"
+            android:layout="@layout/prefs"
+            android:title="    Settings..." >
+            
+        </PreferenceScreen>
+    </PreferenceCategory>
+<!--    <PreferenceCategory android:title="10 User Objects File" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="uobj__On"
+            android:layout="@layout/prefc"
+            android:summary="Show objects from a plain text file"
+            android:title="Enable" />
+
+        <PreferenceScreen
+            android:key="userObjs"
+            android:layout="@layout/prefs"
+            android:title="    Settings..." >
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="uobjects.txt"
+                android:dialogTitle="File line format:[Number RA DEC description] The file should be in the /sdcard/DSO folder"
+                android:key="t_uobj__name"
+                android:layout="@layout/pref"
+                android:title="User Objects file name" />
+        </PreferenceScreen>
+    </PreferenceCategory> -->
+    
+    <PreferenceCategory android:title="11 Level and Compass" >
+      <!--   <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/autorotation"
+            android:layout="@layout/prefc"
+            android:title="Enable" > 
+        </CheckBoxPreference>   -->
+		<CheckBoxPreference
+                android:defaultValue="true"
+                android:key="as_nonadir"
+                android:layout="@layout/prefc"
+                android:summary="Turn off tracking when pointing down"
+                android:title="Disable down tracking" >
+            </CheckBoxPreference>
+            
+          <PreferenceScreen
+            android:key="@string/autoskyparam"
+            android:layout="@layout/prefs"
+            android:title="    Settings..." >
+  <!--     <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/autosky"
+                android:layout="@layout/prefc"
+                android:summary="Automatic sky direction tracking"
+                android:title="Full Tracking" >
+            </CheckBoxPreference> 
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="as_nonadir"
+                android:layout="@layout/prefc"
+                android:summary="Turn off tracking when pointing down"
+                android:title="Disable down tracking" >
+            </CheckBoxPreference> -->
+
+  <!--            <PreferenceCategory android:title="Advanced" >
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="0"
+                android:dialogTitle="Correction angle (degrees from vertical)"
+                android:inputType="phone"
+                android:key="d_as_coreectangle"
+                android:layout="@layout/pref"
+                android:summary="Vertical Correction"
+                android:title="Set Gravitation sensor correction" />
+
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="3"
+                android:dialogTitle="Attempts (default is 3)"
+                android:inputType="phone"
+                android:key="d_as_nattempts"
+                android:layout="@layout/pref"
+                android:summary="Number of averaging attempts"
+                android:title="Binning attempts" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="0.2"
+                android:dialogTitle="Treshold (0.0 - 1.0) default 0.2"
+                android:inputType="phone"
+                android:key="d_as_maxdst"
+                android:layout="@layout/pref"
+                android:summary="(threshold for skipping stray points)"
+                android:title="Threshold" />
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="0.1"
+                android:dialogTitle="Weight (0.0 - 1.0) default 0.1"
+                android:inputType="phone"
+                android:key="d_as_alpha"
+                android:layout="@layout/pref"
+                android:summary="(new point weight)"
+                android:title="Alpha" />
+            </PreferenceCategory> -->
+         </PreferenceScreen>   
+    </PreferenceCategory>
+
+</PreferenceScreen>

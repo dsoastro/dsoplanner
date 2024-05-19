@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<Preference
+	    android:key="@string/obj_catalog_pref"
+	    android:layout="@layout/pref"
+	    android:summary=""
+	    android:title="@string/select_object_catalogs" />
+	<com.astro.dsoplanner.SeP
+	    	android:title="@string/select_search_type_title"
+	         android:defaultValue="0"
+	         android:dialogTitle="@string/select_search_type_title"
+	         android:entries="@array/select_search_types"
+	         android:key="@string/select_search_type2"
+	         android:layout="@layout/pref"
+	         android:summary=""
+	          />
+	 <PreferenceCategory android:title="@string/primary_search" >
+	     <Preference
+	         android:key="@string/obj_types_pref"
+	         android:layout="@layout/pref"
+	         android:summary=""
+	         android:title="@string/select_object_types" />
+
+	     <com.astro.dsoplanner.SeP
+	         android:defaultValue="0"
+	         android:dialogTitle="@string/select_how_objects_with_empty"
+	         android:entries="@array/entries_absent_data"
+	         android:key="@string/absent_data"
+	         android:layout="@layout/pref"
+	         
+	         android:title="@string/empty_field_treatment" />
+
+	     
+	 <Preference
+            android:layout="@layout/pref"
+            android:defaultValue="true"
+            android:key="@string/basic_search"
+            android:title="@string/primary_search_parameters" />
+	 
+	 </PreferenceCategory>
+	
+    <PreferenceCategory android:title="@string/search_with_sql_like_expression" >
+        
+        <Preference
+            android:layout="@layout/pref"
+            android:defaultValue="false"
+            android:key="@string/advanced_search"
+            android:title="@string/sql_like_expression" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/common_conditions">
+        <CheckBoxPreference
+	         android:defaultValue="true"
+	         android:key="@string/duplicates_search"
+	         android:layout="@layout/prefc"
+	         android:summary="@string/if_enabled_same_objects_from_different_databases_are_shown_as_one_object"
+	         android:title="@string/exclude_duplicates" />
+        <PreferenceScreen
+            android:key="@string/launch_screen"
+            android:summary="@string/time_range_within_24_hours"
+            android:layout="@layout/prefs"
+            android:title="@string/time_of_observation" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="@string/telescope_search"
+            android:summary="@string/select_an_instrument_for_visibility_calculations"
+            android:layout="@layout/prefs"
+            android:title="@string/telescope_instrument" >
+         <!--    <intent android:action="com.astro.dsoplanner.TelescopeList" /> -->
+        </PreferenceScreen>
+        
+        <PreferenceScreen
+            android:key="@string/geolocation" 
+            android:layout="@layout/prefs"
+            android:title="@string/geographic_location" >
+        </PreferenceScreen>
+        
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="6"
+            android:dialogTitle="@string/sky_limiting_magnitude"
+            android:inputType="phone"
+            android:key="@string/d_lm"
+            android:layout="@layout/pref"           
+            android:title="@string/sky_limiting_magnitude" />
+                   
+    </PreferenceCategory>
+
+</PreferenceScreen>

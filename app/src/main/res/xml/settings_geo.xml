@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="auto_location"
+        android:layout="@layout/prefc"
+        android:title="@string/enable_autolocation" />
+
+    <PreferenceScreen        
+        android:key="@string/d_lattitude"
+        android:layout="@layout/pref"
+        android:title="@string/title_latitude_preference" />
+    
+    <PreferenceScreen       
+        android:key="@string/d_longitude"
+        android:layout="@layout/pref"
+        android:title="@string/title_longitude_preference" />
+
+  
+    
+    <PreferenceScreen
+        android:key="@string/add_location"
+        android:layout="@layout/prefs"
+        android:summary="@string/remember_this_location_in_user_location_list"
+        android:title="@string/add_location2" />
+         
+     <PreferenceScreen
+        android:key="@string/select_location"
+        android:layout="@layout/prefs"
+        android:summary="@string/select_location_from_your_location_list"
+        android:title="@string/user_location_list" />
+     
+     <PreferenceScreen
+        android:key="@string/select_location_cities"
+        android:layout="@layout/prefs"
+        android:summary="@string/select_location_from_24_000_major_world_cities"
+        android:title="@string/major_world_cities" />
+           
+   
+
+</PreferenceScreen>

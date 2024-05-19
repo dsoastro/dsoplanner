@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/vrel"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       
+        android:padding="10sp" >
+
+        <TextView
+            android:id="@+id/vt1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/field_name"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/vt2"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vt1"
+            android:text="@string/value"
+            android:textSize="@dimen/text_size_normal" />
+
+        
+    </LinearLayout>
+     
+     <ImageView
+        android:id="@+id/xTopline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vrel"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+    
+    <ImageView
+        android:id="@+id/xTopline2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/co_ll1"
+        android:layout_marginTop="@dimen/padding_small"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/xTopline2"
+        android:layout_below="@id/xTopline"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:id="@+id/co_ll3"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+          
+            android:layout_marginBottom="@dimen/padding_small"
+            
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/co_ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10sp" >
+
+        <Button
+            android:id="@+id/co_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/_ok_" />
+
+        <Button
+            android:id="@+id/co_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/cancel"
+             />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

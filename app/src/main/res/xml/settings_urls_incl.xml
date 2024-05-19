@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/urls"
+    >
+    
+ <PreferenceScreen
+            android:layout="@layout/prefs"
+            android:key="@string/update_urls"
+            android:summary="@string/take_updated_urls_from_the_app_site"
+            android:title="@string/update_urls" />
+
+<PreferenceScreen
+            android:layout="@layout/prefs"
+            android:key="@string/restore_defaults"
+            android:summary=""
+            android:title="@string/restore_default_urls" />
+   
+  <com.astro.dsoplanner.InputPreference
+                android:defaultValue="@string/https_minorplanetcenter_net_iau_ephemerides_comets_soft00cmt_txt"
+                android:dialogTitle="@string/set_comet_update_url"
+                android:key="@string/url_comet_update"
+                android:layout="@layout/pref"
+                android:summary="@string/manually_change_this_url"
+                android:title="@string/comet_update_url" />
+<com.astro.dsoplanner.InputPreference
+
+                android:defaultValue=""
+                android:dialogTitle="@string/set_minor_planets_update_url"
+                android:key="@string/url_minor_planet_update"
+                android:layout="@layout/pref"
+                android:summary="@string/manually_change_this_url"
+                android:title="@string/minor_planets_update_url" />
+  
+<com.astro.dsoplanner.InputPreference
+                android:defaultValue="@string/http_archive_stsci_edu_cgi_bin_dss_search_v_poss2ukstu_red_26r_"
+                android:dialogTitle="@string/set_dss_download_url"
+                android:key="@string/url_dss_download"
+                android:layout="@layout/pref"
+                android:summary="@string/manually_change_this_url"
+                android:title="@string/dss_download_url" />
+
+
+
+
+</PreferenceScreen>

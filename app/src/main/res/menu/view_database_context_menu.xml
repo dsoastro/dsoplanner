@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item android:title="Picture" android:id="@+id/vseepic" ></item>
+    <item android:title="Add to Observation List" android:id="@+id/vadd" ></item>    
+    <item android:id="@+id/vdetails" android:title="Details"></item>
+    <item android:id="@+id/vaddnote" android:title="Add Note"></item>
+    <item android:id="@+id/vseenotes" android:title="See Object Notes"></item>
+    <item android:id="@+id/vseeallnotes" android:title="See All Notes"></item>
+    <item android:id="@+id/vremove" android:title="Remove"></item>
+     <item android:id="@+id/vremoveall" android:title="Remove All"></item>
+     <item android:id="@+id/vshare" android:title="Share"></item>
+     <item android:id="@+id/vedit" android:title="Edit"></item>
+</menu>

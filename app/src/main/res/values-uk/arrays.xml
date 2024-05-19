@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_absent_data">
+      <item>Враховувати об\'єкт при пошуку</item>
+      <item >Виключити об\'єкт з пошуку</item>
+      <item >Вважати порожнє поле нулем</item>
+      <item >Вважати порожнє поле дуже великим за значенням</item>
+      
+  </string-array>
+  <string-array name="system_language_entries">      
+      <item>Английский</item>
+      <item>Українська</item>
+  </string-array>
+  <string-array name="select_search_types">
+      <item>Головний</item>
+      <item >Запит типу SQL</item>
+  </string-array>
+  <string-array name="entries_filter_preference">
+  	<item>Фильтр за видимістю (Блаквела)</item> 
+  	<item>Фільтр за макс. зор. величиною</item> 
+  	<item>Фильтр відсутній</item> 
+  </string-array>
+  
+  <string-array name="entries_grid_preference">
+  	<item>Азимутальна</item> 
+  	<item>Екваторіальна</item> 
+  	<item>Відсутня</item> 
+  </string-array>
+  
+  <string-array name="months">
+        <item>Січень</item>
+        <item>Лютий</item>
+        <item>Березень</item>
+        <item>Квітень</item>
+        <item>Травень</item>
+        <item>Червень</item>
+        <item>Липень</item>
+        <item>Серпень</item>
+        <item>Вересень</item>
+        <item>Жовтень</item>
+        <item>Листопад</item>
+        <item>Грудень</item>
+   </string-array>
+    
+</resources>
+

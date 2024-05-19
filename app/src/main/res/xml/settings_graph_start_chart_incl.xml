@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/star_chart_options" >
+
+    <PreferenceCategory android:title="@string/object_marker" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="cross_show"
+            android:layout="@layout/prefc"
+            android:summary="@string/selected_object_crosshair_with_tool_set"
+            android:title="@string/enable_object_marker" />
+
+        <PreferenceScreen
+            android:key="@string/crossview"
+            android:layout="@layout/prefs"
+            android:title="@string/_settings_" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/star_chart_elements" >
+        <com.astro.dsoplanner.SeP
+            android:defaultValue="0"
+            android:dialogTitle="@string/select_grid_type"
+            android:entries="@array/entries_grid_preference"
+            android:key="@string/grid_preference"
+            android:layout="@layout/pref"
+            android:title="@string/grid2" />
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/conston"
+            android:layout="@layout/prefc"
+            android:title="@string/constellations_lines" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/con_boundaries1"
+            android:layout="@layout/prefc"
+            android:title="@string/constellation_boundaries" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/milky_way"
+            android:layout="@layout/prefc"
+            android:title="@string/milky_way2" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/horizon"
+            android:layout="@layout/prefc"
+            android:title="@string/horizon_line" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/horiz_fill"
+            android:layout="@layout/prefc"
+            android:title="@string/fill_area_below_horizon" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/antialiasing"
+            android:layout="@layout/prefc"
+            android:summary="@string/antialiasing_lowers_performance"
+            android:title="@string/smooth_hard_line_edges" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/fov_column"
+            android:layout="@layout/prefc"
+            android:title="@string/fov_column_title" />
+        
+        
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/labels" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/bright_star_label"
+            android:layout="@layout/prefc"
+            android:title="@string/bright_star_labels" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/object_label"
+            android:layout="@layout/prefc"
+            android:summary="@string/labels_for_objects_from_observation_lists"
+            android:title="@string/object_labels_obs_list_" />
+        <CheckBoxPreference
+           android:defaultValue="true"
+           android:key="@string/show_double_separation"
+           android:layout="@layout/prefc"
+           android:summary="@string/show_component_and_separation_on_the_star_chart_for_double_stars_from_yale_bright_star_catalog"
+           android:title="@string/double_star_info" >
+       </CheckBoxPreference>
+        
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/object_label_layer"
+            android:layout="@layout/prefc"
+            android:summary="@string/labels_for_objects_from_star_chart_layers"
+            android:title="@string/object_labels_layers_" />
+        
+         
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/grid_label"
+            android:layout="@layout/prefc"
+            android:title="@string/grid_labels" />
+         <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/other_label"
+            android:layout="@layout/prefc"
+            android:summary="@string/zenith_nadir_horizon_labels"
+            android:title="@string/other_labels" />
+         <com.astro.dsoplanner.InputPreference
+                android:defaultValue="1"
+                android:dialogTitle="@string/use_to_reduce_enlarge_label_size"
+                android:summary="@string/scale_factor_of_star_and_object_labels_0_100_"
+                android:inputType="phone"
+                android:key="@string/d_scale_labels"
+                android:layout="@layout/pref"
+                android:title="@string/labels_scale" />
+         
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/star_chart_colors" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/invsky"
+            android:layout="@layout/prefc"
+            android:summary="@string/black_stars_on_white_background_in_day_mode"
+            android:title="@string/inverse_sky" />
+
+        <PreferenceScreen
+            android:key="@string/pscolors"
+            android:layout="@layout/prefs"
+            android:summary="@string/colors_for_the_star_chart_elements_only"
+            android:title="@string/daytime_mode_colors" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="@string/psncolors"
+            android:layout="@layout/prefs"
+            android:summary="@string/night_time_red_color_intensity"
+            android:title="@string/night_time" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/user_horizon" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/userhorizonon"
+            android:layout="@layout/prefc"
+            android:summary="@string/the_closed_line_defined_in_the_text_file"
+            android:title="@string/enable_user_horizon" />
+
+        <PreferenceScreen
+            android:key="@string/userhor"
+            android:layout="@layout/prefs"
+            android:title="@string/_settings_" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

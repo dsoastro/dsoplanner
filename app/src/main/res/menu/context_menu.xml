@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item android:title="Picture" android:id="@+id/qseepic" ></item>
+    <item android:title="Add to Observation List" android:id="@+id/add" ></item>
+    <item android:title="Add to Observation List" android:id="@+id/addmarked" ></item>
+    <item android:title="Add All to Observation List" android:id="@+id/addall"></item>
+    <item android:id="@+id/item1" android:title="Details"></item>
+    <item android:id="@+id/qaddnote" android:title="Add Note"></item>
+    <item android:id="@+id/qseenotes" android:title="See Object Notes"></item>
+    <item android:id="@+id/qseeallnotes" android:title="See All Notes"></item>
+    <item android:id="@+id/qshare" android:title="Share"></item>
+</menu>
+ 

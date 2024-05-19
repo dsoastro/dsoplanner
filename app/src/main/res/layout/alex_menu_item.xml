@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/alex_menu_selector"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dip" >
+
+    <ImageView
+        android:id="@+id/alex_menu_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:paddingTop="2dip"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/alex_menu_item_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Menu Item Text"
+        android:textSize="@dimen/menu_item" />
+
+    <ImageView
+        android:id="@+id/menuindivider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/alex_menu_header"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/screen_settings"
+    >
+     <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/autonightmode"
+                android:layout="@layout/prefc"
+                android:summary="@string/turn_night_mode_on_after_civil_twilight_ends"
+                android:title="@string/automatic_nightmode" />
+            
+            
+
+       <!--      <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="invsky"
+                android:layout="@layout/prefc"
+                android:summary="Black stars on white background in day modes"
+                android:title="Inverse sky" />  -->
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/dimlight"
+                android:layout="@layout/prefc"
+                android:summary="@string/dim_the_screen_to_the_hardware_minimum"
+                android:title="@string/minimal_brightness_mode" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/full_screen_on"
+                android:layout="@layout/prefc"
+                android:summary="@string/remove_the_android_notification_bar"
+                android:title="@string/day_time_full_screen_mode" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/full_screen_on_night"
+                android:layout="@layout/prefc"
+                android:summary="@string/remove_the_android_notification_bar"
+                android:title="@string/night_time_full_screen_mode" />
+        <!--    <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="flickBright"
+                android:layout="@layout/prefc"
+                android:summary="Use flick on the left side of the SkyView to control brightness"
+                android:title="Brightness Flick" />  --> 
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/nagscreenon"
+                android:layout="@layout/prefc"
+                android:summary="@string/show_sombrero_image_on_the_initial_view"
+                android:title="@string/nag_screen" />
+            
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="onyxskin"
+                android:layout="@layout/prefc"
+                android:summary="@string/white_on_black_color_interface"
+                android:title="@string/onyx_skin" />
+           
+            
+
+      <!--      <PreferenceScreen
+                android:key="@string/pscolors"
+                android:layout="@layout/prefs"
+                android:summary="Colors for the Sky view elements only"
+                android:title="Daytime mode colors" >
+                
+               
+            </PreferenceScreen> --> 
+
+</PreferenceScreen>

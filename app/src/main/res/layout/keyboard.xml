@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/engKeyboardView"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/keyboard_height"
+    android:layout_alignParentBottom="true"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/kbrow1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="true"
+        android:fitsSystemWindows="true" >
+
+        <Button
+            android:id="@+id/xQ"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:soundEffectsEnabled="true"
+            android:tag="Q"
+            android:text="Q"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xW"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:soundEffectsEnabled="true"
+            android:tag="W"
+            android:text="W"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xE"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="E"
+            android:text="E"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xR"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="R"
+            android:text="R"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xT"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="T"
+            android:text="T"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xY"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="y"
+            android:text="Y"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xU"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="U"
+            android:text="U"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xI"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="I"
+            android:text="I"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xO"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="O"
+            android:text="O"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xP"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="P"
+            android:text="P"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kbrow2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/kbrow1"
+        android:baselineAligned="true" >
+
+        <Button
+            android:id="@+id/xA"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="A"
+            android:text="A"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xS"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xA"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="S"
+            android:text="S"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xD"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xS"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="D"
+            android:text="D"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xF"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xD"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="F"
+            android:text="F"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xG"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xF"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="G"
+            android:text="G"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xH"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xG"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="H"
+            android:text="H"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xJ"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xH"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="J"
+            android:text="J"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xK"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xJ"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="K"
+            android:text="K"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xL"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_toRightOf="@id/xK"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="L"
+            android:text="L"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xEnter"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:background="@drawable/ienter_high"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="enter"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kbrow3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/kbrow2"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/xS2"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="`"
+            android:text="`"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xZ"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="Z"
+            android:text="Z"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xX"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="X"
+            android:text="X"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xC"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="C"
+            android:text="C"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xV"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="V"
+            android:text="V"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xB"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="B"
+            android:text="B"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xN"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="N"
+            android:text="N"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xM"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="M"
+            android:text="M"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xS3"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="/"
+            android:text="/"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xBack"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:background="@drawable/iback_high"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="back"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kbrow4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/kbrow3"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/xClose"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="0"
+            android:background="@drawable/kclose"
+            android:fitsSystemWindows="true"
+            android:paddingLeft="35sp"
+            android:soundEffectsEnabled="true"
+            android:tag="upper"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xS4"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="-"
+            android:text="-"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xSpace"
+            android:layout_width="60sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag=" "
+            android:text=" "
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xS5"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag=","
+            android:text=","
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xS6"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="."
+            android:text="."
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xNum"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="0"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:tag="num"
+            android:text="12#"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/xChange"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="0"
+            android:background="@drawable/kchange"
+            android:fitsSystemWindows="true"
+            android:paddingLeft="35sp"
+            android:soundEffectsEnabled="true"
+            android:tag="upper"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+        <!--
+             <Button
+            android:id="@+id/xDone"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ihide_high"
+            android:fitsSystemWindows="true"
+            android:soundEffectsEnabled="true"
+            android:layout_gravity="top"
+            android:tag="done"
+            android:textStyle="bold" />
+        -->
+    </LinearLayout>
+
+</LinearLayout>

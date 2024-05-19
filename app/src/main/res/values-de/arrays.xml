@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_filter_preference">
+  	<item>Sichtbarkeit (Blackwell) Filter</item> 
+  	<item>Maximale Magnitude Filter</item> 
+  	<item>Kein Filter</item> 
+  </string-array>
+  
+  
+  
+  <string-array name="entries_absent_data">
+      <item>Objekt in Suche einbeziehen</item>
+      <item>Objekt von Suche ausschließen</item>
+      <item>Leeres Feld als Null behandeln</item>
+      <item>Leeres Feld als großen Wert behandeln</item>
+      
+  </string-array>
+
+  <string-array name="select_search_types">
+      <item>Primär</item>
+      <item>SQL-ähnlicher Ausdruck</item>
+     
+      
+  </string-array>
+
+   <string-array name="entries_grid_preference">
+  	<item>Azimuthal</item> 
+  	<item>Equatorial</item> 
+  	<item>Kein Raster</item> 
+  </string-array>
+
+  <string-array name="object_types">
+  	<item>Kugelsternhaufen</item> 
+  	<item>Galaxie</item> 
+  	<item>Galaxiewolke</item> 
+  	<item>HII Region</item>
+  	<item>Nebel</item>
+  	<item>Offener Sternhaufen</item>
+  	<item>Offener Sternhaufen und Nebel</item>
+  	<item>Planetarischer Nebel</item>
+  	<item>Supernovaüberrest</item>
+  	<item>Kleinplanet</item>
+  	<item>Stern</item>
+  	<item>Doppelstern</item>
+  	<item>Komet</item>
+  	<item>Galaxienhaufen</item>
+  	<item>Dunkelwolke</item>
+  	<item>Sternbild</item>
+  	<item>Eigener Typ</item>
+  </string-array>
+  <string-array name="equinox">
+  	<item>2000</item> 
+  	<item>Aktuell</item> 
+  </string-array>
+</resources>

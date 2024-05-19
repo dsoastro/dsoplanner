@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srequest_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/set_sql_request" />
+
+    <EditText
+        android:id="@+id/srequest_sql"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:tag="editField"
+        android:textSize="@dimen/text_size_normal"
+        android:selectAllOnFocus="true"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="editField"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/set_local_request" />
+
+    <EditText
+        android:id="@+id/srequest_local"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:tag="editField"
+        android:textSize="@dimen/text_size_normal"
+        android:selectAllOnFocus="true"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        android:text="" />
+
+</LinearLayout>

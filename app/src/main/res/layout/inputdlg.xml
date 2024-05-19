@@ -1,0 +1,190 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/xMLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_shadow">
+
+    <com.astro.dsoplanner.IDRL
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        custom:maxWidth="@dimen/input_dialog_max_width">
+
+        <LinearLayout
+            android:id="@+id/xdialogFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_small"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/inpDheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_small">
+
+                <TextView
+                    android:id="@+id/Header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <TextView
+                    android:id="@+id/inpDhelpBn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/padding_small"
+                    android:paddingRight="@dimen/padding_small"
+                    android:text="@string/helpmark"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/text_size_medium" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/xTopline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/alex_menu_header" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dialog_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fadeScrollbars="true"
+                    android:gravity="top"
+                    android:minLines="1"
+                    android:padding="@dimen/padding_medium"
+                    android:scrollHorizontally="false"
+                    android:textSize="@dimen/text_size_normal" />
+            </ScrollView>
+
+            <EditText
+                android:id="@+id/xEt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_medium"
+                android:focusableInTouchMode="true"
+                android:gravity="top"
+                android:padding="@dimen/padding_medium"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollHorizontally="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarFadeDuration="0"
+                android:fadeScrollbars="false"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:tag="editField"
+                android:inputType="textMultiLine"
+                android:textSize="@dimen/text_size_normal" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/inputlayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fadeScrollbars="false"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:id="@+id/insertlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/xbuttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_small">
+
+                <Button
+                    android:id="@+id/bnd_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/padding_medium"
+                    android:layout_weight="1"
+                    android:text="OK"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <Button
+                    android:id="@+id/bnd_middle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/padding_medium"
+                    android:layout_weight="1"
+                    android:text="Middle"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <Button
+                    android:id="@+id/bnd_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/padding_medium"
+                    android:layout_weight="1"
+                    android:text="Cancel"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/xK1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/xKeyBoard"
+                layout="@layout/keyboard" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/xK2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/xKeyBoardNum"
+                layout="@layout/keyboardnum" />
+        </LinearLayout>
+
+    </com.astro.dsoplanner.IDRL>
+</FrameLayout>

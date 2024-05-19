@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+   android:title="@string/dso_options" >
+
+
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="dso__shape"
+        android:layout="@layout/prefc"
+        android:summary="@string/show_elliptical_shape_at_high_zoom_level"
+        android:title="@string/show_near_to_real_dso_shape" />
+     <com.astro.dsoplanner.InputPreference
+        android:defaultValue="90"
+        android:dialogTitle="@string/fov_zoom_level_in_degrees"
+        android:inputType="phone"
+        android:key="d_dso__zoom"
+        android:layout="@layout/pref"
+        android:summary="@string/dso_is_shown_as_sign_for_fov_above_the_threshold"
+        android:title="@string/zoom_level_for_real_size_on" />  
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="1"
+        android:dialogTitle="@string/scale_factor_for_real_dso_shape"
+        android:inputType="phone"
+        android:key="@string/d_dso__dim"
+        android:layout="@layout/pref"
+        android:summary="@string/dso_is_shown_in_real_shape_if_its_screen_dimension_is_higher_than_that_of_dso_icon_multiplied_by_scale_factor_set_it_to_zero_to_show_any_even_the_smallest_object_in_real_size"
+        android:title="@string/scale_factor_for_real_dso_shape" />
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="1"
+        android:dialogTitle="@string/use_to_reduce_enlarge_dso_icons"
+        android:key="d_dso__scale"
+        android:layout="@layout/pref"
+        android:summary="@string/make_dso_signs_larger_or_smaller"
+        android:title="@string/scale_factor_for_dso_signs" />
+
+
+    
+
+</PreferenceScreen>

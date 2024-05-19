@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/primary_search_parameters"
+    >
+
+   <com.astro.dsoplanner.SeP
+        android:defaultValue="0"
+        android:dialogTitle="@string/select_filter_type"
+        android:entries="@array/entries_filter_preference"
+        android:key="filter_preference"
+        android:layout="@layout/pref"
+        android:title="@string/filter_type" />
+
+
+    <Preference
+        android:key="@string/basic_search_constellations"
+        android:layout="@layout/pref"
+        android:summary=""
+        android:title="@string/select_constellation" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue=""
+        android:dialogTitle="@string/set_the_string_object_name_starts_with"        
+        android:key="@string/basic_search_name_start"
+        android:layout="@layout/pref"
+        android:title="@string/object_name_starts_with_" />
+
+    
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/dialog_dimension_preference"
+        android:inputType="phone"
+        android:key="d_dimension"
+        android:layout="@layout/pref"
+        android:title="@string/object_minimal_size" />
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="20"
+        android:dialogTitle="@string/minimum_altitude"
+        android:inputType="phone"
+        android:key="d_min_alt"
+        android:layout="@layout/pref"
+        android:title="@string/lowest_altitude" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/detection_limit"
+        android:inputType="phone"
+        android:key="d_detection_limit"
+        android:layout="@layout/pref"
+        android:summary="@string/detection_limit_for_blackwell_filter"
+        android:title="@string/detection_limit2" />
+
+   <com.astro.dsoplanner.InputPreference
+        android:defaultValue="12"
+        android:dialogTitle="@string/max_magnitude_mag_filter_"
+        android:inputType="phone"
+        android:key="d_max_mag"
+        android:layout="@layout/pref"
+        android:summary="@string/maximum_magnitude_used_for_magnitude_filter_"
+        android:title="@string/set_maximum_magnitude" />
+
+    
+    <PreferenceCategory 
+        android:key="@string/additional_parameters_double_star_catalogs_category"
+        android:title="@string/additional_parameters_double_star_catalogs_" >
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/minimum_separation_seconds"
+            android:inputType="phone"
+            android:key="@string/basic_search_min_sep"
+            android:layout="@layout/pref"
+            android:title="@string/minimum_separation" />
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="1000"
+            android:dialogTitle="@string/maximum_separation_seconds"
+            android:inputType="phone"
+            android:key="@string/basic_search_max_sep"
+            android:layout="@layout/pref"
+            android:title="@string/maximum_separation" />
+
+       <com.astro.dsoplanner.InputPreference
+            android:defaultValue="20"
+            android:dialogTitle="@string/maximum_component_magnitude_mag2_"
+            android:inputType="phone"
+            android:key="@string/basic_search_max_mag2"
+            android:layout="@layout/pref"
+            android:summary="@string/component_magnitude"
+            android:title="@string/maximum_mag2" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

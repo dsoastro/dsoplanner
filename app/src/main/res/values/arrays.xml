@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="entries_filter_preference">
+  	<item>Visibility (Blackwell) filter</item> 
+  	<item>Maximum magnitude filter</item> 
+  	<item>No filter</item> 
+  </string-array>
+  
+  <string-array name="system_language_entries">      
+      <item>English</item>
+      <item>Russian</item>
+  </string-array>
+  
+  <string-array name="entries_absent_data">
+      <item>Include object into search</item>
+      <item >Exclude object from search</item>
+      <item >Treat empty field as zero</item>
+      <item >Treat empty field as large value</item>
+      
+  </string-array>
+  <string-array name="select_search_types">
+      <item>Primary</item>
+      <item >SQL-like expression</item>
+     
+      
+  </string-array>
+   <string-array name="entries_grid_preference">
+  	<item>Azimuthal</item> 
+  	<item>Equatorial</item> 
+  	<item>No grid</item> 
+  </string-array>
+  <string-array name="object_types">
+  	<item>Globular Cluster</item> 
+  	<item>Galaxy</item> 
+  	<item>Galaxy Cloud</item> 
+  	<item>HII Region</item>
+  	<item>Nebula</item>
+  	<item>Open Cluster</item>
+  	<item>Open Cluster and Nebula</item>
+  	<item>Planetary Nebula</item>
+  	<item>Super Nova remnant</item>
+  	<item>Minor Planet</item>
+  	<item>Star</item>
+  	<item>Double Star</item>
+  	<item>Comet</item>
+  	<item >Cluster of galaxies</item>
+  	<item >Dark Nebula</item>
+  	<item >Asterism</item>
+  	<item>Custom Type</item>
+  </string-array>
+  <string-array name="equinox">
+  	<item>2000</item> 
+  	<item>Current</item> 
+  </string-array>
+  <string-array name="time_events">
+  	<item>Now</item> 
+  	<item>Sunset</item> 
+  	<item>Civil Twilight End</item> 
+  	<item>Nautical Twilight End</item>
+  	<item>Astronomy Twilight Ends</item>
+  	<item>Midnight</item>
+  	<item>Astronomy Twilight Begins</item>
+  	<item>Nautical Twilight Begins</item>
+  	<item>Civil Twilight Begins</item>
+  	<item>Moon Rise</item>
+  	<item>Moon Set</item>
+  </string-array>
+  
+    
+</resources>

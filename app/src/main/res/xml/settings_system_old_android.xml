@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="night_mode"
+        android:layout="@layout/prefc"
+        android:title="@string/night_mode_on_off_" />
+
+
+    <PreferenceCategory android:title="@string/_1_general" >
+        <PreferenceScreen
+            android:key="geolocation2"
+            android:layout="@layout/prefs"
+            android:title="@string/geographic_location" >
+        </PreferenceScreen>
+        <PreferenceScreen
+           android:key="@string/astroeq"
+            android:layout="@layout/prefs"
+            android:summary="@string/telescopes_eyepieces_etc_"
+            android:title="@string/astro_equipment" >
+   <!--          <PreferenceScreen
+                android:key="ss_telescope_search"
+                android:layout="@layout/prefs"
+                android:summary="Browse and edit your telescopes parameters"
+                android:title="Telescopes database" >
+                        </PreferenceScreen>
+            <PreferenceScreen
+                android:key="@string/eps_screen"
+                android:layout="@layout/prefs"
+                android:summary="Browse and edit your eyepieces parameters"
+                android:title="Eyepieces database" >
+                       </PreferenceScreen>
+            <PreferenceScreen
+                 android:key="@string/ss_bluetooth"
+                android:layout="@layout/prefs"
+                android:summary="Bluetooth serial dongle required to use"
+                android:title="GoTo Mount Setup" >
+            </PreferenceScreen>--> 
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="@string/ss_odatabases"
+            android:layout="@layout/prefs"
+            android:summary="@string/operations_with_objects_databases"
+            android:title="@string/objects_databases" >
+         <!--    <intent android:action="com.astro.dsoplanner.DatabaseManager" /> -->
+        </PreferenceScreen>
+        <PreferenceScreen 
+            android:key="@string/star_chart_settings"
+            android:layout="@layout/prefs"
+            android:summary="@string/star_chart_settings_could_also_be_called_from_star_chart"
+            android:title="@string/star_chart_settings" >
+            
+            
+            
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="@string/ss_screen"
+            android:layout="@layout/prefs"
+            android:summary=""
+            android:title="@string/screen_settings" >
+     <!--       <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/autonightmode"
+                android:layout="@layout/prefc"
+                android:summary="Turn night mode on after civil twilight ends"
+                android:title="Automatic nightmode" />
+            
+            
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="invsky"
+                android:layout="@layout/prefc"
+                android:summary="Black stars on white background in day modes"
+                android:title="Inverse sky" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/dimlight"
+                android:layout="@layout/prefc"
+                android:summary="Dim the screen to the hardware minimum"
+                android:title="Minimal brightness mode" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="fullscreenOn"
+                android:layout="@layout/prefc"
+                android:summary="Remove the android notification bar"
+                android:title="Day Time full screen mode" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="fullscreenOnNight"
+                android:layout="@layout/prefc"
+                android:summary="Remove the android notification bar"
+                android:title="Night Time full screen mode" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="flickBright"
+                android:layout="@layout/prefc"
+                android:summary="Use flick on the left side of the SkyView to control brightness"
+                android:title="Brightness Flick" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="nagScreenOn"
+                android:layout="@layout/prefc"
+                android:summary="Show Sombrero image on the initial view"
+                android:title="Nag screen" />
+            
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="onyxskin"
+                android:layout="@layout/prefc"
+                android:summary="White on black color interface"
+                android:title="Onyx skin" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/antialiasing"
+                android:layout="@layout/prefc"
+                android:summary="Antialiasing. Lowers performance"
+                android:title="Smooth hard line edges" />
+            
+
+            <PreferenceScreen
+                android:key="pscolors"
+                android:layout="@layout/prefs"
+                android:summary="Colors for the Sky view elements only"
+                android:title="Daytime mode colors" >
+                <Preference
+                    android:defaultValue="1627324416"
+                    android:key="@string/default_colors"
+                    android:summary="Set Default colors for current mode"
+                    android:title="Reset Colors" >
+                </Preference>
+
+                <PreferenceCategory android:title="Sky colors" >
+                    <Preference
+                        android:defaultValue="1627324416"
+                        android:key="@string/color_object"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="DSO Objects" >
+                    </Preference>
+                    
+                    <Preference
+                        android:defaultValue="1627324416"
+                        android:key="@string/color_crossmarker"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="Selected object crosshair" >
+                    </Preference>
+                    <Preference
+                        android:defaultValue="1627324416"
+                        android:key="@string/color_eyepieces"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="Eyepieces circles" >
+                    </Preference>
+                    <Preference
+                        android:defaultValue="1627324416"
+                        android:key="@string/color_telrad"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="Telrad rings" >
+                    </Preference>
+                    <Preference
+                        android:defaultValue="1627324416"
+                        android:key="@string/color_dss_image"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="DSS image overlay" >
+                    </Preference>
+                    <Preference
+                        android:defaultValue="1610678016"
+                        android:key="@string/color_constellations"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="Constellation figure lines" >
+                    </Preference>
+                    <Preference
+                        android:defaultValue="2147549183"
+                        android:key="@string/color_horizon"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="Horizon line" >
+                    </Preference>
+       				 <Preference
+                        android:defaultValue="2147549183"
+                        android:key="@string/color_user_horizon"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="User horizon line" >
+                    </Preference>
+                    
+                    <Preference
+                        android:key="@string/color_labels"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="Labels" >
+                    </Preference>
+                    <Preference
+                        android:key="@string/color_grid"
+                        android:layout="@layout/pref"
+                        android:summary="Show a color picker dialog"
+                        android:title="Grid" >
+                    </Preference>
+                </PreferenceCategory>
+            </PreferenceScreen>  --> 
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:layout="@layout/prefs"
+            android:key="@string/ss_wide_settings"
+            android:summary="@string/_timeouts_keyboard_etc_"
+            android:title="@string/system_wide_settings" >
+<!--             
+            <Preference
+                android:key="t_dsofolder"
+                android:layout="@layout/pref"
+                android:summary="Location of the 'dso' folder"
+                android:title="App Data Folder" />
+-->                 
+   <!--         <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/sleep_disable"
+                android:layout="@layout/prefc"
+                android:summary="(override android settings)"
+                android:title="Disable auto sleep in Sky mode" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="intKeyboard"
+                android:layout="@layout/prefc"
+                android:summary="(android keyboard is bad at night)"
+                android:title="Disable Night keyboard" />
+            
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="20"
+                android:dialogTitle="Level treshold in percent"
+                android:inputType="phone"
+                android:key="@string/d_batterywarning"
+                android:layout="@layout/pref"
+                android:summary="Battery level to show a reminder"
+                android:title="Battery level warning" />
+
+            <com.astro.dsoplanner.InputPreference
+                android:defaultValue="2000"
+                android:dialogTitle="In milliseconds (0 - manual dismiss)"
+                android:inputType="phone"
+                android:key="d_dismissWarnings"
+                android:layout="@layout/pref"
+                android:summary="Setup timeout or manual dismiss"
+                android:title="Auto-dismiss Warnings" />  --> 
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:key="@string/ss_utilities_category"
+        android:title="@string/_2_utilities" >
+        
+        
+        
+        <!-- do not break into pieces and touch!!! script depends on this form -->
+        <PreferenceScreen android:key="@string/ss_downloads"  android:layout="@layout/prefs"  android:summary="@string/download_default_primary_data_files"  android:title="@string/downloads" ></PreferenceScreen>
+        <PreferenceScreen android:key="@string/exp_pack_reinstall"    android:layout="@layout/prefs"  android:summary="@string/reinstall_default_primary_data_files"   android:title="@string/reinstall" >  </PreferenceScreen>
+        
+        
+        <PreferenceScreen
+            android:layout="@layout/prefs"
+            android:key="@string/ss_backup_restore"
+            android:title="@string/backup_restore" >
+           
+        </PreferenceScreen>
+<!--
+        <Preference
+            android:key="reset"
+            android:layout="@layout/prefs"
+            android:summary="Reset all the preferences to defaults "
+            android:title="Reset to defaults" >
+        </Preference>
+-->
+        
+        <Preference
+            android:layout="@layout/prefs"
+            android:key="@string/qs_dialog"
+            android:title="@string/quick_start_guide2" >
+
+        </Preference>
+        <Preference
+            android:layout="@layout/prefs"
+            android:key="@string/ss_whatsnew"
+            android:summary="@string/whats_new_summary"
+            android:title="@string/what_s_new" >
+
+        </Preference>
+        <Preference
+            android:layout="@layout/prefs"
+            android:key="@string/rate_the_app"
+            android:summary="@string/rate_the_app_on_google_play"
+            android:title="@string/rate" >
+
+        </Preference>
+        <Preference
+            android:key="@string/help_localise"
+            android:layout="@layout/prefs"
+            android:summary="@string/would_you_like_to_help_localizing_the_app_to_your_language_let_the_devs_know_"
+            android:title="@string/localize" >
+        </Preference>
+		<Preference
+            android:key="@string/privacy_policy_key"
+            android:layout="@layout/prefs"
+            android:title="@string/privacy_policy" >
+        </Preference>
+        
+        <Preference
+            android:layout="@layout/prefs"
+            android:key="@string/ss_about"
+            android:title="@string/about" >
+
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

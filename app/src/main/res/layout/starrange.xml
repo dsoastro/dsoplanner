@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/starrange"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:background="#ff000000" >
+
+    <LinearLayout
+        android:id="@+id/rangeSlider"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff000000" 
+        android:paddingTop="20dp" 
+        android:paddingBottom="20dp">
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/bb_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rangeSlider"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/button_text_size"
+        android:text="@string/_next_" />
+
+    <Button
+        android:id="@+id/bb_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rangeSlider"
+        android:layout_toRightOf="@+id/bb_ok"
+        android:textSize="@dimen/button_text_size"
+        android:visibility="invisible"
+        android:text="@string/_types_" />
+
+    <Button
+        android:id="@+id/bb_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rangeSlider"
+        android:textSize="@dimen/button_text_size"
+       android:text="@string/reset2" />
+
+    <TextView
+        android:id="@+id/progresstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bb_ok"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/bb_reset"
+        android:layout_toRightOf="@+id/bb_type"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/text_size_normal"
+        android:text=""
+        android:textColor="#ff9f0000" />
+
+</RelativeLayout>

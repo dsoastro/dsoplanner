@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rootview"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- Note built-in ids for 'list' and 'empty' -->
+
+        <LinearLayout
+            android:id="@+id/dsoselection_colshead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="2dp"
+            android:paddingTop="10sp" >
+
+            <TextView
+                android:id="@+id/mq_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="@string/name"
+                android:textSize="@dimen/table_main_text_size" />
+
+            <TextView
+                android:id="@+id/mq_con"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/con"
+                android:textSize="@dimen/table_main_text_size" />
+
+            <TextView
+                android:id="@+id/mq_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/type"
+                android:textSize="@dimen/table_main_text_size" />
+
+            <TextView
+                android:id="@+id/mq_mag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/mag"
+                android:textSize="@dimen/table_main_text_size" />
+
+            <TextView
+                android:id="@+id/mq_dim"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/dim"
+                android:textSize="@dimen/table_main_text_size" />
+
+            <com.astro.dsoplanner.ChB
+                android:id="@+id/mq_empty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:defaultValue="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/xTopline0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dsoselection_colshead"
+            android:scaleType="fitXY"
+            android:src="@drawable/alex_menu_header" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/xTopline"
+            android:layout_below="@+id/xTopline0" />
+
+        <ImageView
+            android:id="@+id/xTopline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeLayout1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:scaleType="fitXY"
+            android:src="@drawable/alex_menu_header" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal"
+            android:padding="10sp" >
+
+            <Button
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:minWidth="@dimen/button_min_width"
+                android:text="@string/all"
+                android:textSize="@dimen/button_text_size" />
+
+            <TextView
+                android:id="@+id/textSelect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/spinner"
+                android:layout_alignTop="@+id/spinner"
+                android:layout_toLeftOf="@+id/spinner"
+                android:layout_toRightOf="@+id/qbtnstop"
+                android:gravity="center"
+                android:text=""
+                android:textSize="@dimen/button_text_size" />
+            
+
+            <Button
+                android:id="@+id/qbtnfilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/spinner"
+                android:minWidth="@dimen/button_min_width"
+                android:text="@string/filter"
+                android:textSize="@dimen/button_text_size" />
+
+            <Button
+                android:id="@+id/qbtnstop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/spinner"
+                android:layout_toRightOf="@+id/qbtnfilter"
+                android:minWidth="@dimen/button_min_width"
+                android:text="@string/stop"
+                android:textSize="@dimen/button_text_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.astro.dsoplanner.graph.CuV
+        android:id="@+id/sky_view"
+        android:layerType="software"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

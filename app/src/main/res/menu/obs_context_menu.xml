@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:title="Move" android:id="@+id/move_obs_menu"></item>
+   <item android:title="See picture" android:id="@+id/picture_obs_menu"></item>
+   <item android:title="Details" android:id="@+id/details_obs_menu"></item>
+   <item android:title="Add note" android:id="@+id/oaddnote"></item>
+    <item android:title="See object notes" android:id="@+id/oseenotes"></item>
+    <item android:title="See all notes" android:id="@+id/allnotes_obs_menu"></item>
+    <item android:title="Remove" android:id="@+id/remove"></item>
+    <item android:title="Remove Checked" android:id="@+id/removech"></item>
+    <item android:title="Remove All" android:id="@+id/removeall"></item>
+    <item android:title="Edit" android:id="@+id/oedit"></item>
+    <item android:title="Share" android:id="@+id/oshare"></item>
+    
+</menu>

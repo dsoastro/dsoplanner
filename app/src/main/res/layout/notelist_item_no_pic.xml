@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	>
+	
+    <LinearLayout
+        android:id="@+id/notelistitem_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"       
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp" >
+		<TextView
+			android:id="@+id/notelist_dso"
+			android:text="text"
+			android:textSize="@dimen/table_main_text_size"
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"		
+			/>	
+		
+		<TextView
+			android:id="@+id/notelist_datetime"
+			android:text="text"
+			android:textSize="@dimen/text_size_small"
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textStyle="italic"/>
+		
+		<TextView
+			android:id="@+id/notelist_note"
+			android:text="text"
+			android:textSize="@dimen/text_size_normal"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" 
+			
+			/>
+	 </LinearLayout> 
+</RelativeLayout>

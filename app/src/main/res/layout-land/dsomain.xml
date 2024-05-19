@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/start_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dsoSelection"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dso_main_layout_margin"
+                android:layout_weight="1"
+                android:paddingLeft="15dp"
+                android:text="@string/object_selection"
+                android:textSize="@dimen/dso_main_button_text_size" />
+            <Button
+                android:id="@+id/dsoTwilight"
+                 android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dso_main_layout_margin"
+                android:layout_weight="1"
+                android:paddingLeft="15dp"
+                android:text="@string/tools"
+                android:textSize="@dimen/dso_main_button_text_size" />
+            </LinearLayout>
+ 			<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/dsoObservation"
+               android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dso_main_layout_margin"
+                android:layout_weight="1"
+                android:paddingLeft="15dp"
+                android:text="@string/observations_lists"
+                android:textSize="@dimen/dso_main_button_text_size" />
+             <Button
+                android:id="@+id/dsoSettings"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dso_main_layout_margin"
+                android:layout_weight="1"
+                android:paddingLeft="15dp"
+                android:text="@string/settings"
+                android:textSize="@dimen/dso_main_button_text_size" />
+			 </LinearLayout>
+			 <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            <Button
+               
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dso_main_layout_margin"
+                android:layout_weight="1"
+                android:paddingLeft="0dp"
+                android:text="@string/star_chart"
+                android:visibility="invisible"
+                android:textSize="@dimen/dso_main_button_text_size" />
+             <Button
+                android:id="@+id/dsoSky"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dso_main_layout_margin"
+                android:layout_weight="2"
+                android:paddingLeft="15dp"
+                android:text="@string/star_chart"
+                android:textSize="@dimen/dso_main_button_text_size" />
+              <Button
+                
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dso_main_layout_margin"
+                android:layout_weight="1"
+                android:paddingLeft="0dp"
+                android:text="@string/star_chart"
+                android:visibility="invisible"
+                android:textSize="@dimen/dso_main_button_text_size" />
+            
+        </LinearLayout>
+
+        
+    </LinearLayout>
+</RelativeLayout>

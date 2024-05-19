@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scope_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding_small"
+    android:layout_marginTop="@dimen/padding_small"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scope_table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/scope_labels"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size_normal"
+                android:gravity="center_vertical"
+                android:text="@string/name_telescope" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size_normal"
+                android:gravity="center_vertical"
+                android:text="@string/aperture_mm_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size_normal"
+                android:gravity="center_vertical"
+                android:text="@string/focal_length_mm_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size_normal"
+                android:gravity="center_vertical"
+                android:text="@string/pass_through_" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scope_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/scope_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/text_size_normal"
+                android:selectAllOnFocus="true"
+                android:tag="editField" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/scope_a"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:inputType="phone"
+                android:textSize="@dimen/text_size_normal"
+                android:selectAllOnFocus="true"
+                android:tag="editField" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/scope_f"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:inputType="phone"
+                android:textSize="@dimen/text_size_normal"
+                android:selectAllOnFocus="true"
+                android:tag="editField" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/scope_p"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:inputType="phone"
+                android:textSize="@dimen/text_size_normal"
+                android:selectAllOnFocus="true"
+                android:tag="editField" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="@dimen/text_size_normal"
+            android:text="@string/short_text_note" />
+        <EditText
+            android:id="@+id/scope_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:gravity="top"
+            android:minLines="2"
+            android:textSize="@dimen/text_size_normal"
+            android:selectAllOnFocus="true"
+            android:tag="editField" >
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>

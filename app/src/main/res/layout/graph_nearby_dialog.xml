@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/field_view_minutes_600_max_"
+            android:textSize="@dimen/text_size_normal" />
+
+        <EditText
+            android:id="@+id/gnd_et1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:tag="editField"
+             android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:selectAllOnFocus="true"
+            android:textSize="@dimen/text_size_normal" >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+             android:layout_marginTop="5dp"
+           
+            android:text="@string/detection_limit"
+            android:textSize="@dimen/text_size_normal" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/gnd_et2"
+             android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:tag="editField"
+            android:selectAllOnFocus="true"
+            android:textSize="@dimen/text_size_normal" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/gnd_types_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/types"
+                android:textSize="@dimen/button_text_size" />
+
+            <TextView
+                android:id="@+id/gnd_types_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                
+                android:layout_weight="2"
+                android:text=""
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/gnd_db_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/databases"
+                android:textSize="@dimen/button_text_size" />
+
+            <TextView
+                android:id="@+id/gnd_types_db"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                
+                android:layout_weight="2"
+                android:text=""
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

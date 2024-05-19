@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false" >
+
+
+        <TextView
+            android:id="@+id/dateTimePick"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="TextView"
+            android:layout_weight="0.5"
+            android:gravity="bottom"
+            android:textSize="@dimen/text_size_medium"
+             />
+
+        <Gallery
+            android:id="@+id/GalleryYear"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/slider_back"
+            android:fadingEdge="vertical"
+            android:fadingEdgeLength="50dip"
+            android:spacing="20dip"
+            
+            android:unselectedAlpha="0.2" />
+
+        <Gallery
+            android:id="@+id/GalleryMonth"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/slider_back"
+            android:fadingEdge="vertical"
+            android:fadingEdgeLength="50dip"
+            android:spacing="20dip"
+            android:unselectedAlpha="0.2" />
+
+        <Gallery
+            android:id="@+id/GalleryDay"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/slider_back"
+            android:fadingEdge="vertical"
+            android:fadingEdgeLength="50dip"
+            android:spacing="20dip"
+            android:unselectedAlpha="0.2"
+            android:layout_marginBottom="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/text_size_small"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/time"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="bottom" />
+
+        <Gallery
+            android:id="@+id/GalleryHour"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/slider_back"
+            android:fadingEdge="vertical"
+            android:fadingEdgeLength="50dip"
+            android:spacing="20dip"
+            android:unselectedAlpha="0.2" />
+
+        <Gallery
+            android:id="@+id/GalleryMinute"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/slider_back"
+            android:fadingEdge="vertical"
+            android:fadingEdgeLength="50dip"
+            android:spacing="20dip"
+            android:unselectedAlpha="0.2"/>
+
+        <LinearLayout
+            android:id="@+id/tpbuttons"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/DTPset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/button_text_size"
+                android:text="@string/set2" />
+
+            <Button
+                android:id="@+id/DTPnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/button_text_size"
+                android:text="@string/now" />
+
+  <!--           <Button
+                android:id="@+id/DTPbeg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/button_text_size"
+                android:text="Begin" />   -->
+
+            <Button
+                android:id="@+id/DTPend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/button_text_size"
+                android:text="End" />
+
+            <Button
+                android:id="@+id/DTPcancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/button_text_size"
+                android:text="@string/cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>

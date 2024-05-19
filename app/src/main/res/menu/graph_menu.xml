@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item android:title="Update" android:id="@+id/updateGraph"></item>
+  	<item android:title="Time" android:id="@+id/time">
+    	<menu>
+    		<item android:title="Set date" android:id="@+id/setDateGraph"></item>
+    		<item android:title="Set time" android:id="@+id/setTimeGraph"></item>
+    		<item android:title="+1 hour" android:id="@+id/itemPlusHour"></item>
+    		<item android:title="-1 hour" android:id="@+id/itemMinusHour"></item>
+    		<item android:title="Pick Date and Time" android:id="@+id/pickDateTime"></item>
+    	</menu>
+    </item>
+  	<item android:title="Add NearBy" android:id="@+id/nbyGraph"></item>
+  	<item android:title="Settings..." android:id="@+id/settingsGraph"></item>
+  	<item android:title="Center" android:id="@+id/center"></item>
+    <item android:title="Info" android:id="@+id/infoGraph"></item>
+    <item android:title="Orientation">
+    	<menu>
+    		<item android:title="+180" android:id="@+id/orientPlus"></item>
+    		<item android:title="Mirror" android:id="@+id/mirror"></item>
+    	</menu>
+    </item>  
+    <item android:title="Stars Boldness" android:id="@+id/starBold"></item>
+    <item android:title="Stars Mags" android:id="@+id/starMags"></item>
+    <item android:title="RA/DEC" android:id="@+id/radecGraph"></item>    
+    <item android:title="Calibrate" android:id="@+id/calibrGraph"></item>
+    <item android:title="Push" android:id="@+id/pushCamera"></item>
+    <item android:title="Gyro" android:id="@+id/gyroAlign"></item>
+    <item android:title="DSS image" android:id="@+id/dssGraph"></item>
+    <item android:title="DSC" android:id="@+id/dscGraph"></item>
+    <item android:title="DSS image(9 pics)" android:id="@+id/dss9Graph"></item>
+    <item android:title="BT setup" android:id="@+id/bt_setup_graph"></item>  
+    <item android:title="Bt Sync" android:id="@+id/btsync_graph"></item> 
+    <item android:title="Az Grid" android:id="@+id/g_az_grid"></item>
+    <item android:title="Telrad/QuInsight" android:id="@+id/g_telrad"></item>
+    <item android:title="EP FOV" android:id="@+id/eyepieces"></item>
+    <item android:title="Scope sync" android:id="@+id/scopeGraph"></item>
+</menu>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5sp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Object info"
+        android:id="@+id/dsc_obj_info"
+        android:textSize="@dimen/text_size_medium"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+    </TextView>
+    <Button
+        android:id="@+id/dsc_set"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="@dimen/button_text_size"
+        android:text="Set first star" />
+    <Button
+        android:id="@+id/dsc_reset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="@dimen/button_text_size"
+        android:text="Reset" />
+
+</LinearLayout>

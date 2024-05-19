@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/select_object_types"
+     >
+     <Preference
+	    android:key="@string/obj_types_clear"
+	    android:layout="@layout/pref"	    
+	    android:title="@string/select_deselect_all" />
+     
+     <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_ast2"
+            android:title="@string/asterism" />
+     <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_cg2"
+            android:title="@string/cluster_of_galaxies" />
+
+     <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_comet2"
+            android:title="@string/comet2" />
+     <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_dn2"
+            android:title="@string/dark_nebula" />     
+     <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/type_gc2"
+            android:title="@string/GC_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="@string/type_gxy2"
+            android:title="@string/Gxy_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_gxycld2"
+            android:title="@string/GxyCld_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_hiirgn2"
+            android:title="@string/HIIRgn_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_planet2"
+            android:title="@string/minor_planet2" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_neb2"
+            android:title="@string/Neb_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_oc2"
+            android:title="@string/OC_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_ocneb2"
+            android:title="@string/OCNeb_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_pn2"
+            android:title="@string/PN_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_snr2"
+            android:title="@string/SNR_title" />
+        
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_star2"
+            android:title="@string/star2" />
+         <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_ds2"
+            android:title="@string/double_star2" />
+         
+          <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="@string/type_custom2"
+            android:title="@string/custom_type" />
+
+</PreferenceScreen>

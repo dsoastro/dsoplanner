@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/star_object_and_image_layer_options" >
+
+    <PreferenceCategory 
+        android:key="@string/star_layers_category"
+        android:title="@string/star_layers" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/tycho"
+            android:layout="@layout/prefc"
+            android:summary="@string/_2_5_million_stars_up_to_12m"
+            android:title="@string/tycho_2_layer" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/ucac4"
+            android:layout="@layout/prefc"
+            android:summary="@string/ucac4_description"
+            android:title="@string/ucac4_layer" />
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:key="@string/object_layers_category"
+        android:title="@string/object_layers" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pgclayer"
+            android:layout="@layout/prefc"
+            android:summary="@string/_1_643_000_galaxies_from_principal_galaxies_catalog"
+            android:title="@string/pgc_layer" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/ngciclayer"
+            android:layout="@layout/prefc"
+            android:summary="@string/_14_400_deep_sky_objects_from_ngcic_sac_and_hcg_catalogs"
+            android:title="@string/ngcic_sac_layer" />
+        
+ 
+        <Preference
+            android:key="@string/ngcic_types"
+            android:layout="@layout/pref"
+            android:summary=""
+            android:title="@string/ngcic_sac_object_types" />
+
+        <!--
+          <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/ugclayer"
+        android:layout="@layout/prefc"
+        android:summary="13 000 galaxies"
+        android:title="UGC catalog" />
+       
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/neb_contour"
+            android:layout="@layout/prefc"
+            android:summary="Display contours of famous nebulas"
+            android:title="Nebula Contour" /> -->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/visibility_filter_for_object_layers">
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/layer_vis"
+            android:layout="@layout/prefc"
+            android:summary="@string/show_objects_from_object_layers_that_are_visible_with_selected_equipment_in_the_current_sky_conditions"
+            android:title="@string/use_visibility_for_layers" />
+
+
+		 <com.astro.dsoplanner.InputPreference
+		     android:defaultValue="1"
+		     android:dialogTitle="@string/set_visibility_threshold_0_5_"
+		     android:key="@string/layer_vis_threshold"
+		     android:layout="@layout/pref"		     
+		     android:title="@string/detection_limit2" />
+
+		 
+		 <com.astro.dsoplanner.InputPreference
+            android:defaultValue="6"
+            android:dialogTitle="@string/sky_limiting_magnitude"
+            android:inputType="phone"
+            android:key="@string/d_lm"
+            android:layout="@layout/pref"           
+            android:title="@string/sky_limiting_magnitude" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/options" >
+        <PreferenceScreen
+            android:key="@string/dsosettings"
+            android:layout="@layout/prefs"
+            android:title="@string/dso" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="@string/dss_settings"
+            android:layout="@layout/prefs"
+            android:title="@string/dss_digitized_sky_survey_" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/other_options" >
+
+    <PreferenceCategory android:title="@string/real_time2" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/autotime"
+            android:layout="@layout/prefc"
+            android:summary="@string/star_chart_updated_automatically"
+            android:title="@string/realtime_mode2" >
+        </CheckBoxPreference>
+
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="30"
+            android:dialogTitle="@string/auto_update_time_in_seconds"
+            android:inputType="phone"
+            android:key="d_autoTimePeriod"
+            android:layout="@layout/pref"
+            android:summary="@string/_30_seconds_is_the_reasonable_default"
+            android:title="@string/auto_update_period" />
+
+        <Preference
+            android:key="@string/real_time_screen_update"
+            android:layout="@layout/pref"
+            android:summary=""
+            android:title="@string/real_time_screen_update2" />
+
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="2"
+            android:dialogTitle="@string/fov_zoom_level_in_degrees"
+            android:inputType="phone"
+            android:key="@string/d_auto_time_fov"
+            android:layout="@layout/pref"
+            android:summary=""
+            android:title="@string/fov_threshold" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/distinguishing_observation_list_objects_" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/obs_colon"
+            android:layout="@layout/prefc"
+            android:summary="@string/a_colon_is_put_after_the_name_of_selected_observation_list_object"
+            android:title="@string/observation_list_object_mark" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/dim_layer_objects"
+            android:layout="@layout/prefc"
+            android:summary="@string/use_this_to_highlight_observation_list_objects_relative_to_objects_from_layers"
+            android:title="@string/dim_objects_from_layers" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/object_label"
+            android:layout="@layout/prefc"
+            android:summary="@string/labels_for_objects_from_observation_lists"
+            android:title="@string/object_labels_obs_list_" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/object_label_layer"
+            android:layout="@layout/prefc"
+            android:summary="@string/labels_for_objects_from_star_chart_layers"
+            android:title="@string/object_labels_layers_" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/miscellaneous" >
+      
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/angle_measurement"
+            android:layout="@layout/prefc"
+            android:summary="@string/measure_angle_between_two_successive_objects_selected"
+            android:title="@string/angular_measurement" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="center_object"
+            android:layout="@layout/prefc"
+            android:summary="@string/object_centered_on_double_touch_and_getting_object_info"
+            android:title="@string/center_object" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/selobj"
+            android:layout="@layout/prefc"
+            android:summary="@string/if_you_mark_object_in_observation_list_it_will_disappear_from_skyview"
+            android:title="@string/hide_marked_objects" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="flickBright"
+            android:layout="@layout/prefc"
+            android:summary="@string/use_flick_on_the_left_side_of_the_skyview_to_control_brightness"
+            android:title="@string/brightness_flick" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="per_fov_flippers_on"
+            android:layout="@layout/prefc"
+            android:summary="@string/use_per_fov_flippers_of_the_chart"
+            android:title="@string/per_fov_flippers_on" />
+
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="20"
+            android:dialogTitle="@string/level_treshold_in_percent"
+            android:inputType="phone"
+            android:key="@string/d_batterywarning"
+            android:layout="@layout/pref"
+            android:summary="@string/battery_level_to_show_a_reminder"
+            android:title="@string/battery_level_warning" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

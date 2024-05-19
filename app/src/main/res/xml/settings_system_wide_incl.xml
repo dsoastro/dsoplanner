@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/system_wide_settings" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/sleep_disable"
+        android:layout="@layout/prefc"
+        android:summary="@string/_override_android_settings_"
+        android:title="@string/disable_auto_sleep_in_star_chart" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="intKeyboard"
+        android:layout="@layout/prefc"
+        android:summary="@string/_android_keyboard_is_bad_at_night_"
+        android:title="@string/disable_night_keyboard" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="2000"
+        android:dialogTitle="@string/in_milliseconds_0_manual_dismiss_"
+        android:inputType="phone"
+        android:key="d_dismissWarnings"
+        android:layout="@layout/pref"
+        android:summary="@string/setup_timeout_or_manual_dismiss"
+        android:title="@string/auto_dismiss_warnings" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/comet_auto_update"
+        android:layout="@layout/prefc"
+        android:summary="@string/the_app_suggests_to_update_comet_database_when_new_orbital_elements_are_available"
+        android:title="@string/auto_update_comet_elements" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/minor_planet_auto_update"
+        android:layout="@layout/prefc"
+        android:summary="@string/the_app_suggests_to_update_its_minor_planet_database_when_new_orbital_elements_are_available"
+        android:title="@string/auto_update_minor_planet_elements" />
+
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/floating_back_menu_buttons"
+        android:layout="@layout/prefc"
+        android:summary="@string/show_floating_back_and_menu_buttons_in_night_mode_this_may_be_convenient_if_your_device_allows_you_to_hide_white_navigation_buttons"
+        android:title="@string/floating_back_menu_buttons_in_night_mode" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/floating_back_menu_buttons_day"
+        android:layout="@layout/prefc"
+        android:summary="@string/show_floating_back_and_menu_buttons_in_day_mode"
+        android:title="@string/floating_back_menu_buttons_in_day_mode" />
+    <PreferenceScreen
+        android:layout="@layout/prefs"
+        android:key="@string/set_urls"
+        android:summary="@string/urls_for_comet_update_and_dss_download"
+        android:title="@string/urls" />
+
+    <!-- <com.astro.dsoplanner.SeP
+         android:defaultValue="0"
+         android:dialogTitle="@string/select_language"
+         android:entries="@array/system_language_entries"
+         android:key="@string/system_language"
+         android:layout="@layout/pref"
+         android:title="@string/select_language" />
+  -->
+
+
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/dss_options"
+    >
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="DSSon"
+            android:layout="@layout/prefc"
+            android:title="@string/enable_dss_imagery_support" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="DSS_contour_on"
+            android:layout="@layout/prefc"
+            android:summary="@string/display_contours_of_already_downloaded_dss_images"
+            android:title="@string/display_dss_contours" />
+
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="5.0"
+            android:dialogTitle="@string/fov_zoom_level_in_degrees"
+            android:inputType="phone"
+            android:key="d_dsszoom"
+            android:layout="@layout/pref"
+            android:summary="@string/when_to_show_hide_dss_images"
+            android:title="@string/max_fov_to_show_dss" />
+        <com.astro.dsoplanner.InputPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/dss_images_dimming_"
+            android:inputType="phone"
+            android:key="d_dssbrightness"
+            android:layout="@layout/pref"
+            android:summary="@string/night_mode_only_range_0_100_0_no_dimming"
+            android:title="@string/dss_images_dimmer" />
+
+
+</PreferenceScreen>

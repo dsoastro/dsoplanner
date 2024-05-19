@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/xTopline"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+    </ListView>
+
+	<ImageView
+	    android:id="@+id/xTopline"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/relativeLayout3"
+	    android:layout_marginTop="@dimen/padding_small"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/alex_menu_header" />
+	
+	<RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:padding="10sp" >
+
+        <Button
+            android:id="@+id/bNoteListNewNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large"
+            android:layout_centerInParent="true"
+            android:minWidth="@dimen/button_min_width"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/add_new_note" />
+       
+
+        <TextView
+            android:id="@+id/text_notelist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bNoteListNewNote"
+            android:layout_alignTop="@+id/bNoteListNewNote"
+            android:layout_toLeftOf="@+id/bNoteListNewNote"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/button_text_size"
+            android:text="test" />
+
+    </RelativeLayout>
+	
+	
+   
+
+    
+
+</RelativeLayout>

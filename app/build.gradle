@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+
+    buildToolsVersion "30.0.2"
+    useLibrary 'org.apache.http.legacy'
+    def getGitHash = { ->
+            def stdout = new ByteArrayOutputStream()
+            exec {
+                    commandLine 'git', 'rev-parse', '--short', 'HEAD'
+                    standardOutput = stdout
+                }
+            return stdout.toString().trim()
+        }
+
+    defaultConfig {
+        applicationId "com.astro.dsoplanner"
+
+        minSdkVersion 23
+        targetSdkVersion 33
+        versionCode 57
+        versionName "3.9.0"
+
+        buildConfigField "String", "GitHash", "\"${getGitHash()}\""
+    }
+
+    signingConfigs {
+        release {
+            try {
+                storeFile file(RELEASE_STORE_FILE)
+                storePassword RELEASE_STORE_PASSWORD
+                keyAlias RELEASE_KEY_ALIAS
+                keyPassword RELEASE_KEY_PASSWORD
+            }
+            catch (Exception ignored){}
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    flavorDimensions "version"
+
+    productFlavors {
+
+        Basic {
+            applicationId "com.astro.dsoplannerbasic"
+            dimension "version"
+        }
+        Plus {
+            applicationId "com.astro.dsoplannerplus"
+            dimension "version"
+        }
+        Pro {
+            applicationId "com.astro.dsoplanner"
+            dimension "version"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:28.0.0'
+}

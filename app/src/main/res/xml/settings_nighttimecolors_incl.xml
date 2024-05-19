@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/night_time_red_color_intensity"
+     >
+
+		<Preference
+		    android:layout="@layout/pref"
+		    android:key="@string/night_mode_def_intensities"
+		    android:summary="@string/set_default_intensities_for_night_mode"
+		    android:title="@string/reset_intensities" >
+		</Preference>
+   
+	<PreferenceCategory android:title="@string/sky_colors" >	
+        <com.astro.dsoplanner.InputPreference            
+            android:defaultValue="144"            
+            android:key="@string/ncolor_star"
+            android:layout="@layout/pref"
+            android:inputType="phone"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/stars" >
+        </com.astro.dsoplanner.InputPreference>
+        
+        
+        <com.astro.dsoplanner.InputPreference            
+            android:defaultValue="176"            
+            android:key="@string/ncolor_object"
+            android:layout="@layout/pref"
+            android:inputType="phone"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/dso_objects" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="144"
+            android:key="@string/ncolor_crossmarker"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/selected_object_crosshair2" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="112"
+            android:key="@string/ncolor_eyepieces"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/eyepieces_circles" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="80"
+            android:key="@string/ncolor_ep_cross"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/eyepieces_cross" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="80"
+            android:key="@string/ncolor_telrad"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/telrad_rings2" >
+        </com.astro.dsoplanner.InputPreference>
+        
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="112"
+            android:key="@string/ncolor_constellations"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/constellation_figure_lines" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="128"
+            android:key="@string/ncolor_horizon"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/horizon_line" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="128"
+            android:key="@string/ncolor_user_horizon"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/user_horizon_line" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="144"
+            android:key="@string/ncolor_labels"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/non_star_object_labels" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference           
+            android:defaultValue="144"            
+            android:key="@string/ncolor_planet"
+            android:layout="@layout/pref"
+            android:inputType="phone"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/planet_labels" >
+        </com.astro.dsoplanner.InputPreference>
+        
+        
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="80"
+            android:key="@string/ncolor_grid"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/grid2" >
+        </com.astro.dsoplanner.InputPreference>
+        <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="96"
+            android:key="@string/ncolor_con_boundary"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/constellation_boundary" >
+        </com.astro.dsoplanner.InputPreference>
+         <com.astro.dsoplanner.InputPreference
+            android:inputType="phone"
+            android:defaultValue="176"
+            android:key="@string/ncolor_milky_way"
+            android:layout="@layout/pref"
+            android:summary="@string/select_color_intensity_0_255_"
+            android:title="@string/milky_way2" >
+        </com.astro.dsoplanner.InputPreference>
+
+     </PreferenceCategory>
+
+</PreferenceScreen>

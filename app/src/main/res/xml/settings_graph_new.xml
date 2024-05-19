@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/star_chart_settings"
+    >
+
+   <!--  <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/autotime"
+        android:layout="@layout/prefc"
+        android:summary="Star Chart updated automatically"
+        android:title="Realtime mode" >  
+    </CheckBoxPreference>   -->
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/night_mode"
+        android:layout="@layout/prefc"
+        android:title="@string/night_mode_on_off_" />
+    
+
+    <PreferenceScreen
+        android:key="@string/settings_graph_start_chart"
+        android:layout="@layout/prefs"
+        android:title="@string/star_chart2" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/settings_graph_eqt"
+        android:layout="@layout/prefs"
+        android:title="@string/equipment2" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/settings_graph_layers"
+        android:layout="@layout/prefs"
+        android:title="@string/star_object_and_image_layers" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/settings_graph_other"
+        android:layout="@layout/prefs"
+        android:title="@string/other2" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/settings_graph_push_cam"
+        android:layout="@layout/prefs"
+        android:title="PushCam" >
+    </PreferenceScreen>
+    
+
+
+</PreferenceScreen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_absent_data">
+      <item>Учитывать объект при поиске</item>
+      <item >Исключить объект из поиска</item>
+      <item >Считать пустое поле нулем</item>
+      <item >Считать пустое поле большой величиной</item>
+      
+  </string-array>
+  <string-array name="system_language_entries">      
+      <item>Английский</item>
+      <item>Русский</item>
+  </string-array>
+  <string-array name="select_search_types">
+      <item>Основной</item>
+      <item >Запрос типа SQL</item>
+  </string-array>
+  <string-array name="entries_filter_preference">
+  	<item>Фильтр по видимости (Блаквелла)</item> 
+  	<item>Фильтр по макс. зв. величине</item> 
+  	<item>Фильтр отсутствует</item> 
+  </string-array>
+  
+  <string-array name="entries_grid_preference">
+  	<item>Азимутальная</item> 
+  	<item>Экваториальная</item> 
+  	<item>Отсутствует</item> 
+  </string-array>
+  
+  <string-array name="months">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+   </string-array>
+    
+</resources>

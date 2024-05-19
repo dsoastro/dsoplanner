@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layerType="software"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+		
+	<com.astro.dsoplanner.mCP.v.CoPV
+		android:id="@+id/color_picker_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+	/>
+
+    <TextView
+        android:id="@+id/selected_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/color_picker_view"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+    />
+	
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="60dp"
+	android:orientation="horizontal"
+	android:layout_below="@id/selected_color"
+	android:layout_alignLeft="@id/color_picker_view"
+	android:layout_alignRight="@id/color_picker_view"
+	>
+
+		<com.astro.dsoplanner.mCP.v.CPV
+			android:id="@+id/new_color_panel"
+			android:layout_width="0px"
+			android:layout_height="fill_parent"
+			android:layout_weight="0.5"
+		/>
+	
+	</LinearLayout>
+	
+</RelativeLayout>

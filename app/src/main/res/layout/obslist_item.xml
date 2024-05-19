@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/obslistitem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+	<LinearLayout
+	    android:id="@+id/obslistitem_LL0"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"	    
+	    
+	    android:orientation="vertical"
+	    android:paddingTop="10dp"
+	    android:paddingBottom="10dp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="10dp"
+	    >
+
+	    <ImageView
+	        android:id="@+id/obs_image"	       
+	        android:layout_height="@dimen/obs_list_icon_size"
+	        android:layout_width="@dimen/obs_list_icon_size"	        
+	        android:adjustViewBounds="true"
+	        android:scaleType="fitCenter"
+	         />
+    </LinearLayout>    
+    <LinearLayout
+        android:id="@+id/obslistitem_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/obslistitem_LL0"
+        android:layout_toLeftOf="@+id/llch"
+        android:paddingTop="10dp"
+	    android:paddingBottom="10dp"
+	   
+	    android:paddingRight="2dp"
+         >
+
+        <TextView
+            android:id="@+id/obslistitem_dso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textSize="@dimen/table_main_text_size" />
+
+        <TextView
+            android:id="@+id/obslistitem_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textSize="@dimen/text_size_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+         android:paddingTop="10dp"
+	    android:paddingBottom="10dp"
+	    android:paddingRight="10dp"
+	   
+	    
+         >
+
+        <com.astro.dsoplanner.ChB
+            android:id="@+id/obslistitem_ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:defaultValue="false"
+            android:focusable="false"
+             />
+    </LinearLayout>
+
+</RelativeLayout>

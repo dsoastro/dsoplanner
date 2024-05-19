@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout="@layout/prefs"
+    android:title="@string/telrad_overlay_options" >
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="0.5"
+        android:dialogTitle="@string/degrees"
+        android:inputType="phone"
+        android:key="@string/d_tr1"
+        android:layout="@layout/pref"
+        android:title="@string/inner_ring_diameter" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="2.0"
+        android:dialogTitle="@string/degrees"
+        android:inputType="phone"
+        android:key="@string/d_tr2"
+        android:layout="@layout/pref"
+        android:title="@string/middle_ring_diameter" />
+
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="4.0"
+        android:dialogTitle="@string/degrees"
+        android:inputType="phone"
+        android:key="@string/d_tr3"
+        android:layout="@layout/pref"
+        android:title="@string/outmost_ring_diameter" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/quinsighton"
+        android:layout="@layout/prefc"
+        android:title="Show QuInsight rings" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="8.0"
+        android:dialogTitle="@string/degrees"
+        android:inputType="phone"
+        android:key="@string/d_tr4"
+        android:layout="@layout/pref"
+        android:title="@string/quin1_ring_diameter" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="16.0"
+        android:dialogTitle="@string/degrees"
+        android:inputType="phone"
+        android:key="@string/d_tr5"
+        android:layout="@layout/pref"
+        android:title="@string/quin2_ring_diameter" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="-10.0"
+        android:dialogTitle="@string/degrees_from_vertical_to_the_right"
+        android:inputType="phone"
+        android:key="@string/d_tra"
+        android:layout="@layout/pref"
+        android:title="@string/marks_angle" />
+
+    <com.astro.dsoplanner.InputPreference
+        android:defaultValue="4"
+        android:dialogTitle="@string/pixels"
+        android:inputType="phone"
+        android:key="@string/d_trw"
+        android:layout="@layout/pref"
+        android:title="@string/width_of_the_rings" />
+
+
+
+
+</PreferenceScreen>

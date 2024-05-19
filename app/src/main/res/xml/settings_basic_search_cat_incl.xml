@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="true"
+            android:key="Messier"
+            android:title="@string/Messier_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="Caldwell"
+            android:title="@string/Caldwell_title" />
+        <CheckBoxPreference
+            android:layout="@layout/prefc"
+            android:defaultValue="false"
+            android:key="Hershell"
+            android:title="@string/Herschel_title" />
+
+</PreferenceScreen>

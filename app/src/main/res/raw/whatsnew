@@ -1,0 +1,93 @@
+<u>3.8.2</u>
+<p>+ Minor fixes and improvements.</p>
+
+<u>3.8.1</u>
+<p>+ Minor fixes and improvements.</p>
+
+<u>3.8.0</u>
+<p>+ Refactoring for Android API 30 support.</p>
+<p>+ Data migration in accordance with Android API 30 requirements.</p>
+<p>+ System file dialog used for export / import / backup / restore operations.</p>
+<p>+ Google Auto Backup supported.</p>
+<p>+ Minor fixes and improvements.</p>
+<p>+ Minor planet elements updated.</p>
+
+<u>3.7.4</u>
+<p>+ Refactoring for Android API 29 support.</p>
+<p>+ Minor fixes and improvements.</p>
+<p>+ Minor planet elements updated.</p>
+
+<u>3.7.3</u>
+<p>+ Minor fixes and improvements.</p>
+
+<u>3.7.2</u>
+<p>+ Automatic Android Navigation Bar theme change with app screen themes changing.</p>
+<p>+ Hide the Android Navigation Bar.</p>
+<p>+ Improved Night mode support for new Android OS themes.</p>
+
+<u>3.7.1</u>
+<p>+ Minor planet elements updated.</p>
+<p>+ other minor fixes and improvements.</p>
+
+<u>3.7.0</u>
+<p>* MAJOR refactoring for Android API 28 support.</p>
+<p>+ QuInsight collimator pointer support.</p>
+<p>+ Save orientation and mirroring of the chart per FOV level.</p>
+<p>+ New DSO Observing Notes deep link in Mini Launcher.</p>
+
+<u>3.6.1</u>
+<p>+ Ukranian translation added.</p>
+<p>+ minor planet elements updated.</p>
+<p>+ other minor fixes and improvements.</p>
+
+<u>3.6.0</u>
+<p>+ new zoom levels added.</p>
+<p>+ Experimental. Data files could be moved to an SD card.</p>
+<p>+ GoTo mount auto position tracking added.</p>
+
+<u>3.5.0</u>
+<p>+ scale of stars and object labels added.</p>
+<p>+ floating buttons in day mode added.</p>
+<p>+ object selection accuracy improved.<p>
+<p>+ vibration strength on object selection added.<p>
+<p>+ Minor planet elements updated.</p>
+<p>+ other minor fixes and improvements.</p>
+
+<u>3.3.0</u>
+<p>+ German translation added.</p>
+<p>+ Minor planet elements updated.</p>
+<p>+ other minor fixes and improvements.</p>
+
+<u>3.2.0</u>
+<p>+ Star Chart colors control for the Night mode (red color intensity) added.</p>
+<p>+ Faint planets (Mercury, Uranus, and Neptune) were added.</p>
+<p>+ Planets' labels added to the Star Chart.</p>
+<p>+ Eyepieces labels added their rings on the Star Chart.</p>
+<p>+ Global search by name had been improved, part of the common name search for DSO objects, comets, and minor planets added.</p>
+<p>+ Minor planet elements updated.</p>
+<p>+ other minor fixes and improvements.</p>
+
+<u>3.1.0</u>
+<p>+ action button for fast insertion of the location and equipment data into an observation note.</p>
+<p>+ option to temporarily set the Star Chart's time to the time when the object's note was taken (time machine).</p>
+<p>+ improved import file selector, with sorting button (name, time, type), and extended file information.</p>
+<p>+ significant speed up of the Primary Search function.</p>
+<p>+ the add new/edit object in the database data fields are explained on input (i.e comets, minor planets).</p>
+<p>+ new sort options in observation lists added.</p>
+<p>+ minor bug fixes and improvements.</p>
+<p>+ Minor planet elements updated.</p>
+
+<u>3.0.0</u>
+<p>+ Constellation boundaries.</p>
+<p>+ Milky Way contour.</p>
+<p>+ Optional floating buttons in red mode for convenient navigation.</p>
+<p>+ Side chart in Object Selection and Observations Lists.</p>
+<p>+ Faster search in app databases.</p>
+<p>+ Faster start chart drawing.</p>
+<p>+ CCD camera could be used instead of an eyepiece.</p>
+<p>+ SAO star numbers.</p>
+<p>+ Backup of user prefs.</p>
+<p>+ Russian translation.</p>
+<p>+ Comet and minor planet elements updated.</p>
+
+
