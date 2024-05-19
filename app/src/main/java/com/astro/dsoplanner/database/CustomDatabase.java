@@ -418,7 +418,7 @@ public class CustomDatabase implements AstroCatalog {
         int i = 0;
         double DL = SettingsActivity.getDetectionLimit();
 
-        int emptyRule = SettingsActivity.getEmptyRule();//Settings1243.getInt(valuestr, 0, 0, 3);
+        int emptyRule = SettingsActivity.getEmptyRule();
 
         AstroTools.CheckAltContext checkContext = new AstroTools.CheckAltContext();
 

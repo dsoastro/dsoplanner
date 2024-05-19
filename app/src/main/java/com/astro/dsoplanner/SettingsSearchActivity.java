@@ -187,7 +187,7 @@ public class SettingsSearchActivity extends ParentPreferenceActivity implements 
     private void updateEmptyFieldTreatment() {
         Preference p = findPreference(getString(R.string.absent_data));
         String s = getString(R.string.treatment_of_objects_that_have_empty_fields_e_g_magnitude_);
-        int value = SettingsActivity.getEmptyRule();//Settings1243.getInt(valuestr, 0, 0, 3);
+        int value = SettingsActivity.getEmptyRule();
         String[] a = getResources().getStringArray(R.array.entries_absent_data);
         s = s + "\n" + a[value];
         p.setSummary(s);
@@ -210,7 +210,7 @@ public class SettingsSearchActivity extends ParentPreferenceActivity implements 
         CharSequence cs = advPref.getSummary();
         if (cs != null) {//returned from other activity
             String oldSummary = cs.toString();
-            if (!summary.equals(oldSummary))//Settings1243.getSearchRequestPreference()&&
+            if (!summary.equals(oldSummary))
                 SettingsActivity.putSharedPreferences(Constants.QUERY_UPDATE, true, SettingsSearchActivity.this);//set dirty if advanced search is active and summary changed
         }
         advPref.setSummary(summary);
@@ -297,7 +297,7 @@ public class SettingsSearchActivity extends ParentPreferenceActivity implements 
 
         String summary = (checked ? getString(R.string._auto_) : "") + locString;
         if (checked) {
-            String provider = SettingsActivity.getStringFromSharedPreferences(this, Constants.GEO_PROVIDER, "");//Settings1243.getSharedPreferences(this).getString(Constants.GEO_PROVIDER, "");
+            String provider = SettingsActivity.getStringFromSharedPreferences(this, Constants.GEO_PROVIDER, "");
             boolean lastKnown = SettingsActivity.getSharedPreferences(this).getBoolean(Constants.GEO_LAST_KNOWN, true);
             provider = getString(R.string.provider_) + provider;
             String lk = (lastKnown ? getString(R.string._last_known_location_) : getString(R.string._current_update_));

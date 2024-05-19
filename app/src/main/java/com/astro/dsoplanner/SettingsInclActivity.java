@@ -66,7 +66,7 @@ public class SettingsInclActivity extends ParentPreferenceActivity
     private boolean mNightGuard2 = false;
     int xml;
     /**
-     * Settings1243.DSO_SELECTION OR SEARCH_NEARBY
+     * SettingsActivity.DSO_SELECTION OR SEARCH_NEARBY
      */
     int search_call = SettingsActivity.DSO_SELECTION;
     private String[] spinStringArr = new String[constellations.length];

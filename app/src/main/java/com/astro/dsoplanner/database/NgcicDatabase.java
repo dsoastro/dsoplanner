@@ -605,7 +605,7 @@ public class NgcicDatabase implements AstroCatalog {
     /**
      * @return additional hersh string ,
      * "" otherwise
-     * @type Settings1243.DSO_SELECTION or SEARCH_NEARBY
+     * @type SettingsActivity.DSO_SELECTION or SEARCH_NEARBY
      */
     public static String getHershelString(int type) {
 

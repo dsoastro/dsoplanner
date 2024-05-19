@@ -52,7 +52,7 @@
 
         <meta-data
             android:name="android.app.default_searchable"
-            android:value=".SearchResultActivity1243" />
+            android:value=".SearchResultActivity" />
 
 
         <activity

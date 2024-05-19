@@ -521,7 +521,7 @@ public class ObservationListActivity extends ParentListActivity implements OnMen
     }
 
     private void updateSkyView() {
-        boolean show = isSkyViewOn();//Settings1243.getSharedPreferences(getApplicationContext()).getBoolean(Constants.SHOW_OBS_CUV, true);
+        boolean show = isSkyViewOn();
 
         if (skyview != null) {
 
@@ -1582,7 +1582,7 @@ public class ObservationListActivity extends ParentListActivity implements OnMen
             case R.id.find_obs:
                 item_selected = -1;//clear previous "find"
                 mAdapter.notifyDataSetChanged();
-                String init_string = SettingsActivity.getStringFromSharedPreferences(this, Constants.OBS_FIND_STRING, "");//Settings1243.getSharedPreferences(this).
+                String init_string = SettingsActivity.getStringFromSharedPreferences(this, Constants.OBS_FIND_STRING, "");
                 InputDialog d = new InputDialog(ObservationListActivity.this);
                 d.setType(InputDialog.DType.INPUT_STRING);
                 d.setValue(init_string);

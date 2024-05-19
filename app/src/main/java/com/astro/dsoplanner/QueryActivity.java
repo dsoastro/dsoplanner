@@ -469,7 +469,7 @@ public class QueryActivity extends ParentListActivity implements Handler.Callbac
 	};
 	
 	private void updateSkyView(){
-		boolean show=isSkyViewOn();//Settings1243.getSharedPreferences(getApplicationContext()).getBoolean(Constants.SHOW_QUERY_CUV, true);
+		boolean show=isSkyViewOn();
 
 		if(skyview!=null){
 			
@@ -693,7 +693,7 @@ public class QueryActivity extends ParentListActivity implements Handler.Callbac
 		case R.id.qfind:
 			item_selected=-1;//clear previous "find"
 			mAdapter.notifyDataSetChanged();
-			String init_string= SettingsActivity.getStringFromSharedPreferences(QueryActivity.this, Constants.FIND_STRING, "");//Settings1243.getSharedPreferences(Query1243.this).
+			String init_string= SettingsActivity.getStringFromSharedPreferences(QueryActivity.this, Constants.FIND_STRING, "");
 			//Ask for the "find" string
 			InputDialog d = new InputDialog(QueryActivity.this);
 			d.setValue(init_string);

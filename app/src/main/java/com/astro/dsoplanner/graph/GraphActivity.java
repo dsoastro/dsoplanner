@@ -1189,19 +1189,19 @@ public class GraphActivity extends ParentActivity implements OnMenuItemSelectedL
         //BOLDNESS GADGET (HIDDEN)
         //=========================
 
-        boldnessDialog = new StarBoldness(GraphActivity.this);//StarBoldness.getInstance(Graph1243.this);
+        boldnessDialog = new StarBoldness(GraphActivity.this);
         boldnessDialog.Init();
         boldnessDialog.bringToFront();
 
         ChartFlipper.setFromString(SettingsActivity.getChartFlipperData());
 
-        starmagsDialog = new StarMags(GraphActivity.this);//StarMags.getInstance(Graph1243.this);
+        starmagsDialog = new StarMags(GraphActivity.this);
         starmagsDialog.Init();
         starmagsDialog.bringToFront();
 
         //CUSTOM VIEW (SKY)
         //=========================
-        cView = (CuV) bottomBar.findViewById(R.id.sky_view); //new CustomView(this);
+        cView = (CuV) bottomBar.findViewById(R.id.sky_view);
 
         cView.global_object = SettingsActivity.getObjectFromSharedPreferencesNew(Constants.GRAPH_OBJECT, GraphActivity.this);
         Log.d(TAG, "global_object=" + cView.global_object);
@@ -2120,7 +2120,6 @@ public class GraphActivity extends ParentActivity implements OnMenuItemSelectedL
         dlg.setTitle(getString(R.string.setting_circles_one_star_alignment));
         dlg.setHelp(R.string.helpCalibrateDlg);
         dlg.insertLayout(R.layout.calibrate_dialog);
-        //dlg.disableBackButton(true);
         dlg.setNegativeButton(getString(R.string.cancel));
 
         //fields
@@ -2131,7 +2130,6 @@ public class GraphActivity extends ParentActivity implements OnMenuItemSelectedL
         final EditText altte = (EditText) dlg.findViewById(R.id.alttext);
         final Button orientBtn = (Button) dlg.findViewById(R.id.orientation_btn);
 
-        //	SharedPreferences prefs=Graph1243.this.getSharedPreferences(Constants.PREFS,Context.MODE_PRIVATE);
         SharedPreferences prefs = SettingsActivity.getSharedPreferences(GraphActivity.this);
         boolean orient = prefs.getBoolean(CALIBR_ORIENT, true);//false for Clockwise, true - for CounterClockwise
 
@@ -2170,7 +2168,6 @@ public class GraphActivity extends ParentActivity implements OnMenuItemSelectedL
                 String s = DetailsActivity.makeDateString(c, true) + " " + DetailsActivity.makeTimeString(c, true);
                 timetext.setText(s);
 
-                //updateAzAlt(c); inplace now
                 double lst = AstroTools.sdTime(c);
                 double lat = SettingsActivity.getLattitude();
 

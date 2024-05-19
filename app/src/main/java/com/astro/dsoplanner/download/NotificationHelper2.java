@@ -39,7 +39,7 @@ public class NotificationHelper2 {
     String title = "";
 
     public void createNotification(String statusBarTitle, String pullDownTitle, String pullDownText) {
-        Intent notificationIntent = new Intent();//(context,NotificationDisplay1243.class);
+        Intent notificationIntent = new Intent();
         title = (prefix != null ? prefix + pullDownTitle : pullDownTitle);
         PendingIntent intent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE);
 

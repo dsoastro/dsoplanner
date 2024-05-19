@@ -45,9 +45,9 @@ public class MiniLauncherActivity extends ParentListActivity implements OnGestur
 
     static {
         COM_ASTRO_DSOPLANNER = "com.astro.dsoplanner.";
-        COM_ASTRO_DSOPLANNER_FLASHLIGHT = "com.astro.dsoplanner.Flashlight1243";
-        COM_ASTRO_DSOPLANNER_TWILIGHT = "com.astro.dsoplanner.Twilight1243";
-        COM_ASTRO_DSOPLANNER_NOTES = "com.astro.dsoplanner.NoteList1243";
+        COM_ASTRO_DSOPLANNER_FLASHLIGHT = "com.astro.dsoplanner.FlashlightActivity";
+        COM_ASTRO_DSOPLANNER_TWILIGHT = "com.astro.dsoplanner.TwilightActivity";
+        COM_ASTRO_DSOPLANNER_NOTES = "com.astro.dsoplanner.NoteListActivity";
     }
     private static final String APPLICATIONS_LIST = "Applications list";
     private static final String TAG = MiniLauncherActivity.class.getSimpleName();

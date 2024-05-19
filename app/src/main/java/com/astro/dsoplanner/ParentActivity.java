@@ -102,7 +102,7 @@ public class ParentActivity extends Activity {
             int height = display.getHeight();  
 
             boolean isGraph = this instanceof GraphActivity;
-            boolean color = isGraph? !SettingsActivity.getInverseSky(): SettingsActivity.getDarkSkin(); //this instanceof Graph1243?true:
+            boolean color = isGraph? !SettingsActivity.getInverseSky(): SettingsActivity.getDarkSkin();
 			//DSOmain treated separately
 			if(fabButtonBack==null&&!(this instanceof DSOmainActivity)){
 				fabButtonBack = SettingsActivity.getDayModeBackButton(this,height,color);

@@ -198,7 +198,6 @@ public class SettingsSystemActivity extends ParentPreferenceActivity
                 Intent intent = new Intent(SettingsSystemActivity.this, ScrollableTextActivity.class);
                 intent.putExtra(ScrollableTextActivity.ARGUMENT, ScrollableTextActivity.QUICK_START_GUIDE);
                 startActivity(intent);
-                //registerDialog(AstroTools.getQuickStartDialog(SettingsSystem1243.this,Settings1243.getNightMode())).show();
                 return false;
             }
         });
@@ -444,11 +443,11 @@ public class SettingsSystemActivity extends ParentPreferenceActivity
         PreferenceScreen p = getPreferenceScreen();
         double lat = SettingsActivity.getLattitude();
         double lon = SettingsActivity.getLongitude();
-        boolean checked = SettingsActivity.getAutoLoc();//p.getSharedPreferences().getBoolean(Settings.OPT_auto_location,false);
+        boolean checked = SettingsActivity.getAutoLoc();
         String locString = LAT2 + AstroTools.getLatString(lat) + LON2 + AstroTools.getLonString(lon);
         String summary = (checked ? getString(R.string._auto_) : "") + locString;
         if (checked) {
-            String provider = SettingsActivity.getStringFromSharedPreferences(this, Constants.GEO_PROVIDER, "");//Settings1243.getSharedPreferences(this).getString(Constants.GEO_PROVIDER, "");
+            String provider = SettingsActivity.getStringFromSharedPreferences(this, Constants.GEO_PROVIDER, "");
             boolean lastKnown = SettingsActivity.getSharedPreferences(this).getBoolean(Constants.GEO_LAST_KNOWN, true);
             provider = getString(R.string.provider_) + provider;
             String lk = (lastKnown ? getString(R.string._last_known_location_) : getString(R.string._current_update_));

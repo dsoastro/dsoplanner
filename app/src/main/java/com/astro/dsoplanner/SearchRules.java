@@ -303,7 +303,7 @@ public class SearchRules {
      * @return sql query for DSO Selection
      */
     public static String createQueryNearby(Context context) {
-        int empty = SettingsActivity.getEmptyRule();//Settings1243.getInt(valuestr, 0, 0, 3);
+        int empty = SettingsActivity.getEmptyRule();
         String s = "";
 
         //TYPES
@@ -380,7 +380,7 @@ public class SearchRules {
      * @return sql query for DSO Selection
      */
     public static String createQuery(Context context, boolean nomag, boolean ngcic, boolean double_star) {
-        int empty = SettingsActivity.getEmptyRule();//Settings1243.getInt(valuestr, 0, 0, 3);
+        int empty = SettingsActivity.getEmptyRule();
 
         String s = "";
 

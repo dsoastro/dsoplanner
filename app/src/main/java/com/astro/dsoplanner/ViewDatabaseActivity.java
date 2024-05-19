@@ -493,7 +493,7 @@ public class ViewDatabaseActivity extends ParentListActivity implements IPickFil
             case R.id.find_view_db_menu:
                 item_selected = -1;//clear previous "find"
                 mAdapter.notifyDataSetChanged();
-                String init_string = SettingsActivity.getStringFromSharedPreferences(this, Constants.VDA_FIND_STRING, "");//Settings1243.getSharedPreferences(this).
+                String init_string = SettingsActivity.getStringFromSharedPreferences(this, Constants.VDA_FIND_STRING, "");
 
 
                 InputDialog d = new InputDialog(ViewDatabaseActivity.this);

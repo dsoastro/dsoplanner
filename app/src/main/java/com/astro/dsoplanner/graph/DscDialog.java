@@ -88,7 +88,6 @@ public class DscDialog {
         }
 
 
-        //dlg.setNegativeButton(graph1243.getString(R.string.cancel));
         currentDialog = dlg;
         return dlg;
 

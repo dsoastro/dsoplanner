@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:id="@+id/ml_select_root"
     android:orientation="vertical"
-    tools:context=".MiniLauncherChooser1243" >
+    tools:context=".MiniLauncherChooser" >
 
     <ListView
         android:id="@android:id/list"

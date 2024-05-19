@@ -1135,26 +1135,24 @@ public class AstroTools {
      */
     public static boolean CheckAlt(double ra, double dec, CheckAltContext checkContext) {//true if the object is visible between LSTstart and LSTfin
         Calendar sc = Calendar.getInstance();
-        long start = checkContext.start;//Settings1243.getSharedPreferences(Global.getAppContext()).getLong(Constants.START_OBSERVATION_TIME, 0);
+        long start = checkContext.start;
         sc.setTimeInMillis(start);
 
         Calendar ec = Calendar.getInstance();
-        long end = checkContext.end;//Settings1243.getSharedPreferences(Global.getAppContext()).getLong(Constants.END_OBSERVATION_TIME, 0);
+        long end = checkContext.end;
         ec.setTimeInMillis(end);
 
         double LSTfin = AstroTools.sdTime(ec);
         double LSTstart = AstroTools.sdTime(sc);
         double ste;
-        double lat = checkContext.lat;//Settings1243.getLattitude();
+        double lat = checkContext.lat;
         if (LSTfin < LSTstart) ste = LSTfin + 24;
         else ste = LSTfin;
         double sttime = LSTstart;
         boolean visible = false;
         boolean flag;
         do {
-            if (Altitude(sttime, lat, ra, dec) > checkContext.minAlt)    //Settings1243.getMinAlt()
-                visible = true;
-            // Log.d(TAG,"Alt="+Altitude(sttime,lat,ra,dec));
+            visible = true;
             sttime = sttime + 0.5;
             flag = (sttime < ste);
             if (visible) flag = false;
