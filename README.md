@@ -99,6 +99,7 @@ cd ~/Android/Sdk
 # replace /path/to/home/ with your specific path
 echo sdk.dir=/path/to/home/Android/Sdk > ~/dsoplanner/local.properties
 cd ~/dsoplanner
+/usr/bin/env sh gradlew clean
 /usr/bin/env sh gradlew assemblePlusDebug
 ```
 To find an apk
