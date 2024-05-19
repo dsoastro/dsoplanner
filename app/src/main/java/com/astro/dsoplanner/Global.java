@@ -106,7 +106,7 @@ public class Global {
     //Expansion pack retrieval
     public static final String GITHUB_EXPPACK_URL;
     public static final String GITHUB_EXPPATCH_URL;
-    public static final String GITHUB_URL_PREFIX = "http://192.168.88.179:8000/";
+    public static final String GITHUB_URL_PREFIX = "https://github.com/dsoastro/dsoplanner/releases/download/data/";
     public static final int mainVersion;
 
     static {
