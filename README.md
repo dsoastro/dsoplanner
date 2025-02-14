@@ -68,16 +68,11 @@ There are three versions available: Pro, Plus and Basic. Pro version has the mos
 | Brightest Double Stars | - | 2 300 | 2 300 |
 
 # Installation
-Download the version you need from the assets. Install it on Android device directly (allowing installation of third-party APKs) or via adb (android debug bridge)
+Download the version you need from the [assets](https://github.com/dsoastro/dsoplanner/releases). Install it on Android device directly (allowing installation of third-party APKs) or via adb (android debug bridge)
 ```shell
 adb install path_to_apk
 ```
 Run the application. The app will warn that it misses data files (expansion pack and patch). Go to Settings / Downloads and install data files by long-pressing on `Expansion file` and `Patch expansion file`.
-
-The .apk files in the assets are signed with the same certificate that is used for signing DSO Planner application in Google Play Store (https://play.google.com/store/apps/details?id=com.astro.dsoplanner). To check the signature execute
-```shell
-apksigner verify --print-certs path_to_apk
-```
 
 # Building
 I recommend to use release version, it is faster a bit as it is optimised by proguard
